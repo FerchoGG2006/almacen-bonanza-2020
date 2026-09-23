@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { ViewType } from '../types/index';
-import { MapPin, CheckCircle, Phone, Scale } from 'lucide-react';
+import { MapPin, CheckCircle, Scale } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
-import { STORE_PHONE, STORE_PHONE_DISPLAY, STORE_ADDRESS, STORE_MAPS_URL } from '../services/whatsapp';
+import { STORE_PHONE, STORE_ADDRESS, STORE_MAPS_URL } from '../services/whatsapp';
 import { LegalModal, LegalTab } from './LegalModal';
 
 interface FooterProps {
@@ -51,10 +51,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal }) => {
                   <span className="text-[11px] text-neutral-400">Valledupar, Cesar, Colombia · Ver en Maps ↗</span>
                 </div>
               </a>
-              <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>{STORE_PHONE_DISPLAY}</span>
-              </div>
             </div>
           </div>
 
@@ -167,21 +163,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal }) => {
             <div className="text-[11px] font-bold text-white uppercase tracking-wider mb-3">
               WhatsApp Directo
             </div>
-            <p className="text-neutral-400 mb-2 leading-relaxed">
+            <p className="text-neutral-400 mb-4 leading-relaxed">
               Escríbenos para consultar tallas, confirmar pedidos o solicitar asesoría en cualquier referencia.
             </p>
-            <div className="text-white font-bold text-sm mb-4 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span>{STORE_PHONE_DISPLAY}</span>
-            </div>
             <a
               href={`https://wa.me/${STORE_PHONE}?text=Hola%20Bonanza%202020,%20quisiera%20asesor%C3%ADa.`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-2.5 rounded-full transition-colors"
+              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-2.5 rounded-full transition-colors cursor-pointer"
             >
               <WhatsAppIcon className="w-4 h-4 text-white" />
-              <span>Chat WhatsApp</span>
+              <span>Chat de WhatsApp</span>
             </a>
           </div>
 
