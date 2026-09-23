@@ -1,0 +1,32 @@
+{
+  "name": "almacen-bonanza-2020",
+  "version": "1.0.0",
+  "description": "E-commerce web de alto rendimiento para calzado y ropa deportiva - Bonanza 2020",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8000 --host",
+    "build:css": "npx -y tailwindcss@3.4.17 -i ./input.css -o ./style.css --minify",
+    "build": "npm run build:css && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "sneakers",
+    "streetwear",
+    "ecommerce",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "Bonanza 2020",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "lucide-react": "^1.46.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

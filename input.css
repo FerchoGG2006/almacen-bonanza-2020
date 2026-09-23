@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #F5F5F5;
+    color: #111111;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  ::selection {
+    background-color: #111111;
+    color: #FFFFFF;
+  }
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
+
+/* Editorial Category Card Zoom */
+.editorial-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+.editorial-card img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.editorial-card:hover img {
+  transform: scale(1.04);
+}
+
+/* Product Card Minimalist */
+.product-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  will-change: transform;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.aspect-\[4\/5\] {
+  aspect-ratio: 4 / 5;
+}
+
+.product-img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+}
+.product-card:hover .product-img-main {
+  opacity: 0;
+}
+.product-card:hover .product-img-hover {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* Glass & Glow Pills */
+.glass-pill {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bg-grid-subtle {
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.translate-z-40 {
+  transform: translateZ(40px);
+}
+
+.translate-z-55 {
+  transform: translateZ(55px);
+}
+
+/* Drawer Transitions */
+#cartDrawer {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+#cartPanel {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Modal Transitions */
+#productModal {
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+#modalContent {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Floating WhatsApp Pulse */
+@keyframes greenPulse {
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
+  70% { box-shadow: 0 0 0 16px rgba(16, 185, 129, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+.whatsapp-pulse {
+  animation: greenPulse 2s infinite;
+}
+
+/* Line Clamp utility fallback */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 3D Sneaker Arena & Kinetic Motion */
+.perspective-1200 {
+  perspective: 1200px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Modern Curved Hero & Cards (Inspired by TikTok Reference) */
+.hero-curved-card {
+  border-radius: 2.25rem;
+  background: linear-gradient(180deg, #E7F1EB 0%, #EEF6F1 40%, #FAFCFB 100%);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+}
+
+.hero-drop-card {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hero-drop-card:hover {
+  transform: translateY(-2px);
+}
+
+.benefit-card {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.benefit-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -8px rgba(15, 23, 42, 0.08);
+}
+
+@keyframes floatSneaker3D {
+  0% {
+    transform: translateY(0px) rotate(-5deg) rotateX(6deg) rotateY(-5deg);
+  }
+  50% {
+    transform: translateY(-18px) rotate(-1deg) rotateX(12deg) rotateY(6deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-5deg) rotateX(6deg) rotateY(-5deg);
+  }
+}
+
+@keyframes shadowPulse3D {
+  0% {
+    transform: scale(1) scaleY(0.42);
+    opacity: 0.45;
+    filter: blur(10px);
+  }
+  50% {
+    transform: scale(0.8) scaleY(0.32);
+    opacity: 0.18;
+    filter: blur(16px);
+  }
+  100% {
+    transform: scale(1) scaleY(0.42);
+    opacity: 0.45;
+    filter: blur(10px);
+  }
+}
+
+@keyframes spin3DQuick {
+  0% { transform: rotateY(0deg) scale(1); }
+  50% { transform: rotateY(180deg) scale(0.92); }
+  100% { transform: rotateY(360deg) scale(1); }
+}
+
+.sneaker-levitate {
+  animation: floatSneaker3D 5.2s ease-in-out infinite;
+  will-change: transform;
+}
+
+.shadow-breathe {
+  animation: shadowPulse3D 5.2s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.spin-active {
+  animation: spin3DQuick 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Osmo Supply Multilevel Navigation Solid Styles */
+.mega-menu-overlay {
+  position: fixed;
+  inset: 0;
+  top: 104px;
+  background-color: rgba(10, 10, 10, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 45;
+}
+
+.mega-menu-panel {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #E5E5E5;
+}
+
+
