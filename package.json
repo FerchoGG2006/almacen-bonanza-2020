@@ -7,7 +7,9 @@
     "dev": "vite --port 8000 --host",
     "build:css": "npx -y tailwindcss@3.4.17 -i ./input.css -o ./style.css --minify",
     "build": "npm run build:css && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync": "node scripts/sync-drive.mjs",
+    "sync:drive": "node scripts/sync-drive.mjs"
   },
   "keywords": [
     "sneakers",

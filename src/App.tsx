@@ -17,9 +17,19 @@ import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { LegalModal, LegalTab } from './components/LegalModal';
+import { DriveSyncModal } from './components/DriveSyncModal';
+import { loadCachedDriveProducts, mergeCatalogs, getDriveApiUrl, syncDriveCatalog } from './services/driveSync';
 
 export const App: React.FC = () => {
-  const [products] = useState<Product[]>(PRODUCTS_DATA);
+  // Catalog State (inicializa con base local + caché dinámico de Drive)
+  const [products, setProducts] = useState<Product[]>(() => {
+    const cached = loadCachedDriveProducts();
+    if (cached.length > 0) {
+      const { merged } = mergeCatalogs(PRODUCTS_DATA, cached);
+      return merged;
+    }
+    return PRODUCTS_DATA;
+  });
   const [currentView, setCurrentView] = useState<ViewType>('home');
   const [selectedProductId, setSelectedProductId] = useState<number | null>(null);
 
@@ -40,11 +50,26 @@ export const App: React.FC = () => {
   const [modalProductId, setModalProductId] = useState<number | null>(null);
   const [isLegalOpen, setIsLegalOpen] = useState<boolean>(false);
   const [legalTab, setLegalTab] = useState<LegalTab>('terms');
+  const [isDriveSyncOpen, setIsDriveSyncOpen] = useState<boolean>(false);
 
   const handleOpenLegal = (tab: LegalTab = 'terms') => {
     setLegalTab(tab);
     setIsLegalOpen(true);
   };
+
+  // Auto-sincronización con Google Drive en segundo plano si existe URL configurada
+  useEffect(() => {
+    const driveUrl = getDriveApiUrl();
+    if (driveUrl) {
+      syncDriveCatalog(driveUrl)
+        .then((res) => {
+          if (res.success && res.products.length > 0) {
+            setProducts(res.products);
+          }
+        })
+        .catch((err) => console.warn('Drive auto-sync:', err));
+    }
+  }, []);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
 
@@ -450,13 +475,27 @@ export const App: React.FC = () => {
       <WhatsAppFloat />
 
       {/* Editorial Footer */}
-      <Footer onNavigate={navigateTo} onOpenLegal={handleOpenLegal} />
+      <Footer
+        onNavigate={navigateTo}
+        onOpenLegal={handleOpenLegal}
+        onOpenDriveSync={() => setIsDriveSyncOpen(true)}
+      />
 
       {/* Interactive Colombian Compliance & Legal Modal */}
       <LegalModal
         isOpen={isLegalOpen}
         onClose={() => setIsLegalOpen(false)}
         initialTab={legalTab}
+      />
+
+      {/* Google Drive Catalog Sync Modal */}
+      <DriveSyncModal
+        isOpen={isDriveSyncOpen}
+        onClose={() => setIsDriveSyncOpen(false)}
+        productsCount={products.length}
+        onSyncSuccess={(updatedProducts) => {
+          setProducts(updatedProducts);
+        }}
       />
 
     </div>
