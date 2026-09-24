@@ -1,4 +1,5 @@
 # GUÍA DE SINCRONIZACIÓN AUTOMÁTICA CON GOOGLE DRIVE
+
 ## Bonanza 2020 · Catálogo en Tiempo Real
 
 Esta solución híbrida permite que **cada vez que subas fotos nuevas a cualquier carpeta de Google Drive**, los productos aparezcan automáticamente en la tienda web, sin necesidad de editar código ni recompilar.
@@ -15,12 +16,14 @@ Esta solución híbrida permite que **cada vez que subas fotos nuevas a cualquie
 ## PASO A PASO: CONFIGURACIÓN EN 3 MINUTOS
 
 ### 1. Crear el Google Apps Script
+
 1. Abre [script.google.com](https://script.google.com) o ve a tu Google Drive y haz clic en **+ Nuevo > Más > Google Apps Script**.
 2. Ponle de nombre al proyecto: **Bonanza 2020 Catalog API**.
 3. Borra el código de ejemplo que aparece y pega el contenido completo de:
    👉 [`google-apps-script/Code.js`](google-apps-script/Code.js)
 
 ### 2. Publicar como Web App
+
 1. En la parte superior derecha de Apps Script, haz clic en el botón azul **Implementar (Deploy) > Nueva implementación (New deployment)**.
 2. Haz clic en el ícono de engranaje (⚙️) a la izquierda y selecciona **Aplicación web (Web app)**.
 3. Configura los siguientes campos:
@@ -39,18 +42,23 @@ Esta solución híbrida permite que **cada vez que subas fotos nuevas a cualquie
 Tienes 3 formas sencillas de conectarla:
 
 #### Opción A: Desde la misma Web (Más rápido)
+
 1. En el pie de página (footer) de la tienda web, haz clic en **«Sincronizar Drive»**.
 2. Pega la URL generada y haz clic en **«Sincronizar Ahora»**.
 3. ¡Listo! La web recordará la URL en tu navegador y se actualizará automáticamente.
 
 #### Opción B: Mediante archivo `.env`
+
 Crea o edita el archivo `.env` en la raíz del proyecto y agrega:
+
 ```env
 VITE_DRIVE_API_URL="https://script.google.com/macros/s/TU_SCRIPT_ID/exec"
 ```
 
 #### Opción C: Mediante comando de terminal
+
 Para descargar y guardar los productos directamente en el código fuente:
+
 ```bash
 npm run sync -- --url="https://script.google.com/macros/s/TU_SCRIPT_ID/exec"
 # o si ya lo tienes en .env:
@@ -76,6 +84,7 @@ Para que las referencias se cataloguen de forma impecable automáticamente:
 ---
 
 ## CARACTERÍSTICAS TÉCNICAS
+
 - **Cero latencia:** La web inicia inmediatamente con los productos base locales y actualiza el inventario en segundo plano.
 - **Caché en Drive:** Google Apps Script almacena los resultados en caché por 10 minutos para responder en menos de 200 milisegundos. Para forzar una lectura inmediata desde Drive, se usa el parámetro `?refresh=true`.
 - **CDN de Google:** Todas las fotos se sirven con `lh3.googleusercontent.com/d/{ID}=w800`, garantizando carga instantánea en teléfonos móviles sin consumir recursos del servidor.

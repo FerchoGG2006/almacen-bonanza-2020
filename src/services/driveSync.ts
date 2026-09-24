@@ -8,7 +8,7 @@ export const STORAGE_KEY_LAST_SYNC = 'bonanza_last_sync_timestamp';
 
 // URL configurada por defecto (se puede sobreescribir desde .env o desde la interfaz)
 export const DEFAULT_DRIVE_API_URL =
-  (import.meta.env.VITE_DRIVE_API_URL as string) ||
+  ((import.meta as any).env?.VITE_DRIVE_API_URL as string) ||
   'https://script.google.com/macros/s/AKfycby4PkhnzHQnmBCU1nPumyB3jPFePsTguv5dT_aeUdb2OxhVbS-GFDfsomV598q3NUPv5Q/exec';
 
 /**
