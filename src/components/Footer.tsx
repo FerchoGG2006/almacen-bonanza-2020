@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ViewType } from '../types/index';
 import { MapPin, CheckCircle, Scale, Cloud } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { STORE_PHONE, STORE_ADDRESS, STORE_MAPS_URL } from '../services/whatsapp';
-import { LegalModal, LegalTab } from './LegalModal';
+import type { LegalTab } from './LegalModal';
 
 interface FooterProps {
   onNavigate: (view: ViewType) => void;
@@ -12,17 +12,10 @@ interface FooterProps {
 }
 
 export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenDriveSync }) => {
-  const [internalLegalModalOpen, setInternalLegalModalOpen] = useState(false);
-  const [internalSelectedLegalTab, setInternalSelectedLegalTab] = useState<LegalTab>('terms');
-
   const openLegalModal = (tab: LegalTab) => {
-    if (onOpenLegal) {
-      onOpenLegal(tab);
-    } else {
-      setInternalSelectedLegalTab(tab);
-      setInternalLegalModalOpen(true);
-    }
+    onOpenLegal?.(tab);
   };
+
 
   return (
     <>
@@ -233,15 +226,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
           </div>
         </div>
       </footer>
-
-      {/* Fallback Legal Modal if not provided globally */}
-      {!onOpenLegal && (
-        <LegalModal
-          isOpen={internalLegalModalOpen}
-          onClose={() => setInternalLegalModalOpen(false)}
-          initialTab={internalSelectedLegalTab}
-        />
-      )}
     </>
   );
 };

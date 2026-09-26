@@ -8,4 +8,27 @@ export default defineConfig({
     open: false,
     host: true,
   },
+  build: {
+    chunkSizeWarningLimit: 750,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          const normalizedId = id.replace(/\\/g, '/');
+          if (normalizedId.includes('node_modules')) {
+            if (normalizedId.includes('/react/') || normalizedId.includes('/react-dom/')) {
+              return 'vendor-react';
+            }
+            if (normalizedId.includes('/lucide-react/')) {
+              return 'vendor-icons';
+            }
+            return 'vendor-libs';
+          }
+          if (normalizedId.includes('src/data/products.ts')) {
+            return 'catalog-data';
+          }
+        },
+      },
+    },
+  },
 });
+

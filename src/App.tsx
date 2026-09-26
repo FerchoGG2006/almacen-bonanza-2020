@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { ViewType, Product, CartItem } from './types/index';
 import { PRODUCTS_DATA } from './data/products';
 import { loadCartFromStorage, saveCartToStorage, loadWishlistFromStorage, saveWishlistToStorage } from './services/storage';
@@ -10,18 +10,28 @@ import { Features } from './components/Features';
 import { BrandMarquee } from './components/BrandMarquee';
 import { Catalog } from './components/Catalog';
 import { HomeSections } from './components/HomeSections';
-import { About } from './components/About';
-import { ProductDetail } from './components/ProductDetail';
-import { ProductModal } from './components/ProductModal';
-import { CartDrawer } from './components/CartDrawer';
 import { Footer } from './components/Footer';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
-import { LegalModal, LegalTab } from './components/LegalModal';
-import { DriveSyncModal } from './components/DriveSyncModal';
 import { CookieBanner } from './components/CookieBanner';
-import { NotFound } from './components/NotFound';
+import type { LegalTab } from './components/LegalModal';
 import { loadCachedDriveProducts, mergeCatalogs, getDriveApiUrl, syncDriveCatalog } from './services/driveSync';
 import { initAnalytics, trackPageView } from './services/analytics';
+
+// Code Splitting con React.lazy para vistas y modales secundarios
+const About = React.lazy(() => import('./components/About').then(m => ({ default: m.About })));
+const ProductDetail = React.lazy(() => import('./components/ProductDetail').then(m => ({ default: m.ProductDetail })));
+const NotFound = React.lazy(() => import('./components/NotFound').then(m => ({ default: m.NotFound })));
+const CartDrawer = React.lazy(() => import('./components/CartDrawer').then(m => ({ default: m.CartDrawer })));
+const ProductModal = React.lazy(() => import('./components/ProductModal').then(m => ({ default: m.ProductModal })));
+const LegalModal = React.lazy(() => import('./components/LegalModal').then(m => ({ default: m.LegalModal })));
+const DriveSyncModal = React.lazy(() => import('./components/DriveSyncModal').then(m => ({ default: m.DriveSyncModal })));
+
+const ViewLoadingFallback: React.FC = () => (
+  <div className="min-h-[50vh] flex flex-col items-center justify-center p-8">
+    <div className="w-10 h-10 border-2 border-neutral-200 border-t-neutral-900 rounded-full animate-spin"></div>
+    <span className="mt-4 text-xs font-mono uppercase tracking-widest text-neutral-400">Cargando...</span>
+  </div>
+);
 
 export const App: React.FC = () => {
   // Catalog State (inicializa con base local + caché dinámico de Drive)
@@ -449,23 +459,27 @@ export const App: React.FC = () => {
       {/* Main Content Area */}
       <main className="flex-1">
         {currentView === 'nosotros' && (
-          <About
-            onNavigateToTienda={() => navigateTo('tienda')}
-            onNavigateHome={() => navigateTo('home')}
-          />
+          <Suspense fallback={<ViewLoadingFallback />}>
+            <About
+              onNavigateToTienda={() => navigateTo('tienda')}
+              onNavigateHome={() => navigateTo('home')}
+            />
+          </Suspense>
         )}
 
         {currentView === 'producto' && (
-          <ProductDetail
-            product={currentProduct}
-            relatedProducts={relatedProducts}
-            isWishlisted={wishlist.includes(currentProduct.id)}
-            onToggleWishlist={handleToggleWishlist}
-            onAddToCart={handleAddToCart}
-            onNavigateHome={() => navigateTo('home')}
-            onNavigateToTienda={() => navigateTo('tienda')}
-            onSelectProduct={(id: number) => navigateTo('producto', id)}
-          />
+          <Suspense fallback={<ViewLoadingFallback />}>
+            <ProductDetail
+              product={currentProduct}
+              relatedProducts={relatedProducts}
+              isWishlisted={wishlist.includes(currentProduct.id)}
+              onToggleWishlist={handleToggleWishlist}
+              onAddToCart={handleAddToCart}
+              onNavigateHome={() => navigateTo('home')}
+              onNavigateToTienda={() => navigateTo('tienda')}
+              onSelectProduct={(id: number) => navigateTo('producto', id)}
+            />
+          </Suspense>
         )}
 
         {(currentView === 'tienda' || currentView === 'hombres' || currentView === 'mujeres') && (
@@ -530,36 +544,42 @@ export const App: React.FC = () => {
         )}
 
         {currentView === 'not-found' && (
-          <NotFound onNavigate={navigateTo} />
+          <Suspense fallback={<ViewLoadingFallback />}>
+            <NotFound onNavigate={navigateTo} />
+          </Suspense>
         )}
       </main>
 
       {/* Slide-over Shopping Bag Drawer */}
-      <CartDrawer
-        isOpen={isCartOpen}
-        cart={cart}
-        onClose={() => setIsCartOpen(false)}
-        onUpdateQty={handleUpdateCartQty}
-        onRemoveItem={handleRemoveFromCart}
-        onCheckoutWhatsApp={handleCheckoutWhatsApp}
-        onNavigateToTienda={() => {
-          setIsCartOpen(false);
-          navigateTo('tienda');
-        }}
-        onOpenLegal={handleOpenLegal}
-      />
+      <Suspense fallback={null}>
+        <CartDrawer
+          isOpen={isCartOpen}
+          cart={cart}
+          onClose={() => setIsCartOpen(false)}
+          onUpdateQty={handleUpdateCartQty}
+          onRemoveItem={handleRemoveFromCart}
+          onCheckoutWhatsApp={handleCheckoutWhatsApp}
+          onNavigateToTienda={() => {
+            setIsCartOpen(false);
+            navigateTo('tienda');
+          }}
+          onOpenLegal={handleOpenLegal}
+        />
+      </Suspense>
 
       {/* Quick View Product Modal */}
-      <ProductModal
-        isOpen={modalProductId !== null}
-        product={modalProduct}
-        onClose={() => setModalProductId(null)}
-        onAddToCart={handleAddToCart}
-        onOpenDetail={(id: number) => {
-          setModalProductId(null);
-          navigateTo('producto', id);
-        }}
-      />
+      <Suspense fallback={null}>
+        <ProductModal
+          isOpen={modalProductId !== null}
+          product={modalProduct}
+          onClose={() => setModalProductId(null)}
+          onAddToCart={handleAddToCart}
+          onOpenDetail={(id: number) => {
+            setModalProductId(null);
+            navigateTo('producto', id);
+          }}
+        />
+      </Suspense>
 
       {/* Floating WhatsApp Assistance */}
       <WhatsAppFloat />
@@ -572,21 +592,25 @@ export const App: React.FC = () => {
       />
 
       {/* Interactive Colombian Compliance & Legal Modal */}
-      <LegalModal
-        isOpen={isLegalOpen}
-        onClose={() => setIsLegalOpen(false)}
-        initialTab={legalTab}
-      />
+      <Suspense fallback={null}>
+        <LegalModal
+          isOpen={isLegalOpen}
+          onClose={() => setIsLegalOpen(false)}
+          initialTab={legalTab}
+        />
+      </Suspense>
 
       {/* Google Drive Catalog Sync Modal */}
-      <DriveSyncModal
-        isOpen={isDriveSyncOpen}
-        onClose={() => setIsDriveSyncOpen(false)}
-        productsCount={products.length}
-        onSyncSuccess={(updatedProducts) => {
-          setProducts(updatedProducts);
-        }}
-      />
+      <Suspense fallback={null}>
+        <DriveSyncModal
+          isOpen={isDriveSyncOpen}
+          onClose={() => setIsDriveSyncOpen(false)}
+          productsCount={products.length}
+          onSyncSuccess={(updatedProducts) => {
+            setProducts(updatedProducts);
+          }}
+        />
+      </Suspense>
 
       {/* Privacy & Cookie Consent Banner */}
       <CookieBanner onOpenPrivacyPolicy={() => handleOpenLegal('privacy')} />
