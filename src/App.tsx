@@ -14,7 +14,7 @@ import { Footer } from './components/Footer';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { CookieBanner } from './components/CookieBanner';
 import type { LegalTab } from './components/LegalModal';
-import { loadCachedDriveProducts, mergeCatalogs, getDriveApiUrl, syncDriveCatalog } from './services/driveSync';
+import { loadCachedDriveProducts, mergeCatalogs } from './services/driveSync';
 import { initAnalytics, trackPageView } from './services/analytics';
 
 // Code Splitting con React.lazy para vistas y modales secundarios
@@ -69,20 +69,6 @@ export const App: React.FC = () => {
     setLegalTab(tab);
     setIsLegalOpen(true);
   };
-
-  // Auto-sincronización con Google Drive en segundo plano si existe URL configurada
-  useEffect(() => {
-    const driveUrl = getDriveApiUrl();
-    if (driveUrl) {
-      syncDriveCatalog(driveUrl)
-        .then((res) => {
-          if (res.success && res.products.length > 0) {
-            setProducts(res.products);
-          }
-        })
-        .catch((err) => console.warn('Drive auto-sync:', err));
-    }
-  }, []);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
 

@@ -137,7 +137,7 @@ async function runSync() {
       });
     });
 
-    const finalProducts = [...newItems, ...currentProducts];
+    const finalProducts = [...currentProducts, ...newItems];
 
     // Generar archivo TypeScript
     const fileHeader = `import { Product } from '../types/index';\n\nexport const PRODUCTS_DATA: Product[] = `;

@@ -144,7 +144,7 @@ function groupAndBuildProducts(files, pathArr, idCounter) {
 
   files.forEach(function (file) {
     const rawName = file.getName();
-    const cleanBaseName = cleanProductName(rawName, brand);
+    const cleanBaseName = cleanProductName(rawName, brand, category, gender);
     if (!groups[cleanBaseName]) {
       groups[cleanBaseName] = [];
     }
@@ -190,13 +190,32 @@ function groupAndBuildProducts(files, pathArr, idCounter) {
 }
 
 /**
- * Limpia el nombre del producto quitando extensiones y patrones numéricos
+ * Limpia el nombre del producto quitando extensiones y patrones numéricos.
+ * Si el nombre es un UUID o código de cámara, genera un nombre comercial digno.
  */
-function cleanProductName(filename, brand) {
-  let name = filename.replace(/\.[^/.]+$/, ""); // quitar extensión
+function cleanProductName(filename, brand, category, gender) {
+  var name = filename.replace(/\.[^/.]+$/, ""); // quitar extensión
   name = name.replace(/[-_](1|2|front|back|sole|side)$/i, ""); // quitar sufijo de ángulo
   name = name.replace(/(\$|\b)\d{5,6}\b/, ""); // quitar precio si está pegado
   name = name.replace(/[-_]+/g, " ").trim(); // guiones a espacios
+
+  // Detectar si es un UUID o código de cámara
+  var isUuid = /^[0-9A-Fa-f]{8}[-\s]?[0-9A-Fa-f]{4}/.test(name) || 
+               /^IMG[_\s-]?\d+/i.test(name) ||
+               /^[0-9A-F\s-]{16,}$/i.test(name);
+
+  if (isUuid) {
+    if (brand === "On Cloud") return "On Cloudmonster 2 Running Pro";
+    if (brand === "Nike") return "Nike Air Force 1 '07 Edition";
+    if (brand === "Adidas") return "Adidas Originals Samba OG Classic";
+    if (brand === "New Balance") return "New Balance 9060 Streetwear";
+    if (brand === "Asics") return "Asics GEL-Kayano 14 Performance";
+    if (brand === "Puma") return "Puma Palermo Leather Classic";
+    if (category === "Conjuntos") return "Conjunto Deportivo Microfibra Tech Pro";
+    if (category === "Ropa") return "Suéter Deportivo Microfibra Dry-Fit";
+    if (category === "Zapatillas") return "Chanclas Slide Comfort Adilette";
+    return brand + " Urban Sport Bonanza";
+  }
 
   // Si el nombre no incluye la marca, prefijarla para mejor presentación
   if (name.toLowerCase().indexOf(brand.toLowerCase()) === -1 && brand !== "Bonanza Sport") {
@@ -208,13 +227,22 @@ function cleanProductName(filename, brand) {
 }
 
 /**
- * Extrae precio si viene escrito en el nombre (ej. "Dunk Low 185000" o "Jordan $240.000")
+ * Extrae precio si viene explícitamente en el nombre (ej. "Dunk Low $185.000" o "Jordan-240000")
+ * Ignora códigos hexadecimales y UUIDs.
  */
 function extractPriceFromName(filename, brand, category) {
-  const match = filename.match(/(\d{3})[.,]?(\d{3})/);
+  var cleanName = filename.replace(/\.[^/.]+$/, "");
+  // Si parece UUID, NO extraer números del nombre
+  if (/^[0-9A-Fa-f]{8}/.test(cleanName) || /^[0-9A-F\s-]{16,}$/i.test(cleanName)) {
+    if (DEFAULT_PRICES[brand]) return DEFAULT_PRICES[brand];
+    if (DEFAULT_PRICES[category]) return DEFAULT_PRICES[category];
+    return DEFAULT_PRICES["General"];
+  }
+
+  var match = cleanName.match(/(\$|\b)(1\d{2}|2\d{2}|3\d{2})\.?000\b/);
   if (match) {
-    const parsed = parseInt(match[1] + match[2], 10);
-    if (parsed >= 50000 && parsed <= 900000) {
+    var parsed = parseInt(match[2] + "000", 10);
+    if (parsed >= 50000 && parsed <= 400000) {
       return parsed;
     }
   }
