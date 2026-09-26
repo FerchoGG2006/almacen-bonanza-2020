@@ -240,7 +240,7 @@ function isHash(str) {
   if (/^Puma [0-9A-Fa-f]{8}/i.test(s)) return true;
   if (/^Nike [0-9A-Fa-f]{8}/i.test(s)) return true;
   if (/^Adidas [0-9A-Fa-f]{8}/i.test(s)) return true;
-  if (/^IMG[_\s-]?\d+/i.test(s)) return true;
+  if (/IMG[_\s-]?\d+/i.test(s)) return true;
   if (/^[0-9A-F\s-]{16,}$/i.test(s)) return true;
   const words = s.split(/[\s-_]+/);
   if (words.some((w) => w.length >= 8 && /^[0-9A-Fa-f]+$/.test(w))) return true;
