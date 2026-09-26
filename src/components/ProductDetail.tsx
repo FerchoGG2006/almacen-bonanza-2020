@@ -120,9 +120,10 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
           <div className="relative aspect-square sm:aspect-[4/3] w-full bg-neutral-100 rounded-3xl border border-neutral-200/80 shadow-xs overflow-hidden group">
             <img
               src={currentImage}
-              alt={product.name}
+              alt={`${product.name} - ${product.brand} - Calzado en Bonanza 2020`}
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 select-none"
+              decoding="async"
             />
           </div>
 

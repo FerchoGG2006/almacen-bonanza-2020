@@ -34,13 +34,41 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [clientAddress, setClientAddress] = useState('');
   const [deliveryMethod, setDeliveryMethod] = useState<'valledupar' | 'nacional'>('valledupar');
   const [paymentMethod, setPaymentMethod] = useState<'contraentrega' | 'transferencia'>('contraentrega');
+  
+  // Anti-spam honeypot & Form validation
+  const [honeypot, setHoneypot] = useState('');
+  const [formErrors, setFormErrors] = useState<{ name?: string; address?: string }>({});
 
   if (!isOpen) return null;
 
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 
   const handleSendOrder = () => {
-    onCheckoutWhatsApp(clientName, clientAddress, deliveryMethod, paymentMethod);
+    // 1. Anti-spam check (honeypot filled by bot)
+    if (honeypot.trim().length > 0) {
+      console.warn('Bot detected and blocked.');
+      return;
+    }
+
+    const errors: { name?: string; address?: string } = {};
+
+    // Validar nombre si fue ingresado
+    if (clientName.trim().length > 0 && clientName.trim().length < 3) {
+      errors.name = 'Por favor ingresa un nombre válido (mínimo 3 letras).';
+    }
+
+    // Validar dirección si fue ingresada
+    if (clientAddress.trim().length > 0 && clientAddress.trim().length < 6) {
+      errors.address = 'Por favor ingresa una dirección completa (barrio y nomenclatura).';
+    }
+
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors);
+      return;
+    }
+
+    setFormErrors({});
+    onCheckoutWhatsApp(clientName.trim(), clientAddress.trim(), deliveryMethod, paymentMethod);
   };
 
   return (
@@ -195,31 +223,63 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     Datos del Cliente (Opcional)
                   </span>
 
+                  {/* Anti-spam honeypot - invisible to humans */}
+                  <input
+                    type="text"
+                    name="b_website"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    value={honeypot}
+                    onChange={(e) => setHoneypot(e.target.value)}
+                    style={{ position: 'absolute', opacity: 0, pointerEvents: 'none', height: 0, width: 0 }}
+                    aria-hidden="true"
+                  />
+
                   <div className="relative">
                     <User className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" />
                     <input
                       type="text"
                       value={clientName}
-                      onChange={(e) => setClientName(e.target.value)}
+                      onChange={(e) => {
+                        setClientName(e.target.value);
+                        if (formErrors.name) setFormErrors((prev) => ({ ...prev, name: undefined }));
+                      }}
                       placeholder="Tu nombre completo"
-                      className="w-full text-xs pl-9 pr-3 py-2.5 bg-neutral-50 border border-neutral-200 rounded-xl outline-none focus:border-neutral-950 text-neutral-900"
+                      className={`w-full text-xs pl-9 pr-3 py-2.5 bg-neutral-50 border rounded-xl outline-none focus:border-neutral-950 text-neutral-900 transition-colors ${
+                        formErrors.name ? 'border-rose-500 bg-rose-50/30' : 'border-neutral-200'
+                      }`}
                     />
                   </div>
+                  {formErrors.name && (
+                    <p className="text-[10px] text-rose-600 font-medium pl-1 animate-in fade-in">
+                      {formErrors.name}
+                    </p>
+                  )}
 
                   <div className="relative">
                     <MapPin className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" />
                     <input
                       type="text"
                       value={clientAddress}
-                      onChange={(e) => setClientAddress(e.target.value)}
+                      onChange={(e) => {
+                        setClientAddress(e.target.value);
+                        if (formErrors.address) setFormErrors((prev) => ({ ...prev, address: undefined }));
+                      }}
                       placeholder={
                         deliveryMethod === 'valledupar'
                           ? 'Barrio y direccion en Valledupar'
                           : 'Direccion, ciudad y departamento'
                       }
-                      className="w-full text-xs pl-9 pr-3 py-2.5 bg-neutral-50 border border-neutral-200 rounded-xl outline-none focus:border-neutral-950 text-neutral-900"
+                      className={`w-full text-xs pl-9 pr-3 py-2.5 bg-neutral-50 border rounded-xl outline-none focus:border-neutral-950 text-neutral-900 transition-colors ${
+                        formErrors.address ? 'border-rose-500 bg-rose-50/30' : 'border-neutral-200'
+                      }`}
                     />
                   </div>
+                  {formErrors.address && (
+                    <p className="text-[10px] text-rose-600 font-medium pl-1 animate-in fade-in">
+                      {formErrors.address}
+                    </p>
+                  )}
                 </div>
 
                 {/* Payment preference */}

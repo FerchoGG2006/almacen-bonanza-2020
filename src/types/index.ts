@@ -27,7 +27,7 @@ export interface CartItem {
   qty: number;
 }
 
-export type ViewType = 'home' | 'tienda' | 'hombres' | 'mujeres' | 'nosotros' | 'producto';
+export type ViewType = 'home' | 'tienda' | 'hombres' | 'mujeres' | 'nosotros' | 'producto' | 'not-found';
 
 export interface AppState {
   currentView: ViewType;

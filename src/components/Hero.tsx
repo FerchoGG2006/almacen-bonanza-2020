@@ -120,10 +120,11 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               
               <img
                 src={currentImg}
-                alt={drop.name}
+                alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
                 className="w-auto h-36 sm:h-44 md:h-48 max-h-[210px] object-contain drop-shadow-xl transition-all duration-500 ease-out group-hover:scale-105 group-hover:-rotate-2 cursor-pointer select-none"
                 onClick={() => onOpenProductModal(drop.id)}
+                decoding="async"
               />
             </div>
 

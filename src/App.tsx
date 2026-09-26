@@ -18,7 +18,10 @@ import { Footer } from './components/Footer';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { LegalModal, LegalTab } from './components/LegalModal';
 import { DriveSyncModal } from './components/DriveSyncModal';
+import { CookieBanner } from './components/CookieBanner';
+import { NotFound } from './components/NotFound';
 import { loadCachedDriveProducts, mergeCatalogs, getDriveApiUrl, syncDriveCatalog } from './services/driveSync';
+import { initAnalytics, trackPageView } from './services/analytics';
 
 export const App: React.FC = () => {
   // Catalog State (inicializa con base local + caché dinámico de Drive)
@@ -94,13 +97,48 @@ export const App: React.FC = () => {
     if (idParam) {
       const pid = parseInt(idParam, 10);
       if (!isNaN(pid)) {
-        navigateTo('producto', pid, pushHistory);
-        return;
+        const found = products.find((p) => p.id === pid);
+        if (found) {
+          navigateTo('producto', pid, pushHistory);
+          return;
+        } else {
+          navigateTo('not-found', undefined, pushHistory);
+          return;
+        }
       }
     }
 
     if (viewParam === 'nosotros' || hash === 'nosotros') {
       navigateTo('nosotros', undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam === 'terminos' || hash === 'terminos') {
+      handleOpenLegal('terms');
+      navigateTo('home', undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam === 'privacidad' || hash === 'privacidad') {
+      handleOpenLegal('privacy');
+      navigateTo('home', undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam === 'garantias' || hash === 'garantias') {
+      handleOpenLegal('guarantee');
+      navigateTo('home', undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam === 'pqr' || hash === 'pqr') {
+      handleOpenLegal('pqr');
+      navigateTo('home', undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam === '404' || viewParam === 'not-found') {
+      navigateTo('not-found', undefined, pushHistory);
       return;
     }
 
@@ -116,6 +154,11 @@ export const App: React.FC = () => {
 
     if (viewParam === 'tienda' || hash === 'catalogo' || catParam) {
       navigateTo('tienda', catParam || undefined, pushHistory);
+      return;
+    }
+
+    if (viewParam && viewParam !== 'home') {
+      navigateTo('not-found', undefined, pushHistory);
       return;
     }
 
@@ -201,12 +244,55 @@ export const App: React.FC = () => {
       }
       window.scrollTo({ top: 0, behavior: 'instant' });
       if (pushState) window.history.pushState({ view: 'tienda' }, '', '?view=tienda');
+    } else if (view === 'not-found') {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      if (pushState) window.history.pushState({ view: 'not-found' }, '', '?view=404');
     } else {
       // 'home'
       window.scrollTo({ top: 0, behavior: 'smooth' });
       if (pushState) window.history.pushState({ view: 'home' }, '', window.location.pathname);
     }
   };
+
+  // Dynamic SEO Titles & Meta Descriptions + Analytics Tracking
+  useEffect(() => {
+    let title = 'BONANZA 2020 | Ropa y Calzado Deportivo Urbano';
+    let desc = 'Tienda oficial de calzado y ropa deportiva urbana en Colombia. Envíos nacionales y pago contra entrega en Valledupar. Calle 16B # 7A-55 Barrio Centro.';
+
+    if (currentView === 'tienda') {
+      title = category !== 'all' ? `Línea ${category} | BONANZA 2020` : 'Catálogo Completo de Calzado y Ropa | BONANZA 2020';
+      desc = `Explora ${products.length} referencias en stock de calzado y streetwear en Valledupar, Colombia.`;
+    } else if (currentView === 'hombres') {
+      title = 'Calzado y Ropa para Hombre | BONANZA 2020';
+      desc = 'Siluetas de calzado y conjuntos deportivos para hombre en Valledupar y despachos a toda Colombia.';
+    } else if (currentView === 'mujeres') {
+      title = 'Calzado y Ropa para Mujer | BONANZA 2020';
+      desc = 'Colección urbana y calzado deportivo para mujer en Valledupar y despachos nacionales.';
+    } else if (currentView === 'nosotros') {
+      title = 'Sobre Nosotros | BONANZA 2020 Valledupar';
+      desc = 'Conoce nuestra tienda física en Calle 16B # 7A-55 Barrio Centro, Valledupar. Garantía de talla y compra segura.';
+    } else if (currentView === 'producto' && currentProduct) {
+      title = `${currentProduct.name} - ${currentProduct.brand} | BONANZA 2020`;
+      desc = `${currentProduct.description} Disponible en stock en Bonanza 2020.`;
+    } else if (currentView === 'not-found') {
+      title = '404 - Referencia no disponible | BONANZA 2020';
+      desc = 'La página o referencia solicitada no está disponible.';
+    }
+
+    document.title = title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', desc);
+
+    trackPageView(title, window.location.search || '/');
+  }, [currentView, currentProduct, category, products.length]);
+
+  // Init analytics on mount and listen to cookie consent updates
+  useEffect(() => {
+    initAnalytics();
+    const handleConsent = () => initAnalytics();
+    window.addEventListener('cookie_consent_updated', handleConsent);
+    return () => window.removeEventListener('cookie_consent_updated', handleConsent);
+  }, []);
 
   // Reset all filters
   const handleResetFilters = () => {
@@ -442,6 +528,10 @@ export const App: React.FC = () => {
             />
           </>
         )}
+
+        {currentView === 'not-found' && (
+          <NotFound onNavigate={navigateTo} />
+        )}
       </main>
 
       {/* Slide-over Shopping Bag Drawer */}
@@ -497,6 +587,9 @@ export const App: React.FC = () => {
           setProducts(updatedProducts);
         }}
       />
+
+      {/* Privacy & Cookie Consent Banner */}
+      <CookieBanner onOpenPrivacyPolicy={() => handleOpenLegal('privacy')} />
 
     </div>
   );

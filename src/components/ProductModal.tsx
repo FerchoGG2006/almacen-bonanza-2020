@@ -85,10 +85,12 @@ export const ProductModal: React.FC<ProductModalProps> = ({
             <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-neutral-100 group">
               <img
                 src={displayImage}
-                alt={product.name}
+                alt={`${product.name} - ${product.brand} · Bonanza 2020`}
                 referrerPolicy="no-referrer"
                 onError={() => setImageError(true)}
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 

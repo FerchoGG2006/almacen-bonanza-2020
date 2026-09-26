@@ -1,0 +1,8 @@
+# Robots.txt for Bonanza 2020
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Sitemap
+Sitemap: https://bonanza2020.com/sitemap.xml

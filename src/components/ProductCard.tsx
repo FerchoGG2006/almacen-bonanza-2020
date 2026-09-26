@@ -55,11 +55,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* Foto auténtica del producto con bordes curvos y zoom sutil en hover */}
         <img
           src={displayImage}
-          alt={product.name}
+          alt={`${product.name} - ${product.brand} · Bonanza 2020`}
           referrerPolicy="no-referrer"
           onError={() => setImageError(true)}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
+          decoding="async"
         />
 
         {/* Floating Quick View button on hover */}
