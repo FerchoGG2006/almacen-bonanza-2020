@@ -89,7 +89,7 @@ export const App: React.FC = () => {
   // Router handler based on URL parameters
   const handleUrlRoute = (pushHistory: boolean = false) => {
     const params = new URLSearchParams(window.location.search);
-    const viewParam = params.get('view') as ViewType | null;
+    const viewParam = params.get('view');
     const idParam = params.get('id');
     const catParam = params.get('cat');
     const hash = window.location.hash.replace('#', '');
@@ -254,6 +254,15 @@ export const App: React.FC = () => {
     }
   };
 
+  // Current product for detail view & SEO
+  const currentProduct = products.find((p) => p.id === selectedProductId) || products[0];
+  const relatedProducts = products.filter(
+    (p) => p.id !== currentProduct.id && (p.category === currentProduct.category || p.brand === currentProduct.brand)
+  );
+
+  // Current modal product
+  const modalProduct = products.find((p) => p.id === modalProductId) || null;
+
   // Dynamic SEO Titles & Meta Descriptions + Analytics Tracking
   useEffect(() => {
     let title = 'BONANZA 2020 | Ropa y Calzado Deportivo Urbano';
@@ -410,15 +419,6 @@ export const App: React.FC = () => {
       }
     }, 200);
   };
-
-  // Current product for detail view
-  const currentProduct = products.find((p) => p.id === selectedProductId) || products[0];
-  const relatedProducts = products.filter(
-    (p) => p.id !== currentProduct.id && (p.category === currentProduct.category || p.brand === currentProduct.brand)
-  );
-
-  // Current modal product
-  const modalProduct = products.find((p) => p.id === modalProductId) || null;
 
   // Handler for brand filtering with smooth scroll
   const handleSelectBrand = (b: string) => {
