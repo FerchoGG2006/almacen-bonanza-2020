@@ -93,10 +93,10 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
 
         {/* Right Column: Kinetic 3D Interactive Shoe Stage */}
         <div className="lg:col-span-6 relative flex flex-col">
-          <div className="relative rounded-3xl bg-gradient-to-b from-neutral-200/40 via-neutral-100/70 to-white border border-neutral-200/90 shadow-xl p-5 sm:p-6 lg:p-7 flex flex-col justify-between min-h-[400px] sm:min-h-[440px] group">
+          <div className="relative rounded-3xl bg-gradient-to-b from-neutral-200/40 via-neutral-100/70 to-white border border-neutral-200/90 shadow-lg p-4 sm:p-5 flex flex-col justify-between group">
             
             {/* Top Drop Header */}
-            <div className="flex items-center justify-between z-10 shrink-0">
+            <div className="flex items-center justify-between z-10 shrink-0 mb-1">
               <span className="text-[11px] font-bold tracking-[0.2em] text-neutral-500 uppercase">
                 {drop.brand} · Colección Principal
               </span>
@@ -114,16 +114,16 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               </div>
             </div>
 
-            {/* Foto de producto en grande con bordes redondeados que ocupa todo el espacio */}
+            {/* Foto de producto estilizada con altura equilibrada y bordes redondeados */}
             <div
-              className="relative w-full flex-1 my-3 aspect-[4/3] sm:aspect-[16/10] max-h-[380px] rounded-2xl overflow-hidden shadow-sm bg-neutral-100 cursor-pointer group/heroimg"
+              className="relative w-full h-48 sm:h-52 md:h-56 my-2 rounded-2xl overflow-hidden shadow-xs bg-neutral-100 cursor-pointer group/heroimg"
               onClick={() => onOpenProductModal(drop.id)}
             >
               <img
                 src={currentImg}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover rounded-2xl transition-transform duration-700 ease-out group-hover/heroimg:scale-105 select-none"
+                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
                 decoding="async"
               />
             </div>
