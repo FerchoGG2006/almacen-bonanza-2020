@@ -3,7 +3,7 @@ import { Product } from '../types/index';
 export const PRODUCTS_DATA: Product[] = [
   {
     "id": 1,
-    "name": "Air Jordan 4 Retro 'Military Black'",
+    "name": "Nike SB Dunk Low Pro 'White / Black Gum'",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -31,11 +31,11 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 4.8,
     "reviews_count": 71,
     "is_featured": true,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Silueta icónica Nike SB Dunk Low en cuero blanco premium, Swoosh negro en contraste y suela de goma Gum clásica de alta tracción skate."
   },
   {
     "id": 2,
-    "name": "Nike Dunk Low 'Panda' Edition",
+    "name": "Nike SB Dunk Low 'Black Pigeon' (Jeff Staple)",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -59,15 +59,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "DROP EXCLUSIVO",
     "rating": 5,
     "reviews_count": 24,
     "is_featured": true,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Edición especial de colección Nike SB Dunk Low Black Pigeon diseñada por Jeff Staple. Capellada en nobuk negro con bordado de la paloma Pigeon y suela carmesí."
   },
   {
     "id": 3,
-    "name": "Air Jordan 1 Retro High OG",
+    "name": "Air Jordan 4 Retro 'Bred' (Black Cement)",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -91,15 +91,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "LEGENDARIO",
     "rating": 4.7,
     "reviews_count": 35,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Leyenda del básquetbol y streetwear. Air Jordan 4 con capellada en nobuk negro, alas de soporte cemento, cámara de aire visible y acentos rojos University Red."
   },
   {
     "id": 4,
-    "name": "Nike Air Max Plus 'Tn' Drift",
+    "name": "Nike Air Pegasus Wave 'Metallic Silver'",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -127,11 +127,11 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 4.9,
     "reviews_count": 52,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Estética retro-running Y2K de alto impacto. Malla plateada transpirable, estructura enjaulada futurista y amortiguación Nike Air para máximo confort urbano."
   },
   {
     "id": 5,
-    "name": "Nike SB Dunk Low Pro",
+    "name": "Air Jordan 4 Retro 'Military Blue'",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -155,18 +155,18 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "RETRO OG",
     "rating": 4.8,
     "reviews_count": 15,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Clásico OG de 1989 reeditado. Cuero blanco texturizado, puntera en gamuza gris neutro, ojales y talón en Military Blue con suela de goma Gum."
   },
   {
     "id": 6,
-    "name": "Nike Air Force 1 '07 Triple White",
+    "name": "Nike Pegasus Trail 4 'Summit White / Burgundy'",
     "brand": "Nike",
     "gender": "Hombre",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 255000,
     "original_price": 285000,
     "image": "https://lh3.googleusercontent.com/d/1t-4fqCQFxpQaSOZnhHxbKi8xOgPPNcT-=w800",
@@ -187,15 +187,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "TRAIL RUNNING",
     "rating": 4.8,
     "reviews_count": 54,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Calzado de trail y running versátil de la línea Nike Trail ATC. Tecnología Flywire para sujeción dinámica, suela taqueada para asfalto y tierra."
   },
   {
     "id": 7,
-    "name": "Adidas Ultraboost Light 23",
+    "name": "Adidas Superstar ADV 'Core Black / White Gum'",
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -219,15 +219,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "MÁS VENDIDO",
+    "tag": "CLÁSICO",
     "rating": 4.8,
     "reviews_count": 44,
     "is_featured": true,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La clásica silueta de puntera concha Shell Toe en suave nobuk negro, tres rayas blancas dentadas y suela de caucho vulcanizado Gum de gran durabilidad."
   },
   {
     "id": 8,
-    "name": "Adidas Adi2000 Skateboard",
+    "name": "Adidas Swift Run 1.0 'Core Black / Cloud White'",
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -251,18 +251,18 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "CONFORT DIARIO",
     "rating": 4.8,
     "reviews_count": 49,
     "is_featured": true,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Calzado diario ultra liviano con tejido knit elástico que se adapta como un guante. Mediasuela de espuma amortiguadora y las tres rayas en contraste."
   },
   {
     "id": 9,
-    "name": "Adidas Originals Samba OG 'Cloud White'",
+    "name": "Adidas Supernova Rise 'Dreamstrike Core Black'",
     "brand": "Adidas",
     "gender": "Hombre",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 225000,
     "original_price": 255000,
     "image": "https://lh3.googleusercontent.com/d/1tunVfG3heFTkth36KNGqbhYHwtDuci-n=w800",
@@ -283,18 +283,18 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "RUNNING PRO",
     "rating": 4.9,
     "reviews_count": 77,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Zapatillas de running de alto rendimiento equipadas con la nueva espuma Dreamstrike+ para una pisada súper suave y transición dinámica sin esfuerzo."
   },
   {
     "id": 10,
-    "name": "Adidas Campus 00s 'Core Black'",
+    "name": "Adidas Terrex Soulstride GORE-TEX 'Black / Solar Red'",
     "brand": "Adidas",
     "gender": "Hombre",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 310000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1ZR_zfAoeKeeBthpldYqLS5ESkK_5k6-W=w800",
@@ -315,15 +315,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "OUTDOOR GTX",
     "rating": 4.9,
     "reviews_count": 55,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Calzado todoterreno impermeable con membrana GORE-TEX transpirable, suela Traxion de máximo agarre y amortiguación reforzada para senderos y lluvia."
   },
   {
     "id": 11,
-    "name": "Adidas Gazelle Bold Platform",
+    "name": "Adidas Campus 00s 'Core Black / Cloud White'",
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -347,18 +347,18 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "TOP TENDENCIA",
+    "tag": "MÁS VENDIDO",
     "rating": 4.9,
     "reviews_count": 65,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "El fenómeno del skate y streetwear contemporáneo. Horma ancha acolchada, gamuza negra gruesa, cordones anchos y suela de caucho retro."
   },
   {
     "id": 12,
-    "name": "Adidas Spezial Handball 'Collegiate'",
+    "name": "Adidas Supermagma Running 'Triple Black'",
     "brand": "Adidas",
     "gender": "Hombre",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 285000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1FbD3BX3ySZ8QqUvmcygQ32wA9te1XikT=w800",
@@ -379,15 +379,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "TENDENCIA",
     "rating": 4.8,
     "reviews_count": 46,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Zapatillas running futuristas con mediasuela geométrica Supermagma acanalada, malla monocromática en negro total y detalles reflectivos."
   },
   {
     "id": 13,
-    "name": "New Balance 1906R 'Protection Pack'",
+    "name": "New Balance 530 'Black / White'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -415,11 +415,11 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 4.9,
     "reviews_count": 72,
     "is_featured": true,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Regreso del clásico de running de los 90. Malla transpirable negra con superposiciones curvadas y amortiguación ABZORB para absorción de impactos."
   },
   {
     "id": 14,
-    "name": "New Balance 530 'Silver Metallic'",
+    "name": "New Balance 9060 'Sea Salt / Surf Blue'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -443,15 +443,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "TOP TENDENCIA",
     "rating": 4.8,
     "reviews_count": 60,
     "is_featured": true,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Silueta escultórica y vanguardista de la serie 99X. Gamuza beige Sea Salt, malla deportiva, detalles celestes Surf y suela ondulada con cápsulas ABZORB SBS."
   },
   {
     "id": 15,
-    "name": "New Balance 2002R 'Castlerock'",
+    "name": "New Balance 9060 'Eclipse Grey / Crimson'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -475,15 +475,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "TOP TENDENCIA",
+    "tag": "NUEVO INGRESO",
     "rating": 4.9,
     "reviews_count": 71,
     "is_featured": false,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Diseño audaz con estética retro-futurista. Bloques en gris marengo con sutiles acentos carmesí en los amortiguadores de la entresuela."
   },
   {
     "id": 16,
-    "name": "New Balance 9060 'Sea Salt / Rain Cloud'",
+    "name": "New Balance 9060 'Triple Black / Phantom'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -507,15 +507,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "URBAN STYLE",
     "rating": 4.9,
     "reviews_count": 57,
     "is_featured": false,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Versión monocromática negra con mezcla de cuero brillante, gamuza y malla balística. Plataforma ondulada de máxima comodidad y estilo urbano."
   },
   {
     "id": 17,
-    "name": "New Balance 550 'White Green'",
+    "name": "New Balance 9060 'Sea Salt / Rain Cloud'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -539,15 +539,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "MÁS BUSCADO",
     "rating": 4.9,
     "reviews_count": 15,
     "is_featured": false,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La combinación de colores más buscada del 9060. Tonos neutros crema, gris suave y acentos reflectivos con barra estabilizadora en el talón."
   },
   {
     "id": 18,
-    "name": "New Balance 1906R 'Protection Pack' (Colorway #6)",
+    "name": "New Balance 9060 'Castlerock / Shadow Grey'",
     "brand": "New Balance",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -571,15 +571,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "TOP TENDENCIA",
+    "tag": "EDICIÓN LIMITADA",
     "rating": 4.9,
     "reviews_count": 66,
     "is_featured": false,
-    "description": "Referencia auténtica New Balance para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Paleta icónica de New Balance con tonos grises y negros superpuestos en gamuza premium de pelo corto y malla técnica."
   },
   {
     "id": 19,
-    "name": "On Running Cloudsurfer 'Fade'",
+    "name": "On Cloudtilt 'All White / Ivory'",
     "brand": "On Cloud",
     "gender": "Hombre",
     "category": "Running",
@@ -603,15 +603,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "MÁS VENDIDO",
+    "tag": "SWISS TECH",
     "rating": 5,
     "reviews_count": 23,
     "is_featured": true,
-    "description": "Referencia auténtica On Cloud para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Ingeniería suiza de precisión con tecnología CloudTec Phase que se comprime secuencialmente para un desplazamiento suave como una nube."
   },
   {
     "id": 20,
-    "name": "On Running Cloud 5 Waterproof",
+    "name": "On Cloudtilt 'All White / Ivory' (Edición Especial)",
     "brand": "On Cloud",
     "gender": "Hombre",
     "category": "Running",
@@ -639,11 +639,11 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 4.8,
     "reviews_count": 24,
     "is_featured": true,
-    "description": "Referencia auténtica On Cloud para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Silueta ultraligera de perfil bajo en blanco marfil con sistema de cordones rápidos y amortiguación de última generación."
   },
   {
     "id": 21,
-    "name": "On Running Cloudmonster 2 'Frost/Cobalt'",
+    "name": "On Cloudtilt LOEWE 'Sand / Orange'",
     "brand": "On Cloud",
     "gender": "Hombre",
     "category": "Running",
@@ -667,15 +667,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "COLABORACIÓN",
     "rating": 4.9,
     "reviews_count": 85,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Colaboración de alta costura inspirada en la paleta de Loewe. Detalles en gamuza arena, tiradores naranja y mediasuela CloudTec Phase."
   },
   {
     "id": 22,
-    "name": "On Running Cloudtilt 'All Black' LOEWE style",
+    "name": "On Cloudsurfer Running 'Grey / Berry Fade'",
     "brand": "On Cloud",
     "gender": "Hombre",
     "category": "Running",
@@ -699,15 +699,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": null,
+    "tag": "RUNNING PRO",
     "rating": 4.8,
     "reviews_count": 66,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Zapatillas de entrenamiento diario con degradado de gris a bayas. Espuma Helion supercrítica para máximo retorno de energía en cada zancada."
   },
   {
     "id": 23,
-    "name": "On Running Cloudsurfer 'Fade' (Colorway #5)",
+    "name": "On Cloudsurfer Running 'All Black / White'",
     "brand": "On Cloud",
     "gender": "Hombre",
     "category": "Running",
@@ -731,15 +731,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "MÁS VENDIDO",
     "rating": 4.8,
     "reviews_count": 27,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Acabado minimalista en negro mate sobre mediasuela blanca CloudTec. Perfectas tanto para entrenar como para combinar en tu outfit diario."
   },
   {
     "id": 24,
-    "name": "Asics GEL-NYC 'Graphite Grey'",
+    "name": "Asics GEL-Kayano 14 'Triple Black / Silver'",
     "brand": "Asics",
     "gender": "Hombre",
     "category": "Running",
@@ -763,15 +763,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "TOP TENDENCIA",
     "rating": 4.8,
     "reviews_count": 52,
     "is_featured": true,
-    "description": "Referencia auténtica Asics para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La estética retro-running de principios de los 2000 en su versión más codiciada. Inserciones de tecnología GEL visibles y soporte de estabilidad."
   },
   {
     "id": 25,
-    "name": "Asics GEL-Kayano 14 'Silver Cream'",
+    "name": "Asics GEL-NYC 'White / Midnight Navy'",
     "brand": "Asics",
     "gender": "Hombre",
     "category": "Running",
@@ -795,15 +795,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "NUEVO INGRESO",
     "rating": 4.8,
     "reviews_count": 87,
     "is_featured": true,
-    "description": "Referencia auténtica Asics para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Inspirada en el estilo de vida de Nueva York. Fusión de elementos de GEL-Nimbus 3 y MC-PLUS V con cápsulas GEL de amortiguación ligera."
   },
   {
     "id": 26,
-    "name": "Asics GT-2160 'White Pure Silver'",
+    "name": "Asics GEL-Kayano 14 'Pure Silver / Dark Green'",
     "brand": "Asics",
     "gender": "Hombre",
     "category": "Running",
@@ -827,15 +827,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "RETRO RUNNER",
     "rating": 4.9,
     "reviews_count": 65,
     "is_featured": false,
-    "description": "Referencia auténtica Asics para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Combinación icónica de malla plateada metálica con cápsulas de gel en verde esmeralda y líneas deportivas de competición."
   },
   {
     "id": 27,
-    "name": "Puma Velophasis Technisch",
+    "name": "Puma Suede XL 'Black / White'",
     "brand": "Puma",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -863,11 +863,11 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 5,
     "reviews_count": 27,
     "is_featured": true,
-    "description": "Referencia auténtica Puma para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La legendaria Puma Suede reinventada con proporciones extra grandes inspiradas en la cultura skate de los años 90 y 2000."
   },
   {
     "id": 28,
-    "name": "Puma Palermo 'Alpine Snow'",
+    "name": "Puma Suede Classic 'Black / Shadow Grey'",
     "brand": "Puma",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -891,15 +891,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "CLÁSICO",
     "rating": 4.9,
     "reviews_count": 16,
     "is_featured": true,
-    "description": "Referencia auténtica Puma para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La silueta que definió el hip-hop y el b-boying. Gamuza negra auténtica con franja Formstrip en gris sombra y suela texturizada."
   },
   {
     "id": 29,
-    "name": "Puma Suede Classic XXI",
+    "name": "Puma Palermo 'Shadow Grey / Black'",
     "brand": "Puma",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -923,15 +923,15 @@ export const PRODUCTS_DATA: Product[] = [
       44,
       45
     ],
-    "tag": "OFERTA DROP",
+    "tag": "TERRACE STYLE",
     "rating": 4.9,
     "reviews_count": 73,
     "is_featured": false,
-    "description": "Referencia auténtica Puma para hombre. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Ícono de las terrazas de fútbol de los 80. Construcción con puntera T-toe, etiqueta de la marca en lámina dorada y suela de goma de bajo perfil."
   },
   {
     "id": 30,
-    "name": "Nike Air Force 1 '07 Triple White",
+    "name": "Nike Air Max Portal 'Triple Black / White'",
     "brand": "Nike",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -951,15 +951,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "MÁS VENDIDO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 65,
     "is_featured": true,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Nueva silueta de la familia Air Max para mujer. Unidad de aire visible envolvente en el talón, malla transpirable y estética estilizada."
   },
   {
     "id": 31,
-    "name": "Nike Shox TL 'Triple Black'",
+    "name": "Nike Air Force 1 '07 'Triple Black'",
     "brand": "Nike",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -979,18 +979,18 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "BÁSICO INFALIBLE",
     "rating": 4.9,
     "reviews_count": 83,
     "is_featured": true,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "El clásico indiscutible en acabado total black. Cuero resistente con costuras reforzadas y amortiguación Nike Air oculta."
   },
   {
     "id": 32,
-    "name": "Nike Zoom Vomero 5 'Photon Dust'",
+    "name": "Nike Invincible 3 ZoomX 'Black / Hyper Pink'",
     "brand": "Nike",
     "gender": "Mujer",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 310000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/10mV192VWih5bocHCFyL2TIsPkeorrHYv=w800",
@@ -1007,15 +1007,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "MÁXIMA AMORTIGUACIÓN",
     "rating": 4.9,
     "reviews_count": 15,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Máxima amortiguación para tus carreras o caminatas con espuma ZoomX de respuesta ultrasuave y detalles vibrantes en rosa y azul."
   },
   {
     "id": 33,
-    "name": "Air Jordan 3 Retro 'White Cement'",
+    "name": "Nike V2K Run 'Sail / Metallic Silver'",
     "brand": "Nike",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -1035,18 +1035,18 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "TOP TENDENCIA",
     "rating": 4.8,
     "reviews_count": 42,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Lo retro se vuelve futurista. Diseño nostálgico inspirado en los modelos de running de los 2000 con jaula translúcida y suela gruesa con plataforma."
   },
   {
     "id": 34,
-    "name": "Nike P-6000 Athletic",
+    "name": "Nike Initiate 'White / Lilac Pink'",
     "brand": "Nike",
     "gender": "Mujer",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 260000,
     "original_price": 290000,
     "image": "https://lh3.googleusercontent.com/d/1uPgvlpqaCgxzbG6BQKEucd7IGlnunqy2=w800",
@@ -1063,15 +1063,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "CONFORT DIARIO",
     "rating": 5,
     "reviews_count": 33,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Zapatillas de running confortables con soporte transpirable, detalles reflectivos y acentos pastel en lila y rosa para tu rutina diaria."
   },
   {
     "id": 35,
-    "name": "Nike Air Max 90 'Infrared' Classic",
+    "name": "Nike Air Max Portal 'Black / White Sole'",
     "brand": "Nike",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -1091,15 +1091,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "AIR MAX STYLE",
     "rating": 4.8,
     "reviews_count": 70,
     "is_featured": false,
-    "description": "Referencia auténtica Nike para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Contraste moderno de capellada negra con suela blanca y cámara de aire transparente. Estilo y comodidad durante todo el día."
   },
   {
     "id": 36,
-    "name": "Adidas Spezial Handball 'Collegiate'",
+    "name": "Adidas Originals Samba OG 'Core Black / White'",
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -1119,18 +1119,18 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "MÁS VENDIDO",
     "rating": 4.8,
     "reviews_count": 47,
     "is_featured": true,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "El calzado más viral y versátil del momento. Piel suave negra, puntera de ante en T, tres rayas dentadas en blanco y suela de caramelo."
   },
   {
     "id": 37,
-    "name": "Adidas Forum Low Classic",
+    "name": "Adidas Runfalcon 3.0 'Cloud White / Lucid Blue'",
     "brand": "Adidas",
     "gender": "Mujer",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 290000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1wLJnVIb7cDzL6t7NFgq5Da-iRm_8Qo8h=w800",
@@ -1147,15 +1147,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "LIVIANAS",
     "rating": 5,
     "reviews_count": 51,
     "is_featured": true,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Ligeras, frescas y amortiguadas con mediasuela Cloudfoam para acompañarte en tus entrenamientos de gimnasio, caminatas o trote."
   },
   {
     "id": 38,
-    "name": "Adidas Bad Bunny Response CL",
+    "name": "Adidas Originals Samba OG 'Black Textured'",
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -1175,18 +1175,18 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "EDICIÓN ESPECIAL",
     "rating": 5,
     "reviews_count": 46,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Edición especial de Samba con cuero texturizado craquelado que aporta un toque de lujo y personalidad a cualquier outfit casual."
   },
   {
     "id": 39,
-    "name": "Adidas Ultraboost Light 23",
+    "name": "Adidas Ultraboost Light 'Core Black / White'",
     "brand": "Adidas",
     "gender": "Mujer",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 275000,
     "original_price": 305000,
     "image": "https://lh3.googleusercontent.com/d/1eOqQbrJH4qKEt4pslO1t3zLuuma9ZVIX=w800",
@@ -1203,15 +1203,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "MÁXIMO BOOST",
     "rating": 5,
     "reviews_count": 15,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "La tecnología Ultraboost más liviana de la historia con cápsulas Light BOOST que ofrecen un retorno de energía supremo en cada paso."
   },
   {
     "id": 40,
-    "name": "Adidas Adi2000 Skateboard",
+    "name": "Adidas Handball Spezial 'Metallic Silver / Grey'",
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
@@ -1231,18 +1231,18 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "TENDENCIA VINTAGE",
     "rating": 4.9,
     "reviews_count": 36,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Auténtica herencia deportiva vintage con acabado foil plateado metálico y gamuza gris claro sobre suela de goma clásica."
   },
   {
     "id": 41,
-    "name": "Adidas Originals Samba OG 'Cloud White'",
+    "name": "Adidas Supernova Solution 'Wonder Beige / Gum'",
     "brand": "Adidas",
     "gender": "Mujer",
-    "category": "Zapatillas",
+    "category": "Running",
     "price": 260000,
     "original_price": 290000,
     "image": "https://lh3.googleusercontent.com/d/13xYQGae4agk6OHdvbWFX6jZrK2twzeNy=w800",
@@ -1259,15 +1259,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "NUEVO INGRESO",
     "rating": 4.9,
     "reviews_count": 84,
     "is_featured": false,
-    "description": "Referencia auténtica Adidas para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Silueta running de soporte para mujer en tono beige neutro elegante con varillas de soporte estables y suela de caucho color caramelo."
   },
   {
     "id": 42,
-    "name": "On Running Cloudtilt 'All Black' LOEWE style",
+    "name": "On Cloudtilt LOEWE 'Sand / White'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1287,15 +1287,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "MÁS VENDIDO",
+    "tag": "ALTA GAMA",
     "rating": 4.9,
     "reviews_count": 64,
     "is_featured": true,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Zapatillas suizas de diseño de pasarela. Tejido técnico arena, logo Loewe integrado y tecnología CloudTec Phase para flotar al caminar."
   },
   {
     "id": 43,
-    "name": "On Running Cloudsurfer 'Fade'",
+    "name": "On Cloudtilt Waterproof 'All Black'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1315,15 +1315,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "WATERPROOF",
     "rating": 4.8,
     "reviews_count": 81,
     "is_featured": true,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Protección 100% impermeable contra lluvia y charcos en un elegante diseño monocromático negro con elementos reflectantes nocturnos."
   },
   {
     "id": 44,
-    "name": "On Running Cloud 5 Waterproof",
+    "name": "On Cloudsurfer Running 'All White / Undyed'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1343,15 +1343,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": "OFERTA DROP",
+    "tag": "PURE WHITE",
     "rating": 4.7,
     "reviews_count": 20,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Comodidad total en blanco inmaculado. Espuma Helion optimizada por ordenador para una amortiguación que redefine la pisada."
   },
   {
     "id": 45,
-    "name": "On Running Cloudmonster 2 'Frost/Cobalt'",
+    "name": "On Cloudrunner 2 'White / Rose Pink'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1371,15 +1371,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "CONFORT & SOPORTE",
     "rating": 4.7,
     "reviews_count": 19,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Soporte y amortiguación reconfortante para mujer en suave combinación de blanco y rosa pastel, ideal para carreras y uso diario."
   },
   {
     "id": 46,
-    "name": "On Running Cloudtilt 'All Black' LOEWE style (Colorway #5)",
+    "name": "On Cloudsurfer Running 'Grey / Flame Red Fade'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1399,15 +1399,15 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "EDICIÓN FADE",
     "rating": 4.9,
     "reviews_count": 44,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Diseño aerodinámico con transición de gris a negro y toques rojo fuego. Amortiguación CloudTec Phase que reduce el impacto en las articulaciones."
   },
   {
     "id": 47,
-    "name": "On Running Cloudsurfer 'Fade' (Colorway #6)",
+    "name": "On Cloudmonster 'White / Olive / Green'",
     "brand": "On Cloud",
     "gender": "Mujer",
     "category": "Running",
@@ -1427,11 +1427,11 @@ export const PRODUCTS_DATA: Product[] = [
       38,
       39
     ],
-    "tag": null,
+    "tag": "MONSTER CLOUD",
     "rating": 4.9,
     "reviews_count": 31,
     "is_featured": false,
-    "description": "Referencia auténtica On Cloud para mujer. Fabricación premium con suela de alta amortiguación, materiales transpirables y diseño urbano de vanguardia."
+    "description": "Los elementos Cloud más grandes de la marca suiza para un despegue monstruoso y máxima diversión corriendo o caminando."
   },
   {
     "id": 48,

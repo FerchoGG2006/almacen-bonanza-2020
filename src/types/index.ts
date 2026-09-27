@@ -45,10 +45,11 @@ export interface AppState {
 export interface HeroDrop {
   id: number;
   name: string;
+  shortName?: string;
   brand: string;
   price: number;
   spec1: string;
   sizes: number[];
   image: string;
-  hover_image: string;
+  hover_image?: string;
 }

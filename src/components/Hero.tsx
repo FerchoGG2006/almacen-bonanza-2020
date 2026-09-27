@@ -7,28 +7,31 @@ import { formatCOP, STORE_PHONE } from '../services/whatsapp';
 const HERO_DROPS: HeroDrop[] = [
   {
     id: 1,
-    name: "Air Jordan 4 Retro 'Military Black'",
+    name: "Nike SB Dunk Low Pro 'White / Black Gum'",
+    shortName: "SB Dunk Gum",
     brand: "Nike",
     price: 245000,
-    spec1: "Horma original, detalles de malla transpirable, suela Air Cushion",
+    spec1: "Cuero vacuno prémium blanco, swoosh negro en contraste y suela gum clásica",
     sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800"
   },
   {
     id: 2,
-    name: "Nike Dunk Low 'Panda' Edition",
+    name: "Nike SB Dunk Low 'Black Pigeon' (Jeff Staple)",
+    shortName: "Black Pigeon",
     brand: "Nike",
     price: 185000,
-    spec1: "Piel sintética premium bicolor, corte bajo y tracción urbana",
+    spec1: "Nubuck negro impermeable, suela Infrared y el legendario bordado Pigeon",
     sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800"
   },
   {
     id: 3,
-    name: "Air Jordan 1 Retro High OG",
+    name: "Air Jordan 4 Retro 'Bred' (Black Cement)",
+    shortName: "Jordan 4 Bred",
     brand: "Nike",
     price: 220000,
-    spec1: "Silueta high legendaria, amortiguación Air-Sole y soporte de tobillo",
+    spec1: "Silueta histórica de 1989, nubuck negro, detalles rojo fuego y suela Air",
     sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800"
   }
@@ -160,7 +163,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
                     : 'bg-white text-neutral-600 hover:bg-neutral-100 border border-neutral-200'
                 }`}
               >
-                Drop 0{index + 1}: {d.name.split(' ')[0]} {d.name.split(' ')[1]}
+                Drop 0{index + 1}: {d.shortName || `${d.name.split(' ')[0]} ${d.name.split(' ')[1]}`}
               </button>
             ))}
           </div>
