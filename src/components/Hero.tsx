@@ -11,7 +11,7 @@ const HERO_DROPS: HeroDrop[] = [
     brand: "Nike",
     price: 245000,
     spec1: "Horma original, detalles de malla transpirable, suela Air Cushion",
-    sizes: [38, 39, 40, 41, 42, 43],
+    sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800",
     hover_image: "https://lh3.googleusercontent.com/d/1HxD4ETmnqZY0uOiw63f7U9WYhuFzQo6V=w800"
   },
@@ -21,7 +21,7 @@ const HERO_DROPS: HeroDrop[] = [
     brand: "Nike",
     price: 185000,
     spec1: "Piel sintética premium bicolor, corte bajo y tracción urbana",
-    sizes: [37, 38, 39, 40, 41, 42],
+    sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800",
     hover_image: "https://lh3.googleusercontent.com/d/1gshfY8RwkO7mtcB6XgxgxNkVHIZL15jp=w800"
   },
@@ -31,7 +31,7 @@ const HERO_DROPS: HeroDrop[] = [
     brand: "Nike",
     price: 220000,
     spec1: "Silueta high legendaria, amortiguación Air-Sole y soporte de tobillo",
-    sizes: [39, 40, 41, 42, 43],
+    sizes: [40, 41, 42, 43, 44, 45],
     image: "https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800",
     hover_image: "https://lh3.googleusercontent.com/d/1zmhs6pzWVMM4J-8hl59FvuRa7DT6QZg0=w800"
   }

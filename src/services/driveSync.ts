@@ -141,15 +141,24 @@ export function sanitizeProduct(p: Product, index: number = 0): Product {
   }
 
   const isApparel = category === 'Conjuntos' || category === 'Ropa' || category === 'Camisetas';
-  const cleanSizes = isApparel ? ['S', 'M', 'L', 'XL'] : [37, 38, 39, 40, 41, 42, 43];
+  let cleanSizes: (string | number)[] = [40, 41, 42, 43, 44, 45];
+  if (isApparel) {
+    cleanSizes = ['M', 'L', 'XL', '2XL', '3XL'];
+  } else if (gender === 'Mujer') {
+    cleanSizes = [36, 37, 38, 39];
+  } else if (gender === 'Hombre') {
+    cleanSizes = [40, 41, 42, 43, 44, 45];
+  } else {
+    cleanSizes = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45];
+  }
 
   return {
     ...p,
     name,
     brand,
     price,
-    sizes: Array.isArray(p.sizes) && p.sizes.length > 0 ? p.sizes : cleanSizes,
-    available_sizes: Array.isArray(p.available_sizes) && p.available_sizes.length > 0 ? p.available_sizes : cleanSizes,
+    sizes: cleanSizes,
+    available_sizes: cleanSizes,
     tag,
     description: `Referencia oficial en stock Bonanza 2020 (${gender} · ${brand}). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia.`
   };

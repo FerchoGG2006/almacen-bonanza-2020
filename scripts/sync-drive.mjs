@@ -117,6 +117,11 @@ async function runSync() {
 
       newCount++;
       const nextId = currentProducts.length + newCount;
+      const isApparel = dp.category === 'Conjuntos' || dp.category === 'Ropa' || dp.category === 'Camisetas';
+      const defaultSizes = isApparel 
+        ? ['M', 'L', 'XL', '2XL', '3XL'] 
+        : (dp.gender === 'Mujer' ? [36, 37, 38, 39] : [40, 41, 42, 43, 44, 45]);
+
       newItems.push({
         id: nextId,
         name: dp.name,
@@ -127,8 +132,8 @@ async function runSync() {
         original_price: dp.original_price || null,
         image: dp.image,
         hover_image: dp.hover_image || dp.image,
-        sizes: dp.sizes || [37, 38, 39, 40, 41, 42, 43],
-        available_sizes: dp.available_sizes || dp.sizes,
+        sizes: dp.sizes || defaultSizes,
+        available_sizes: dp.available_sizes || dp.sizes || defaultSizes,
         tag: dp.tag || 'NUEVO INGRESO',
         rating: dp.rating || 5.0,
         reviews_count: dp.reviews_count || 1,

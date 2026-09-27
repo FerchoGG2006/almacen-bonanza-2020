@@ -12,21 +12,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HxD4ETmnqZY0uOiw63f7U9WYhuFzQo6V=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.8,
@@ -45,21 +44,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gshfY8RwkO7mtcB6XgxgxNkVHIZL15jp=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 5,
@@ -78,19 +76,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zmhs6pzWVMM4J-8hl59FvuRa7DT6QZg0=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.7,
@@ -109,20 +108,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1e9Hj3IyYT_yQbh_0p592rRqJcS2LzA1r=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_e9rrGM7m7TZqGQ92AHKCpyYSCXXvROB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
-      41
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.9,
@@ -141,19 +140,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rF7joY33-3S3Ph0keZjorflgO0ROSMfi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZwJpk5KeLLieJrsgbauxiVBgMRMkiPpX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.8,
@@ -172,20 +172,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1t-4fqCQFxpQaSOZnhHxbKi8xOgPPNcT-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ERF35TcNgU6KbF0khjm4Gj-pxQUg-oRb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
-      41
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -204,22 +204,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-mIGCKvPpKSiRzGC3iwKMmafHEVOLZxu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N2ZrLlkaNiyb4FIjKf2JeGQzuxDUMLBS=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.8,
@@ -238,22 +236,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zmP9WhKHS2ow8o6AF3r0c5FgTg3oKQzd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16-ACHI-CGs2gzQAqMIy8FmG9ibv211IJ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -272,20 +268,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tunVfG3heFTkth36KNGqbhYHwtDuci-n=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1byPAyK6LNFMyc-WaYfKgxoOp_AwtEcC6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
-      41
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -304,19 +300,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZR_zfAoeKeeBthpldYqLS5ESkK_5k6-W=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RmI3Ns97JkPsDSuWoevBJKO_0SXNCmCh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.9,
@@ -335,21 +332,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Hqtd2bFdIDp8xe75XMLNDpHumCxFFNq_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LcaOC_VLxwlBNM23M5BK9Lt2ioLP9WNw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.9,
@@ -368,19 +364,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FbD3BX3ySZ8QqUvmcygQ32wA9te1XikT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1K2xGjBhOrVppDREk5eQ9XGcBbevpJqWE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.8,
@@ -399,19 +396,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m0P_AhyqN4s1drTfuY0_gz1t5F2mWZtB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WHoY3fna7at9crMCR9JgQgN4j6tejNGZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.9,
@@ -430,22 +428,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DYHL0oODA7SGYegueaA4n8HKSWuxv1C6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/144TFG5UEnKgJYCsreLZBZIUaQCQs7d85=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -464,21 +460,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HDoG5iHKVvD-GTqLqbgip8P1kakc2J56=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qYgfwnMdqwun3YbucNzodBBJ8qQUwmki=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.9,
@@ -497,19 +492,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-IdDIyLocBp6Y8jJ4bPUPbCE0qwU23-M=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X9vkT0PIFQcWI6XQBA1WTF45__csNj-3=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.9,
@@ -528,22 +524,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gV1xxT50brzjSRP0HscFsqcRqGgAa_e_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-J4sqrCiC2a1xFZINjDyk6n_A69MlNeD=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.9,
@@ -562,19 +556,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14YePsBxaGFLtvgKhtTOSHrPZKDcplf8V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pOTd5I14c49NaPi8wBpXes7Mf0wD_Wg7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.9,
@@ -593,22 +588,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ypt3R_zksQpFwDbothWNjNg7QlhN6D70=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1v8zQQ5GvLCREaEPCtFkGiL4VEagiWCI0=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -627,19 +620,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1v8zQQ5GvLCREaEPCtFkGiL4VEagiWCI0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1esyjDVO0MTmaT9msRcUksvC5puOrY6YN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 4.8,
@@ -658,21 +652,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1St6Jfdds4nX0kLOo71bYW_EdAu4sRKaH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vtrkyr4lK5ykXKSlZ0fo2j3gLFIMxBTF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.9,
@@ -691,20 +684,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DjYBD7fYObnXU1FaW0QhX9b8zof1e2Rk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10LkEEfmKTpvng0FSvRDY-VYHg7j3WmnY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
-      41
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": null,
     "rating": 4.8,
@@ -723,21 +716,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1S9LW2YIL8F1DH-EMhgSdlIIEaYq8dzZZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1S9LW2YIL8F1DH-EMhgSdlIIEaYq8dzZZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -756,19 +748,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KozmmedMYeLBADN7Hg5D_eLoT3q-9LzU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ALAjSD1R0q3ScrWEZpsg7HdznE7pr5ZZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -787,19 +780,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RabNyAZOGRCeGuuz8Oi6eOJ2FXURjBDr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1smSO6GWKu-QDexV5LeMuCTp2s06ojvrw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -818,20 +812,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11zWFNEtsQltnL-VaqYAKsSPSCfZh8Mz9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11KIyZ9OpjALqkJDrxc76SesKPwFNPJla=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
-      41
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -850,19 +844,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Fxs5vSff6QTDn-JvXYrmjIl93pxrmfU9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Fxs5vSff6QTDn-JvXYrmjIl93pxrmfU9=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -881,19 +876,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DugVjLqCXaiohsGULM3lLkcmd6-OLcQj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DugVjLqCXaiohsGULM3lLkcmd6-OLcQj=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
-      40
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 4.9,
@@ -912,22 +908,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aBGZX_cqAvpuILInHveoFtHt-uEdLlqN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aBGZX_cqAvpuILInHveoFtHt-uEdLlqN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -946,22 +940,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fR9IvUTUyVyvIe9A-Mrncw9Q-RbN48uo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rUkbwEKppE8rgr1Ob6_EGKfJb5w2rQVO=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -980,22 +968,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b-KJG5BLXu_t-ov4Xw31RHUG2Jm-slUL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IoFwZ7ahLmXa66M9XkIUofJmPcxpQAuM=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -1014,19 +996,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10mV192VWih5bocHCFyL2TIsPkeorrHYv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1k-A1HcP5-ZIWqxr2y5Z_TBZP1eYj1pKw=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40
+      39
     ],
     "tag": null,
     "rating": 4.9,
@@ -1045,22 +1024,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RtXdw8QDzM_nDC1T9615kAaxa_Dr7oP8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1U8NAq7-HxdHwAl9YRvNXjxDL27MpmpMt=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": null,
     "rating": 4.8,
@@ -1079,22 +1052,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uPgvlpqaCgxzbG6BQKEucd7IGlnunqy2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1em3Lv7fbS9b4pbj-o0O3iCfL-JFtx3Q4=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 5,
@@ -1113,21 +1080,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EHxe4tAbyIK1zrlFBMHTlU4oXcp3ToaZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mOCrf57-_250UXA6GXP2QJ6ye-dJXauv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42
+      39
     ],
     "tag": null,
     "rating": 4.8,
@@ -1146,21 +1108,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1roHFaZwpPyBiej51_FX8znBHWFdhSf-G=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pI-ar8RmHoftTqNPHOrpEWHRZ9AehE96=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -1179,20 +1136,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wLJnVIb7cDzL6t7NFgq5Da-iRm_8Qo8h=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Jiww_UabWug144mjDGvC-uqAyyjNBkOc=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -1211,19 +1164,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pdNzblnOSYLos5x6FG41C1_EWhns3Ugm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xq73ppumXI7MLA1z1zKlN7MLP_Ad-V8q=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40
+      39
     ],
     "tag": null,
     "rating": 5,
@@ -1242,20 +1192,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eOqQbrJH4qKEt4pslO1t3zLuuma9ZVIX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bPIBiOLc63l4EajustYdTwPz4YVPd436=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 5,
@@ -1274,22 +1220,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZbTHWQVNYZX8ar5ADr9n-3mDvP4ahwMr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pf7NntFpzMXSA0BPpya-rmXjB1dYubBv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -1308,20 +1248,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13xYQGae4agk6OHdvbWFX6jZrK2twzeNy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16w9Jg2d_GVPav0zu-O-KAa86tne0UPU3=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -1340,19 +1276,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IZpovQOSSBRc8E5qjJSqrl5Gr5rEaJOi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uYq9ANFMRru22pebP1NZPdVD1HSIy0Nn=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.9,
@@ -1371,20 +1304,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ovu20dbeSsHdoMy36SceALpVgLDa0lO5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XmT0a03_8MQ2_pkagL1TOUHe00mik1Ey=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 4.8,
@@ -1403,20 +1332,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/187N0FP6k13b111bU7RRTcQVfgZ5yXseu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Fr-Q_aMPI7YplShz2JnV-3eopIPAW9SI=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41
+      39
     ],
     "tag": "OFERTA DROP",
     "rating": 4.7,
@@ -1435,21 +1360,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JbHD6iIiE4_KE4IYKAgluvR1aekMoUPx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-uu7BlIuel-BLewxM4Mn-h8-RC4jVFz1=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42
+      39
     ],
     "tag": null,
     "rating": 4.7,
@@ -1468,21 +1388,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vw6qe58qzsRnkzBEd74iu-NYuwsKtEUY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iQpTbWShR3aMHNjal_R9rfHJ39ZWVdUP=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42
+      39
     ],
     "tag": null,
     "rating": 4.9,
@@ -1501,19 +1416,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/197PUOrikqr5JecGG2xkw1iOqXGN2NGER=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15jZWhAxTQWCbcpt8bfmrOruvEY42rnuV=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40
+      39
     ],
     "tag": null,
     "rating": 4.9,
@@ -1532,16 +1444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bSocB32WaTigetHpiJZ035kVY5G2HnFZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18tZEsb1wZQIqbjzvurHV7G7irUSszt0F=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA DROP",
     "rating": 4.9,
@@ -1560,16 +1474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SwrD_v_ngcEif77GMxK4ue6rThTsfa1s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bxom3xTUHiRT4P68b8KeE35FBDdmwVwd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA DROP",
     "rating": 5,
@@ -1588,16 +1504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Sk1QMLCDUx3jDh7rzcSjo4sdigDjOg7N=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1usnFgMuQn_2YGI4SaM44ZdQ-Sh40DC3F=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.7,
@@ -1616,16 +1534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z_oaUaktG2S_CSjHFf6REF1sGUIAaxbw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11fTS9mVG3bg7ZSpYtu-vhPzIENculwcr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.7,
@@ -1644,16 +1564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VzRzFIlx82fS4KnBUVYVd-yYf68kD-ZP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aqARpVnWg4sslS3W_RcdNZMScjV3Z11s=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.9,
@@ -1672,16 +1594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wTbVeEHx7iem1u-yuQhlol0BF08dzZW7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hLUhQ5eB19BVqySi-pH8WLzmEzdlTgH9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.9,
@@ -1700,16 +1624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OaIsa4g89uogfSD7uNGFsQVR0OxZ_QXG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1l72EM9bET15GyqpJpwjZAxBflrWGA0D5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.9,
@@ -1728,16 +1654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kGN9yP-RGcXEhnyUwZ1nHIH9ntYenJch=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kjBJSrcbFN-CF4oFwmjizKY-V84FolUE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "NUEVO INGRESO",
     "rating": 4.9,
@@ -1756,16 +1684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1U6fm9F7DYaZ6fI_Kpy75feAytc0iYYKB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ky2swl8wyzHczilNrgZ0bSOzrgfZUIum=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA DROP",
     "rating": 4.7,
@@ -1784,16 +1714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Cbu-DOrkAO55pYhsZLH35qxS5BPovyvp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/176hcoQ9fVeYtcIVmyxEwTTxmyKoW7y3m=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.9,
@@ -1812,16 +1744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KL7OMF4xEJHds2GzhVQZjXM5nvt2lp1t=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BRVB6wMGg0Sh4Mqbg3XBf3TxQOSvX4mS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.9,
@@ -1840,16 +1774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AqXORPYO8Dkn117gL-Np78-OgjlAIO_J=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bVQRc33qfixR9ZxznFTGNWEmpahfMsXq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA DROP",
     "rating": 4.8,
@@ -1868,16 +1804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/191iQX5jlVq7121dU0Ftq5rQme508jVMZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O40VfKwMN26XWCTtMu-K3SHqY-vwixR2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "MÁS VENDIDO",
     "rating": 4.9,
@@ -1896,16 +1834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z__ZJ5vSg-9VLZGgSAb3laNdMrs4g8Fn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RnzAfzmMjJ-QQ--OVTmGEmgADqRA3p3-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "NUEVO INGRESO",
     "rating": 4.9,
@@ -1924,16 +1864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EF-q0UlCU0YQnEa01vsPn0AVls7A9DY6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yNdvQjgKlKnZhwQz-hD7cqrL1LDgbXf_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 5,
@@ -1952,16 +1894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17aDzMrCWhKwAXEzwPHYhrTJm6ZNRtAc7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XQ9OGJZad_DBwLj5E-noMqQuX32MzfL0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.8,
@@ -1980,16 +1924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-VnVmZcVj3s22Vs40K0jJQ5ob6Wmxip-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m9CEnE9LAT27HAO-h3OKxW39xsUJIodu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "TOP TENDENCIA",
     "rating": 4.8,
@@ -2008,16 +1954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KkoU_GBKoAXTpkTXTKtaUsm0APrrVg_8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EE4-ZDx5xbbzPDIhKZD8Prm4vyeyz0B2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": null,
     "rating": 4.7,
@@ -2036,16 +1984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1d-zQZwXxAzTJ-4QjKfFmCXd_f4v2h-Xh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1d-zQZwXxAzTJ-4QjKfFmCXd_f4v2h-Xh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2064,16 +2014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15IXJ2hVgfInk0gswls5JtqMnZDBVQ3xK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15IXJ2hVgfInk0gswls5JtqMnZDBVQ3xK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2092,16 +2044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1x1WfIkLKVcz2f08Tc1tLfauhU-w2HFIS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1x1WfIkLKVcz2f08Tc1tLfauhU-w2HFIS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2120,16 +2074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OrDGjTAaSOpMNylhj8WRu9chZ4QsiXQJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OrDGjTAaSOpMNylhj8WRu9chZ4QsiXQJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2148,16 +2104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13S1E5A_Byz-F2bQRl1CKC9SRWmquRmUM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13S1E5A_Byz-F2bQRl1CKC9SRWmquRmUM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2176,16 +2134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1csjhfvPhtGVr_Dh2WuKKQcO1CaDFQsiM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1csjhfvPhtGVr_Dh2WuKKQcO1CaDFQsiM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2204,16 +2164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rFvS--yv0zV46gWcZFExoAJUoTJmFZI4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rFvS--yv0zV46gWcZFExoAJUoTJmFZI4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2232,16 +2194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TV3Cok-4xIWzag5UUTXLalGXC2EOxxq2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TV3Cok-4xIWzag5UUTXLalGXC2EOxxq2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2260,16 +2224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-YmSR9QSAIIaVoJkSYFAqotPPxJAzU8e=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-YmSR9QSAIIaVoJkSYFAqotPPxJAzU8e=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2288,16 +2254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HqhKQGhB5hpydNT7InDRyR6eQ8D2FcRq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HqhKQGhB5hpydNT7InDRyR6eQ8D2FcRq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2316,16 +2284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12SLrSZPQw-4ix05CKcO5y4RcBa08-lMG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12SLrSZPQw-4ix05CKcO5y4RcBa08-lMG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2344,16 +2314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-Ht8J-A7rzgdE3r7kOiNohf-9WfMqOEQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-Ht8J-A7rzgdE3r7kOiNohf-9WfMqOEQ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2372,16 +2344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Jyd4uYz9Uw0dS0Om10vMNpN1R_9fe662=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Jyd4uYz9Uw0dS0Om10vMNpN1R_9fe662=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2400,16 +2374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GYOGCuGUu-Vhapupv-bo9WwYFS2fFlkX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GYOGCuGUu-Vhapupv-bo9WwYFS2fFlkX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2428,16 +2404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vUIlw2VGNF7jIPWtkfAOtHP_neNx2YQ5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vUIlw2VGNF7jIPWtkfAOtHP_neNx2YQ5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2456,16 +2434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13Sn_1uLCx0-FENd7KNmUeqHv112Zmf9B=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13Sn_1uLCx0-FENd7KNmUeqHv112Zmf9B=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2484,16 +2464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cGqPDDbbnSLQuvpJ1OeCtA1DJA0XL-Cm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cGqPDDbbnSLQuvpJ1OeCtA1DJA0XL-Cm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2512,16 +2494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eRzPhaUJ3T1oMtnc2RC_-xjCVsNI3pJv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eRzPhaUJ3T1oMtnc2RC_-xjCVsNI3pJv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2540,16 +2524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-ER0WwOQx633secvpIH5_NYChabGRPUX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-ER0WwOQx633secvpIH5_NYChabGRPUX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2568,16 +2554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1w51zP2EpkfN5CmBXAK2fQZlmE9S7DuA0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1w51zP2EpkfN5CmBXAK2fQZlmE9S7DuA0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2596,16 +2584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14aQgymi56-lmaQ4sgfa1DNRLO-MypnYj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14aQgymi56-lmaQ4sgfa1DNRLO-MypnYj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2624,16 +2614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yNCBQn2BrnGJwbIENwk_rr-xVXZm3TzS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yNCBQn2BrnGJwbIENwk_rr-xVXZm3TzS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2652,16 +2644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PcootyX7X-6ISq73tu6F1D6TLbLITPjj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PcootyX7X-6ISq73tu6F1D6TLbLITPjj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2680,16 +2674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19WAhfavBu97ybz1S_i4f1Mjl00uofWxB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19WAhfavBu97ybz1S_i4f1Mjl00uofWxB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2708,16 +2704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CqRsdozbWujeulPJUvye13uF3jtwXsNJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CqRsdozbWujeulPJUvye13uF3jtwXsNJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2736,16 +2734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MKMl0prbeI-rqmz38OjzGM5xwIIqZDZT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MKMl0prbeI-rqmz38OjzGM5xwIIqZDZT=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2764,16 +2764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vUwy7Nq0Q_T7dHBbU7J_C2_CcmP_9YtE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vUwy7Nq0Q_T7dHBbU7J_C2_CcmP_9YtE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2792,16 +2794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_IPBJRSJuswQw6Ny9fFo4zfDrFt3cN8a=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_IPBJRSJuswQw6Ny9fFo4zfDrFt3cN8a=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2820,16 +2824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1e_78cdeyfupcqutb6gYQ0VYEaPliQif1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1e_78cdeyfupcqutb6gYQ0VYEaPliQif1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2848,16 +2854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1naYnqqkxllVeCFpDDRA-ENYiQ5fARczt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1naYnqqkxllVeCFpDDRA-ENYiQ5fARczt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2876,16 +2884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ptghsayw0KPb0Qu9EgC58-pa1dZdPD2K=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ptghsayw0KPb0Qu9EgC58-pa1dZdPD2K=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2904,16 +2914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14oMQ3WJJZZne-mtD-TvSEId0QHHUulKr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14oMQ3WJJZZne-mtD-TvSEId0QHHUulKr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2932,16 +2944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DntOJ1Sjfjm8QJiT_gA9r_2_5xQ9ve5X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DntOJ1Sjfjm8QJiT_gA9r_2_5xQ9ve5X=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2960,16 +2974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Q0r_4cJi_Q0xgDttmNpuIlQ6hG8dLIGd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Q0r_4cJi_Q0xgDttmNpuIlQ6hG8dLIGd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -2988,16 +3004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bdiTonRtaF54YE5XWLEadzLu2yxM9VRb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bdiTonRtaF54YE5XWLEadzLu2yxM9VRb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3016,16 +3034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vPjJLuJWaj0xmRfOdQHuDrO2W-BTv3iY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vPjJLuJWaj0xmRfOdQHuDrO2W-BTv3iY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3044,16 +3064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WGXoTEsoEnkNLlohiwbOSSX_OFcLaBUx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WGXoTEsoEnkNLlohiwbOSSX_OFcLaBUx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3072,16 +3094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IB15rWBLweqVm4RLyvcwuWXtXP_03rEM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IB15rWBLweqVm4RLyvcwuWXtXP_03rEM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3100,16 +3124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EK8SWVE8N3zxm9LaBUkLAcKsqTkGPaNk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EK8SWVE8N3zxm9LaBUkLAcKsqTkGPaNk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3128,16 +3154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aaUnYgJrWdLCQujBpdXnnVP6zai-PjO0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aaUnYgJrWdLCQujBpdXnnVP6zai-PjO0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3156,16 +3184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uWlG3afftdUnUvyAku541u49PmlSbOHP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uWlG3afftdUnUvyAku541u49PmlSbOHP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3184,16 +3214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MS1KjnETMGz4oeHoTQpas52oWIBwqsp0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MS1KjnETMGz4oeHoTQpas52oWIBwqsp0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3212,16 +3244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eVU-6VeCubw6UkAp4EgGcI0-15Avrb_L=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eVU-6VeCubw6UkAp4EgGcI0-15Avrb_L=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3240,16 +3274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1650ozl9Cemd7yc0bxSodpa2qKN1y5nyE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1650ozl9Cemd7yc0bxSodpa2qKN1y5nyE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3268,16 +3304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1V1jYXTul1MuvXluDopAfemRErTxHW_wB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V1jYXTul1MuvXluDopAfemRErTxHW_wB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3296,16 +3334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17WYHFdYZWEYHjilhG1m8YSFyjT9uNT_R=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17WYHFdYZWEYHjilhG1m8YSFyjT9uNT_R=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3324,16 +3364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zGa8YlvTSR1WkY3VS8IQ-f2OhDer5Lk4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zGa8YlvTSR1WkY3VS8IQ-f2OhDer5Lk4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3352,16 +3394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1u8RKvONInOeclz5bLUTcERsXqgWeZPrP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1u8RKvONInOeclz5bLUTcERsXqgWeZPrP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3380,16 +3424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SjP0baqFBgzdaQi9ivvtwGuGXflyf3YO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SjP0baqFBgzdaQi9ivvtwGuGXflyf3YO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3408,16 +3454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iDcOkx1Oo4iWGUJQFz3mn65lEJY9QdSP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iDcOkx1Oo4iWGUJQFz3mn65lEJY9QdSP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3436,16 +3484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SbN9rqAGnNiqsxBgeV_u61do6VIYnc-4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SbN9rqAGnNiqsxBgeV_u61do6VIYnc-4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3464,16 +3514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1v6Huy2PmNegn9k_fa2LIPrXRQ9kbrLTx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1v6Huy2PmNegn9k_fa2LIPrXRQ9kbrLTx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3492,16 +3544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vWayvJ_1LieCvXhnR7jKQcdpNcYQO6rf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vWayvJ_1LieCvXhnR7jKQcdpNcYQO6rf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3520,16 +3574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Twkk53bq7KuZy32wqCZLCEzfv5mpBiTS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Twkk53bq7KuZy32wqCZLCEzfv5mpBiTS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3548,16 +3604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iLVHJ9vAPYuaxjHLCqgqzQ8VLHmWtIHo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iLVHJ9vAPYuaxjHLCqgqzQ8VLHmWtIHo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3576,16 +3634,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FrCy9joaK400tnoLhne9Z2UNh4WdigE-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FrCy9joaK400tnoLhne9Z2UNh4WdigE-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3604,16 +3664,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1X7Eny_QQNBG0-1b7GmS78Y5DDaFoJwNu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X7Eny_QQNBG0-1b7GmS78Y5DDaFoJwNu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3632,16 +3694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QRJci2FRLrfh5uZlkm4C6OMSdtbvB_Li=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QRJci2FRLrfh5uZlkm4C6OMSdtbvB_Li=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3660,16 +3724,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z6T3nGbSYIZxYp-HX8oUpewW08TmSLTe=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Z6T3nGbSYIZxYp-HX8oUpewW08TmSLTe=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3688,16 +3754,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1W9jXZMpqfzdKg9oIIRJ6RxaEH06jAoV1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1W9jXZMpqfzdKg9oIIRJ6RxaEH06jAoV1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3716,16 +3784,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HIcZd4UX4_n-nEXrXbIJCvezIROC6r72=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HIcZd4UX4_n-nEXrXbIJCvezIROC6r72=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3744,16 +3814,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FSPBT8rCLZ_h9SRuvPp2AQLsC5bHcmMp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FSPBT8rCLZ_h9SRuvPp2AQLsC5bHcmMp=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3772,16 +3844,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1W0Vlpj3xCz05QMkPhkUnAGNMh-rdUZuW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1W0Vlpj3xCz05QMkPhkUnAGNMh-rdUZuW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3800,16 +3874,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kgdqKSuCarMyaM4cyUie1IM1zbU9xyoV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kgdqKSuCarMyaM4cyUie1IM1zbU9xyoV=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3828,16 +3904,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15fIAA0FtLG14Etq6dU2WIcLAFYnnOm3Q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15fIAA0FtLG14Etq6dU2WIcLAFYnnOm3Q=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3856,16 +3934,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/181i2qcF9itFQgJRbKavZx_lyhQ8upi6X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/181i2qcF9itFQgJRbKavZx_lyhQ8upi6X=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3884,16 +3964,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nUAwhVnoGcAerNqyEWAlgTGAQCOO6No2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nUAwhVnoGcAerNqyEWAlgTGAQCOO6No2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3912,16 +3994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1O3inDZjmK6QvatNw4VG-ihoXX04x4cja=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O3inDZjmK6QvatNw4VG-ihoXX04x4cja=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3940,16 +4024,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1z88a5z7p2ZEu-RbdarXuwdtxXF0CrnQG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1z88a5z7p2ZEu-RbdarXuwdtxXF0CrnQG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3968,16 +4054,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iNGqvo_NYOcHF3lQpp04G7EbpJq9kQf7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iNGqvo_NYOcHF3lQpp04G7EbpJq9kQf7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -3996,16 +4084,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ew1zx7GEr97af7ePYZgNAe-z20QesReS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ew1zx7GEr97af7ePYZgNAe-z20QesReS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4024,16 +4114,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LT43A8YuXoLSL4-6RwpiqBNeLy7ptag1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LT43A8YuXoLSL4-6RwpiqBNeLy7ptag1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4052,16 +4144,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FLtUykaEM0ualduNCssxSWDh_BnxuLWo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FLtUykaEM0ualduNCssxSWDh_BnxuLWo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4080,16 +4174,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aHqLi3CKa3MFeI_OgbHPA8oi1QyzNjr0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aHqLi3CKa3MFeI_OgbHPA8oi1QyzNjr0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4108,16 +4204,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_TfL5glimrG9RbomdUbrQS0EdhY7ZaSX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_TfL5glimrG9RbomdUbrQS0EdhY7ZaSX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4136,16 +4234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VMUPEKZ0zkM3NXPr4cUVED8NAGPzYbmg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VMUPEKZ0zkM3NXPr4cUVED8NAGPzYbmg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4164,16 +4264,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18quY_lp7wAs7gkpwSFI_DsCRQblzkAgW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18quY_lp7wAs7gkpwSFI_DsCRQblzkAgW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4192,16 +4294,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HBeVq-LDGdgEZTQV_VcjIcTRcooH1ZQ4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HBeVq-LDGdgEZTQV_VcjIcTRcooH1ZQ4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4220,16 +4324,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UuaDclrjJbBqcnE96TWUsch-DaKi8RaV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UuaDclrjJbBqcnE96TWUsch-DaKi8RaV=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4248,16 +4354,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19x7v-3gfFB-b1gVrMt5aRECpR7mi2mvu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19x7v-3gfFB-b1gVrMt5aRECpR7mi2mvu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4276,16 +4384,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1qZaMCXf_b3t_JbXNUmEvwIjncbWz2O4g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qZaMCXf_b3t_JbXNUmEvwIjncbWz2O4g=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4304,16 +4414,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1shXHkCGFHbA8-zbtdMm4rn5Q6JsGbKgF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1shXHkCGFHbA8-zbtdMm4rn5Q6JsGbKgF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4332,16 +4444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_7CZ9wm7Re7TNf8HSVrm2my1Qu1TP1FO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_7CZ9wm7Re7TNf8HSVrm2my1Qu1TP1FO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4360,16 +4474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TXE4PiszjiuVxWVJAuElrGCSk_nfjGhF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TXE4PiszjiuVxWVJAuElrGCSk_nfjGhF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4388,16 +4504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LWei3vFxUYoeWRaPy10N6g_FV54IWiqV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LWei3vFxUYoeWRaPy10N6g_FV54IWiqV=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4416,16 +4534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yKOKOzU77Ymgf57MTVMcgABr37ab1tOb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yKOKOzU77Ymgf57MTVMcgABr37ab1tOb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4444,16 +4564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AdztIRPZ1_qzoYSBvoHX1nrqsEPgMvTd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AdztIRPZ1_qzoYSBvoHX1nrqsEPgMvTd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4472,16 +4594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1u15k8qji3mp4W3XSN7GaS13yBpeJ6Qb7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1u15k8qji3mp4W3XSN7GaS13yBpeJ6Qb7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4500,16 +4624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ot7iVTH6rPQzZWxYgj4tYIbq3LNfMped=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ot7iVTH6rPQzZWxYgj4tYIbq3LNfMped=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4528,16 +4654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10EVbG8x4KbBK7sbEZ6-yKs9XJH6re1br=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10EVbG8x4KbBK7sbEZ6-yKs9XJH6re1br=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4556,16 +4684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zYX1QatGLUVw9o8tXmofg6linreHm9jJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zYX1QatGLUVw9o8tXmofg6linreHm9jJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4584,16 +4714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1A3ub9f1PPuhTGSl9iFxpmfsL93TJQrRl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1A3ub9f1PPuhTGSl9iFxpmfsL93TJQrRl=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4612,16 +4744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MTFFb2YNv-N0soOPVnOVDigMt0oSHbvp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MTFFb2YNv-N0soOPVnOVDigMt0oSHbvp=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4640,16 +4774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EYNwMgJ5RoJmP69yC3WCsrr_Mxb3qrdg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EYNwMgJ5RoJmP69yC3WCsrr_Mxb3qrdg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4668,16 +4804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SiIluikhFF4zdz4iS77ursQqeYV4nuq8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SiIluikhFF4zdz4iS77ursQqeYV4nuq8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4696,16 +4834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tXw1x-daqfaSEmk9VGHgNFcVr8otIsVj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tXw1x-daqfaSEmk9VGHgNFcVr8otIsVj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4724,16 +4864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dfBMkzIfBKgR0CyWiNz4wPHxfucoLHJs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dfBMkzIfBKgR0CyWiNz4wPHxfucoLHJs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4752,16 +4894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xHyYXE_KBrrRIVpHfx2whOxijefIuHd_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xHyYXE_KBrrRIVpHfx2whOxijefIuHd_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4780,16 +4924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1T4QiSUfxiXdFw45sIxwXU1SsUTx8-j4v=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1T4QiSUfxiXdFw45sIxwXU1SsUTx8-j4v=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4808,16 +4954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UVe3aPFPkHPnG9pgSJx7P8YDgXILHdps=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UVe3aPFPkHPnG9pgSJx7P8YDgXILHdps=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4836,16 +4984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ycg6kKly70LV9utFW0M5B-sLxINeritH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ycg6kKly70LV9utFW0M5B-sLxINeritH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4864,16 +5014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AIHhQHzTC4pQ5dhVyXKynYSWk1WMTL8d=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AIHhQHzTC4pQ5dhVyXKynYSWk1WMTL8d=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4892,16 +5044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1I-5Kuw5DxSiBrdHZs9tGUT34lB69RFZ4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1I-5Kuw5DxSiBrdHZs9tGUT34lB69RFZ4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4920,16 +5074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1l5BEzNwjFI8mhxfN5AeLOkLaFzTCy4mS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1l5BEzNwjFI8mhxfN5AeLOkLaFzTCy4mS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4948,16 +5104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LMYalrzQYBwzz17Aj8UCoNTxjfxg5B9O=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LMYalrzQYBwzz17Aj8UCoNTxjfxg5B9O=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -4976,16 +5134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1i5_okSx0FAXVeTRf1C2AtbzrFY2QCKfw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1i5_okSx0FAXVeTRf1C2AtbzrFY2QCKfw=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5004,16 +5164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MknZGQHpogb5xhLBCeEBxo4iBCTC2zD3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MknZGQHpogb5xhLBCeEBxo4iBCTC2zD3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5032,16 +5194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1o9O6fk4YOC-6uynjL1RU5Pn_dWIOYqUa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1o9O6fk4YOC-6uynjL1RU5Pn_dWIOYqUa=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5060,16 +5224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13m6M7E_AgCeIcwhyhhTw9fKVboddGOa7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13m6M7E_AgCeIcwhyhhTw9fKVboddGOa7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5088,16 +5254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_nS00mvrVFsG2DAuXeJhk3079YNh0-Sd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_nS00mvrVFsG2DAuXeJhk3079YNh0-Sd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5116,16 +5284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1K4PiogkOD1HL4GbTEZdCX_LuTDmE_Lkt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1K4PiogkOD1HL4GbTEZdCX_LuTDmE_Lkt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5144,16 +5314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GqqV8oq9STbvSiXByO-3QDL9gVEpmwmD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GqqV8oq9STbvSiXByO-3QDL9gVEpmwmD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5172,16 +5344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-sfCFPM3bcMwQXyOVOXoeD6iZQeiptLq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-sfCFPM3bcMwQXyOVOXoeD6iZQeiptLq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5200,16 +5374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UKT8h1I10xhkYwsEJM2CN56S1NX7Q2OM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UKT8h1I10xhkYwsEJM2CN56S1NX7Q2OM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5228,16 +5404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ll6CFABqfbBS-nLtZUZf2tXYXyKHvyxl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ll6CFABqfbBS-nLtZUZf2tXYXyKHvyxl=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5256,16 +5434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AZKQ3FLceqq222DB7jvv8fP0DkjizQKY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AZKQ3FLceqq222DB7jvv8fP0DkjizQKY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5284,16 +5464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1l_inx1Inikm1oJUYYRA7d3ckVoBm7eWj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1l_inx1Inikm1oJUYYRA7d3ckVoBm7eWj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5312,16 +5494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-enl71HjHrFhdeL3LH_gVrqfY53Ou9y6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-enl71HjHrFhdeL3LH_gVrqfY53Ou9y6=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5340,16 +5524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Eg4NTT-rUWqoQcZq1q6xyu9qPb5w7t4q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Eg4NTT-rUWqoQcZq1q6xyu9qPb5w7t4q=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5368,16 +5554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WWD_coLvpE-tly4zQvnAa1QvV74WJIzM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WWD_coLvpE-tly4zQvnAa1QvV74WJIzM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5396,16 +5584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18O8bPjMviCb75dCblBSC96QoyIjjsipY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18O8bPjMviCb75dCblBSC96QoyIjjsipY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5424,16 +5614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1J3K8l3J2iGYIQiQ5EfLA3Ui2FPi27aGL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1J3K8l3J2iGYIQiQ5EfLA3Ui2FPi27aGL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5452,16 +5644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1325Qd4pUR8HbepuMWeKtV0ayG_yT3Mj1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1325Qd4pUR8HbepuMWeKtV0ayG_yT3Mj1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5480,16 +5674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jbKoRcKaxCJZkNFP9Pw70WDh1BRlNTR9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jbKoRcKaxCJZkNFP9Pw70WDh1BRlNTR9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5508,16 +5704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VAKpzHMWsv5ACVtUITuHRsKW0j7Yk8tA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VAKpzHMWsv5ACVtUITuHRsKW0j7Yk8tA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5536,16 +5734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IRKROWGL17nAS4vXjdNtdaKkvQgjDFSk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IRKROWGL17nAS4vXjdNtdaKkvQgjDFSk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5564,16 +5764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AyGAzOEu56ITXbX2IpNqPw3CxatSWd95=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AyGAzOEu56ITXbX2IpNqPw3CxatSWd95=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5592,16 +5794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1V8gMuhqjTT2QWOGGooy3myTLkqiYN5Lw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V8gMuhqjTT2QWOGGooy3myTLkqiYN5Lw=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5620,16 +5824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1g0wMplu0uqAQbR79bknNAFQiP8k-DKKP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g0wMplu0uqAQbR79bknNAFQiP8k-DKKP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5648,16 +5854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19lNtzV8SrwBhAFZy8o_u8oMwyC020ZN_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19lNtzV8SrwBhAFZy8o_u8oMwyC020ZN_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5676,16 +5884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fqoacgNsPz3fUSmCGymoNVJ3wRfWcayO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fqoacgNsPz3fUSmCGymoNVJ3wRfWcayO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5704,16 +5914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eKqbmveL0uFdoEW1mD9dak43KPFUhAHf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eKqbmveL0uFdoEW1mD9dak43KPFUhAHf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5732,16 +5944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15_dw4tf0a-zyTp6RbnfX7vyRd_L1ynQB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15_dw4tf0a-zyTp6RbnfX7vyRd_L1ynQB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5760,16 +5974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1urQV2O1oLCovsCSpLScuBII8JHETBpjC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1urQV2O1oLCovsCSpLScuBII8JHETBpjC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5788,16 +6004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1t8NmmllxQ-6d4TVzMc2PfgBcZDuF0MUr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1t8NmmllxQ-6d4TVzMc2PfgBcZDuF0MUr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5816,16 +6034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1G-eVFRKWsNokxFVPb0yfpt5Vl2OZu8nY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1G-eVFRKWsNokxFVPb0yfpt5Vl2OZu8nY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5844,16 +6064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1D_ESWMRUkLdJucHkrU4JcTHPG8qBouIn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1D_ESWMRUkLdJucHkrU4JcTHPG8qBouIn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5872,16 +6094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1loN9oNc9mSAcjUp5jsoEVN7wxNKr_ikN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1loN9oNc9mSAcjUp5jsoEVN7wxNKr_ikN=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5900,16 +6124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HFYA7dbV6t6UmROCgAL2PYSTqrcy73Tm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HFYA7dbV6t6UmROCgAL2PYSTqrcy73Tm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5928,16 +6154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1evbgZxB6Z9m-DpCZVvrddW45ZRLaWDgj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1evbgZxB6Z9m-DpCZVvrddW45ZRLaWDgj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5956,16 +6184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tLFpDm8nezPa_dMLcNMWDwju4hxnJZ5u=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tLFpDm8nezPa_dMLcNMWDwju4hxnJZ5u=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -5984,16 +6214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rl7yDO5JvNk_Oc8pBEyNnlHrlPpdfc8g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rl7yDO5JvNk_Oc8pBEyNnlHrlPpdfc8g=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6012,16 +6244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1J4_NT1HZzoPwjVyfjYrBJwuGEocp07DW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1J4_NT1HZzoPwjVyfjYrBJwuGEocp07DW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6040,16 +6274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-5tZvhPR2mt6z2VDLqGOBDcHoaikUXH9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-5tZvhPR2mt6z2VDLqGOBDcHoaikUXH9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6068,16 +6304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OHr-T2CTNf5g4FIzxSIP9N7WLTBd9ibZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OHr-T2CTNf5g4FIzxSIP9N7WLTBd9ibZ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6096,16 +6334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WUoQSBkYWm3tOmrj85EKo-oku4ueJGQj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WUoQSBkYWm3tOmrj85EKo-oku4ueJGQj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6124,16 +6364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1X80tf54Gej11aXyH5sXUjwkjdNqqgrd4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X80tf54Gej11aXyH5sXUjwkjdNqqgrd4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6152,16 +6394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kDhxU1_4ZXQC23rXyljacOYFBtV5ZYjs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kDhxU1_4ZXQC23rXyljacOYFBtV5ZYjs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6180,16 +6424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fBLYTPMX8OegIdgfr4qr-vP2QRia2gYD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fBLYTPMX8OegIdgfr4qr-vP2QRia2gYD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6208,16 +6454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12bR4P3ZXDwZhds_yLE1ANK2oLsKoriMl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12bR4P3ZXDwZhds_yLE1ANK2oLsKoriMl=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6236,16 +6484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PmXKBCMNxs-ZFxv3PXMGEl74-AfKtFJs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PmXKBCMNxs-ZFxv3PXMGEl74-AfKtFJs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6264,16 +6514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1A63Ny_fZnXZZ2m4lFmh-K1-nbeT6GZbg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1A63Ny_fZnXZZ2m4lFmh-K1-nbeT6GZbg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6292,16 +6544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19t3K1YQioF7bRzbrMsXYAr08on8H4UxL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19t3K1YQioF7bRzbrMsXYAr08on8H4UxL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6320,16 +6574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MKNKSjrhzsWqwL0KPwgCrYffxmI838X6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MKNKSjrhzsWqwL0KPwgCrYffxmI838X6=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6348,16 +6604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TxjcmU_YjKdJoS-gTV0VDyNvSo0O_IM0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TxjcmU_YjKdJoS-gTV0VDyNvSo0O_IM0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6376,16 +6634,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IQvNhbo3skZmQlUybu-auG--HkXfSlFD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IQvNhbo3skZmQlUybu-auG--HkXfSlFD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6404,16 +6664,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10SB06rbmK0KC-ctCq7oCSixt2Kkb9w-q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10SB06rbmK0KC-ctCq7oCSixt2Kkb9w-q=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6432,16 +6694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1r3DThHNanixcJLxwZyx_I8_tQjviHvFb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1r3DThHNanixcJLxwZyx_I8_tQjviHvFb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6460,16 +6724,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DngS2bs6ZE7RVID7MTU2Ubt5QwvKB05n=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DngS2bs6ZE7RVID7MTU2Ubt5QwvKB05n=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6488,16 +6754,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1h_h6avHGzM_6VrNzX79Kk2WQCwum_dJF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1h_h6avHGzM_6VrNzX79Kk2WQCwum_dJF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6516,16 +6784,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FgBe1_xWYAAq5RCgbLiTpqwWq9DJGmMG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FgBe1_xWYAAq5RCgbLiTpqwWq9DJGmMG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6544,16 +6814,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JqEw7GevNUkM8NVWW1mcuKfE9yVZUiCy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JqEw7GevNUkM8NVWW1mcuKfE9yVZUiCy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6572,16 +6844,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tbO5XEiAH2UcGjNQOnrNX0cRb6eyMR9Q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tbO5XEiAH2UcGjNQOnrNX0cRb6eyMR9Q=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6600,16 +6874,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RoWWu7cgN4f3EFLV5IFqXkJ8S2Y769Gx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RoWWu7cgN4f3EFLV5IFqXkJ8S2Y769Gx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6628,16 +6904,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10_Mf3gwy-kOsDB2Ty8EBiM9L7C8pvOP-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10_Mf3gwy-kOsDB2Ty8EBiM9L7C8pvOP-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6656,16 +6934,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Rsgb83DwAXJzFE0jjNg-vFuZiIRC_WI6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Rsgb83DwAXJzFE0jjNg-vFuZiIRC_WI6=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6684,16 +6964,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_F-mrLxNg5epfxvwuaPYupNfurO4RKgK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_F-mrLxNg5epfxvwuaPYupNfurO4RKgK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6712,16 +6994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/115uQPlqqNKkLvzKCADRbRKEIXPXvPGLW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/115uQPlqqNKkLvzKCADRbRKEIXPXvPGLW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6740,16 +7024,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1izTROMjxdz1-0DvJx_QabPYhryGygrQy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1izTROMjxdz1-0DvJx_QabPYhryGygrQy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6768,16 +7054,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dziZAmKDdSu9q6Rhh9qSE5ymsHHUb-3n=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dziZAmKDdSu9q6Rhh9qSE5ymsHHUb-3n=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6796,16 +7084,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1H4eSLRUfoNuxfU2ScQZuWXqRpAAkVNw-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1H4eSLRUfoNuxfU2ScQZuWXqRpAAkVNw-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6824,16 +7114,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ksBBq8m47YkpmKkbeGTVPTUPARw2NE1s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ksBBq8m47YkpmKkbeGTVPTUPARw2NE1s=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6852,16 +7144,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16aMtUOapsUf8Emtf0Ry6mc3xrI8rGWN5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16aMtUOapsUf8Emtf0Ry6mc3xrI8rGWN5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6880,16 +7174,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SkGcfDNtTlnjs6jnF-gcskM_3yJMbaTU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SkGcfDNtTlnjs6jnF-gcskM_3yJMbaTU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6908,16 +7204,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NRHcgxDPCqnC_TcnqG8EUbPAn2fCUe-9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NRHcgxDPCqnC_TcnqG8EUbPAn2fCUe-9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6936,16 +7234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1agrILK7YYj_iQ1pt2V1Csa-HMDE6Qle8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1agrILK7YYj_iQ1pt2V1Csa-HMDE6Qle8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6964,16 +7264,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cB9w5Pipal-ecsqjAUcYXpwH8p8QPSWf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cB9w5Pipal-ecsqjAUcYXpwH8p8QPSWf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -6992,16 +7294,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12Bis_AUDv3_pu1-BCDhGZrnrultiwCwP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12Bis_AUDv3_pu1-BCDhGZrnrultiwCwP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7020,16 +7324,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vLiK5E7xBFW4nK85nGy3Cdw4caRJ-AIu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vLiK5E7xBFW4nK85nGy3Cdw4caRJ-AIu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7048,16 +7354,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SP7EQWKcEtKMt0hDGxrwNEjq7ahUgp6b=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SP7EQWKcEtKMt0hDGxrwNEjq7ahUgp6b=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7076,16 +7384,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vjOpRW2iXrboCdgG5_zhnZQFDflHuBE3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vjOpRW2iXrboCdgG5_zhnZQFDflHuBE3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7104,16 +7414,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NAhWa0PzZ5O6ajyp1bZJcufTmS-gZIhK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NAhWa0PzZ5O6ajyp1bZJcufTmS-gZIhK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7132,16 +7444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19Iyf_2Uwci8imV5V1MDRD8KXT0MLwj7H=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19Iyf_2Uwci8imV5V1MDRD8KXT0MLwj7H=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7160,16 +7474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jtY5SxT8qsTYtleds4By-vHge0k7b8Kh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jtY5SxT8qsTYtleds4By-vHge0k7b8Kh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7188,16 +7504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/182b9ZhRoNZlYQctBFdCfV_ICoDe4Qtlm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/182b9ZhRoNZlYQctBFdCfV_ICoDe4Qtlm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7216,16 +7534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Vp48UMLPBwF-OqUwIp8io4aTq9-BW8rW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vp48UMLPBwF-OqUwIp8io4aTq9-BW8rW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7244,16 +7564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ye-0dhfp4W3Z3cJPPN2y08mN-GqM-SA_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ye-0dhfp4W3Z3cJPPN2y08mN-GqM-SA_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7272,16 +7594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1flaSjUp_z6VK-C8vt_wgJPQOebPDsfaY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1flaSjUp_z6VK-C8vt_wgJPQOebPDsfaY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7300,16 +7624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wHSO8s6hN_5KNYa_sghAm4OwMrjEquzg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wHSO8s6hN_5KNYa_sghAm4OwMrjEquzg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7328,16 +7654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hdvlaukBfSSWphmqC1KtzXgDAztxWn7J=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hdvlaukBfSSWphmqC1KtzXgDAztxWn7J=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7356,16 +7684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17zGL-qVcTLrrHbMbjUsfNCzoTWaforKn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17zGL-qVcTLrrHbMbjUsfNCzoTWaforKn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7384,16 +7714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1o7NjifpEY3HqBJ74LHcmpHq8BvVFABUh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1o7NjifpEY3HqBJ74LHcmpHq8BvVFABUh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7412,16 +7744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b9Rw9oUx95fj98FDqH-9k6PJcgimJJgK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1b9Rw9oUx95fj98FDqH-9k6PJcgimJJgK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7440,16 +7774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HQLRcQn_6t-AdzoQOoBuSLtSGO1cZfo3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HQLRcQn_6t-AdzoQOoBuSLtSGO1cZfo3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7468,16 +7804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1C00ls6Y9RMIfgumZA8gxf4-EgnhAgefO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1C00ls6Y9RMIfgumZA8gxf4-EgnhAgefO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7496,16 +7834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fIpqjLquaMsBgXG_x1A_CNG8eFphd4Yq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fIpqjLquaMsBgXG_x1A_CNG8eFphd4Yq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7524,16 +7864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1e-f3LOLeSZek4AyteNdiwNZYMw2axMxa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1e-f3LOLeSZek4AyteNdiwNZYMw2axMxa=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7552,16 +7894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wPmkVzyEomqknN3vW16gaoZuOT-yC_2Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wPmkVzyEomqknN3vW16gaoZuOT-yC_2Z=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7580,16 +7924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gD2kAQz8TQ_vGiqA2BKiEhzZgb7uXpsW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gD2kAQz8TQ_vGiqA2BKiEhzZgb7uXpsW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7608,16 +7954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1n7Na8dXvI4VjqLJLNKckvibqg-jrcWhk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1n7Na8dXvI4VjqLJLNKckvibqg-jrcWhk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7636,16 +7984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1N2ePDel8YQ60bqr6p3wImq2Ut0pdOBcO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N2ePDel8YQ60bqr6p3wImq2Ut0pdOBcO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7664,16 +8014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sRle8kiR2rEbEDoxXLO7zpDig41k640g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sRle8kiR2rEbEDoxXLO7zpDig41k640g=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7692,16 +8044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fecfEGKoMtal2xDt38cx2g7NQN_gDWWO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fecfEGKoMtal2xDt38cx2g7NQN_gDWWO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7720,16 +8074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JtXyaVl0P-4PP6IgL6n3mzfZmhiVO0sk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JtXyaVl0P-4PP6IgL6n3mzfZmhiVO0sk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7748,16 +8104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RERLkX86tU0SjJGzwG1cVXuncM2P_cn9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RERLkX86tU0SjJGzwG1cVXuncM2P_cn9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7776,16 +8134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13eR1bGfL3oLIMBrh7XRz_m8mgtuneWzP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13eR1bGfL3oLIMBrh7XRz_m8mgtuneWzP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7804,16 +8164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1j1jV_E6gxQ_LewdlCj7163Bq1vrUKjIo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1j1jV_E6gxQ_LewdlCj7163Bq1vrUKjIo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7832,16 +8194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OoUKvtZVSkFoYNY3nqC1GmTc_E0Mlc4f=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OoUKvtZVSkFoYNY3nqC1GmTc_E0Mlc4f=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7860,16 +8224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CO9wkvmw220ulVAoh1uYRXT1mLf2vJxU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CO9wkvmw220ulVAoh1uYRXT1mLf2vJxU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7888,16 +8254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DOv9a0QKbYQLWWLEFBqegFbL73uemPRA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DOv9a0QKbYQLWWLEFBqegFbL73uemPRA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7916,16 +8284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MPvjVtA5_ToQcRo3rGo2j5sr_VfSZNo3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MPvjVtA5_ToQcRo3rGo2j5sr_VfSZNo3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7944,16 +8314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cTr0cICF2UxF7ppUhqoWxlHWC_MM3o7t=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cTr0cICF2UxF7ppUhqoWxlHWC_MM3o7t=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -7972,16 +8344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1btRQOqT09bNpBAsytBeOWf8crfCF3DrS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1btRQOqT09bNpBAsytBeOWf8crfCF3DrS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8000,16 +8374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16OYvcy7gUUbqVr7wDWyCs2YZx3yhSwh6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16OYvcy7gUUbqVr7wDWyCs2YZx3yhSwh6=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8028,16 +8404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1R0xQ5QiCq3lQ8mmN1pJjJ5Tm5MRjRHYG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1R0xQ5QiCq3lQ8mmN1pJjJ5Tm5MRjRHYG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8056,16 +8434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uTGATDSxRjUqdF5-_e_fnFC8GRj_xofn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uTGATDSxRjUqdF5-_e_fnFC8GRj_xofn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8084,16 +8464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1N6RKU_Y-s0iJcSZfpgZfdsY6760k2nBH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N6RKU_Y-s0iJcSZfpgZfdsY6760k2nBH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8112,16 +8494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TjhBBH5ap6csW5TyJZsUBlyb8Y-7jQEC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TjhBBH5ap6csW5TyJZsUBlyb8Y-7jQEC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8140,16 +8524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_-eeEJtbOZgyhki9wFV96lPUFNWtQ26W=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_-eeEJtbOZgyhki9wFV96lPUFNWtQ26W=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8168,16 +8554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ixQi9ELzwCvnUgjg_BSs47KVpWnG5YH5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ixQi9ELzwCvnUgjg_BSs47KVpWnG5YH5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8196,16 +8584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m0ViqfAFQKITTqfuL75TbOswcyHRe0bu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m0ViqfAFQKITTqfuL75TbOswcyHRe0bu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8224,16 +8614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m_lfuqwD5AHidjpDAewy3bHjYZHKmlJb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m_lfuqwD5AHidjpDAewy3bHjYZHKmlJb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8252,16 +8644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bg20H-gvA6RWR4w-Y6IDxP0IdBWe9da8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bg20H-gvA6RWR4w-Y6IDxP0IdBWe9da8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8280,16 +8674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17-O74RXY3jZ7CKWUcd4gFc6_6l43l-vi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17-O74RXY3jZ7CKWUcd4gFc6_6l43l-vi=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8308,16 +8704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vGFHsw8BBB9RB_KnaJI0Y8Vsj-kXgK2G=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vGFHsw8BBB9RB_KnaJI0Y8Vsj-kXgK2G=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8336,16 +8734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19ii0XGYlIkfscGCG9oqNZNncF8xPSjZR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19ii0XGYlIkfscGCG9oqNZNncF8xPSjZR=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8364,16 +8764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1h_98ycRjItVKsUPB1TPtf6CHTow9dpLU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1h_98ycRjItVKsUPB1TPtf6CHTow9dpLU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8392,16 +8794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19A7sLprpeQOXU-FOcCgYJb6Jj_-LDFBL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19A7sLprpeQOXU-FOcCgYJb6Jj_-LDFBL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8420,16 +8824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1beS4weTvp0wWSpzDMXZMoYWi_DjdG_AH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1beS4weTvp0wWSpzDMXZMoYWi_DjdG_AH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8448,16 +8854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jk_akdsRfV1bFuk9H_F7qJRgxKbymNmA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jk_akdsRfV1bFuk9H_F7qJRgxKbymNmA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8476,16 +8884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1X0doPvKuigHmbpZo-CBMd8-rzOSPtGNG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X0doPvKuigHmbpZo-CBMd8-rzOSPtGNG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8504,16 +8914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KxU8YUgR7EELOh-XfQolrVfMyHWyr7kJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KxU8YUgR7EELOh-XfQolrVfMyHWyr7kJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8532,16 +8944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BRVB6wMGg0Sh4Mqbg3XBf3TxQOSvX4mS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BRVB6wMGg0Sh4Mqbg3XBf3TxQOSvX4mS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8560,16 +8974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/176hcoQ9fVeYtcIVmyxEwTTxmyKoW7y3m=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/176hcoQ9fVeYtcIVmyxEwTTxmyKoW7y3m=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8588,16 +9004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GpnZu1t6DELocBVfVFB_0bf8L3UkZZL9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GpnZu1t6DELocBVfVFB_0bf8L3UkZZL9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8616,16 +9034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ky2swl8wyzHczilNrgZ0bSOzrgfZUIum=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ky2swl8wyzHczilNrgZ0bSOzrgfZUIum=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8644,16 +9064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1l72EM9bET15GyqpJpwjZAxBflrWGA0D5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1l72EM9bET15GyqpJpwjZAxBflrWGA0D5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8672,16 +9094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16_fcbmtnLGROwo2N0gSXMl95haEICdNz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16_fcbmtnLGROwo2N0gSXMl95haEICdNz=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8700,16 +9124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14yHnGnS0L7XrdbKrMO31v2hBiawNs_q4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14yHnGnS0L7XrdbKrMO31v2hBiawNs_q4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8728,16 +9154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kjBJSrcbFN-CF4oFwmjizKY-V84FolUE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kjBJSrcbFN-CF4oFwmjizKY-V84FolUE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8756,16 +9184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_kZz6LEErJ9X0pNAdEDfKp4j0NdMsdRn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_kZz6LEErJ9X0pNAdEDfKp4j0NdMsdRn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8784,16 +9214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lI6EL6tWoJNlEuV-ey37r_otUEOkVgSD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lI6EL6tWoJNlEuV-ey37r_otUEOkVgSD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8812,16 +9244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bVQRc33qfixR9ZxznFTGNWEmpahfMsXq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bVQRc33qfixR9ZxznFTGNWEmpahfMsXq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8840,16 +9274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BQS5MnNDYOvhru1mTEz42xxc5wjbpkQf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BQS5MnNDYOvhru1mTEz42xxc5wjbpkQf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8868,16 +9304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1O0CM-dg5cf7e-NzbOpLScES-zE6xr2Sv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O0CM-dg5cf7e-NzbOpLScES-zE6xr2Sv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8896,16 +9334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1p2mB8f_5sAibP1WDbc-E1yGuPzVlSLRU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1p2mB8f_5sAibP1WDbc-E1yGuPzVlSLRU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8924,16 +9364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ot7CJQ1nB4c5KtlMiRmhthn9uD0kLBnA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ot7CJQ1nB4c5KtlMiRmhthn9uD0kLBnA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8952,16 +9394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xWAqZAnyDsrJ-HTQyfo-zvS1L_mXDMI9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xWAqZAnyDsrJ-HTQyfo-zvS1L_mXDMI9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -8980,16 +9424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VuMOiOREy73LjHW9eDm-ZSLL7nV81mAf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VuMOiOREy73LjHW9eDm-ZSLL7nV81mAf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9008,16 +9454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CGenbG4XF8df3pWknLdFqKJxD18JSLeA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CGenbG4XF8df3pWknLdFqKJxD18JSLeA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9036,16 +9484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xAK0we71v2rfR6QuKA42YUtCqLDWhC_M=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xAK0we71v2rfR6QuKA42YUtCqLDWhC_M=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9064,16 +9514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PEIq6uqncZgvlJPjg_H4s29fX3s11d_n=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PEIq6uqncZgvlJPjg_H4s29fX3s11d_n=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9092,16 +9544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1g443k96pl_e-L5yb0uExHIawX_hyNi0j=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g443k96pl_e-L5yb0uExHIawX_hyNi0j=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9120,16 +9574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16woUWcdai6xGq_vdVQfT8aItpilDt2Np=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16woUWcdai6xGq_vdVQfT8aItpilDt2Np=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9148,16 +9604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QAzD24Q2bsV-mdOkc2QyrfQMFLTeBkDz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QAzD24Q2bsV-mdOkc2QyrfQMFLTeBkDz=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9176,16 +9634,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wthfILt-_H-rsM8AlSjSl5sRnKu6NJ7W=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wthfILt-_H-rsM8AlSjSl5sRnKu6NJ7W=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9204,16 +9664,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lDCIAWOTFvJjbtqFHEbci8iuNeR7RwnF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lDCIAWOTFvJjbtqFHEbci8iuNeR7RwnF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9232,16 +9694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Rfpc0kOJI2yMH0TYN7iW04PHcq9zMCvq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Rfpc0kOJI2yMH0TYN7iW04PHcq9zMCvq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9260,16 +9724,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13dZzeS02Y56lhy9xxkvvvB8_2sdSJRZ9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13dZzeS02Y56lhy9xxkvvvB8_2sdSJRZ9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9288,16 +9754,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pzKLcT6ODGs2sM03ZOqEhR4zdKi3Bz-g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pzKLcT6ODGs2sM03ZOqEhR4zdKi3Bz-g=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9316,16 +9784,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14uOMmhd6X5ywUmv6fMmM03CknXJKyJ2X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14uOMmhd6X5ywUmv6fMmM03CknXJKyJ2X=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9344,16 +9814,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1llG-PH-VCMSZyxtdWcvPaOvgM4LrToyH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1llG-PH-VCMSZyxtdWcvPaOvgM4LrToyH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9372,16 +9844,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dNVVWrTcZl-KijjWgmVwbvEShuD5M39R=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dNVVWrTcZl-KijjWgmVwbvEShuD5M39R=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9400,16 +9874,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vxC-jdNgucXv5EMs7cRaB4uIuYIZrkvw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vxC-jdNgucXv5EMs7cRaB4uIuYIZrkvw=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9428,16 +9904,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RfStUBBMJcLzL1CNTkUvFpKDezba8A2V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RfStUBBMJcLzL1CNTkUvFpKDezba8A2V=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9456,16 +9934,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1f8S6uXs_JH_q2A3IwYN1PtC8F0QaqwSJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1f8S6uXs_JH_q2A3IwYN1PtC8F0QaqwSJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9484,16 +9964,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19LlbHbVLpR5wlMjAX1ASajuUZWNNXqFU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19LlbHbVLpR5wlMjAX1ASajuUZWNNXqFU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9512,16 +9994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/155P-qGbDAcdB-HmzDZBquVEGh5A_D1ER=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/155P-qGbDAcdB-HmzDZBquVEGh5A_D1ER=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9540,16 +10024,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cu-vkRHzXEQxz7MG1QcIKnL1IyUe3ELz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cu-vkRHzXEQxz7MG1QcIKnL1IyUe3ELz=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9568,16 +10054,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oXRxYTa3px46ca2Mqxz5VSlEArWuE4Qb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oXRxYTa3px46ca2Mqxz5VSlEArWuE4Qb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9596,16 +10084,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1snlv5-ENb6FCPvxCEPW8oZyFcM0gzSId=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1snlv5-ENb6FCPvxCEPW8oZyFcM0gzSId=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9624,16 +10114,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19YWr9fwK5iDpVneQmXnpgBb4FvmohMPK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19YWr9fwK5iDpVneQmXnpgBb4FvmohMPK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9652,16 +10144,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JoXe4rdS_Xn1T9tuxwzy0jwGovC9hODG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JoXe4rdS_Xn1T9tuxwzy0jwGovC9hODG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9680,16 +10174,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11tkydHoLS2UoKBDSqKsjn4hMgLRmL-6j=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11tkydHoLS2UoKBDSqKsjn4hMgLRmL-6j=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9708,16 +10204,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VOSaXHfSz_8MfoWvannf7HI-6_7Diuy5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VOSaXHfSz_8MfoWvannf7HI-6_7Diuy5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9736,16 +10234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wy2-d4wsnuSDfp0FrQKppnSSbOgGvoAI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wy2-d4wsnuSDfp0FrQKppnSSbOgGvoAI=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9764,16 +10264,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EA3cWzvjoxSpj_2X116QR5HgP8hToK6V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EA3cWzvjoxSpj_2X116QR5HgP8hToK6V=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9792,16 +10294,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1YgycrSWX7L4Nq1LbpWse_6qhNR_R8qRa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1YgycrSWX7L4Nq1LbpWse_6qhNR_R8qRa=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9820,16 +10324,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LjvThEzw9wwKGCSGqCCIVY96XS_U8VVy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LjvThEzw9wwKGCSGqCCIVY96XS_U8VVy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9848,16 +10354,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hoyWWRF04JZJjwrlzdklP23iO5mzLtxC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hoyWWRF04JZJjwrlzdklP23iO5mzLtxC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9876,16 +10384,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nm0b9FHutxwS8T208iT9f_buc-n9fKxs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nm0b9FHutxwS8T208iT9f_buc-n9fKxs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9904,16 +10414,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1j4Aph4wpEpz8wBiXhiSGEG8H1LWYym_W=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1j4Aph4wpEpz8wBiXhiSGEG8H1LWYym_W=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9932,16 +10444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1thwgbdXLEQ1Ez_OwjmwtUrfkP_WsAjkL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1thwgbdXLEQ1Ez_OwjmwtUrfkP_WsAjkL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9960,16 +10474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sqhVq60mS5h4umxhd7LfqNFz6nlyx7sK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sqhVq60mS5h4umxhd7LfqNFz6nlyx7sK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -9988,16 +10504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13LFRVRXx3I3ILitolthrsQOX_Jhql2dj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13LFRVRXx3I3ILitolthrsQOX_Jhql2dj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10016,16 +10534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DEsrnxh446ouQoSDie_-tCvXLP2HSLTT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DEsrnxh446ouQoSDie_-tCvXLP2HSLTT=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10044,16 +10564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OzRouOQQHNe6rU8S1hdlYN4kg3Pi3vPF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OzRouOQQHNe6rU8S1hdlYN4kg3Pi3vPF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10072,16 +10594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m_CQqldUUZcnbxz6eeXXCJO14316Gv9Y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m_CQqldUUZcnbxz6eeXXCJO14316Gv9Y=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10100,16 +10624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15QwCdb09lH-jUh9RBrE2E8QHl3Bl7ZR_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15QwCdb09lH-jUh9RBrE2E8QHl3Bl7ZR_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10128,16 +10654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PluRxCvXrWZO6x5vhhlqrX-rTM8ZHHSm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PluRxCvXrWZO6x5vhhlqrX-rTM8ZHHSm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10156,16 +10684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HpquCF4uIDt9DNU2H7HUj3x-iadhqkOx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HpquCF4uIDt9DNU2H7HUj3x-iadhqkOx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10184,16 +10714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18lkAExwSpFO_YBq9hHXREHLbbNY_2zbp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18lkAExwSpFO_YBq9hHXREHLbbNY_2zbp=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10212,16 +10744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1it_y_tdNCvn9UblnDimJFFfk4IvEjKVO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1it_y_tdNCvn9UblnDimJFFfk4IvEjKVO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10240,16 +10774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bYIOBhvhrdR3VXoCcN95hP7HA3lPK6at=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bYIOBhvhrdR3VXoCcN95hP7HA3lPK6at=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10268,16 +10804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b_cuFlFefqpUTmj0fb4YXUVrHHVYHKMo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1b_cuFlFefqpUTmj0fb4YXUVrHHVYHKMo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10296,16 +10834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vJWn5OGCom5Odl0O7PU0g88J9kglqQ_g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vJWn5OGCom5Odl0O7PU0g88J9kglqQ_g=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10324,16 +10864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b7RslinVsTcDzrabTblH0rVR1PFeAxBx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1b7RslinVsTcDzrabTblH0rVR1PFeAxBx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10352,16 +10894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CJqTfyaK96TnEiEHfntabGYyttE7toLY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CJqTfyaK96TnEiEHfntabGYyttE7toLY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10380,16 +10924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1doSIk3ec0FlqCEWj1xLjzI6utJjxMwXF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1doSIk3ec0FlqCEWj1xLjzI6utJjxMwXF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10408,16 +10954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EYb-TrOv_0qU27gejQGulgCyZNfW-IRd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EYb-TrOv_0qU27gejQGulgCyZNfW-IRd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10436,16 +10984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ml-8G628cGh4gZyqWEZu-cv6-QJ0RRJE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ml-8G628cGh4gZyqWEZu-cv6-QJ0RRJE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10464,16 +11014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UTv5icHk_CvJt5wea80VVRerT840t76J=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UTv5icHk_CvJt5wea80VVRerT840t76J=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10492,16 +11044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RJRWImD5QGKqv0ffnNkCPGgncsd43myM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RJRWImD5QGKqv0ffnNkCPGgncsd43myM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10520,16 +11074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1y7YZN0b6Mz19q9f_TrmTkTEEOmAZoqyv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1y7YZN0b6Mz19q9f_TrmTkTEEOmAZoqyv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10548,16 +11104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M4gILtyTi1AV_2DlI78G1m_z8WA3PNR4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M4gILtyTi1AV_2DlI78G1m_z8WA3PNR4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10576,16 +11134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z9acJKoDT0eFapCyAasgmkTcFpkOHLBC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Z9acJKoDT0eFapCyAasgmkTcFpkOHLBC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10604,16 +11164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rNUZxOl9-qbRej8iSX-tvEJDaa-_AQWe=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rNUZxOl9-qbRej8iSX-tvEJDaa-_AQWe=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10632,16 +11194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1e7nUpu0tsj0UaBDTmvs8x8R65kdOryRU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1e7nUpu0tsj0UaBDTmvs8x8R65kdOryRU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10660,16 +11224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Vpnj6JR7JDsVYeky0mPoMiJSS6eG3Vl7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vpnj6JR7JDsVYeky0mPoMiJSS6eG3Vl7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10688,16 +11254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1S-UmH38oCAFWHSB0U3m8PHNluV2SLP3d=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1S-UmH38oCAFWHSB0U3m8PHNluV2SLP3d=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10716,16 +11284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14oCYPd67ri72e30u6odnlAVMfefMwWGB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14oCYPd67ri72e30u6odnlAVMfefMwWGB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10744,16 +11314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-clYrrtD2zz1gv5bOnFjFlJ_Ao-vbXw0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-clYrrtD2zz1gv5bOnFjFlJ_Ao-vbXw0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10772,16 +11344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m9CEnE9LAT27HAO-h3OKxW39xsUJIodu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m9CEnE9LAT27HAO-h3OKxW39xsUJIodu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10800,16 +11374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yNdvQjgKlKnZhwQz-hD7cqrL1LDgbXf_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yNdvQjgKlKnZhwQz-hD7cqrL1LDgbXf_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10828,16 +11404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RnzAfzmMjJ-QQ--OVTmGEmgADqRA3p3-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RnzAfzmMjJ-QQ--OVTmGEmgADqRA3p3-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10856,16 +11434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eB7JZNctC6z8gFUnV5tLWnvCelZFYkV5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eB7JZNctC6z8gFUnV5tLWnvCelZFYkV5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10884,16 +11464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Sv5eObULugRzFf_BeSSVphaK_nrQpCwX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Sv5eObULugRzFf_BeSSVphaK_nrQpCwX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10912,16 +11494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EE4-ZDx5xbbzPDIhKZD8Prm4vyeyz0B2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EE4-ZDx5xbbzPDIhKZD8Prm4vyeyz0B2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10940,16 +11524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1O40VfKwMN26XWCTtMu-K3SHqY-vwixR2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O40VfKwMN26XWCTtMu-K3SHqY-vwixR2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10968,16 +11554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XQ9OGJZad_DBwLj5E-noMqQuX32MzfL0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XQ9OGJZad_DBwLj5E-noMqQuX32MzfL0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -10996,16 +11584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DVgbiD782FOZMBQj8EgwsBZ9O7qOYtMC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DVgbiD782FOZMBQj8EgwsBZ9O7qOYtMC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11024,16 +11614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1myRecNpKH5twLzX-VhhuhgwWkL-JkwNs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1myRecNpKH5twLzX-VhhuhgwWkL-JkwNs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11052,16 +11644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TUR8pOAjQUv7SP3wYJpEI9ipJmLasw5X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TUR8pOAjQUv7SP3wYJpEI9ipJmLasw5X=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11080,16 +11674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M2wPtO7CxuiYWSwtSxm1aW7WPhw48aiG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M2wPtO7CxuiYWSwtSxm1aW7WPhw48aiG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11108,16 +11704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lRcUsJ_rJWfeB2l01stcSQKm0W-Jybzu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lRcUsJ_rJWfeB2l01stcSQKm0W-Jybzu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11136,16 +11734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GjT5ghY4p3BTxu6I-8VmqN-NsJQqzyeA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GjT5ghY4p3BTxu6I-8VmqN-NsJQqzyeA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11164,16 +11764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AQuTxA8I35MiV0VXV2soJGfc2IvgYXTQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AQuTxA8I35MiV0VXV2soJGfc2IvgYXTQ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11192,16 +11794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1m9mR-aiaBGIdSpO83tFN58VzqI89ptFG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1m9mR-aiaBGIdSpO83tFN58VzqI89ptFG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11220,16 +11824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16U5T6LM3fVZbHRJv9Pt2HzXVAfPY0sRk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16U5T6LM3fVZbHRJv9Pt2HzXVAfPY0sRk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11248,16 +11854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yA6mxz5buseOr97FOHQZzhGba8DwSFgi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yA6mxz5buseOr97FOHQZzhGba8DwSFgi=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11276,16 +11884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Kse93OWSwSUd15VyxTAM6oRoXEOxF0yJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Kse93OWSwSUd15VyxTAM6oRoXEOxF0yJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11304,16 +11914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1F3Gk7H-mqv8m3EXSwJWKkJ3Iqg7hPsPo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1F3Gk7H-mqv8m3EXSwJWKkJ3Iqg7hPsPo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11332,16 +11944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MmW1evL3A-D7an9bc-AJnbXbOk-oLLSO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MmW1evL3A-D7an9bc-AJnbXbOk-oLLSO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11360,16 +11974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vjBYpr3RacSCstaJUPc4KqlA4gbzBIbh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vjBYpr3RacSCstaJUPc4KqlA4gbzBIbh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11388,16 +12004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gj3tyg3SlKiY6cBV0yFbIOmO-RKvqWoj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gj3tyg3SlKiY6cBV0yFbIOmO-RKvqWoj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11416,16 +12034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aEzfdny-_Lsu-3_uVcV81VkR-_XSk9Cy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aEzfdny-_Lsu-3_uVcV81VkR-_XSk9Cy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -11444,16 +12064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19kycfV8zwkxyWJO9ca_xMmrA9axUoBrm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19kycfV8zwkxyWJO9ca_xMmrA9axUoBrm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11472,16 +12094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1a00mKvBIFMcwAbUg1C7op2IunSNRkmUF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1a00mKvBIFMcwAbUg1C7op2IunSNRkmUF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11500,16 +12124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19IIHe065t_BdSRMVNF-bvPVhxRgWiG-0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19IIHe065t_BdSRMVNF-bvPVhxRgWiG-0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11528,16 +12154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18RLZS7bbCfLSiOP_W9sUOjwwK7BEmQ0c=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18RLZS7bbCfLSiOP_W9sUOjwwK7BEmQ0c=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11556,16 +12184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nBypxZxvY7rZ6rOKBNp4gTbQSgMa8V4x=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nBypxZxvY7rZ6rOKBNp4gTbQSgMa8V4x=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11584,16 +12214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1o8k5M8zPm8nKlyv-wPTPKXucqfn77Tbr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1o8k5M8zPm8nKlyv-wPTPKXucqfn77Tbr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11612,16 +12244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MMhmv8dyQb9zegW-6dJqwGe9lR7YsF4b=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MMhmv8dyQb9zegW-6dJqwGe9lR7YsF4b=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11640,16 +12274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11QQ3j_RGYfMiVvQG4C9iEGUWVOV_3FT1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11QQ3j_RGYfMiVvQG4C9iEGUWVOV_3FT1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11668,16 +12304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1qFPaP0GXYN6jxJrMZ53hAKTO15VZyP9Q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qFPaP0GXYN6jxJrMZ53hAKTO15VZyP9Q=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11696,16 +12334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1y3obDntsewfK4mwBHOYHD3mMh78-7_HM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1y3obDntsewfK4mwBHOYHD3mMh78-7_HM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11724,16 +12364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15J0ineDCAUgSfP0aDvNuKI31Je4T3d4J=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15J0ineDCAUgSfP0aDvNuKI31Je4T3d4J=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11752,16 +12394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xYwFI7LA3vF8wzk6Xr7ihhtEDZroHCBo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xYwFI7LA3vF8wzk6Xr7ihhtEDZroHCBo=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11780,16 +12424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GqZ2FgRkJmoJFaClHawKaS7AlzzQ7IrD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GqZ2FgRkJmoJFaClHawKaS7AlzzQ7IrD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11808,16 +12454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CJyusOfLqL6ZqnLpaMnonwYdt_pVEUF_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CJyusOfLqL6ZqnLpaMnonwYdt_pVEUF_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11836,16 +12484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oSIBuq9EEO3gQl48HWtuDmns_1l0CL5Y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oSIBuq9EEO3gQl48HWtuDmns_1l0CL5Y=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11864,16 +12514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bb-96d8kR8u9vmVcs-6XPY9_nx7jBhfj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bb-96d8kR8u9vmVcs-6XPY9_nx7jBhfj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11892,16 +12544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZybyfSa8Z2QUXEUfGFJObaMmtgbxtv7l=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZybyfSa8Z2QUXEUfGFJObaMmtgbxtv7l=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11920,16 +12574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GGwAs5a0dBy8NoLtUr1akxGqNv65tylO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GGwAs5a0dBy8NoLtUr1akxGqNv65tylO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11948,16 +12604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pjr8RnPnlLyCd_gaWITs9LSYSyDPtvW8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pjr8RnPnlLyCd_gaWITs9LSYSyDPtvW8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -11976,16 +12634,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kA1yRZGfp55wM_MaCbcufMwm551GzAV4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kA1yRZGfp55wM_MaCbcufMwm551GzAV4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12004,16 +12664,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lskrf8z-TX_yn3IvdkAgv6nYVEbGPCp-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lskrf8z-TX_yn3IvdkAgv6nYVEbGPCp-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12032,16 +12694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14C1goKwv0H-B9LPvNd_zq2x5u7QHPV1e=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14C1goKwv0H-B9LPvNd_zq2x5u7QHPV1e=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12060,16 +12724,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rfkFVUypaNSAdZxNUUSfiCHLpVLYruYC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rfkFVUypaNSAdZxNUUSfiCHLpVLYruYC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12088,16 +12754,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ywFuUYPvKgnWCEMqlGfmYQ7YNyKnnWz5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ywFuUYPvKgnWCEMqlGfmYQ7YNyKnnWz5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12116,16 +12784,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hLUhQ5eB19BVqySi-pH8WLzmEzdlTgH9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hLUhQ5eB19BVqySi-pH8WLzmEzdlTgH9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12144,16 +12814,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sjPounSidEKN9fkCYnWTGilMnk0oOtTi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sjPounSidEKN9fkCYnWTGilMnk0oOtTi=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12172,16 +12844,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ey1Igq5S74eWtIupgNrKrxx4mzMNERcN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ey1Igq5S74eWtIupgNrKrxx4mzMNERcN=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12200,16 +12874,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nfm8N0vYobL4pvvLxiUWSOobdRQp3Hcl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nfm8N0vYobL4pvvLxiUWSOobdRQp3Hcl=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12228,16 +12904,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11fTS9mVG3bg7ZSpYtu-vhPzIENculwcr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11fTS9mVG3bg7ZSpYtu-vhPzIENculwcr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12256,16 +12934,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Jbs10OomKdHBdB0AcmefJJuswso6wWtv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Jbs10OomKdHBdB0AcmefJJuswso6wWtv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12284,16 +12964,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aw0rD3IdxGFv5AM1Gjj04S0TIrAoxCBu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aw0rD3IdxGFv5AM1Gjj04S0TIrAoxCBu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12312,16 +12994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sSMaadSfnD-wbUE1HIWjE0cKh1yqdTCg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sSMaadSfnD-wbUE1HIWjE0cKh1yqdTCg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12340,16 +13024,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1usnFgMuQn_2YGI4SaM44ZdQ-Sh40DC3F=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1usnFgMuQn_2YGI4SaM44ZdQ-Sh40DC3F=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12368,16 +13054,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1u_JYb6Efwmu4srsselPRZACBXpV0xL0m=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1u_JYb6Efwmu4srsselPRZACBXpV0xL0m=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12396,16 +13084,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bxom3xTUHiRT4P68b8KeE35FBDdmwVwd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bxom3xTUHiRT4P68b8KeE35FBDdmwVwd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12424,16 +13114,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13g1WWo5ktIfzHSYdEWLImt5aCnVRDNdL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13g1WWo5ktIfzHSYdEWLImt5aCnVRDNdL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12452,16 +13144,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aqARpVnWg4sslS3W_RcdNZMScjV3Z11s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aqARpVnWg4sslS3W_RcdNZMScjV3Z11s=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12480,16 +13174,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fx3IlKJwMQXQ-aeONCzg4wVC-ocvnqEY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fx3IlKJwMQXQ-aeONCzg4wVC-ocvnqEY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12508,16 +13204,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18tZEsb1wZQIqbjzvurHV7G7irUSszt0F=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18tZEsb1wZQIqbjzvurHV7G7irUSszt0F=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12536,16 +13234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nowMcZp_1jS8vpP5xEK2Vbh84vwruJn0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nowMcZp_1jS8vpP5xEK2Vbh84vwruJn0=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12564,16 +13264,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uzVoXGZ1t3zOn-ETwEfspdg0COmDxvs5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uzVoXGZ1t3zOn-ETwEfspdg0COmDxvs5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12592,16 +13294,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12LFc98gJkS4Jr8c1FFixddYYIJQbXJlS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12LFc98gJkS4Jr8c1FFixddYYIJQbXJlS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12620,16 +13324,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Lm9i5z64sraAtKcs4qxfpUe6ASPfB172=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Lm9i5z64sraAtKcs4qxfpUe6ASPfB172=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12648,16 +13354,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tnK51TfOJuvJIkryZlYwXoFJfl_z0Lgt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tnK51TfOJuvJIkryZlYwXoFJfl_z0Lgt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12676,16 +13384,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fmZQ5zLZog_NtJ351U--CfE3dYyqh28Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fmZQ5zLZog_NtJ351U--CfE3dYyqh28Z=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12704,16 +13414,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17ps6wPz4Qo_NvypuRXCFYCr4soc8APwz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17ps6wPz4Qo_NvypuRXCFYCr4soc8APwz=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12732,16 +13444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lKyuicPdpMqWqWwj6dUGCeOwOLMKCZI7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lKyuicPdpMqWqWwj6dUGCeOwOLMKCZI7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12760,16 +13474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Q7Qf97iFhtUGlqbdv4MW8OJbCynOvJeN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Q7Qf97iFhtUGlqbdv4MW8OJbCynOvJeN=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12788,16 +13504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zC5PDz0bLBdrt2A6bbTQ49m-rldwIVY1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zC5PDz0bLBdrt2A6bbTQ49m-rldwIVY1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12816,16 +13534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jAXe0h8gHTT7cxk2RwH8NedFkKhiAADy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jAXe0h8gHTT7cxk2RwH8NedFkKhiAADy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12844,16 +13564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18agBdck_eOZCYTEEGJY5ywyssDYm_CXE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18agBdck_eOZCYTEEGJY5ywyssDYm_CXE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12872,16 +13594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pO6zN_kJC9bkKqiz8v4Ilx1PjQD02rph=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pO6zN_kJC9bkKqiz8v4Ilx1PjQD02rph=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12900,16 +13624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/142TVVglfRk3mgwgbueEMIwZLJOdz4cbf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/142TVVglfRk3mgwgbueEMIwZLJOdz4cbf=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12928,16 +13654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mRqoE7dep30wsZYE0Z-04Bb3QtWEz83E=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mRqoE7dep30wsZYE0Z-04Bb3QtWEz83E=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -12956,16 +13684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12t1S79vw3OQPr2xZaj9Gu_gEN4YKmuil=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12t1S79vw3OQPr2xZaj9Gu_gEN4YKmuil=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -12984,16 +13714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1V4upjbqsT5x2Em7z6QWCwWfgGjbqZqCh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V4upjbqsT5x2Em7z6QWCwWfgGjbqZqCh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13012,16 +13744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ETkkFLC7mI7AItfe8cogpOFOsf9iYMqE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ETkkFLC7mI7AItfe8cogpOFOsf9iYMqE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13040,16 +13774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wBQVuFQfD77EDAztVt-BDI_ZT_jLk4eH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wBQVuFQfD77EDAztVt-BDI_ZT_jLk4eH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13068,16 +13804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KpioFJUJE-kvS2e-XWa543WJF_qOHAY2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KpioFJUJE-kvS2e-XWa543WJF_qOHAY2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13096,16 +13834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JZEZIiku_gTrVqmh8Z2QoQ3x7aP9bQ7s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JZEZIiku_gTrVqmh8Z2QoQ3x7aP9bQ7s=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13124,16 +13864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1r4Cvlbm_ZJdEIhlymIwdqd0bDpYnSMB5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1r4Cvlbm_ZJdEIhlymIwdqd0bDpYnSMB5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13152,16 +13894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LJFzLPv3qNoKQqF8LsRARZb20svagjUt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LJFzLPv3qNoKQqF8LsRARZb20svagjUt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13180,16 +13924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PTbRUbghtkAQB4FcJHM8Aju6mOfxY6fZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PTbRUbghtkAQB4FcJHM8Aju6mOfxY6fZ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13208,16 +13954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BbcmDLjraJN08623cyPrcwF3pTaImc15=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BbcmDLjraJN08623cyPrcwF3pTaImc15=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13236,16 +13984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ebPn4ls7b_HxDksBVKbExHJKUMT0XWGR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ebPn4ls7b_HxDksBVKbExHJKUMT0XWGR=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13264,16 +14014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1A-LZAs_DzUT5BQY92xNugXSDbB9_cNI4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1A-LZAs_DzUT5BQY92xNugXSDbB9_cNI4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13292,16 +14044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CMlkI_gnmDfcTvQ-WzvuYN78VNZB17_m=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CMlkI_gnmDfcTvQ-WzvuYN78VNZB17_m=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13320,16 +14074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZUiduD7KXhyne7eRCKo8fbvTy3oAmeOk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZUiduD7KXhyne7eRCKo8fbvTy3oAmeOk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13348,16 +14104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fgtBMg4HkotrSChSYr6h5z_zCyCcrQEJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fgtBMg4HkotrSChSYr6h5z_zCyCcrQEJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13376,16 +14134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jUkyd7BsWxx21mydARJuseqEeBHOYchx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jUkyd7BsWxx21mydARJuseqEeBHOYchx=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "OFERTA PACK",
     "rating": 5,
@@ -13404,16 +14164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EI60-eczXD5jTVklpcO8G6iK8WJIELka=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EI60-eczXD5jTVklpcO8G6iK8WJIELka=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13432,16 +14194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eac6OOZ2sUC5RRqvlrdN9LcAiw_Y0V9m=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eac6OOZ2sUC5RRqvlrdN9LcAiw_Y0V9m=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13460,16 +14224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/128NRz9P889UwwomM7OI8WKqhWPqK_ArW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/128NRz9P889UwwomM7OI8WKqhWPqK_ArW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13488,16 +14254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1x-BLPG04LWIfWW4erruxRN0wk40dEu_b=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1x-BLPG04LWIfWW4erruxRN0wk40dEu_b=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13516,16 +14284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MQXQQeZh-E0aPXqErsaQMC_x3m3P-e4S=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MQXQQeZh-E0aPXqErsaQMC_x3m3P-e4S=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13544,16 +14314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rHZxMh5B_VeJFL_L5J6yFpFIAH6tGmms=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rHZxMh5B_VeJFL_L5J6yFpFIAH6tGmms=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13572,16 +14344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jSYRQru-zDB1LLa20JWpE6Cxqxib0Bvp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jSYRQru-zDB1LLa20JWpE6Cxqxib0Bvp=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13600,16 +14374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SmikI74v-5Y9RtsJhCw1-BpFHB7tOfS5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SmikI74v-5Y9RtsJhCw1-BpFHB7tOfS5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13628,16 +14404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MkorzulXXvbladc5FCZOEngWAatI3AGs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MkorzulXXvbladc5FCZOEngWAatI3AGs=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13656,16 +14434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Fx0VuKHNCbAnFhIJtdSqOXLAbbCA7GkS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Fx0VuKHNCbAnFhIJtdSqOXLAbbCA7GkS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13684,16 +14464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mOWr7jIUhx-J0U8mbGTobXof0r4UDKgt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mOWr7jIUhx-J0U8mbGTobXof0r4UDKgt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13712,16 +14494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wOOd_V_jR1JYZ5j2eIzgl-_8YLJaJdWX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wOOd_V_jR1JYZ5j2eIzgl-_8YLJaJdWX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13740,16 +14524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_JbMyKO3Yivpb7PRICOWjKjsJwvDLyrj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_JbMyKO3Yivpb7PRICOWjKjsJwvDLyrj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13768,16 +14554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VMHGM7GhEfEcXKixwQEX6vg_JWQAo41S=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VMHGM7GhEfEcXKixwQEX6vg_JWQAo41S=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13796,16 +14584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19E7oin1X8ZuaNc9Hi00AdOtlawXuIiV4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19E7oin1X8ZuaNc9Hi00AdOtlawXuIiV4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13824,16 +14614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RB1083YTf04-WKACfH1Y0pL-2ErkI1o4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RB1083YTf04-WKACfH1Y0pL-2ErkI1o4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13852,16 +14644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TLDpPkEQ8wqi-jJ2ELjTFqh8U10MTbwA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TLDpPkEQ8wqi-jJ2ELjTFqh8U10MTbwA=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13880,16 +14674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PhlHsnGrqu8p7sOAJBEK4_6pMl3GQ8sb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PhlHsnGrqu8p7sOAJBEK4_6pMl3GQ8sb=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13908,16 +14704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yDxp9-vDObf_uGI5GBk5qvptUhPiKUZt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yDxp9-vDObf_uGI5GBk5qvptUhPiKUZt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13936,16 +14734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1O-b_9hKLeqFA4m2lKmo4w-u8pp0zFAsy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O-b_9hKLeqFA4m2lKmo4w-u8pp0zFAsy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13964,16 +14764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hejnpPqrA-O_SdKWMdKRChYQhTERfmqk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hejnpPqrA-O_SdKWMdKRChYQhTERfmqk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -13992,16 +14794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GDdCJFSy5Yk9O_PyCkSsC9RcF28D_YYk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GDdCJFSy5Yk9O_PyCkSsC9RcF28D_YYk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14020,16 +14824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1649sx-Kehbh1o6VLCA5QjYdzvL3L1tyS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1649sx-Kehbh1o6VLCA5QjYdzvL3L1tyS=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14048,16 +14854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ErHUlzul5g-GSYQ9zHSuzTmhmDeboB85=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ErHUlzul5g-GSYQ9zHSuzTmhmDeboB85=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14076,16 +14884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bstAZzVpuEA7PaKxDfGHQ2UIrjLIgeAN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bstAZzVpuEA7PaKxDfGHQ2UIrjLIgeAN=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14104,16 +14914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Czy4qUEpzIL-yaZQLhXwx-fK-wLXDbIL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Czy4qUEpzIL-yaZQLhXwx-fK-wLXDbIL=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14132,16 +14944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iAg70PES_tr2Wn8BAq1O6Py-y_WmX5MJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iAg70PES_tr2Wn8BAq1O6Py-y_WmX5MJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14160,16 +14974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-vO9vrXJzqXCoVttQqVVW5Fic4-00xjk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-vO9vrXJzqXCoVttQqVVW5Fic4-00xjk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14188,16 +15004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11BHJGyp5ekmqbkPRVMznVNc8n3NXgeKk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11BHJGyp5ekmqbkPRVMznVNc8n3NXgeKk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14216,16 +15034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JA0CmAMEiP8VpiGAH85k-7qqpWa5KPxh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JA0CmAMEiP8VpiGAH85k-7qqpWa5KPxh=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14244,16 +15064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ctaCHT3B5EcoxEmbPiFTvbnk1P_M5tqv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ctaCHT3B5EcoxEmbPiFTvbnk1P_M5tqv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14272,16 +15094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1K0zyK8F6H9Vl5svkDGiWuLFBH35k1GFu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1K0zyK8F6H9Vl5svkDGiWuLFBH35k1GFu=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14300,16 +15124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Mvy66B2ebXhz4gfsPXdOh0CPLG0lX1Oa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Mvy66B2ebXhz4gfsPXdOh0CPLG0lX1Oa=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14328,16 +15154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ov2SMBTA9A-zELlLBUuTo8Y5Qs1N5zZ5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ov2SMBTA9A-zELlLBUuTo8Y5Qs1N5zZ5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14356,16 +15184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JFXjLF5PJziYaRtBSritwiRmswxNZpHC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JFXjLF5PJziYaRtBSritwiRmswxNZpHC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14384,16 +15214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oCMBFg_N3PTicH8GLYINnOQj8DzwfQ8A=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oCMBFg_N3PTicH8GLYINnOQj8DzwfQ8A=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14412,16 +15244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LTpUfKpGQkAcmlWJQGPoKZ_CMqTAIfag=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LTpUfKpGQkAcmlWJQGPoKZ_CMqTAIfag=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14440,16 +15274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1c14XXmQyx12QCpEdabbPIX3A9EoXnABK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1c14XXmQyx12QCpEdabbPIX3A9EoXnABK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14468,16 +15304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1T2HfCOmuaz13e0SZv-gzc9D2AEHso68x=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1T2HfCOmuaz13e0SZv-gzc9D2AEHso68x=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14496,16 +15334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1YxE6wSBUFNy3FbcKk3-vyFuEbgsuAaNt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1YxE6wSBUFNy3FbcKk3-vyFuEbgsuAaNt=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14524,16 +15364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19mJhdBUlOT_fHpGY6bnCNR0BPcl2flgE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19mJhdBUlOT_fHpGY6bnCNR0BPcl2flgE=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14552,16 +15394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12yXwAnQZbAH3r3ioi9QkF4FoHtEIBcmH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12yXwAnQZbAH3r3ioi9QkF4FoHtEIBcmH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14580,16 +15424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SxGZrseyV8x03zomAZw4hwphhh7kXHzY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SxGZrseyV8x03zomAZw4hwphhh7kXHzY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14608,16 +15454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dvDre0NS46RKmNlemMHjZ-Yg27BwBiQn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dvDre0NS46RKmNlemMHjZ-Yg27BwBiQn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14636,16 +15484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rC4ey4YTSHfRy__433DfJgBy9DQ48mWY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rC4ey4YTSHfRy__433DfJgBy9DQ48mWY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14664,16 +15514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QHuB_ZkBYytfUWR_CFyCXqICdQ3Wf1U7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QHuB_ZkBYytfUWR_CFyCXqICdQ3Wf1U7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14692,16 +15544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aISRuVWLdeFPNVIDJBrzWyJfwrbmMhnm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aISRuVWLdeFPNVIDJBrzWyJfwrbmMhnm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14720,16 +15574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b3hYBAPk5BrmxzzivPOBI8-9OShYcu8y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1b3hYBAPk5BrmxzzivPOBI8-9OShYcu8y=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14748,16 +15604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tu1rjYhaP6gcGxAyEpsn3ti9-Q5t_1V1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tu1rjYhaP6gcGxAyEpsn3ti9-Q5t_1V1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14776,16 +15634,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SA4h0Ssq4t7JDZdc2MCX0-UqH1ZmliqB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SA4h0Ssq4t7JDZdc2MCX0-UqH1ZmliqB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14804,16 +15664,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Pf0kOXfiGdLypdlNc02HTMOc-nPzATKe=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Pf0kOXfiGdLypdlNc02HTMOc-nPzATKe=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14832,16 +15694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FnQvyqd0r1tpA5wTkn-0wG94kq68Q0l8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FnQvyqd0r1tpA5wTkn-0wG94kq68Q0l8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14860,16 +15724,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Mj7reYGWoXs8biRg4rBmq3f6-LFkPo3p=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Mj7reYGWoXs8biRg4rBmq3f6-LFkPo3p=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14888,16 +15754,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tr1wzlMlMS0inCIOYSIu5LvzbHIkUSSv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tr1wzlMlMS0inCIOYSIu5LvzbHIkUSSv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14916,16 +15784,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uBOuU0qy_PLlyaJZuZnVXsTLc6UxYffQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uBOuU0qy_PLlyaJZuZnVXsTLc6UxYffQ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14944,16 +15814,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aGVmf5HaA2-UacLY_SwAeqgcvKWC2yWn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aGVmf5HaA2-UacLY_SwAeqgcvKWC2yWn=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -14972,16 +15844,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sdtOLKEfYsRQlGbt4XUz-DAt5xji9fCF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sdtOLKEfYsRQlGbt4XUz-DAt5xji9fCF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15000,16 +15874,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uTr0UXFxoA2YIGbu3svNZXDKvIqfxULB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uTr0UXFxoA2YIGbu3svNZXDKvIqfxULB=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15028,16 +15904,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OMyDTbX8HsfGTwwGVkQZZLY3XgGNevDD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OMyDTbX8HsfGTwwGVkQZZLY3XgGNevDD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15056,16 +15934,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yPRLZ6o3xnBrAna8jewH0OiHic9uBwLG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yPRLZ6o3xnBrAna8jewH0OiHic9uBwLG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15084,16 +15964,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PgbC3Qmz7BXO2SpQC4-jIF4CJscK5F6t=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PgbC3Qmz7BXO2SpQC4-jIF4CJscK5F6t=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15112,16 +15994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1w6Ec9h7NQfbTL0CVpC_hz24ii_90fyD1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1w6Ec9h7NQfbTL0CVpC_hz24ii_90fyD1=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15140,16 +16024,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HywqaRcoWoM99tK-bSezKHTP6yDZriXX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HywqaRcoWoM99tK-bSezKHTP6yDZriXX=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15168,16 +16054,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MbVJ2CrupvCsjP0207MZcnqyY_oTArR2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MbVJ2CrupvCsjP0207MZcnqyY_oTArR2=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15196,16 +16084,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OTioQ_CrqQ83vBGmni7wpCzUOQtuN6Jm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OTioQ_CrqQ83vBGmni7wpCzUOQtuN6Jm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15224,16 +16114,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16PLJ7oKjRpCijYZ60eEyghtIvB5BdNS9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16PLJ7oKjRpCijYZ60eEyghtIvB5BdNS9=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15252,16 +16144,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wK03k6E8iwgEISR3OQr26nXkXCTZvm7k=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wK03k6E8iwgEISR3OQr26nXkXCTZvm7k=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15280,16 +16174,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Rt1qAAq8aeUXu5PFrKBGHScLVsfn_7RZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Rt1qAAq8aeUXu5PFrKBGHScLVsfn_7RZ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15308,16 +16204,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1L6vBHjeCuOz-de1HxflOW2C_-6jOjnwy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1L6vBHjeCuOz-de1HxflOW2C_-6jOjnwy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15336,16 +16234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19VtRbxgwOqcKM38GUE3esT_fITMIAq-s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19VtRbxgwOqcKM38GUE3esT_fITMIAq-s=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15364,16 +16264,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IuowT4-BCXih06-kZoL0XaQLhLiS2G1H=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IuowT4-BCXih06-kZoL0XaQLhLiS2G1H=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15392,16 +16294,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12n26s2joeChMnCPd-Zu_OMf0QuKciiis=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12n26s2joeChMnCPd-Zu_OMf0QuKciiis=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15420,16 +16324,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1qgdG4UH-XyFohPtruIzbWXmT80LTkwEP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qgdG4UH-XyFohPtruIzbWXmT80LTkwEP=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15448,16 +16354,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11u3PNiZ8hqW4gGFvK1jK_KyV9nOVNl6Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11u3PNiZ8hqW4gGFvK1jK_KyV9nOVNl6Z=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15476,16 +16384,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fkpmY38RwDFgXtmdpi75tbNqsWb_ZIoZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fkpmY38RwDFgXtmdpi75tbNqsWb_ZIoZ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15504,16 +16414,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cDLnHpWEdgjo_3_DtEFbDSkBsDaXHbJv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cDLnHpWEdgjo_3_DtEFbDSkBsDaXHbJv=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15532,16 +16444,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iR6BbFCE8rVHBYTmGu4qDbu0PFfRZJ0M=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iR6BbFCE8rVHBYTmGu4qDbu0PFfRZJ0M=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15560,16 +16474,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dZYhMI8b8CUvlBkusewxuMxS1TzsWOj8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dZYhMI8b8CUvlBkusewxuMxS1TzsWOj8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15588,16 +16504,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Fq9AVVw3TvUF7-A7qdr0MrymePwOyBlw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Fq9AVVw3TvUF7-A7qdr0MrymePwOyBlw=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15616,16 +16534,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZG6VpxXD2eGr7n1pBCKY0BVrX53l8t3C=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZG6VpxXD2eGr7n1pBCKY0BVrX53l8t3C=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15644,16 +16564,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dBiW8irEB-TVDlUPlTES2HvDw3gE8g9K=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dBiW8irEB-TVDlUPlTES2HvDw3gE8g9K=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15672,16 +16594,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-b9tkL1JADU6xHykSCWGRPa2-TCxxW1C=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-b9tkL1JADU6xHykSCWGRPa2-TCxxW1C=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15700,16 +16624,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gmQR7pUaksDNX0N9mLCjo4QBiafskaf3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gmQR7pUaksDNX0N9mLCjo4QBiafskaf3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15728,16 +16654,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pfXIYSTeBoeNZBgVPmu5ERUVUu_moPZ5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pfXIYSTeBoeNZBgVPmu5ERUVUu_moPZ5=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15756,16 +16684,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ldn6BmF8026YSTKloOwDTpvQGZp1Wq8Y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ldn6BmF8026YSTKloOwDTpvQGZp1Wq8Y=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15784,16 +16714,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EW-xYEw57qYVo8Ab_-DFnD0uK5JB_-Nm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EW-xYEw57qYVo8Ab_-DFnD0uK5JB_-Nm=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15812,16 +16744,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TlG3O38Q3AfMZw6hkUgfvMrSdCVtKjus=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TlG3O38Q3AfMZw6hkUgfvMrSdCVtKjus=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15840,16 +16774,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BJT_h9gkfxDmqy1Y8dVA1n0AkKycT-tJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BJT_h9gkfxDmqy1Y8dVA1n0AkKycT-tJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15868,16 +16804,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_rjQfF6Ua-TxzoDAHrmUVfMlR2SkmxvV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_rjQfF6Ua-TxzoDAHrmUVfMlR2SkmxvV=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15896,16 +16834,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1e6oXssm519nGk6yyrf7sQSz7A-m5b3Qr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1e6oXssm519nGk6yyrf7sQSz7A-m5b3Qr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15924,16 +16864,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1b2QaX4jeZtNGhm1PtiOCqfHENpzq8xpj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1b2QaX4jeZtNGhm1PtiOCqfHENpzq8xpj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15952,16 +16894,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1R8Wohnllb5uqlSHigWJ5C-bfUNZ0RXCW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1R8Wohnllb5uqlSHigWJ5C-bfUNZ0RXCW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -15980,16 +16924,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EmW1o3T-qheumihWR7nkIUOMeNbdiT8f=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EmW1o3T-qheumihWR7nkIUOMeNbdiT8f=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16008,16 +16954,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11VgwMNDEPpCANYvBfaUh1KyLYmCM2rIy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11VgwMNDEPpCANYvBfaUh1KyLYmCM2rIy=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16036,16 +16984,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HHoJ58wDcerBO2RHjQwRrk5NJd0DaefI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HHoJ58wDcerBO2RHjQwRrk5NJd0DaefI=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16064,16 +17014,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wqwZilX7i01o3YChq0sHppYYj1vXyoTk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wqwZilX7i01o3YChq0sHppYYj1vXyoTk=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16092,16 +17044,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14DQL2gqZAA4PtGVsAUtZ0daCjVvDSens=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14DQL2gqZAA4PtGVsAUtZ0daCjVvDSens=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16120,16 +17074,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fCgjlVztjzuSOgH-dFq0V-I-r4xpLYlG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fCgjlVztjzuSOgH-dFq0V-I-r4xpLYlG=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16148,16 +17104,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pEsDgm_qYruJfGlAOx_Kh52IWFAwk9qC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pEsDgm_qYruJfGlAOx_Kh52IWFAwk9qC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16176,16 +17134,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SvZ8DFyEAENxKLDD0SBDUgYlPhHpG7Fq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SvZ8DFyEAENxKLDD0SBDUgYlPhHpG7Fq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16204,16 +17164,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JZjWTF_rNvPbxUqBzFgDhhc7h-yK1pJQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JZjWTF_rNvPbxUqBzFgDhhc7h-yK1pJQ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16232,16 +17194,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1h8JyI4iTXTG_hn9UQY1DaRmnny0RhWVd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1h8JyI4iTXTG_hn9UQY1DaRmnny0RhWVd=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16260,16 +17224,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1djH_slEhydHYGI_J-dJOws6fua4F0E4l=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1djH_slEhydHYGI_J-dJOws6fua4F0E4l=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16288,16 +17254,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14YVBv_XtWY6mGu7XHtv97XweUrXpvBw_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14YVBv_XtWY6mGu7XHtv97XweUrXpvBw_=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16316,16 +17284,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gs1NZbbLSiLZ2kbxLj00t9gnS1alWCEM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gs1NZbbLSiLZ2kbxLj00t9gnS1alWCEM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16344,16 +17314,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1S2o0xMqfnu7atdjWx-lFvg5_yG5rfXWQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1S2o0xMqfnu7atdjWx-lFvg5_yG5rfXWQ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16372,16 +17344,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BwMeAb5XTMHQwozituf-FRmAvWJub7Rj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BwMeAb5XTMHQwozituf-FRmAvWJub7Rj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16400,16 +17374,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/177uPOEdzwjp5KlLQJDByDiIy3nl67hUw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/177uPOEdzwjp5KlLQJDByDiIy3nl67hUw=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16428,16 +17404,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uC51si5z8FDZ9X1-3o5XSSuudwfo6nRz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uC51si5z8FDZ9X1-3o5XSSuudwfo6nRz=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16456,16 +17434,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LjxCxqVHY8_mthFTiRnSPpgz9njJxtLO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LjxCxqVHY8_mthFTiRnSPpgz9njJxtLO=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16484,16 +17464,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jfxTJQi_7H7K6SzVRub0anivBw8kHfiF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jfxTJQi_7H7K6SzVRub0anivBw8kHfiF=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16512,16 +17494,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1C5tjCNGQM7_h97rAQeC8ze9-cZXTWctJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1C5tjCNGQM7_h97rAQeC8ze9-cZXTWctJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16540,16 +17524,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GE3Ju3l-mfzSyJDhtqp018kZTwVecD87=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GE3Ju3l-mfzSyJDhtqp018kZTwVecD87=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16568,16 +17554,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10UKwyKg02I3CNL86LW6iS64MZcgYasA3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10UKwyKg02I3CNL86LW6iS64MZcgYasA3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16596,16 +17584,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iqMjFT1G_PYHVFQhS_NEC4-GjgYnQgFH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iqMjFT1G_PYHVFQhS_NEC4-GjgYnQgFH=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16624,16 +17614,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wHX63g5DyUYaiJqSzB2t4G2G3vHzZq_p=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wHX63g5DyUYaiJqSzB2t4G2G3vHzZq_p=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16652,16 +17644,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18HdVuyO1_tKXFks4REYYCue36mZwviwU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18HdVuyO1_tKXFks4REYYCue36mZwviwU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16680,16 +17674,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nOFWWGwN3bts4Dro5E86_jW4k_q2krNT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nOFWWGwN3bts4Dro5E86_jW4k_q2krNT=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16708,16 +17704,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_AnCtdP2bl7amTjY8v1SduKoWl8hG5zY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_AnCtdP2bl7amTjY8v1SduKoWl8hG5zY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16736,16 +17734,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11uduVfo3e17eVvJ29egN8pWCoh6lYODC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11uduVfo3e17eVvJ29egN8pWCoh6lYODC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16764,16 +17764,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1svONgemDwy-A4lXWT64KmfuxLDLWa2PW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1svONgemDwy-A4lXWT64KmfuxLDLWa2PW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16792,16 +17794,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SsBBbUosARRKilTUFfKmPgRmw-_d1rGU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SsBBbUosARRKilTUFfKmPgRmw-_d1rGU=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16820,16 +17824,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1naLzzkPHnYXR7k9fCj9RPC2lM9zh34Ij=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1naLzzkPHnYXR7k9fCj9RPC2lM9zh34Ij=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16848,16 +17854,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EnXLd4MIH1XYS0Cjf-GUjSm7A04BDg2p=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EnXLd4MIH1XYS0Cjf-GUjSm7A04BDg2p=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16876,16 +17884,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PI11SsUAf7aWDG_86W2RG_JrFMieK6YC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PI11SsUAf7aWDG_86W2RG_JrFMieK6YC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16904,16 +17914,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AroEBtMSc0NQUsclmQF2GYtBewZIaFkY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AroEBtMSc0NQUsclmQF2GYtBewZIaFkY=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16932,16 +17944,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uVIT0Tm1G-APCJoeG7h3-5Kqer8x98cK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uVIT0Tm1G-APCJoeG7h3-5Kqer8x98cK=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16960,16 +17974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Krlcfv-cA0F_MI1FpToPYxAn4Pmlnxex=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Krlcfv-cA0F_MI1FpToPYxAn4Pmlnxex=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -16988,16 +18004,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1a5x4tvj-diY6HA__o-1WqXI87glL5IA3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1a5x4tvj-diY6HA__o-1WqXI87glL5IA3=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17016,16 +18034,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AxFVQZPBtkBpUXwR8mkZLX3gMxx3GG_B=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AxFVQZPBtkBpUXwR8mkZLX3gMxx3GG_B=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17044,16 +18064,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hqSDNa-EVqdmdPm-X2GJ1ELL1gksmCER=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hqSDNa-EVqdmdPm-X2GJ1ELL1gksmCER=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17072,16 +18094,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OheUUFy3Z6U_NgzwQw-aMm1X900Qtsw8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OheUUFy3Z6U_NgzwQw-aMm1X900Qtsw8=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17100,16 +18124,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eg3nWTfPVJNuYKNLQJh2reoW11TbPo9l=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eg3nWTfPVJNuYKNLQJh2reoW11TbPo9l=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17128,16 +18154,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kkUzN1Tgvev3qorcYJqIXv8Xm8nhnhWW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kkUzN1Tgvev3qorcYJqIXv8Xm8nhnhWW=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17156,16 +18184,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1svpBbkH_HYeUtypkhs9IA-f2ZyDGBSXD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1svpBbkH_HYeUtypkhs9IA-f2ZyDGBSXD=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17184,16 +18214,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nMzmr7gkG1zoLrrxI5tjWdB5Jx6_SQEr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nMzmr7gkG1zoLrrxI5tjWdB5Jx6_SQEr=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17212,16 +18244,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sn0Ez-yep-vSZwmIK5vkjCx-AGTUl9sC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sn0Ez-yep-vSZwmIK5vkjCx-AGTUl9sC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17240,16 +18274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1d6Lq3d3JT-Ml222-z5mMQsReGQ1-vnt7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1d6Lq3d3JT-Ml222-z5mMQsReGQ1-vnt7=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17268,16 +18304,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QLHtOaQyWa4JOYtk4xyRlciu1LMF9HH-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QLHtOaQyWa4JOYtk4xyRlciu1LMF9HH-=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17296,16 +18334,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M-U7OZWlU8CkbMYYTEeZnfKHOGpie9SJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M-U7OZWlU8CkbMYYTEeZnfKHOGpie9SJ=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17324,16 +18364,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iTzr2sAHrnpTAGzb7uyufiXht2F52-aq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iTzr2sAHrnpTAGzb7uyufiXht2F52-aq=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17352,16 +18394,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11R_DKASAXAqq-Tx8HDmpXYJX-lLBp_CM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11R_DKASAXAqq-Tx8HDmpXYJX-lLBp_CM=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17380,16 +18424,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jE2Im7x3fyrVzcbIzRonkrWUZVYUJmgR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jE2Im7x3fyrVzcbIzRonkrWUZVYUJmgR=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17408,16 +18454,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uSHsznuD2G1FuewyTZ9ciDnjnbICX261=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uSHsznuD2G1FuewyTZ9ciDnjnbICX261=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17436,16 +18484,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wA7RgPx8N9JoGU1oYbWO19e7sW81jIkC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wA7RgPx8N9JoGU1oYbWO19e7sW81jIkC=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17464,16 +18514,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lZnVzm-hNMqLIQUMHqVtjjaUKFakRCcj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lZnVzm-hNMqLIQUMHqVtjjaUKFakRCcj=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17492,16 +18544,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SMpmXN7GwRCO5Fl2-fbHB6srH7qqIxDg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SMpmXN7GwRCO5Fl2-fbHB6srH7qqIxDg=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17520,16 +18574,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sKPtoEgdsfQ3EPWyikwdbMbxiScLkCL4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sKPtoEgdsfQ3EPWyikwdbMbxiScLkCL4=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17548,16 +18604,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kOoUT5F0M-CZtXzpiIMU2L3Y6OcJqA74=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kOoUT5F0M-CZtXzpiIMU2L3Y6OcJqA74=w800",
     "sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "available_sizes": [
-      "S",
       "M",
       "L",
-      "XL"
+      "XL",
+      "2XL",
+      "3XL"
     ],
     "tag": "STREET STYLE",
     "rating": 5,
@@ -17576,22 +18634,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1i8hzSSLK28vjuMFdWEHFwujHNqCFIJGq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1i8hzSSLK28vjuMFdWEHFwujHNqCFIJGq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -17610,22 +18666,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gdawLHSuChbpV4iB_iEmo7p84-3BZR-s=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gdawLHSuChbpV4iB_iEmo7p84-3BZR-s=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -17639,29 +18693,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1MzIlAECHqeR1B5OYDF2nF7rnYN3vPatd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MzIlAECHqeR1B5OYDF2nF7rnYN3vPatd=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -17678,22 +18730,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SI-j3qa80pHzELkrHSWVbNAUNHLII-lf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SI-j3qa80pHzELkrHSWVbNAUNHLII-lf=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17712,22 +18762,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IXU-sl4Z7GakjnYpzzLTvv0f5bzTKVJI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IXU-sl4Z7GakjnYpzzLTvv0f5bzTKVJI=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17746,22 +18794,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1esyjDVO0MTmaT9msRcUksvC5puOrY6YN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1esyjDVO0MTmaT9msRcUksvC5puOrY6YN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17780,22 +18826,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10LkEEfmKTpvng0FSvRDY-VYHg7j3WmnY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10LkEEfmKTpvng0FSvRDY-VYHg7j3WmnY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17814,22 +18858,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Vtrkyr4lK5ykXKSlZ0fo2j3gLFIMxBTF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vtrkyr4lK5ykXKSlZ0fo2j3gLFIMxBTF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17848,22 +18890,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bo_dKYEmTqCJDQmLydfTs7Ua5o4TRg49=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bo_dKYEmTqCJDQmLydfTs7Ua5o4TRg49=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -17882,22 +18922,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZoYqozmIYocVYjNrBoxHO_yha4lPF-Y9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZoYqozmIYocVYjNrBoxHO_yha4lPF-Y9=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -17908,36 +18946,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 631,
     "name": "Sandalias Urban Style Summer 'White / Black Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Lyj4hM9mARXDAZpJdugilBuEqCCy6g9L=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Lyj4hM9mARXDAZpJdugilBuEqCCy6g9L=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 632,
@@ -17950,22 +18986,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12LRY8G1PYb7kTFk4fZjv9_bDRkZTK_cf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12LRY8G1PYb7kTFk4fZjv9_bDRkZTK_cf=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -17979,29 +19013,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1dEyqKFtrWORl1eC4V45xc2y61vqoFRFU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dEyqKFtrWORl1eC4V45xc2y61vqoFRFU=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18018,22 +19050,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/199O8IjYY6nVhpyr5yd_Nvr2P0iKrZsvr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/199O8IjYY6nVhpyr5yd_Nvr2P0iKrZsvr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -18052,22 +19082,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DvYnzqtTBT-2-Nw6pJo6l9lF4x0FUbzn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DvYnzqtTBT-2-Nw6pJo6l9lF4x0FUbzn=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18086,22 +19114,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hhgkzgTr4S8yZP-Vpz0qe-caUuAc51Wb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hhgkzgTr4S8yZP-Vpz0qe-caUuAc51Wb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -18120,24 +19146,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-hDS4YGsSzkCGSuxVdlsvJdOToT_aOg-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-hDS4YGsSzkCGSuxVdlsvJdOToT_aOg-=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18149,29 +19173,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1mWuJ6SUnKm0Y09nUME6PIhpOBXenk85N=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mWuJ6SUnKm0Y09nUME6PIhpOBXenk85N=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18188,24 +19210,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZjgYEulMdBPBcIzWL3pKZYTuAttXFIXW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZjgYEulMdBPBcIzWL3pKZYTuAttXFIXW=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18214,36 +19234,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 640,
     "name": "Chanclas Urban Street Slide 'Olive / Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1P78RK4CH4jMnUmtmL5EuRmcycYdKxSUF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1P78RK4CH4jMnUmtmL5EuRmcycYdKxSUF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 641,
@@ -18256,22 +19274,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JcFbbdKPeis4mpg8bFVgqMZYQou49Nux=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JcFbbdKPeis4mpg8bFVgqMZYQou49Nux=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18285,29 +19301,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/15oJgVACtyzVOdOvJyAjhdqgWBlZ7Nt9q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15oJgVACtyzVOdOvJyAjhdqgWBlZ7Nt9q=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18324,22 +19338,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FDIpLKY8aVp7gFaTkNuBBg319uhVshV6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FDIpLKY8aVp7gFaTkNuBBg319uhVshV6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18358,22 +19370,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tETHdjgtyzt8b08UuG8zb51bRgjVuk9Q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tETHdjgtyzt8b08UuG8zb51bRgjVuk9Q=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -18392,22 +19402,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ucUD4V72-n-fg9vmBNz08N8ewnfieQ0r=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ucUD4V72-n-fg9vmBNz08N8ewnfieQ0r=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -18421,29 +19429,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1HekG85zpl-rvACXf-CJmhVztp4fZvWNX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HekG85zpl-rvACXf-CJmhVztp4fZvWNX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18460,22 +19466,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1G-Sx4mo7_5UcFRhbw2NTgqiIVk2-Xc_o=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1G-Sx4mo7_5UcFRhbw2NTgqiIVk2-Xc_o=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18486,36 +19490,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 648,
     "name": "Chanclas Slide Comfort Adilette 'Triple Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/10oMyTtBz9DLPZu5b98cQN8bOO-P3H_au=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10oMyTtBz9DLPZu5b98cQN8bOO-P3H_au=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 649,
@@ -18528,22 +19530,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MYH6smplKFhmsnpDZ7mS-FV8ls8gpSKW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MYH6smplKFhmsnpDZ7mS-FV8ls8gpSKW=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18557,29 +19557,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1XGGGNV4KfuW7dWCFhOSHkZDYDfjt3wYc=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XGGGNV4KfuW7dWCFhOSHkZDYDfjt3wYc=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18596,22 +19594,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HvcYJ-SNgOcxclALGe2lx8VpQgMFWmG_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HvcYJ-SNgOcxclALGe2lx8VpQgMFWmG_=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18630,22 +19626,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jIRpN7_AizkJMKl1V0FmA8fEMcEe0I72=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jIRpN7_AizkJMKl1V0FmA8fEMcEe0I72=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -18664,24 +19658,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10XVNfC7c5JskgMBwZVeqGbKEhjD4wm3e=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10XVNfC7c5JskgMBwZVeqGbKEhjD4wm3e=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18693,29 +19685,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1I0MMqO8cbNzsrNCKLw9BjKJbggUc73j-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1I0MMqO8cbNzsrNCKLw9BjKJbggUc73j-=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18732,24 +19722,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ymk8auwBMJM1RBHA4DVcRnmm4nO8KBVy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ymk8auwBMJM1RBHA4DVcRnmm4nO8KBVy=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18758,36 +19746,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 656,
     "name": "Chanclas Slide Foam Pillow Comfort 'Black / White Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1A-sPpqIZ6GGLwJvL9QHcJNMU8oOc91fr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1A-sPpqIZ6GGLwJvL9QHcJNMU8oOc91fr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 657,
@@ -18800,22 +19786,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1s1RsBob8O3ANScKuBkDPLqQJ-irAaphH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1s1RsBob8O3ANScKuBkDPLqQJ-irAaphH=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18829,29 +19813,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1oNN3UZIlj2VfsmxPA-Fk3GBvyOIYVJX2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oNN3UZIlj2VfsmxPA-Fk3GBvyOIYVJX2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -18868,22 +19850,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bsSPSBOY5vRHpkP5EmhNh-EhEFn07Cl_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bsSPSBOY5vRHpkP5EmhNh-EhEFn07Cl_=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -18902,22 +19882,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MVWGjatsuhRhOImUP53p0QQ1yMtRsYLi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MVWGjatsuhRhOImUP53p0QQ1yMtRsYLi=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -18936,22 +19914,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CdP5oWnFXzaAt3jNRi3v6uzKIrlTyBxO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CdP5oWnFXzaAt3jNRi3v6uzKIrlTyBxO=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -18965,29 +19941,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/16_UzWYBYLZYqKqvDFUvX2n3DghhfAINY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16_UzWYBYLZYqKqvDFUvX2n3DghhfAINY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19004,22 +19978,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XpC5qbhHKxabygagfRSwEqSvShIr7kIr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XpC5qbhHKxabygagfRSwEqSvShIr7kIr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19030,36 +20002,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 664,
     "name": "Sandalias Deportivas Relax Foam 'Black / Red Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1UG3IinBhMyraN77X_7kvUikGlLO6Zw1G=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UG3IinBhMyraN77X_7kvUikGlLO6Zw1G=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 665,
@@ -19072,22 +20042,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WtO4luMsMEsCr_uqdpx6AL1T1pre4HQX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WtO4luMsMEsCr_uqdpx6AL1T1pre4HQX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19101,29 +20069,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1If_3cXzbTrfTcp9KZLLFGlL-QUL_0a6P=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1If_3cXzbTrfTcp9KZLLFGlL-QUL_0a6P=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19140,22 +20106,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tndVVSfSrMFhtwoVkvfTqROLQGiVz-33=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tndVVSfSrMFhtwoVkvfTqROLQGiVz-33=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19174,22 +20138,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UrHuGKJP_oAWnK39pT4gEqgayUJU8bUB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UrHuGKJP_oAWnK39pT4gEqgayUJU8bUB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -19208,24 +20170,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zPukGIkZFXbe_Sh0CW4B3INpVUsNEELx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zPukGIkZFXbe_Sh0CW4B3INpVUsNEELx=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19242,22 +20202,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sgPMo4wfupG3f9ZPTo7EgP8Zmza3oirX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sgPMo4wfupG3f9ZPTo7EgP8Zmza3oirX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -19276,22 +20234,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/113FV08oROmiXMzNdfhOQ2TzqmfvBcX-T=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/113FV08oROmiXMzNdfhOQ2TzqmfvBcX-T=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -19310,22 +20266,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xI42jXpHlhwb7S0-3JopTeNYewo9Mp3N=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xI42jXpHlhwb7S0-3JopTeNYewo9Mp3N=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -19339,29 +20293,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1DdobDvXTZ2NIb5imJOw85-KtF41MreYu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DdobDvXTZ2NIb5imJOw85-KtF41MreYu=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19378,24 +20330,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MS-pzvfFOYUlHFP0JZxwJ__FPJQ0Qs1-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MS-pzvfFOYUlHFP0JZxwJ__FPJQ0Qs1-=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19404,36 +20354,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 675,
     "name": "Sandalias Urban Style Summer 'Navy / White Classic'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1kIpCI3C-um4GyAOwcpHnW4d1n8A27_2V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kIpCI3C-um4GyAOwcpHnW4d1n8A27_2V=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 676,
@@ -19446,22 +20394,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PUb414cVPNii3I7q9Ay5Shye7C9h9NgI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PUb414cVPNii3I7q9Ay5Shye7C9h9NgI=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19475,29 +20421,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Lx_NAbq4UiH8kxo14oejAqo3t6gRMNoC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Lx_NAbq4UiH8kxo14oejAqo3t6gRMNoC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19514,22 +20458,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Y4zFrcXHwhXjUO1eve1_1TkegkM0tMxh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Y4zFrcXHwhXjUO1eve1_1TkegkM0tMxh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19548,22 +20490,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iTfug3-yKyReD4Ovi5Ne05zAtuqMobK-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iTfug3-yKyReD4Ovi5Ne05zAtuqMobK-=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -19582,22 +20522,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16XSPB-2OTkWopXpfQePUWGZLfWjj0NHE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16XSPB-2OTkWopXpfQePUWGZLfWjj0NHE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -19611,29 +20549,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1BeStFuWrKjORnzpkCcPiUi77WzhaA9qr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BeStFuWrKjORnzpkCcPiUi77WzhaA9qr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19650,22 +20586,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zOrHKQaDeJytFWimISuiiphgfQ2KJj_Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zOrHKQaDeJytFWimISuiiphgfQ2KJj_Z=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19676,36 +20610,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 683,
     "name": "Chanclas Urban Street Slide 'Graphite / Carbon'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1FISubby_J2N-Qv2kUxf-02xSen0HYvxm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FISubby_J2N-Qv2kUxf-02xSen0HYvxm=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 684,
@@ -19718,22 +20650,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1j_iMvjt2HRi8V9dhxzlJDnnrw47LbuQ7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1j_iMvjt2HRi8V9dhxzlJDnnrw47LbuQ7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19747,29 +20677,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/122gW29465AioyJr2c7hRPonU1-Tbz0L_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/122gW29465AioyJr2c7hRPonU1-Tbz0L_=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19786,22 +20714,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1AFpB0yc2CU_vLPRmmf2WuL0nFWYjzSm1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AFpB0yc2CU_vLPRmmf2WuL0nFWYjzSm1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -19820,22 +20746,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13Qh9niqbAiy-pFe_9iAnw7VVIvkPTxoB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13Qh9niqbAiy-pFe_9iAnw7VVIvkPTxoB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -19854,24 +20778,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1G2xUyRftfVlk9FbQG7OAy5-48dsSEpkN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1G2xUyRftfVlk9FbQG7OAy5-48dsSEpkN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19883,29 +20805,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1kc_5Xoyb4S1KEsxXlgFvD4Na52DBRtQt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kc_5Xoyb4S1KEsxXlgFvD4Na52DBRtQt=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19922,24 +20842,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MVGuiykq5tk60gZ7K1Rc4WUrTS_Vz3SY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MVGuiykq5tk60gZ7K1Rc4WUrTS_Vz3SY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -19948,36 +20866,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 691,
     "name": "Chanclas Slide Comfort Adilette 'White / Black Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Ug1WzIyLOQM49IGWDhqMyghJLZoE1Bww=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ug1WzIyLOQM49IGWDhqMyghJLZoE1Bww=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 692,
@@ -19990,22 +20906,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nRVN9GXxDwgmviqezOZMeFXdBYJze7Rq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nRVN9GXxDwgmviqezOZMeFXdBYJze7Rq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -20019,29 +20933,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1RB2LoC66xtgGGohGTuzOARLjN6kIEtxi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RB2LoC66xtgGGohGTuzOARLjN6kIEtxi=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20058,22 +20970,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Q1KnmqmRv2mROvoNFlDLYtC1VOBP7Qie=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Q1KnmqmRv2mROvoNFlDLYtC1VOBP7Qie=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -20092,22 +21002,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19IPv3H26-l2B45prBOvz2RVCAS-qTFRr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19IPv3H26-l2B45prBOvz2RVCAS-qTFRr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -20126,22 +21034,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1B5lZ15yRlmTXR9a87Xu1mznV_ZYlw0xf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1B5lZ15yRlmTXR9a87Xu1mznV_ZYlw0xf=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -20155,29 +21061,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/16RKjpzA4cCGzVtXIaLaUyYUmMSh7DgoP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16RKjpzA4cCGzVtXIaLaUyYUmMSh7DgoP=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20194,22 +21098,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MV-ehYOxKjyhJ9g63XRaHzCzDJ6DWCoC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MV-ehYOxKjyhJ9g63XRaHzCzDJ6DWCoC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -20220,36 +21122,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 699,
     "name": "Chanclas Slide Foam Pillow Comfort 'Olive / Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1ZosLFp6tBTaZIiWbhzpxTJpKTegcEUIB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZosLFp6tBTaZIiWbhzpxTJpKTegcEUIB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 700,
@@ -20262,22 +21162,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xhlXUuOkovVCRZYOy7Gf8iMz9rmTsGi1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xhlXUuOkovVCRZYOy7Gf8iMz9rmTsGi1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -20291,29 +21189,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1AnuUOwHOUiA3nsBhI5OVtt7GMWOmzX7z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1AnuUOwHOUiA3nsBhI5OVtt7GMWOmzX7z=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20330,22 +21226,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jy5E5g8JTt0gKM-f71IiQtEqMmInXiXn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jy5E5g8JTt0gKM-f71IiQtEqMmInXiXn=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -20364,22 +21258,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gg9ZxvpVbDBVxSYkHIAziooIIlr3xgHD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gg9ZxvpVbDBVxSYkHIAziooIIlr3xgHD=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -20398,24 +21290,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XxqvXagaPRQasNog-nkQDVelqWGUshjq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XxqvXagaPRQasNog-nkQDVelqWGUshjq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20427,29 +21317,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Tbv6NHugPXTOWh1E3hI5NaenKl7ueIPm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Tbv6NHugPXTOWh1E3hI5NaenKl7ueIPm=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20466,24 +21354,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1btheIcU9PxWjnZTKlSs3AbuvxoLqxNex=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1btheIcU9PxWjnZTKlSs3AbuvxoLqxNex=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -20492,36 +21378,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 707,
     "name": "Sandalias Deportivas Relax Foam 'Triple Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/141u5Go03RoaDIAGvNlu-mUiQsTTO9pn4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/141u5Go03RoaDIAGvNlu-mUiQsTTO9pn4=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 708,
@@ -20534,22 +21418,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M-KV0D2LFYsyInOKOnjBdw2rkluwZVAA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M-KV0D2LFYsyInOKOnjBdw2rkluwZVAA=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -20568,22 +21450,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1meZv9_D3etXFh1XpkyBg4luNiFr2qdmv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1meZv9_D3etXFh1XpkyBg4luNiFr2qdmv=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -20602,22 +21482,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1J9JjmPdlErrTcSq7WnO9m32Djtn9lf4B=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1J9JjmPdlErrTcSq7WnO9m32Djtn9lf4B=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -20636,22 +21514,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/194DyDqTvm3KC5tv93GXB87yplK-kt63k=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/194DyDqTvm3KC5tv93GXB87yplK-kt63k=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20670,22 +21546,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_Or0bsp5snG9vxehSFuvQKrqKOTs4UVx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_Or0bsp5snG9vxehSFuvQKrqKOTs4UVx=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20704,22 +21578,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kATlX-iKca25oveBpmbU2rqkH5yuMu-5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kATlX-iKca25oveBpmbU2rqkH5yuMu-5=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -20738,22 +21610,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14a0Yd04ds88t9mdeTxeZ6pcflJq6pKPt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14a0Yd04ds88t9mdeTxeZ6pcflJq6pKPt=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20772,22 +21642,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rTf29IbearB1XtY35kEwKBFrVodvULJv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rTf29IbearB1XtY35kEwKBFrVodvULJv=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20806,22 +21674,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Q_zn71K1-qvRQnLTvha1OSdWLKv0GG7k=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Q_zn71K1-qvRQnLTvha1OSdWLKv0GG7k=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -20840,22 +21706,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uji3uZYbdMlDDP9ZIjDAKd5PtdjpztYZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uji3uZYbdMlDDP9ZIjDAKd5PtdjpztYZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20874,22 +21738,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1cWMx4m-BtJjWZirybsIZ89oKHMBwVMrk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cWMx4m-BtJjWZirybsIZ89oKHMBwVMrk=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20908,22 +21770,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1j1NiLVQKcH4BLoPUO2I7WKSATnDM06k7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1j1NiLVQKcH4BLoPUO2I7WKSATnDM06k7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -20942,22 +21802,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1i7F8s9z_IfgbZNj3mnOfvSCnr_Lsr3Bq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1i7F8s9z_IfgbZNj3mnOfvSCnr_Lsr3Bq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -20976,22 +21834,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_NHk0GH2J14U89vKi8wD5I4-Du_F6ysV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_NHk0GH2J14U89vKi8wD5I4-Du_F6ysV=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21010,22 +21866,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OhjyabmDRF2wPrVPnnMULeXyts8Alt9b=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OhjyabmDRF2wPrVPnnMULeXyts8Alt9b=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -21044,22 +21898,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uUzc3-oqfelhdTnqhbhil36_tn8Shvxm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uUzc3-oqfelhdTnqhbhil36_tn8Shvxm=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21078,22 +21930,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ry9fMikI1LxjjzOl-EvpqvRgbxOteVFu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ry9fMikI1LxjjzOl-EvpqvRgbxOteVFu=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21112,22 +21962,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bqkhgpi_kfsxm8SKcYiCsOdgDOuse7d8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bqkhgpi_kfsxm8SKcYiCsOdgDOuse7d8=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -21146,22 +21994,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1X_i_6Ac8mqQhA8OrUKpnQ-z2WXSdwklE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X_i_6Ac8mqQhA8OrUKpnQ-z2WXSdwklE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21180,22 +22026,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VmCDm-2BO_dJGPNlZJynrAS4ue9kDc5Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VmCDm-2BO_dJGPNlZJynrAS4ue9kDc5Z=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21214,22 +22058,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wS2DGFckDUFqQ04fD9YO18niySpWs8Pu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wS2DGFckDUFqQ04fD9YO18niySpWs8Pu=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -21248,22 +22090,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KhV-d8ChnpDnZUrEfNBRDreN5-9niGdh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KhV-d8ChnpDnZUrEfNBRDreN5-9niGdh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21282,22 +22122,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yM0jM4GhbjjLgzhKx-FsKL8OEyMr5Zq4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yM0jM4GhbjjLgzhKx-FsKL8OEyMr5Zq4=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -21316,22 +22154,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Vd2pZxiEdJtgR8XRnvGUnMK7KOc1w-UW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vd2pZxiEdJtgR8XRnvGUnMK7KOc1w-UW=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21350,22 +22186,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1qYgfwnMdqwun3YbucNzodBBJ8qQUwmki=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qYgfwnMdqwun3YbucNzodBBJ8qQUwmki=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21384,22 +22218,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1y5uq49h3m9glytpJegLPFe9WfREDC7TW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1y5uq49h3m9glytpJegLPFe9WfREDC7TW=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21418,22 +22250,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1X9vkT0PIFQcWI6XQBA1WTF45__csNj-3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1X9vkT0PIFQcWI6XQBA1WTF45__csNj-3=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21452,22 +22282,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WHoY3fna7at9crMCR9JgQgN4j6tejNGZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WHoY3fna7at9crMCR9JgQgN4j6tejNGZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21486,22 +22314,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-J4sqrCiC2a1xFZINjDyk6n_A69MlNeD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-J4sqrCiC2a1xFZINjDyk6n_A69MlNeD=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21520,22 +22346,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-Cbf8DtVs3T2Qm201bWQI-aNYc-2HNDP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-Cbf8DtVs3T2Qm201bWQI-aNYc-2HNDP=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21554,22 +22378,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pOTd5I14c49NaPi8wBpXes7Mf0wD_Wg7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pOTd5I14c49NaPi8wBpXes7Mf0wD_Wg7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21588,22 +22410,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/144TFG5UEnKgJYCsreLZBZIUaQCQs7d85=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/144TFG5UEnKgJYCsreLZBZIUaQCQs7d85=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -21622,22 +22442,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BmQ4zfqmVJ3olrgDE6Gv7Kg0sPAlTRGs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BmQ4zfqmVJ3olrgDE6Gv7Kg0sPAlTRGs=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -21651,29 +22469,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1O7Mplc5ywPSRICSiW6IAlJYEK4dS9lsq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1O7Mplc5ywPSRICSiW6IAlJYEK4dS9lsq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -21690,22 +22506,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wT_Iyp8SC2_O9xG_g_7qwyY2qItueUx0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wT_Iyp8SC2_O9xG_g_7qwyY2qItueUx0=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -21724,22 +22538,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KVI8_In7mX9qkxkSo--dv7OhocTORzK8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KVI8_In7mX9qkxkSo--dv7OhocTORzK8=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -21758,22 +22570,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PX3Iq_IPjuBqi4JsWR4A5OLuP86zla4m=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PX3Iq_IPjuBqi4JsWR4A5OLuP86zla4m=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -21787,29 +22597,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/18ndeXenzdSlnDPbmZQBxXgktHgr3Ctwn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18ndeXenzdSlnDPbmZQBxXgktHgr3Ctwn=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -21826,22 +22634,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1UTamWchaHVbf69_DjJmiQDnzUBiJkLJo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1UTamWchaHVbf69_DjJmiQDnzUBiJkLJo=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -21852,36 +22658,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 747,
     "name": "Sandalias Urban Style Summer 'Black / White Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1IA03FlCSp2An-DAe73_HGYDsZDYcpSKi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IA03FlCSp2An-DAe73_HGYDsZDYcpSKi=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 748,
@@ -21894,22 +22698,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lQzzXydh9V5g25Z9EbIYWwiAgftCL1Is=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lQzzXydh9V5g25Z9EbIYWwiAgftCL1Is=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -21923,29 +22725,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/10PftKt72dq--FlH9iu04704J0FDOzVGx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10PftKt72dq--FlH9iu04704J0FDOzVGx=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -21962,22 +22762,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1s0zbjVj1WUJXerHSC7s_3o32XtKBFwXN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1s0zbjVj1WUJXerHSC7s_3o32XtKBFwXN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -21996,22 +22794,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yYSsex1B73oc2ShzkW-p3Keenwx8WZv-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yYSsex1B73oc2ShzkW-p3Keenwx8WZv-=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -22030,24 +22826,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sXW6c6hOQY7zcDWNhJu3MXePlWPL1V7o=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sXW6c6hOQY7zcDWNhJu3MXePlWPL1V7o=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22059,29 +22853,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1W_l9H4tk-nqexg44XZO-NvskNpL97mfZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1W_l9H4tk-nqexg44XZO-NvskNpL97mfZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22098,24 +22890,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iGx3sZydSGL0RzA4svt-kou-iuYY_oWS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iGx3sZydSGL0RzA4svt-kou-iuYY_oWS=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22124,36 +22914,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 755,
     "name": "Chanclas Urban Street Slide 'Black / Red Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1dpPfXNsa5vA_U7oJ9HSAdS8HHQdHejRs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dpPfXNsa5vA_U7oJ9HSAdS8HHQdHejRs=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 756,
@@ -22166,22 +22954,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Js6Fl_DTUcBLMERjgBRuGc5AeY3eG3ts=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Js6Fl_DTUcBLMERjgBRuGc5AeY3eG3ts=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22195,29 +22981,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1YyEflLrj6oHU-ulr-ERjmkPobcs5w6R0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1YyEflLrj6oHU-ulr-ERjmkPobcs5w6R0=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22234,22 +23018,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xkGbNmJJ-w2u9JQz6_1edI767shqmhv9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xkGbNmJJ-w2u9JQz6_1edI767shqmhv9=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22268,22 +23050,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1aEFI8AvLz7N1uapXXAhxL6NL2fBXUerZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1aEFI8AvLz7N1uapXXAhxL6NL2fBXUerZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -22302,22 +23082,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1BFUKYrcm33qVTd1D2PbaR2RVohZ-FxpB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1BFUKYrcm33qVTd1D2PbaR2RVohZ-FxpB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -22331,29 +23109,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1ZnQCd3R3sh-yG-DY6yXxXDcSefwPiJdp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZnQCd3R3sh-yG-DY6yXxXDcSefwPiJdp=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22370,22 +23146,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1V1_1luqWG8mepAxMhfv_n_880AuoeNIE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V1_1luqWG8mepAxMhfv_n_880AuoeNIE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22396,36 +23170,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 763,
     "name": "Chanclas Slide Comfort Adilette 'Navy / White Classic'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1dWeyRVLMKfBKsuJHKPBHVPcEei7qHWQd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dWeyRVLMKfBKsuJHKPBHVPcEei7qHWQd=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 764,
@@ -22438,22 +23210,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M9MbAhHJW6B3QmWhRB9Mo9HETXzlZRsD=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M9MbAhHJW6B3QmWhRB9Mo9HETXzlZRsD=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22467,29 +23237,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1ERXkHT0_6yZmlqCx-xbsjHe1cHkceHai=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ERXkHT0_6yZmlqCx-xbsjHe1cHkceHai=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22506,22 +23274,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13ByO1EjUw5zSU1F5xhjyW2-VIEQAcELA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13ByO1EjUw5zSU1F5xhjyW2-VIEQAcELA=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22540,22 +23306,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19oWNxgKtCdoLTpjvumziadOFmyblRgy7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19oWNxgKtCdoLTpjvumziadOFmyblRgy7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -22574,24 +23338,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1t2chHA4_K56LwZeEoUnAyiyOf-KlQKRM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1t2chHA4_K56LwZeEoUnAyiyOf-KlQKRM=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22603,29 +23365,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1gLjcTUuCK3g8liLam_DoNuzOD2RTGsI2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gLjcTUuCK3g8liLam_DoNuzOD2RTGsI2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22642,24 +23402,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LJ0ztrdb05VNQZdoOnwygI8tfZf52iqA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LJ0ztrdb05VNQZdoOnwygI8tfZf52iqA=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22668,36 +23426,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 771,
     "name": "Chanclas Slide Foam Pillow Comfort 'Graphite / Carbon'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Vw4Wtm5-SDaFTiQHo2f1dmOsFzVYUP25=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Vw4Wtm5-SDaFTiQHo2f1dmOsFzVYUP25=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 772,
@@ -22710,22 +23466,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16hqjvYqK_-vqBdLXMliyDmddDdpn2Hgn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16hqjvYqK_-vqBdLXMliyDmddDdpn2Hgn=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22739,29 +23493,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Y-rCZGcMfT4-uJAgT_Lgb5TA9-_Gu4pb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Y-rCZGcMfT4-uJAgT_Lgb5TA9-_Gu4pb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22778,22 +23530,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RlXISW1TIiMD7yNjmiNJqYQsGZZMbC7g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RlXISW1TIiMD7yNjmiNJqYQsGZZMbC7g=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22812,22 +23562,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pYtKpHa4Uz4fRpp33z3JDMYcnox8x-9V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pYtKpHa4Uz4fRpp33z3JDMYcnox8x-9V=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -22846,22 +23594,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QVxTlYx7qdCIq17ZqnhQ8OoOBrN78TJL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QVxTlYx7qdCIq17ZqnhQ8OoOBrN78TJL=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "RETRO CLASSIC",
     "rating": 5,
@@ -22875,29 +23621,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/15WZtNK4FlsxjYiJKPBbtmkh9uPakkW2B=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15WZtNK4FlsxjYiJKPBbtmkh9uPakkW2B=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -22914,22 +23658,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1za174Q7TLcdD-KISBlHS7Z_sF9RA_qW1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1za174Q7TLcdD-KISBlHS7Z_sF9RA_qW1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22948,22 +23690,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hqxvUi46NfNusdUGMoyjkzWVQp_xH512=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hqxvUi46NfNusdUGMoyjkzWVQp_xH512=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -22982,24 +23722,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wPSgpxd9corA9SFEs5aDoHVbz5mSDGSR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wPSgpxd9corA9SFEs5aDoHVbz5mSDGSR=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23016,24 +23754,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19GwYD1aMLj8wMt4nkW9ZyEozwOJjsJy6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19GwYD1aMLj8wMt4nkW9ZyEozwOJjsJy6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23050,22 +23786,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TFtGaFBbg1X7sMdxWLvQ5EUe6c1qOtUb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TFtGaFBbg1X7sMdxWLvQ5EUe6c1qOtUb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23084,22 +23818,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VxhzQk7-zKvF32xtPV2tTfoHTfe9nwXH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VxhzQk7-zKvF32xtPV2tTfoHTfe9nwXH=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23118,24 +23850,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oGZAS-MIb9x7i68BlqrNTfQnH68EAHqE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oGZAS-MIb9x7i68BlqrNTfQnH68EAHqE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23152,24 +23882,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1CAe72ATw4ITHyfbmP5hjb86CY0AVEMbC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CAe72ATw4ITHyfbmP5hjb86CY0AVEMbC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23186,22 +23914,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1y1sDy6zCDtHJJdQwQpQPmr1gL-a5BT5Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1y1sDy6zCDtHJJdQwQpQPmr1gL-a5BT5Z=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23220,22 +23946,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1j2tvWLGEF8uCG7ylfWmlyMOHNjLw7xdc=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1j2tvWLGEF8uCG7ylfWmlyMOHNjLw7xdc=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23254,24 +23978,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pivRqiW8vdttalXyhTA30_Z0XPi8VXRa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pivRqiW8vdttalXyhTA30_Z0XPi8VXRa=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23288,24 +24010,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16JDGvFOhj1yCmdaHxUwj0MjZjCdrXmfk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16JDGvFOhj1yCmdaHxUwj0MjZjCdrXmfk=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23322,22 +24042,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13s47ZfD2sDp5gnKO5MEUi4zM2x3i5Giq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13s47ZfD2sDp5gnKO5MEUi4zM2x3i5Giq=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23356,22 +24074,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18_yJa7AtWuB836k5tgeooIXkENtVhQcu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18_yJa7AtWuB836k5tgeooIXkENtVhQcu=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23390,24 +24106,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/12lDFPhj7fnrBV1oKBVOMTf15BB3pEIrA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/12lDFPhj7fnrBV1oKBVOMTf15BB3pEIrA=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23424,24 +24138,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1p2IqukPeXiEElUnrPemecLs91AgEUG69=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1p2IqukPeXiEElUnrPemecLs91AgEUG69=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23458,22 +24170,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gYvsLJzW9dM5jM6UkVqo_1IEmJBk23jF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gYvsLJzW9dM5jM6UkVqo_1IEmJBk23jF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23492,22 +24202,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MnnBGYrboF6vgxZ9uXo9Kh3POCN2URF7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MnnBGYrboF6vgxZ9uXo9Kh3POCN2URF7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23526,24 +24234,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xVTNxaccjTy7YFTpaJaqZQw-H6BhksNI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xVTNxaccjTy7YFTpaJaqZQw-H6BhksNI=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23560,24 +24266,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oDL2wvqgJWGmoBzTdC1iryaCukni1JOS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oDL2wvqgJWGmoBzTdC1iryaCukni1JOS=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23594,22 +24298,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1nHuemTb9TiK1oZll6binapGRJgjX4LKe=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nHuemTb9TiK1oZll6binapGRJgjX4LKe=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23628,22 +24330,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ogl4kUuz7UV7O4b7GfCLGpoYJx3cccT1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ogl4kUuz7UV7O4b7GfCLGpoYJx3cccT1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23662,24 +24362,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fdRW9Exe_1jp5RhTZOY25_wJJJQZjva9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fdRW9Exe_1jp5RhTZOY25_wJJJQZjva9=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23696,22 +24394,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1jlWABpgZG5w4KNkE35MBUaBy_Pec6hiz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1jlWABpgZG5w4KNkE35MBUaBy_Pec6hiz=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -23730,22 +24426,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iaSBMZ-aIE0O4v1j44ySqYf4CCDeHKEl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iaSBMZ-aIE0O4v1j44ySqYf4CCDeHKEl=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -23764,22 +24458,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/192nH-su1OyhUy_VIgcN6UwbahVmspZiF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/192nH-su1OyhUy_VIgcN6UwbahVmspZiF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -23798,22 +24490,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Tt1mkyc99jjRDuovHg27Y6x_0vZ4xo27=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Tt1mkyc99jjRDuovHg27Y6x_0vZ4xo27=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -23832,24 +24522,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Cm_HD7an63kUnWeYYle0CyWpLBWOmsA7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Cm_HD7an63kUnWeYYle0CyWpLBWOmsA7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23858,36 +24546,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 806,
     "name": "Sandalias Deportivas Relax Foam 'White / Black Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1kNeSvdPjlvrMp1Mrszt0zRkRnlhUFatl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kNeSvdPjlvrMp1Mrszt0zRkRnlhUFatl=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 807,
@@ -23900,22 +24586,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zAWSMRRKfZCon3gWR_hqIkH-szzxo5qC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zAWSMRRKfZCon3gWR_hqIkH-szzxo5qC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -23929,29 +24613,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1U3YeTm64dtNqhBGWHMUZsbbHToXnhdj_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1U3YeTm64dtNqhBGWHMUZsbbHToXnhdj_=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -23968,24 +24650,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1YOxziSylNgXgtVQvjUkaSNvOqhf-Y5_3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1YOxziSylNgXgtVQvjUkaSNvOqhf-Y5_3=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24002,22 +24682,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gzfQSl5q1W4tCBJDkHtMGNBN_-owAL6z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gzfQSl5q1W4tCBJDkHtMGNBN_-owAL6z=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -24036,22 +24714,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ORJB5Q57Q8GNxA80nCvOIMrYFu3xrRuj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ORJB5Q57Q8GNxA80nCvOIMrYFu3xrRuj=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24065,29 +24741,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1CFOyQ9V8rTVBW2ysQpZpr1MBuSOhduY2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CFOyQ9V8rTVBW2ysQpZpr1MBuSOhduY2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24104,24 +24778,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wI9ikTXIQssZmhVISK0xoxWiQ3IBFIhm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wI9ikTXIQssZmhVISK0xoxWiQ3IBFIhm=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24130,36 +24802,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 814,
     "name": "Sandalias Urban Style Summer 'Olive / Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1u_Nctq5eVGwF5wqJuSwafxoAWHJpzuuP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1u_Nctq5eVGwF5wqJuSwafxoAWHJpzuuP=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 815,
@@ -24172,24 +24842,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14tu7vOf9tnbit2C3w_EEqacGM1t2OyD5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14tu7vOf9tnbit2C3w_EEqacGM1t2OyD5=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24201,29 +24869,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1Tu4kbKXLiK1qf0Gi3W9KDVoWVGJNp_-l=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Tu4kbKXLiK1qf0Gi3W9KDVoWVGJNp_-l=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24240,22 +24906,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LogYVUdx4A65CxG3rZGURyNkvkOg58rG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LogYVUdx4A65CxG3rZGURyNkvkOg58rG=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24274,22 +24938,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ALAjSD1R0q3ScrWEZpsg7HdznE7pr5ZZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ALAjSD1R0q3ScrWEZpsg7HdznE7pr5ZZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "PERFORMANCE",
     "rating": 5,
@@ -24308,22 +24970,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11KIyZ9OpjALqkJDrxc76SesKPwFNPJla=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11KIyZ9OpjALqkJDrxc76SesKPwFNPJla=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "PERFORMANCE",
     "rating": 5,
@@ -24342,22 +25002,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1smSO6GWKu-QDexV5LeMuCTp2s06ojvrw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1smSO6GWKu-QDexV5LeMuCTp2s06ojvrw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "PERFORMANCE",
     "rating": 5,
@@ -24376,22 +25034,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11c3-X8JEk3rzLRbrNJyLaipc4GiMSF1e=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11c3-X8JEk3rzLRbrNJyLaipc4GiMSF1e=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -24410,22 +25066,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16Nt-LO0PXTTdPBw1HBRNWKVTxxS1ZFCN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16Nt-LO0PXTTdPBw1HBRNWKVTxxS1ZFCN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24439,29 +25093,27 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1CZCkzsR03sv_1ULWvLyHHQvOP65BrWlR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1CZCkzsR03sv_1ULWvLyHHQvOP65BrWlR=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24478,24 +25130,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gI-1LZvCynGLzXi1c9o_pEWRz8HmEtaN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gI-1LZvCynGLzXi1c9o_pEWRz8HmEtaN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24504,36 +25154,34 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 825,
     "name": "Chanclas Urban Street Slide 'Triple Black'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Hombre",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/17gvfoOF3cBi-8xxPf7zTQbgYYkhCZCab=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17gvfoOF3cBi-8xxPf7zTQbgYYkhCZCab=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Hombre · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 826,
@@ -24546,22 +25194,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1w0gMCVZFYK9UIqhqJk1Xi9qSqaecbhlo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1w0gMCVZFYK9UIqhqJk1Xi9qSqaecbhlo=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24580,22 +25226,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1YvkiVIreywJhFfPx6VxuzcSgTiPm6wut=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1YvkiVIreywJhFfPx6VxuzcSgTiPm6wut=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24614,24 +25258,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wiS3EXZIufIYwCw6adPElgEqohDFdIIy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wiS3EXZIufIYwCw6adPElgEqohDFdIIy=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24648,24 +25290,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1N2nnTQdAaOtEJOXITjYeaBAcZ-_ksjoM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N2nnTQdAaOtEJOXITjYeaBAcZ-_ksjoM=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24682,22 +25322,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1alhWKymDPY5o0nOBtTqFwneGcTv0lWzJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1alhWKymDPY5o0nOBtTqFwneGcTv0lWzJ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24716,22 +25354,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NCR7fvGLWty-z-QN9rl2Bir62kM8NB98=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NCR7fvGLWty-z-QN9rl2Bir62kM8NB98=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24750,24 +25386,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hkrA0NuR9h91vPgrI2S2L3ktfHbdLxcd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hkrA0NuR9h91vPgrI2S2L3ktfHbdLxcd=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24784,24 +25418,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-_pkgzDyPl1GiXuyJEWerIBfKvnVvHSB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-_pkgzDyPl1GiXuyJEWerIBfKvnVvHSB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24818,22 +25450,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hlvu5yP31zSb3SfVp8_b3zSbC6xMvBLt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hlvu5yP31zSb3SfVp8_b3zSbC6xMvBLt=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24852,22 +25482,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16-ACHI-CGs2gzQAqMIy8FmG9ibv211IJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16-ACHI-CGs2gzQAqMIy8FmG9ibv211IJ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24886,24 +25514,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/179rgkoMY71EZ11yCzvrtLRMpzXDHSpjg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/179rgkoMY71EZ11yCzvrtLRMpzXDHSpjg=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24920,24 +25546,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bxpCzwkuZVjMML3hrS55Oq190N2VSRBK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bxpCzwkuZVjMML3hrS55Oq190N2VSRBK=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -24954,22 +25578,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16asRJy38LV_UqQaqqx_rtPTM9pJRISSF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16asRJy38LV_UqQaqqx_rtPTM9pJRISSF=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -24988,22 +25610,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14A5j1uXnTNTwSHPZ7j2SeroX1TT0RGBU=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14A5j1uXnTNTwSHPZ7j2SeroX1TT0RGBU=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25022,24 +25642,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1qzfq8juyjwM0WU62sg6O8PGXTrCj894A=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qzfq8juyjwM0WU62sg6O8PGXTrCj894A=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25056,24 +25674,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MaI--lkpJWZFTv5t-lbgFRRGOoQ4lefL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MaI--lkpJWZFTv5t-lbgFRRGOoQ4lefL=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25090,22 +25706,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LcaOC_VLxwlBNM23M5BK9Lt2ioLP9WNw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LcaOC_VLxwlBNM23M5BK9Lt2ioLP9WNw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25124,22 +25738,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1N2ZrLlkaNiyb4FIjKf2JeGQzuxDUMLBS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N2ZrLlkaNiyb4FIjKf2JeGQzuxDUMLBS=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25158,24 +25770,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TDUJgSjdec7GHm0m_9YDdnU8qD_jHSk2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TDUJgSjdec7GHm0m_9YDdnU8qD_jHSk2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25192,24 +25802,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10hWw7rIcFKQZ2qj3RqJngWgEMniKWnQu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10hWw7rIcFKQZ2qj3RqJngWgEMniKWnQu=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25226,22 +25834,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rwDlqhOt6Z-sfYa1oEAE0FxwYdNugiPY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rwDlqhOt6Z-sfYa1oEAE0FxwYdNugiPY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25260,22 +25866,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1byPAyK6LNFMyc-WaYfKgxoOp_AwtEcC6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1byPAyK6LNFMyc-WaYfKgxoOp_AwtEcC6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25294,24 +25898,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mG3DclKwSco0OJiQPc0y-fj5_GKlSt6X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mG3DclKwSco0OJiQPc0y-fj5_GKlSt6X=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25328,24 +25930,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1K2xGjBhOrVppDREk5eQ9XGcBbevpJqWE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1K2xGjBhOrVppDREk5eQ9XGcBbevpJqWE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25362,22 +25962,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RmI3Ns97JkPsDSuWoevBJKO_0SXNCmCh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RmI3Ns97JkPsDSuWoevBJKO_0SXNCmCh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25396,22 +25994,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1n8HqiqRCgo8Ikwp-lummbsM0i0ilCkPr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1n8HqiqRCgo8Ikwp-lummbsM0i0ilCkPr=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25430,24 +26026,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17Tbvn2RysjJYnwU8c8_Ttdg4mJFeqi90=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17Tbvn2RysjJYnwU8c8_Ttdg4mJFeqi90=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25464,24 +26058,22 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pHlFoA9PtBqMEWMNylA2FP8O4lArtc46=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pHlFoA9PtBqMEWMNylA2FP8O4lArtc46=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -25498,22 +26090,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1szOuB-bB4pcHd3m9bimzUcoac2ZwFDXw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1szOuB-bB4pcHd3m9bimzUcoac2ZwFDXw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25532,22 +26122,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18OHZ0sF19vPptOD94_H2BibIVbLCnpC2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18OHZ0sF19vPptOD94_H2BibIVbLCnpC2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -25566,22 +26154,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DbltLApo7tkBTcZe878NGz2hbmK5GYJb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DbltLApo7tkBTcZe878NGz2hbmK5GYJb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25600,22 +26186,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1W_FzL6akaT6UF-873RPyiqRUWbLQlWoa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1W_FzL6akaT6UF-873RPyiqRUWbLQlWoa=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25634,22 +26218,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yERW1vnLppycKzmrAKX_fESSVm4vbpaw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yERW1vnLppycKzmrAKX_fESSVm4vbpaw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -25668,22 +26250,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1h5y6arCl8ZlndtDddbYBn5hmf7l9r6D1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1h5y6arCl8ZlndtDddbYBn5hmf7l9r6D1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25702,22 +26282,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1G8oq9Vt7emrR_sLPie1JJ7Z7ISQPEE9k=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1G8oq9Vt7emrR_sLPie1JJ7Z7ISQPEE9k=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25736,22 +26314,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LuL9tEeLBCBz557naD4Hv_JGe9K6AfWh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LuL9tEeLBCBz557naD4Hv_JGe9K6AfWh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -25770,22 +26346,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-2eT0O0yHqbhpP8Rnj60cLv6hWocb7cE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-2eT0O0yHqbhpP8Rnj60cLv6hWocb7cE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25804,22 +26378,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1d8dJeciBBtQIlV8G_dUvMNmzW28tb4h3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1d8dJeciBBtQIlV8G_dUvMNmzW28tb4h3=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25838,22 +26410,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Q5ZFTFoep4CVNniZ38HVlCluIviSEeGx=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Q5ZFTFoep4CVNniZ38HVlCluIviSEeGx=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -25872,22 +26442,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WPQDMpH1nlJhAQ7wgTP--3R5px719sy1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WPQDMpH1nlJhAQ7wgTP--3R5px719sy1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25906,22 +26474,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1C4HXhM2BsVhSvaR3xN0HjIyNrIeiOT13=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1C4HXhM2BsVhSvaR3xN0HjIyNrIeiOT13=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -25940,22 +26506,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eqr-99fFHrF5Su9CRh7gNjYd1zzdzR8K=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eqr-99fFHrF5Su9CRh7gNjYd1zzdzR8K=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -25974,22 +26538,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rjdHODZTYBtWLM3YfSeDRLpsfo_Lmp2p=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rjdHODZTYBtWLM3YfSeDRLpsfo_Lmp2p=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26008,22 +26570,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zS-dFZINSPfs8bNkKwR4aPjSE5KFwWXC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zS-dFZINSPfs8bNkKwR4aPjSE5KFwWXC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26042,22 +26602,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NsAhLCpNOZakkaoh-n3rghQNhCHLbddZ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NsAhLCpNOZakkaoh-n3rghQNhCHLbddZ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26076,22 +26634,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tphq9vr_vSeZ7yncF4FFJHc40Cq3ryS1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tphq9vr_vSeZ7yncF4FFJHc40Cq3ryS1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26110,22 +26666,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NIYxWp9-4otsg_Fjc8fcP9hzUNJWHQIf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NIYxWp9-4otsg_Fjc8fcP9hzUNJWHQIf=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26144,22 +26698,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1sR0TbuI0Zc_COSaoHTxjKUqajFDe0XW8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1sR0TbuI0Zc_COSaoHTxjKUqajFDe0XW8=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26178,22 +26730,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rpfxKRPpbMcJv7E3sxbh6i1uuiMOxXqC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rpfxKRPpbMcJv7E3sxbh6i1uuiMOxXqC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26212,22 +26762,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1o6ybPPIBagWQUV4BYFB9TI5f_MBt4wMX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1o6ybPPIBagWQUV4BYFB9TI5f_MBt4wMX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26246,22 +26794,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1smzTl9vMO0jhiV7RiiANRDauFkrTC4SE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1smzTl9vMO0jhiV7RiiANRDauFkrTC4SE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26280,22 +26826,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fN7cc6xv8H7SlF910xVF4frGbpUboZp7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fN7cc6xv8H7SlF910xVF4frGbpUboZp7=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26314,22 +26858,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dUt7WouveCu_GkPvIDtPX9-gxXVNpQDt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dUt7WouveCu_GkPvIDtPX9-gxXVNpQDt=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26348,22 +26890,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fEAdT9DMyvyl0CuUbiBMaUqU1CJaH55d=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fEAdT9DMyvyl0CuUbiBMaUqU1CJaH55d=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26382,22 +26922,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bgs7VOK3Y7KHcQANrxlgcn8Xphie6mF1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bgs7VOK3Y7KHcQANrxlgcn8Xphie6mF1=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26416,22 +26954,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HxD4ETmnqZY0uOiw63f7U9WYhuFzQo6V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HxD4ETmnqZY0uOiw63f7U9WYhuFzQo6V=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26450,22 +26986,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kBpYu3EoBZUbH89QwK7N4ZKmBLuSIVDM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kBpYu3EoBZUbH89QwK7N4ZKmBLuSIVDM=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26484,22 +27018,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1eSJxQg867tUwa1V0oKMkMvrNSaQYGMBE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eSJxQg867tUwa1V0oKMkMvrNSaQYGMBE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26518,22 +27050,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iM-k9hFU7XNp4KJzzR7W5Du6z9UU-yTw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iM-k9hFU7XNp4KJzzR7W5Du6z9UU-yTw=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26552,22 +27082,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_e9rrGM7m7TZqGQ92AHKCpyYSCXXvROB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_e9rrGM7m7TZqGQ92AHKCpyYSCXXvROB=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26586,22 +27114,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13ZL7AkcjXvSJErDm8vNY67abw5_HMAlN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13ZL7AkcjXvSJErDm8vNY67abw5_HMAlN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26620,22 +27146,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11ofBAPSRFQHYUaI075UETnAcSXmsYQA6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11ofBAPSRFQHYUaI075UETnAcSXmsYQA6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26654,22 +27178,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lvgoxqUGAYOJUh9f6phnrD81smY7Mk45=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lvgoxqUGAYOJUh9f6phnrD81smY7Mk45=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26688,22 +27210,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ScUlamTYM-CXbveyA5zkvSZyqeUkf_OH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ScUlamTYM-CXbveyA5zkvSZyqeUkf_OH=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26722,22 +27242,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dY1Wvc_HCkrWlGEb82hNXtujjWT70yxA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dY1Wvc_HCkrWlGEb82hNXtujjWT70yxA=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26756,22 +27274,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14qhyCKtslnngnwP23ja-XErXoQOP_mnM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14qhyCKtslnngnwP23ja-XErXoQOP_mnM=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26790,22 +27306,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1s0_j08yNq12cUs4RAtppoz5DEuLHfYEN=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1s0_j08yNq12cUs4RAtppoz5DEuLHfYEN=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26824,22 +27338,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kpA3f-enchDT1m23WRtguOPfXzFUdNJa=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kpA3f-enchDT1m23WRtguOPfXzFUdNJa=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26858,22 +27370,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZwJpk5KeLLieJrsgbauxiVBgMRMkiPpX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZwJpk5KeLLieJrsgbauxiVBgMRMkiPpX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26892,22 +27402,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gshfY8RwkO7mtcB6XgxgxNkVHIZL15jp=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gshfY8RwkO7mtcB6XgxgxNkVHIZL15jp=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26926,22 +27434,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KPbDosQqrDNftZDJuUA_msIphIUxbgO5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KPbDosQqrDNftZDJuUA_msIphIUxbgO5=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -26960,22 +27466,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iw-Jmg5acAZIny38XOBaUJNVDQ63tO98=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iw-Jmg5acAZIny38XOBaUJNVDQ63tO98=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -26994,22 +27498,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1L5q2-NmCMLG3U2bg-r-e1dNmVR1wOVwc=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1L5q2-NmCMLG3U2bg-r-e1dNmVR1wOVwc=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27028,22 +27530,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Dr5W18Wrh3keUcjaS9SSKyakuKRwTOm2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Dr5W18Wrh3keUcjaS9SSKyakuKRwTOm2=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27062,22 +27562,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dTzjIIdoB5YF62wRs-3BV_J_Csng_uq6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dTzjIIdoB5YF62wRs-3BV_J_Csng_uq6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27096,22 +27594,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LE9rwPJ8zHhGkUt-GVlWr20LqjTlmzHh=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LE9rwPJ8zHhGkUt-GVlWr20LqjTlmzHh=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27130,22 +27626,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NyKaWVvSOJG0I51UtzHEO6_OL9-y4Mze=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NyKaWVvSOJG0I51UtzHEO6_OL9-y4Mze=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27164,22 +27658,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RUqI4ZSMcVZOMWJf8-j99Ve-_90wb2vX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RUqI4ZSMcVZOMWJf8-j99Ve-_90wb2vX=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27198,22 +27690,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/14JJqg_fLbcj8ZbThbEgYIMpGhxexkPGT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/14JJqg_fLbcj8ZbThbEgYIMpGhxexkPGT=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27232,22 +27722,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1l9P1fkb8A1ryZgMNmtslWa_ILCkCaVsE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1l9P1fkb8A1ryZgMNmtslWa_ILCkCaVsE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27266,22 +27754,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WDWxn5O4x55U4EaCFQhB9bztqdPZve1u=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WDWxn5O4x55U4EaCFQhB9bztqdPZve1u=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27300,22 +27786,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1oejK05FI2mMGr6llwnx_DnO2N_UTi4_v=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1oejK05FI2mMGr6llwnx_DnO2N_UTi4_v=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27334,22 +27818,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1V-EsfsMSMsGZw_VMRW7tPbD4QvpBeZ7p=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V-EsfsMSMsGZw_VMRW7tPbD4QvpBeZ7p=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27368,22 +27850,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EXTwEPIn64gOUAwITCdRoJqPIVhVvtlM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EXTwEPIn64gOUAwITCdRoJqPIVhVvtlM=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27402,22 +27882,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yQPYrmf-UZbttx46UeZRf1ASuY6yaANQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yQPYrmf-UZbttx46UeZRf1ASuY6yaANQ=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27436,22 +27914,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KymBxVcuNWHE4VBaIIE4T4UCJU1NcQPC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KymBxVcuNWHE4VBaIIE4T4UCJU1NcQPC=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27470,22 +27946,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dzgKcasWGIRrXICFfwCbTT1_yuFckRtW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dzgKcasWGIRrXICFfwCbTT1_yuFckRtW=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27504,22 +27978,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15-94ieekDvHapojd1BiSCp8shYAgzbr6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15-94ieekDvHapojd1BiSCp8shYAgzbr6=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27538,22 +28010,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ERF35TcNgU6KbF0khjm4Gj-pxQUg-oRb=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ERF35TcNgU6KbF0khjm4Gj-pxQUg-oRb=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27572,22 +28042,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QO6lDHGbhEVYO5IXkkEoZLG74lhjhsvE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QO6lDHGbhEVYO5IXkkEoZLG74lhjhsvE=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27606,22 +28074,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1muiSemepWLE11vGCtfN9pG7u8ysnwG5u=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1muiSemepWLE11vGCtfN9pG7u8ysnwG5u=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27640,22 +28106,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dzOHeP1b1Vr_gAIedad7bJhu-rPPs1GY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dzOHeP1b1Vr_gAIedad7bJhu-rPPs1GY=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27674,22 +28138,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PS5Gf4sqov7q8mUXcN-eqEWDm3voOSEk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PS5Gf4sqov7q8mUXcN-eqEWDm3voOSEk=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27708,22 +28170,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tzIGcnJiTisk4fVHNehnQtHkEFdw_mBL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tzIGcnJiTisk4fVHNehnQtHkEFdw_mBL=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27742,22 +28202,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LDvt-bvOjwpQM71aARVMOXLzfKkVa-ya=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LDvt-bvOjwpQM71aARVMOXLzfKkVa-ya=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -27776,22 +28234,20 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1zmhs6pzWVMM4J-8hl59FvuRa7DT6QZg0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1zmhs6pzWVMM4J-8hl59FvuRa7DT6QZg0=w800",
     "sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "available_sizes": [
-      37,
-      38,
-      39,
       40,
       41,
       42,
-      43
+      43,
+      44,
+      45
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -27810,22 +28266,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13f3aeWeyRsDDmjEG95FvdmNWFipPpP7h=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13f3aeWeyRsDDmjEG95FvdmNWFipPpP7h=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -27844,22 +28294,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_p3tM2dcCKZ25Q-IwvTBPBgkQ2Y06NPB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_p3tM2dcCKZ25Q-IwvTBPBgkQ2Y06NPB=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -27878,22 +28322,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Eq7HS4UJ-YAncWaZthToEWwivbPHYR3f=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Eq7HS4UJ-YAncWaZthToEWwivbPHYR3f=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -27912,22 +28350,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XTod7k6b8EFEeXNe5I2WJq312DT5ocoJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XTod7k6b8EFEeXNe5I2WJq312DT5ocoJ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -27946,22 +28378,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1L5lP2bCYtrPZZ0-poo8Y6wUxnM8xJmYf=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1L5lP2bCYtrPZZ0-poo8Y6wUxnM8xJmYf=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -27980,22 +28406,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PYwCgg6KUYaa5ggeR6OvCfdxnJk7abxR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PYwCgg6KUYaa5ggeR6OvCfdxnJk7abxR=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28014,22 +28434,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1uYq9ANFMRru22pebP1NZPdVD1HSIy0Nn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1uYq9ANFMRru22pebP1NZPdVD1HSIy0Nn=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28048,22 +28462,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/15jZWhAxTQWCbcpt8bfmrOruvEY42rnuV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/15jZWhAxTQWCbcpt8bfmrOruvEY42rnuV=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28082,22 +28490,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XmT0a03_8MQ2_pkagL1TOUHe00mik1Ey=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XmT0a03_8MQ2_pkagL1TOUHe00mik1Ey=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28116,22 +28518,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1iQpTbWShR3aMHNjal_R9rfHJ39ZWVdUP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1iQpTbWShR3aMHNjal_R9rfHJ39ZWVdUP=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28150,22 +28546,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XOXjwhWomsmWAYCYAHN0QRBB3_i7qU-c=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XOXjwhWomsmWAYCYAHN0QRBB3_i7qU-c=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28184,22 +28574,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-uu7BlIuel-BLewxM4Mn-h8-RC4jVFz1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-uu7BlIuel-BLewxM4Mn-h8-RC4jVFz1=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28218,22 +28602,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Fr-Q_aMPI7YplShz2JnV-3eopIPAW9SI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Fr-Q_aMPI7YplShz2JnV-3eopIPAW9SI=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "RUNNING PRO",
     "rating": 5,
@@ -28252,24 +28630,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1c-hx5MGXBXKrIUF0WhEhwiUMUA7fAwX5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1c-hx5MGXBXKrIUF0WhEhwiUMUA7fAwX5=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28281,29 +28653,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/13cVtSKKjhO_9wsQQl7eedZhsUjXPr6sB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13cVtSKKjhO_9wsQQl7eedZhsUjXPr6sB=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28320,24 +28686,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1z7L7WwLtg2yAqalrCy__HmqD2dXvGHMI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1z7L7WwLtg2yAqalrCy__HmqD2dXvGHMI=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28354,22 +28714,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NfvgQWz329K5L_yYTS9Py-H4fyiJ5sFo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NfvgQWz329K5L_yYTS9Py-H4fyiJ5sFo=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -28388,22 +28742,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11D_BG8mB7bjce9z-CYeV7rGej5bhIyiB=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11D_BG8mB7bjce9z-CYeV7rGej5bhIyiB=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28422,24 +28770,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FXSUfHvD7fjr8PYHDb7X1CxjlQDHj71I=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FXSUfHvD7fjr8PYHDb7X1CxjlQDHj71I=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28456,22 +28798,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IGzUsPil2NmjObY_9uH_mgm2_7J_pD__=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IGzUsPil2NmjObY_9uH_mgm2_7J_pD__=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28490,24 +28826,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1g4PcO5bOnB1gWKo8qbT5emC-oy8IV4hI=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g4PcO5bOnB1gWKo8qbT5emC-oy8IV4hI=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28524,22 +28854,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JvnDUF3t0xTkIKBNIYd2iD82ON53ZuBk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JvnDUF3t0xTkIKBNIYd2iD82ON53ZuBk=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28558,24 +28882,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KpADufA7H4Y_i-j1RNHlPxmCVXcdgpnY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KpADufA7H4Y_i-j1RNHlPxmCVXcdgpnY=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28592,22 +28910,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1EK6IldmXMUdSiBQKSjjMjDM8q9PnkpjV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1EK6IldmXMUdSiBQKSjjMjDM8q9PnkpjV=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28626,24 +28938,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pdbo-EmBRW3hwqYJfhwDMcpQ7kyXe6aF=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pdbo-EmBRW3hwqYJfhwDMcpQ7kyXe6aF=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28660,22 +28966,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vmMdhRqrEL8iu1vdkaEdhyU6r2UMKs2d=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vmMdhRqrEL8iu1vdkaEdhyU6r2UMKs2d=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28694,24 +28994,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Aen3qK77sIVkutTbcFhtP2pKDqAp8XDH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Aen3qK77sIVkutTbcFhtP2pKDqAp8XDH=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28728,22 +29022,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pxo1Dg6l_ALsPEsBBHb_SK0ckdHsMVRS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pxo1Dg6l_ALsPEsBBHb_SK0ckdHsMVRS=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28762,24 +29050,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1yLsCmAUXJ220wx2idPc6jSS3net50xKr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1yLsCmAUXJ220wx2idPc6jSS3net50xKr=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28796,22 +29078,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fpTHl_vN2GJOu9QfXAeMj7N9_O-CZRt9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fpTHl_vN2GJOu9QfXAeMj7N9_O-CZRt9=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28830,24 +29106,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mSAeUdH5NI2hs_rxOfcAm8tl6_bJ325Z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mSAeUdH5NI2hs_rxOfcAm8tl6_bJ325Z=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28864,22 +29134,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MzNEQ72cbd2zVTWGEBu7TlNb19IYBTNo=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MzNEQ72cbd2zVTWGEBu7TlNb19IYBTNo=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28898,24 +29162,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19FE3wG2RN3BV6r4p9LYjTHJrJXZ_tsPy=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19FE3wG2RN3BV6r4p9LYjTHJrJXZ_tsPy=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -28932,22 +29190,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1q5RmChloT_felwQhn_SKuw6FZncQ29t_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1q5RmChloT_felwQhn_SKuw6FZncQ29t_=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -28966,24 +29218,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PRaQUgbSxYwiirfVmjxCkVRvuIEqTPjm=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PRaQUgbSxYwiirfVmjxCkVRvuIEqTPjm=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29000,22 +29246,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QlcKo3s6uWfaD3fYYBLzzLych1rBxkck=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QlcKo3s6uWfaD3fYYBLzzLych1rBxkck=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29034,24 +29274,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1a062ioKGziNba9htycuIQDVAS6EUy4IS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1a062ioKGziNba9htycuIQDVAS6EUy4IS=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29068,22 +29302,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZdMDAhHUojHQ2t-0qJrO0q25wTNtSN9u=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZdMDAhHUojHQ2t-0qJrO0q25wTNtSN9u=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29102,24 +29330,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RK0xs99ZLoOl2mP7O5AcH5JSbvcIERU1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RK0xs99ZLoOl2mP7O5AcH5JSbvcIERU1=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29136,22 +29358,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bn8dNzT1BTOkiH6I5qPQsN7gfnullySE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bn8dNzT1BTOkiH6I5qPQsN7gfnullySE=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -29170,22 +29386,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1gnThshK8HeAKO8U7YZIxQbccncs49up5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1gnThshK8HeAKO8U7YZIxQbccncs49up5=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -29204,22 +29414,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1WFKmRhz2ip8mMRRSX3DWTgCMtd-pfnfn=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1WFKmRhz2ip8mMRRSX3DWTgCMtd-pfnfn=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CLASSIC",
     "rating": 5,
@@ -29233,29 +29437,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1eIfGBeCQ_zuspkc52ZKzoDmZlyAcr3LK=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1eIfGBeCQ_zuspkc52ZKzoDmZlyAcr3LK=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29272,22 +29470,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1257Opb18lwMqec4K8G1C5YDRv-ZCbYhs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1257Opb18lwMqec4K8G1C5YDRv-ZCbYhs=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29298,36 +29490,30 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 966,
     "name": "Chanclas Slide Comfort Adilette 'Black / White Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/11Uw7pimSaqC0Z7TbIB_tec-De0pkdXAr=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11Uw7pimSaqC0Z7TbIB_tec-De0pkdXAr=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 967,
@@ -29340,24 +29526,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16xibLq0jz-YWfD669gS7xzyh3dsXcIOi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16xibLq0jz-YWfD669gS7xzyh3dsXcIOi=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29369,29 +29549,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1g1e85maZfOVnCjmuXXMpBlaYhbWSgcRY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g1e85maZfOVnCjmuXXMpBlaYhbWSgcRY=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29408,22 +29582,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1q-isjyxzmPcgyPbELOOISmgWJA6Jbe-F=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1q-isjyxzmPcgyPbELOOISmgWJA6Jbe-F=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29442,22 +29610,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IMeVHRJpqE5pBA-j2FkslYdMJ8PDclGu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IMeVHRJpqE5pBA-j2FkslYdMJ8PDclGu=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -29476,22 +29638,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1q3qvryJ6h332fq9gjq2e_LAIyehFHGVE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1q3qvryJ6h332fq9gjq2e_LAIyehFHGVE=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29505,29 +29661,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1nV-JheFKQGkJL6aaGpAjYirHluFfoKzg=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nV-JheFKQGkJL6aaGpAjYirHluFfoKzg=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29544,24 +29694,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ETwyxcgYzt4K11BSPuUZxBLHbKKiS3vd=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ETwyxcgYzt4K11BSPuUZxBLHbKKiS3vd=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29570,36 +29714,30 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 974,
     "name": "Chanclas Slide Foam Pillow Comfort 'Black / Red Stripes'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1SznwhJI_4SgFt--sfRyCcIhAjmkqaC69=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SznwhJI_4SgFt--sfRyCcIhAjmkqaC69=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 975,
@@ -29612,24 +29750,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PZGKzdJpMeu9E1E6sE4mtEUsm_LSf1_7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PZGKzdJpMeu9E1E6sE4mtEUsm_LSf1_7=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29641,29 +29773,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/11ah8SbHOb-O3ArmHOM38qooVRtngYj5N=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11ah8SbHOb-O3ArmHOM38qooVRtngYj5N=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29680,22 +29806,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VcuBhJM5dosUpg_cl3ewMYttLlXJuFq5=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VcuBhJM5dosUpg_cl3ewMYttLlXJuFq5=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29714,22 +29834,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1044mf0jxqYkb-bR1fY8TdI9hZd-kCklq=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1044mf0jxqYkb-bR1fY8TdI9hZd-kCklq=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -29748,24 +29862,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1N05PkzXe-MAIywD6wnZRzA0_zqiLsvJO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1N05PkzXe-MAIywD6wnZRzA0_zqiLsvJO=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29777,29 +29885,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1qYwJQut7VQ50BVBlHuZqAoeuyO1TTjR4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1qYwJQut7VQ50BVBlHuZqAoeuyO1TTjR4=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29816,22 +29918,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tZn5xy6FLySnYMLMAt2xR9-JBtk2VCKs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tZn5xy6FLySnYMLMAt2xR9-JBtk2VCKs=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29842,36 +29938,30 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 982,
     "name": "Sandalias Deportivas Relax Foam 'Navy / White Classic'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1cToGIMB4-WVHh7IsPIX81UpgLmQS8ozz=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1cToGIMB4-WVHh7IsPIX81UpgLmQS8ozz=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 983,
@@ -29884,24 +29974,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Bn6t0LYAq49MDoJFwhNp9xvIbKofPQ8Y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Bn6t0LYAq49MDoJFwhNp9xvIbKofPQ8Y=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29913,29 +29997,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1V6jeK9b45qNlNRZOJ8uwOtgKnEVm0DHR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1V6jeK9b45qNlNRZOJ8uwOtgKnEVm0DHR=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -29952,22 +30030,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1fI7WCiPjd8ol0P32jkYQsFZCXRRugYT-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1fI7WCiPjd8ol0P32jkYQsFZCXRRugYT-=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -29986,22 +30058,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13xIKoeaQzpmn42iL7d9RvqKT4bKhUcvC=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13xIKoeaQzpmn42iL7d9RvqKT4bKhUcvC=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -30020,22 +30086,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1544XZePKhBFUnx7wGBqtyc-fK3JhBKRe=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1544XZePKhBFUnx7wGBqtyc-fK3JhBKRe=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -30049,29 +30109,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1nwVorhiJ7D6D6xXJCqMqexuZwjH30z1t=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1nwVorhiJ7D6D6xXJCqMqexuZwjH30z1t=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -30088,24 +30142,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1RfT3wyFvMbBZTq0mB_QabzIvizhUIN75=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1RfT3wyFvMbBZTq0mB_QabzIvizhUIN75=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -30114,36 +30162,30 @@ export const PRODUCTS_DATA: Product[] = [
   {
     "id": 990,
     "name": "Sandalias Urban Style Summer 'Graphite / Carbon'",
-    "brand": "Bonanza Sport",
+    "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 95000,
+    "price": 210000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1DR2a4VomaTWIZzJyDAPS2I9gCVnfsSUl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DR2a4VomaTWIZzJyDAPS2I9gCVnfsSUl=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "CONFORT DIARIO",
+    "tag": "URBANO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
-    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Bonanza Sport). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
+    "description": "Referencia oficial en stock Bonanza 2020 (Mujer · Adidas). Alta calidad, materiales transpirables, pago contra entrega en Valledupar y envíos a toda Colombia."
   },
   {
     "id": 991,
@@ -30156,24 +30198,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bz55ePKWhVJ248Is3aecM8se8ErW48BP=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bz55ePKWhVJ248Is3aecM8se8ErW48BP=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -30185,29 +30221,23 @@ export const PRODUCTS_DATA: Product[] = [
     "brand": "Adidas",
     "gender": "Mujer",
     "category": "Zapatillas",
-    "price": 210000,
+    "price": 220000,
     "original_price": null,
     "image": "https://lh3.googleusercontent.com/d/1TUjtuNhoANSWcsSm-sIGf0wT6Cs8YxxQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TUjtuNhoANSWcsSm-sIGf0wT6Cs8YxxQ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "URBANO",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -30224,22 +30254,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1DxSw9oXrZqkZj625xY0WZqdO9eLV07HT=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1DxSw9oXrZqkZj625xY0WZqdO9eLV07HT=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -30258,22 +30282,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Ue5m7aF5dc_czIYjl_eQGoCSDnai5_tH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Ue5m7aF5dc_czIYjl_eQGoCSDnai5_tH=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "CONFORT DIARIO",
     "rating": 5,
@@ -30292,22 +30310,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1hDFSJVrp4fU4xQUdTgh9_IbrcmI65qC7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1hDFSJVrp4fU4xQUdTgh9_IbrcmI65qC7=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30326,22 +30338,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1SX1vRSY-FySqc4ZfmLKNlWUEL_eDaqLR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1SX1vRSY-FySqc4ZfmLKNlWUEL_eDaqLR=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30360,22 +30366,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1T-ACqLe45JTBlqZdFdS_clAyxXqoXNH8=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1T-ACqLe45JTBlqZdFdS_clAyxXqoXNH8=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30394,22 +30394,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FQIJTmeF92WiGIoYdror9mM7mTC5VD2y=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FQIJTmeF92WiGIoYdror9mM7mTC5VD2y=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30428,22 +30422,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19A-pCnhLVTSSGqYUB6gRvBFuFTSdiulc=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19A-pCnhLVTSSGqYUB6gRvBFuFTSdiulc=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30462,22 +30450,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tscMeoraUcE7oZ-lPewZs4HOlRW9I9z_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tscMeoraUcE7oZ-lPewZs4HOlRW9I9z_=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30496,22 +30478,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LUGOidHS-prJDuuIaUwR_d43Tg1qKgLi=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LUGOidHS-prJDuuIaUwR_d43Tg1qKgLi=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30530,22 +30506,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1c7egLay_sy6JrqKZ3zbovlgBTsTfkqJQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1c7egLay_sy6JrqKZ3zbovlgBTsTfkqJQ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30564,22 +30534,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MUqlYknu9604S7pqM2JhGhss_cwctf0h=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MUqlYknu9604S7pqM2JhGhss_cwctf0h=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30598,22 +30562,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1s46cMJsjOurOP0ZKNOP6rVwF9UYdrqA1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1s46cMJsjOurOP0ZKNOP6rVwF9UYdrqA1=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30632,22 +30590,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FXwiGAEucOVRIpNGBlLoFLbORbMJVI7x=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FXwiGAEucOVRIpNGBlLoFLbORbMJVI7x=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30666,22 +30618,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18Y9d2pZx83J5qLPl3RT6_E-KxT_se6Rl=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18Y9d2pZx83J5qLPl3RT6_E-KxT_se6Rl=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30700,22 +30646,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1NGxx2R5dN0ZHOtGbXGSdFXvh2e0N548T=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1NGxx2R5dN0ZHOtGbXGSdFXvh2e0N548T=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30734,22 +30674,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ESGzUvoFy-7HL5AAs-OltuSx7ZsUW1pW=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ESGzUvoFy-7HL5AAs-OltuSx7ZsUW1pW=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30768,22 +30702,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1lRDbllt3_7n4i4wTgrNu_tBkLXEe3K0X=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1lRDbllt3_7n4i4wTgrNu_tBkLXEe3K0X=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30802,22 +30730,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1HYFxBhvH8CsP_p_XEECqKVgl65aF3G6A=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1HYFxBhvH8CsP_p_XEECqKVgl65aF3G6A=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30836,22 +30758,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1KY4mGMsZPN-NUD3pCYdMphhEcm_uv_4x=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1KY4mGMsZPN-NUD3pCYdMphhEcm_uv_4x=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30870,22 +30786,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IACLZaE5lUpGOqbWAWz6gBTRgfIZa9gj=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IACLZaE5lUpGOqbWAWz6gBTRgfIZa9gj=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30904,22 +30814,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-3-WJcd9OBj8Tbyek41qAEWUHyszwKw_=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-3-WJcd9OBj8Tbyek41qAEWUHyszwKw_=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30938,22 +30842,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17OKxk25srwQQNy3t6knSzEV98uTfS3F2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17OKxk25srwQQNy3t6knSzEV98uTfS3F2=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -30972,22 +30870,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/10QtGkYek__iVoQEW1f-zliPU3ctzwcBu=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/10QtGkYek__iVoQEW1f-zliPU3ctzwcBu=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -31006,22 +30898,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1VyjwtU-VGmdKMLqHBzC1h3QMDRglBbr0=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1VyjwtU-VGmdKMLqHBzC1h3QMDRglBbr0=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -31040,22 +30926,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1i4KLcR9ShPGd3Sdc0fWCYtQm_piqa6pQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1i4KLcR9ShPGd3Sdc0fWCYtQm_piqa6pQ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -31074,22 +30954,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ZWHY1r8WclyaODlhtq7uQGrWg-A83dGR=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ZWHY1r8WclyaODlhtq7uQGrWg-A83dGR=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -31108,22 +30982,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TpRB5CRRqrL-k8a01hl3x5sJQkxsp_Ps=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TpRB5CRRqrL-k8a01hl3x5sJQkxsp_Ps=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "STREETWEAR",
     "rating": 5,
@@ -31142,24 +31010,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1umsJTGzFzNwxTPAT6z4nEzdYhBpklKoX=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1umsJTGzFzNwxTPAT6z4nEzdYhBpklKoX=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -31176,22 +31038,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1tiuuzom65NvuSffnkR-exd0oXMueisOA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1tiuuzom65NvuSffnkR-exd0oXMueisOA=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -31210,24 +31066,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Jiww_UabWug144mjDGvC-uqAyyjNBkOc=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Jiww_UabWug144mjDGvC-uqAyyjNBkOc=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -31244,22 +31094,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1M77mi-ha_NP3E8TFFMCzY-iZnCn92e9z=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1M77mi-ha_NP3E8TFFMCzY-iZnCn92e9z=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -31278,24 +31122,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pf7NntFpzMXSA0BPpya-rmXjB1dYubBv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pf7NntFpzMXSA0BPpya-rmXjB1dYubBv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -31312,22 +31150,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1pI-ar8RmHoftTqNPHOrpEWHRZ9AehE96=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1pI-ar8RmHoftTqNPHOrpEWHRZ9AehE96=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -31346,24 +31178,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1xq73ppumXI7MLA1z1zKlN7MLP_Ad-V8q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1xq73ppumXI7MLA1z1zKlN7MLP_Ad-V8q=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "RETRO CLASSIC",
+    "tag": "NUEVO INGRESO",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -31380,22 +31206,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16w9Jg2d_GVPav0zu-O-KAa86tne0UPU3=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16w9Jg2d_GVPav0zu-O-KAa86tne0UPU3=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -31414,24 +31234,18 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1kNGf2xoR_ZOcDOZv4gCHCV5MoIYWn425=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1kNGf2xoR_ZOcDOZv4gCHCV5MoIYWn425=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
-    "tag": "NUEVO INGRESO",
+    "tag": "RETRO CLASSIC",
     "rating": 5,
     "reviews_count": 1,
     "is_featured": false,
@@ -31448,22 +31262,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1bPIBiOLc63l4EajustYdTwPz4YVPd436=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1bPIBiOLc63l4EajustYdTwPz4YVPd436=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "NUEVO INGRESO",
     "rating": 5,
@@ -31482,22 +31290,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1g271RpC5lPe--BcwlD4wES867A8INGCL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g271RpC5lPe--BcwlD4wES867A8INGCL=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31516,22 +31318,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1g-m-fALcdderdT7A2fl98Cwazt0pRVhE=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1g-m-fALcdderdT7A2fl98Cwazt0pRVhE=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31550,22 +31346,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/13hxNnEI9VbswaQVfr0VpHuweYJqJGnhv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/13hxNnEI9VbswaQVfr0VpHuweYJqJGnhv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -31584,22 +31374,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1OkUwvJzZNMRlXV5JlkecIbwycMe8Bl6V=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1OkUwvJzZNMRlXV5JlkecIbwycMe8Bl6V=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31618,22 +31402,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1G1FwGmlzWa3l2jseZo48Mffj2G28bIDY=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1G1FwGmlzWa3l2jseZo48Mffj2G28bIDY=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31652,22 +31430,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Eqjiyo_DRcAI-TwXmR5Af4PjI0eRz8tG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Eqjiyo_DRcAI-TwXmR5Af4PjI0eRz8tG=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -31686,22 +31458,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1IoFwZ7ahLmXa66M9XkIUofJmPcxpQAuM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1IoFwZ7ahLmXa66M9XkIUofJmPcxpQAuM=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31720,22 +31486,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/19znKGK3mhaioK_Owb5EosuC4QPHsgjVG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/19znKGK3mhaioK_Owb5EosuC4QPHsgjVG=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31754,22 +31514,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Dluv6Upyfp5R0pwijNpW5CYqyoZYLhua=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Dluv6Upyfp5R0pwijNpW5CYqyoZYLhua=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -31788,22 +31542,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PmV8Aup-qRWmVZD0BWmbPHtWUVzYkT-g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PmV8Aup-qRWmVZD0BWmbPHtWUVzYkT-g=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31822,22 +31570,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1D5JfZ2pI8CB7hWidlFyIN4Wc4PaddEcM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1D5JfZ2pI8CB7hWidlFyIN4Wc4PaddEcM=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31856,22 +31598,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TZ5eJdfwbJvfiZHJB9oFte0baCFqkoUQ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TZ5eJdfwbJvfiZHJB9oFte0baCFqkoUQ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -31890,22 +31626,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1PtIHf4dVNeKpbOwvExFJ1eZPMvLevv_q=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1PtIHf4dVNeKpbOwvExFJ1eZPMvLevv_q=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31924,22 +31654,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1y5Pjj5oCkr91lSAZLu8ndrUwhtsdq16g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1y5Pjj5oCkr91lSAZLu8ndrUwhtsdq16g=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -31958,22 +31682,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1a1qWJAyB8jwcsB9UHgeKpeYo5e_q2XWJ=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1a1qWJAyB8jwcsB9UHgeKpeYo5e_q2XWJ=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -31992,22 +31710,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z0kQI7KODqjjqTQOgl8W0y4JdSZpn9Nv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Z0kQI7KODqjjqTQOgl8W0y4JdSZpn9Nv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32026,22 +31738,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11h5Y_gIu9uMvCps8qBPYgqNvaSH0iBqH=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11h5Y_gIu9uMvCps8qBPYgqNvaSH0iBqH=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32060,22 +31766,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Umgsaf0xKXZbQLvEZWszTVrIzkDvhPV9=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Umgsaf0xKXZbQLvEZWszTVrIzkDvhPV9=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32094,22 +31794,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XniXPlAK-kWzRq-JTGHo3QLGRTvmZzg7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XniXPlAK-kWzRq-JTGHo3QLGRTvmZzg7=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32128,22 +31822,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/18knL98W7T02gCbu5FAMRQWV4XFObXAqL=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/18knL98W7T02gCbu5FAMRQWV4XFObXAqL=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32162,22 +31850,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1-yDXtCFT65KT4RCSxrjnPuFFiVsZxoaw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1-yDXtCFT65KT4RCSxrjnPuFFiVsZxoaw=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32196,22 +31878,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1_ADS9hUIAICF7e7Fe4gCZtFN-E1jbVog=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1_ADS9hUIAICF7e7Fe4gCZtFN-E1jbVog=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32230,22 +31906,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1U8NAq7-HxdHwAl9YRvNXjxDL27MpmpMt=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1U8NAq7-HxdHwAl9YRvNXjxDL27MpmpMt=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32264,22 +31934,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1ExQJbTxB6j9y0_zd6OWNSnhqkINlxSFG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1ExQJbTxB6j9y0_zd6OWNSnhqkINlxSFG=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32298,22 +31962,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JOg3Ca5Tw_6OA62ocueQD70PQXMI3SVV=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JOg3Ca5Tw_6OA62ocueQD70PQXMI3SVV=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32332,22 +31990,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1Z4vMCGMpKMXT5s99_qshUB0LaLCg8YU7=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1Z4vMCGMpKMXT5s99_qshUB0LaLCg8YU7=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32366,22 +32018,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1TfgzQkNtKbnzQgAbPnCW9Jh1A65cUp2k=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1TfgzQkNtKbnzQgAbPnCW9Jh1A65cUp2k=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32400,22 +32046,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1JHXrfpCVEa8RjEK6cqukPEYMpASp3_1L=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1JHXrfpCVEa8RjEK6cqukPEYMpASp3_1L=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32434,22 +32074,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GVwDdElVUkB-CYi9iOsInJEV2wQW7xi6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GVwDdElVUkB-CYi9iOsInJEV2wQW7xi6=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32468,22 +32102,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1FvFoMOHYvn06IKPL56qFFGtwRNBYUNe4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1FvFoMOHYvn06IKPL56qFFGtwRNBYUNe4=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32502,22 +32130,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1rUkbwEKppE8rgr1Ob6_EGKfJb5w2rQVO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1rUkbwEKppE8rgr1Ob6_EGKfJb5w2rQVO=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32536,22 +32158,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1A9n_0FoECGB_xxLPSPZ8vgZyY5RSkCM1=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1A9n_0FoECGB_xxLPSPZ8vgZyY5RSkCM1=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32570,22 +32186,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/16SUrhl74FbZ84-tRpJQ8VrFCjULla9wS=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/16SUrhl74FbZ84-tRpJQ8VrFCjULla9wS=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32604,22 +32214,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1dKH3QkzBMIWW0U_9anhQlMDcgrsGcyV-=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1dKH3QkzBMIWW0U_9anhQlMDcgrsGcyV-=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32638,22 +32242,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1XD8cNGo1saIohsDYwgIZDxpcyqTlYNez=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1XD8cNGo1saIohsDYwgIZDxpcyqTlYNez=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32672,22 +32270,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mejUFNiAtyiEKiarb5oSgxxUdtC7QtfA=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mejUFNiAtyiEKiarb5oSgxxUdtC7QtfA=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32706,22 +32298,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1k-A1HcP5-ZIWqxr2y5Z_TBZP1eYj1pKw=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1k-A1HcP5-ZIWqxr2y5Z_TBZP1eYj1pKw=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32740,22 +32326,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1LDxo2Zix2edK4lq3h_US9zsLzFkQrija=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1LDxo2Zix2edK4lq3h_US9zsLzFkQrija=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32774,22 +32354,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17lUf1Ea3lrQeUs0O-AV7-sXN4UQcrRVM=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17lUf1Ea3lrQeUs0O-AV7-sXN4UQcrRVM=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32808,22 +32382,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1wd4K8PW7e4dMr2RGwWbNW-geufkzaly2=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1wd4K8PW7e4dMr2RGwWbNW-geufkzaly2=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32842,22 +32410,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vc4jSUZHp_vwALTLn_bnHbyxohASFjpG=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vc4jSUZHp_vwALTLn_bnHbyxohASFjpG=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32876,22 +32438,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1vH0xgHK8-HBFodMgI7piyFDXGNt1q2Nk=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1vH0xgHK8-HBFodMgI7piyFDXGNt1q2Nk=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -32910,22 +32466,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1GyG6LPijuEZ5dqR8eggu-eBXFmXFLI2f=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1GyG6LPijuEZ5dqR8eggu-eBXFmXFLI2f=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32944,22 +32494,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1mOCrf57-_250UXA6GXP2QJ6ye-dJXauv=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1mOCrf57-_250UXA6GXP2QJ6ye-dJXauv=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -32978,22 +32522,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1MGQtQp1KSwgXQkBKMn4E68ucP3EoCHxs=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1MGQtQp1KSwgXQkBKMn4E68ucP3EoCHxs=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -33012,22 +32550,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/11X9usOFSGnOsN08sFpAJV8EmKM7VT73g=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/11X9usOFSGnOsN08sFpAJV8EmKM7VT73g=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -33046,22 +32578,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1QrLjPrRDFYZQp49AbQUP0sPtQksuT5cO=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1QrLjPrRDFYZQp49AbQUP0sPtQksuT5cO=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,
@@ -33080,22 +32606,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/1em3Lv7fbS9b4pbj-o0O3iCfL-JFtx3Q4=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/1em3Lv7fbS9b4pbj-o0O3iCfL-JFtx3Q4=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "MÁS VENDIDO",
     "rating": 5,
@@ -33114,22 +32634,16 @@ export const PRODUCTS_DATA: Product[] = [
     "image": "https://lh3.googleusercontent.com/d/17QflzsUFFacmnc_78JWydwBGUvjNBAk6=w800",
     "hover_image": "https://lh3.googleusercontent.com/d/17QflzsUFFacmnc_78JWydwBGUvjNBAk6=w800",
     "sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "available_sizes": [
+      36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43
+      39
     ],
     "tag": "TENDENCIA",
     "rating": 5,

@@ -59,7 +59,7 @@ export const Catalog: React.FC<CatalogProps> = ({
   ];
 
   const brands = ['Nike', 'Adidas', 'New Balance', 'On Cloud', 'Asics', 'Puma', 'Bonanza Sport', 'Fútbol Club'];
-  const sizes: (string | number)[] = [37, 38, 39, 40, 41, 42, 43, 'S', 'M', 'L', 'XL'];
+  const sizes: (string | number)[] = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 'M', 'L', 'XL', '2XL', '3XL'];
 
   const priceFilters: { id: 'all' | 'under-200' | '200-250' | 'over-250' | 'deals'; label: string }[] = [
     { id: 'all', label: 'Todos los Precios' },
@@ -255,14 +255,30 @@ export const Catalog: React.FC<CatalogProps> = ({
           <select
             value={String(size)}
             onChange={(e) => onSetSize(e.target.value)}
-            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium hidden sm:block"
+            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
           >
             <option value="all">Talla: Todas</option>
-            {sizes.map((s) => (
-              <option key={String(s)} value={String(s)}>
-                Talla {s}
-              </option>
-            ))}
+            <optgroup label="Calzado Dama (36-39)">
+              <option value="36">Talla 36 (Dama)</option>
+              <option value="37">Talla 37 (Dama)</option>
+              <option value="38">Talla 38 (Dama)</option>
+              <option value="39">Talla 39 (Dama)</option>
+            </optgroup>
+            <optgroup label="Calzado Caballero (40-45)">
+              <option value="40">Talla 40 (Caballero)</option>
+              <option value="41">Talla 41 (Caballero)</option>
+              <option value="42">Talla 42 (Caballero)</option>
+              <option value="43">Talla 43 (Caballero)</option>
+              <option value="44">Talla 44 (Caballero)</option>
+              <option value="45">Talla 45 (Caballero)</option>
+            </optgroup>
+            <optgroup label="Ropa Deportiva (M - 3XL)">
+              <option value="M">Talla M (Ropa)</option>
+              <option value="L">Talla L (Ropa)</option>
+              <option value="XL">Talla XL (Ropa)</option>
+              <option value="2XL">Talla 2XL (Ropa)</option>
+              <option value="3XL">Talla 3XL (Ropa)</option>
+            </optgroup>
           </select>
 
           {/* Sort */}

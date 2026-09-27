@@ -17,20 +17,24 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
   if (!isOpen) return null;
 
   const shoeSizes = [
-    { col: 37, usMen: '6.5', usWomen: '8.0', eur: 39, cm: '24.5' },
-    { col: 38, usMen: '7.0', usWomen: '8.5', eur: 40, cm: '25.0' },
-    { col: 39, usMen: '8.0', usWomen: '9.5', eur: 41, cm: '26.0' },
-    { col: 40, usMen: '8.5', usWomen: '10.0', eur: 42, cm: '26.5' },
-    { col: 41, usMen: '9.5', usWomen: '11.0', eur: 43, cm: '27.5' },
-    { col: 42, usMen: '10.0', usWomen: '11.5', eur: 44, cm: '28.0' },
-    { col: 43, usMen: '11.0', usWomen: '12.5', eur: 45, cm: '29.0' },
+    { col: 36, segment: 'Dama', usMen: '5.5', usWomen: '7.0', eur: 38, cm: '23.5' },
+    { col: 37, segment: 'Dama', usMen: '6.5', usWomen: '8.0', eur: 39, cm: '24.5' },
+    { col: 38, segment: 'Dama', usMen: '7.0', usWomen: '8.5', eur: 40, cm: '25.0' },
+    { col: 39, segment: 'Dama', usMen: '8.0', usWomen: '9.5', eur: 41, cm: '26.0' },
+    { col: 40, segment: 'Caballero', usMen: '8.5', usWomen: '10.0', eur: 42, cm: '26.5' },
+    { col: 41, segment: 'Caballero', usMen: '9.5', usWomen: '11.0', eur: 43, cm: '27.5' },
+    { col: 42, segment: 'Caballero', usMen: '10.0', usWomen: '11.5', eur: 44, cm: '28.0' },
+    { col: 43, segment: 'Caballero', usMen: '11.0', usWomen: '12.5', eur: 45, cm: '29.0' },
+    { col: 44, segment: 'Caballero', usMen: '11.5', usWomen: '13.0', eur: 46, cm: '29.5' },
+    { col: 45, segment: 'Caballero', usMen: '12.0', usWomen: '13.5', eur: 47, cm: '30.0' },
   ];
 
   const apparelSizes = [
-    { size: 'S', chest: '88 - 96 cm', waist: '73 - 81 cm', hip: '88 - 96 cm' },
     { size: 'M', chest: '96 - 104 cm', waist: '81 - 89 cm', hip: '96 - 104 cm' },
     { size: 'L', chest: '104 - 112 cm', waist: '89 - 97 cm', hip: '104 - 112 cm' },
     { size: 'XL', chest: '112 - 124 cm', waist: '97 - 109 cm', hip: '112 - 120 cm' },
+    { size: '2XL', chest: '124 - 134 cm', waist: '109 - 121 cm', hip: '120 - 128 cm' },
+    { size: '3XL', chest: '134 - 144 cm', waist: '121 - 133 cm', hip: '128 - 136 cm' },
   ];
 
   return (
@@ -104,6 +108,7 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
                 <thead>
                   <tr className="bg-neutral-100 text-neutral-900 font-bold border-b border-neutral-200">
                     <th className="py-2.5 px-3">Talla COL</th>
+                    <th className="py-2.5 px-3">Segmento</th>
                     <th className="py-2.5 px-3">US Hombre</th>
                     <th className="py-2.5 px-3">US Mujer</th>
                     <th className="py-2.5 px-3">EUR</th>
@@ -114,6 +119,15 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
                   {shoeSizes.map((row) => (
                     <tr key={row.col} className="hover:bg-neutral-50 transition-colors">
                       <td className="py-2 px-3 font-bold text-neutral-950 font-mono">{row.col}</td>
+                      <td className="py-2 px-3">
+                        <span className={`inline-block px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider ${
+                          row.segment === 'Dama'
+                            ? 'bg-rose-50 text-rose-700 border border-rose-200'
+                            : 'bg-neutral-100 text-neutral-800 border border-neutral-200'
+                        }`}>
+                          {row.segment}
+                        </span>
+                      </td>
                       <td className="py-2 px-3 font-mono">{row.usMen}</td>
                       <td className="py-2 px-3 font-mono">{row.usWomen}</td>
                       <td className="py-2 px-3 font-mono">{row.eur}</td>

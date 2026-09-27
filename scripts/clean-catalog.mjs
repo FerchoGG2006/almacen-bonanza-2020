@@ -251,6 +251,20 @@ function pick(arr, index, offset = 0) {
   return arr[(index + offset) % arr.length];
 }
 
+function getSizesForProduct(category, gender) {
+  const isApparel = category === 'Conjuntos' || category === 'Ropa' || category === 'Camisetas';
+  if (isApparel) {
+    return ['M', 'L', 'XL', '2XL', '3XL'];
+  }
+  if (gender === 'Mujer') {
+    return [36, 37, 38, 39];
+  }
+  if (gender === 'Hombre') {
+    return [40, 41, 42, 43, 44, 45];
+  }
+  return [36, 37, 38, 39, 40, 41, 42, 43, 44, 45];
+}
+
 function cleanAndFormatCatalog() {
   const content = fs.readFileSync(PRODUCTS_FILE, 'utf8');
   const jsonMatch = content.match(/export const PRODUCTS_DATA: Product\[\] = (\[[\s\S]*?\]);/);
@@ -266,6 +280,15 @@ function cleanAndFormatCatalog() {
   // Ordenar los curados por ID (1 a 65)
   curated.sort((a, b) => a.id - b.id);
   console.log(`⭐ Productos curados de alta prioridad (primeros en portada): ${curated.length}`);
+
+  const sanitizedCurated = curated.map((p) => {
+    const cleanSizes = getSizesForProduct(p.category, p.gender);
+    return {
+      ...p,
+      sizes: cleanSizes,
+      available_sizes: cleanSizes,
+    };
+  });
 
   // Los demás son productos sincronizados de Drive (IDs > 65)
   const synced = rawProducts.filter((p) => p.id > 65);
@@ -408,9 +431,8 @@ function cleanAndFormatCatalog() {
       price = 210000;
     }
 
-    // Asegurar tallas coherentes
-    const isApparel = category === 'Conjuntos' || category === 'Ropa' || category === 'Camisetas';
-    const cleanSizes = isApparel ? ['S', 'M', 'L', 'XL'] : [37, 38, 39, 40, 41, 42, 43];
+    // Tallas según género y categoría oficiales del negocio
+    const cleanSizes = getSizesForProduct(category, gender);
 
     return {
       ...p,
@@ -425,7 +447,7 @@ function cleanAndFormatCatalog() {
   });
 
   // UNIR: Curados primero (1 a 65), luego todo el inventario restante saneado
-  const finalProducts = [...curated, ...sanitizedSynced];
+  const finalProducts = [...sanitizedCurated, ...sanitizedSynced];
 
   // Re-indexar IDs consecutivos limpios del 1 al N
   finalProducts.forEach((p, i) => {

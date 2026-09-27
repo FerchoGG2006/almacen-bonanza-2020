@@ -161,9 +161,18 @@ function groupAndBuildProducts(files, pathArr, idCounter) {
 
     const price = extractPriceFromName(primaryFile.getName(), brand, category);
 
-    // Tallas según categoría
-    const isApparel = category === "Conjuntos" || category === "Ropa";
-    const sizes = isApparel ? ["S", "M", "L", "XL"] : [37, 38, 39, 40, 41, 42, 43];
+    // Tallas según categoría y género (Dama: 36-39, Caballero: 40-45, Ropa: M-3XL)
+    const isApparel = category === "Conjuntos" || category === "Ropa" || category === "Camisetas";
+    let sizes = [40, 41, 42, 43, 44, 45];
+    if (isApparel) {
+      sizes = ["M", "L", "XL", "2XL", "3XL"];
+    } else if (gender === "Mujer") {
+      sizes = [36, 37, 38, 39];
+    } else if (gender === "Hombre") {
+      sizes = [40, 41, 42, 43, 44, 45];
+    } else {
+      sizes = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45];
+    }
 
     products.push({
       id: "drive_" + fileId.substring(0, 10),
