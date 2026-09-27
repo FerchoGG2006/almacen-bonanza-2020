@@ -115,13 +115,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     key={`${item.id}-${item.size}-${idx}`}
                     className="group relative flex items-start gap-3.5 p-3.5 rounded-2xl bg-white border border-neutral-200/90 shadow-2xs hover:border-neutral-300 transition-all"
                   >
-                    {/* Image Stage */}
-                    <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-xl bg-neutral-100/90 overflow-hidden shrink-0 border border-neutral-200/60 flex items-center justify-center p-1.5">
+                    {/* Foto con bordes redondeados directos sin marco ni caja intermedia */}
+                    <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-xl overflow-hidden shrink-0 bg-neutral-100">
                       <img
                         src={item.image}
                         alt={item.name}
                         referrerPolicy="no-referrer"
-                        className="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+                        className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
 
