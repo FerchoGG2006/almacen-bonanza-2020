@@ -113,62 +113,77 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 {cart.map((item, idx) => (
                   <div
                     key={`${item.id}-${item.size}-${idx}`}
-                    className="flex items-center gap-3.5 p-3 rounded-2xl bg-neutral-50 border border-neutral-200/70"
+                    className="group relative flex items-start gap-3.5 p-3.5 rounded-2xl bg-white border border-neutral-200/90 shadow-2xs hover:border-neutral-300 transition-all"
                   >
-                    {/* Image */}
-                    <div className="w-16 h-16 rounded-xl bg-white p-2 border border-neutral-200/80 flex items-center justify-center shrink-0">
-                      <img src={item.image} alt={item.name} referrerPolicy="no-referrer" className="w-full h-full object-contain" />
+                    {/* Image Stage */}
+                    <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-xl bg-neutral-100/90 overflow-hidden shrink-0 border border-neutral-200/60 flex items-center justify-center p-1.5">
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        referrerPolicy="no-referrer"
+                        className="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
 
                     {/* Details */}
-                    <div className="flex-1 min-w-0">
-                      <span className="text-[10px] uppercase font-bold text-neutral-400 block truncate">
-                        {item.brand}
-                      </span>
-                      <h4 className="text-xs font-bold text-neutral-900 truncate mb-1" title={item.name}>
-                        {item.name}
-                      </h4>
-                      <div className="text-[11px] text-neutral-500 mb-1.5">
-                        Talla: <strong className="text-neutral-900 font-semibold">{item.size}</strong>
+                    <div className="flex-1 min-w-0 pr-1">
+                      <div className="flex items-start justify-between gap-2 mb-1">
+                        <span className="text-[10px] uppercase font-bold tracking-wider text-neutral-400 truncate">
+                          {item.brand}
+                        </span>
+                        {/* Remove button */}
+                        <button
+                          type="button"
+                          onClick={() => onRemoveItem(idx)}
+                          className="p-1 -mr-1 -mt-1 text-neutral-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors cursor-pointer shrink-0"
+                          title="Eliminar producto"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
                       </div>
 
-                      {/* Quantity and Price */}
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-1.5 bg-white border border-neutral-200 rounded-lg p-0.5">
+                      <h4
+                        className="text-xs sm:text-sm font-bold text-neutral-900 truncate mb-1.5 leading-snug"
+                        title={item.name}
+                      >
+                        {item.name}
+                      </h4>
+
+                      <div className="flex items-center gap-2 mb-2.5">
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-bold bg-neutral-100 text-neutral-800 border border-neutral-200/80 font-mono">
+                          Talla: {item.size}
+                        </span>
+                      </div>
+
+                      {/* Quantity Stepper and Total Price */}
+                      <div className="flex items-center justify-between gap-2 pt-1 border-t border-neutral-100">
+                        <div className="flex items-center border border-neutral-200 bg-neutral-50 rounded-lg p-0.5">
                           <button
                             type="button"
                             onClick={() => onUpdateQty(idx, -1)}
-                            className="w-5 h-5 flex items-center justify-center text-neutral-600 hover:text-neutral-950 hover:bg-neutral-100 rounded cursor-pointer"
+                            className="w-5 h-5 flex items-center justify-center text-neutral-600 hover:text-neutral-950 hover:bg-white rounded transition-colors cursor-pointer"
+                            title="Disminuir"
                           >
                             <Minus className="w-3 h-3" />
                           </button>
-                          <span className="text-xs font-bold text-neutral-900 min-w-[16px] text-center font-mono">
+                          <span className="text-xs font-bold text-neutral-950 min-w-[20px] text-center font-mono">
                             {item.qty}
                           </span>
                           <button
                             type="button"
                             onClick={() => onUpdateQty(idx, 1)}
-                            className="w-5 h-5 flex items-center justify-center text-neutral-600 hover:text-neutral-950 hover:bg-neutral-100 rounded cursor-pointer"
+                            className="w-5 h-5 flex items-center justify-center text-neutral-600 hover:text-neutral-950 hover:bg-white rounded transition-colors cursor-pointer"
+                            title="Aumentar"
                           >
                             <Plus className="w-3 h-3" />
                           </button>
                         </div>
 
-                        <span className="text-xs font-black text-neutral-950 font-mono">
+                        <span className="text-xs sm:text-sm font-black text-neutral-950 font-mono tracking-tight">
                           {formatCOP(item.price * item.qty)}
                         </span>
                       </div>
                     </div>
-
-                    {/* Remove */}
-                    <button
-                      type="button"
-                      onClick={() => onRemoveItem(idx)}
-                      className="p-1.5 text-neutral-400 hover:text-rose-600 transition-colors cursor-pointer self-start"
-                      title="Eliminar producto"
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </button>
                   </div>
                 ))}
               </div>
