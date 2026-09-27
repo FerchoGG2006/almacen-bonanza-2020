@@ -114,25 +114,28 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               />
             </div>
 
-            {/* Bottom Floating Card - Fully visible and never cut off */}
-            <div className="z-10 shrink-0 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 sm:p-4 border border-neutral-200 shadow-md flex items-center justify-between gap-3">
+            {/* Bottom Floating Card - Barra compacta y estilizada con menor altura */}
+            <div className="z-10 shrink-0 bg-white/95 backdrop-blur-md rounded-xl px-3.5 py-2 sm:px-4 sm:py-2.5 border border-neutral-200/90 shadow-sm flex items-center justify-between gap-3">
               <div className="min-w-0 flex-1">
-                <span className="text-[9px] uppercase tracking-wider text-neutral-400 font-bold block truncate">
-                  {drop.brand}
-                </span>
-                <h3 className="font-display font-extrabold text-sm sm:text-base text-neutral-900 leading-tight truncate">
+                <div className="flex items-center gap-1.5 mb-0.5">
+                  <span className="text-[9px] uppercase tracking-wider text-neutral-400 font-bold truncate">
+                    {drop.brand}
+                  </span>
+                  <span className="text-neutral-300 text-[10px]">·</span>
+                  <span className="text-xs font-black text-neutral-950 font-mono">
+                    {formatCOP(drop.price)}
+                  </span>
+                </div>
+                <h3 className="font-display font-bold text-xs sm:text-sm text-neutral-900 leading-tight truncate">
                   {drop.name}
                 </h3>
-                <span className="text-xs sm:text-sm font-black text-neutral-950 font-mono">
-                  {formatCOP(drop.price)}
-                </span>
               </div>
 
               <div className="shrink-0">
                 <button
                   type="button"
                   onClick={handleOrderWhatsApp}
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-3.5 py-2 rounded-xl flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] sm:text-xs font-bold px-3 py-1.5 rounded-lg flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs"
                 >
                   <WhatsAppIcon className="w-3.5 h-3.5 text-white" />
                   <span>Pedir WhatsApp</span>
