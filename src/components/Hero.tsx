@@ -100,16 +100,16 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               </span>
             </div>
 
-            {/* Foto de producto estilizada con altura equilibrada y bordes redondeados */}
+            {/* Foto de producto ampliada con altura generosa para ver el calzado completo */}
             <div
-              className="relative w-full h-48 sm:h-52 md:h-56 my-2 rounded-2xl overflow-hidden shadow-xs bg-neutral-100 cursor-pointer group/heroimg"
+              className="relative w-full h-60 sm:h-64 md:h-72 my-2 rounded-2xl overflow-hidden shadow-xs bg-neutral-100 cursor-pointer group/heroimg"
               onClick={() => onOpenProductModal(drop.id)}
             >
               <img
                 src={drop.image}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
+                className="w-full h-full object-cover object-center rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
                 decoding="async"
               />
             </div>
