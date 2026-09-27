@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HeroDrop } from '../types/index';
-import { ArrowRight, RotateCw } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { formatCOP, STORE_PHONE } from '../services/whatsapp';
 
@@ -12,8 +12,7 @@ const HERO_DROPS: HeroDrop[] = [
     price: 245000,
     spec1: "Horma original, detalles de malla transpirable, suela Air Cushion",
     sizes: [40, 41, 42, 43, 44, 45],
-    image: "https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800",
-    hover_image: "https://lh3.googleusercontent.com/d/1HxD4ETmnqZY0uOiw63f7U9WYhuFzQo6V=w800"
+    image: "https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800"
   },
   {
     id: 2,
@@ -22,8 +21,7 @@ const HERO_DROPS: HeroDrop[] = [
     price: 185000,
     spec1: "Piel sintética premium bicolor, corte bajo y tracción urbana",
     sizes: [40, 41, 42, 43, 44, 45],
-    image: "https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800",
-    hover_image: "https://lh3.googleusercontent.com/d/1gshfY8RwkO7mtcB6XgxgxNkVHIZL15jp=w800"
+    image: "https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800"
   },
   {
     id: 3,
@@ -32,8 +30,7 @@ const HERO_DROPS: HeroDrop[] = [
     price: 220000,
     spec1: "Silueta high legendaria, amortiguación Air-Sole y soporte de tobillo",
     sizes: [40, 41, 42, 43, 44, 45],
-    image: "https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800",
-    hover_image: "https://lh3.googleusercontent.com/d/1zmhs6pzWVMM4J-8hl59FvuRa7DT6QZg0=w800"
+    image: "https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800"
   }
 ];
 
@@ -44,10 +41,8 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductModal }) => {
   const [currentDropIndex, setCurrentDropIndex] = useState(0);
-  const [isAltAngle, setIsAltAngle] = useState(false);
 
   const drop = HERO_DROPS[currentDropIndex];
-  const currentImg = isAltAngle ? drop.hover_image : drop.image;
 
   const handleOrderWhatsApp = () => {
     const text = encodeURIComponent(
@@ -100,18 +95,9 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               <span className="text-[11px] font-bold tracking-[0.2em] text-neutral-500 uppercase">
                 {drop.brand} · Colección Principal
               </span>
-              
-              <div className="flex items-center gap-2">
-                <button
-                  type="button"
-                  onClick={() => setIsAltAngle(!isAltAngle)}
-                  className="bg-white/90 hover:bg-white text-neutral-800 text-[11px] px-3 py-1 rounded-full border border-neutral-200 shadow-2xs flex items-center gap-1.5 font-semibold transition-all cursor-pointer"
-                  title="Girar ángulo del calzado"
-                >
-                  <RotateCw className={`w-3 h-3 transition-transform duration-300 ${isAltAngle ? 'rotate-180' : ''}`} />
-                  <span>{isAltAngle ? 'Vista Frontal' : 'Girar Ángulo'}</span>
-                </button>
-              </div>
+              <span className="text-[10px] font-bold tracking-wider text-neutral-700 bg-white/90 border border-neutral-200/80 px-2.5 py-0.5 rounded-full uppercase shadow-2xs">
+                Drop Destacado
+              </span>
             </div>
 
             {/* Foto de producto estilizada con altura equilibrada y bordes redondeados */}
@@ -120,7 +106,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               onClick={() => onOpenProductModal(drop.id)}
             >
               <img
-                src={currentImg}
+                src={drop.image}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
@@ -164,7 +150,6 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
                 type="button"
                 onClick={() => {
                   setCurrentDropIndex(index);
-                  setIsAltAngle(false);
                 }}
                 className={`text-[11px] font-bold py-1 px-3 rounded-full transition-all cursor-pointer ${
                   currentDropIndex === index
