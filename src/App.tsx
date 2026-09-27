@@ -153,6 +153,11 @@ export const App: React.FC = () => {
       return;
     }
 
+    // Acceso administrativo privado para sincronización con Google Drive (ej: ?admin=sync o ?sync=drive)
+    if (params.get('admin') === 'sync' || params.get('sync') === 'drive') {
+      setIsDriveSyncOpen(true);
+    }
+
     if (viewParam && viewParam !== 'home') {
       navigateTo('not-found', undefined, pushHistory);
       return;
@@ -174,6 +179,12 @@ export const App: React.FC = () => {
       if (e.key === 'Escape') {
         setIsCartOpen(false);
         setModalProductId(null);
+        setIsDriveSyncOpen(false);
+      }
+      // Acceso de administración privado: Ctrl + Shift + D abre/cierra panel de sincronización
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'D' || e.key === 'd')) {
+        e.preventDefault();
+        setIsDriveSyncOpen((prev) => !prev);
       }
     };
     window.addEventListener('keydown', onKeyDown);
@@ -574,7 +585,6 @@ export const App: React.FC = () => {
       <Footer
         onNavigate={navigateTo}
         onOpenLegal={handleOpenLegal}
-        onOpenDriveSync={() => setIsDriveSyncOpen(true)}
       />
 
       {/* Interactive Colombian Compliance & Legal Modal */}

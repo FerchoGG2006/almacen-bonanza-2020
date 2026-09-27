@@ -1,6 +1,6 @@
 import React from 'react';
 import { ViewType } from '../types/index';
-import { MapPin, CheckCircle, Scale, Cloud } from 'lucide-react';
+import { MapPin, CheckCircle, Scale } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { STORE_PHONE, STORE_ADDRESS, STORE_MAPS_URL } from '../services/whatsapp';
 import type { LegalTab } from './LegalModal';
@@ -8,10 +8,9 @@ import type { LegalTab } from './LegalModal';
 interface FooterProps {
   onNavigate: (view: ViewType) => void;
   onOpenLegal?: (tab: LegalTab) => void;
-  onOpenDriveSync?: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenDriveSync }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal }) => {
   const openLegalModal = (tab: LegalTab) => {
     onOpenLegal?.(tab);
   };
@@ -149,18 +148,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
                   <span>Canal PQR & Reclamaciones</span>
                 </button>
               </li>
-              {onOpenDriveSync && (
-                <li className="pt-1.5 border-t border-neutral-800/80">
-                  <button
-                    type="button"
-                    onClick={onOpenDriveSync}
-                    className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-2 text-sky-400 hover:text-sky-300 font-semibold"
-                  >
-                    <Cloud className="w-3.5 h-3.5 shrink-0" />
-                    <span>Sincronizar Catálogo Drive</span>
-                  </button>
-                </li>
-              )}
             </ul>
           </div>
 
@@ -211,18 +198,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
             >
               Garantías
             </button>
-            {onOpenDriveSync && (
-              <>
-                <span>·</span>
-                <button
-                  type="button"
-                  onClick={onOpenDriveSync}
-                  className="hover:text-neutral-300 transition-colors cursor-pointer"
-                >
-                  Drive Sync
-                </button>
-              </>
-            )}
           </div>
         </div>
       </footer>
