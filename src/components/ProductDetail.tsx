@@ -29,24 +29,15 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
   const [selectedSize, setSelectedSize] = useState<string | number>(
     product.sizes && product.sizes.length > 0 ? product.sizes[0] : 40
   );
-  const [activeImageAngle, setActiveImageAngle] = useState<number>(0);
   const [showSizeGuide, setShowSizeGuide] = useState<boolean>(false);
   const [copiedLink, setCopiedLink] = useState<boolean>(false);
 
-  // Reset selected size and angle whenever product changes
+  // Reset selected size whenever product changes
   useEffect(() => {
     setSelectedSize(product.sizes && product.sizes.length > 0 ? product.sizes[0] : 40);
-    setActiveImageAngle(0);
     setShowSizeGuide(false);
     setCopiedLink(false);
   }, [product.id]);
-
-  const images = [product.image];
-  if (product.hover_image && product.hover_image !== product.image) {
-    images.push(product.hover_image);
-  }
-
-  const currentImage = images[activeImageAngle] || product.image;
 
   const handleQuickWhatsApp = () => {
     const url = buildQuickWhatsAppUrl(product, selectedSize);
@@ -115,35 +106,17 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
       {/* Product Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start mb-16">
         
-        {/* Left: Gallery */}
-        <div className="lg:col-span-7 space-y-3">
+        {/* Left: Imagen oficial del producto */}
+        <div className="lg:col-span-7">
           <div className="relative aspect-square sm:aspect-[4/3] w-full bg-neutral-100 rounded-3xl border border-neutral-200/80 shadow-xs overflow-hidden group">
             <img
-              src={currentImage}
+              src={product.image}
               alt={`${product.name} - ${product.brand} - Calzado en Bonanza 2020`}
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 select-none"
               decoding="async"
             />
           </div>
-
-          {/* Thumbnails */}
-          {images.length > 1 && (
-            <div className="flex items-center gap-2.5">
-              {images.map((img, idx) => (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => setActiveImageAngle(idx)}
-                  className={`w-16 h-16 rounded-xl p-1.5 bg-white border-2 transition-all cursor-pointer ${
-                    activeImageAngle === idx ? 'border-neutral-950 shadow-xs' : 'border-neutral-200 opacity-60 hover:opacity-100'
-                  }`}
-                >
-                  <img src={img} alt={`Ángulo ${idx + 1}`} referrerPolicy="no-referrer" className="w-full h-full object-contain" />
-                </button>
-              ))}
-            </div>
-          )}
         </div>
 
         {/* Right: Info & CTA (Light, sleek, airy layout) */}
