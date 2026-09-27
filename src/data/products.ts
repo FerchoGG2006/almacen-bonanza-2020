@@ -99,7 +99,7 @@ export const PRODUCTS_DATA: Product[] = [
   },
   {
     "id": 4,
-    "name": "Nike Air Pegasus Wave 'Metallic Silver'",
+    "name": "Nike Skate 'Metallic Silver'",
     "brand": "Nike",
     "gender": "Hombre",
     "category": "Zapatillas",
@@ -127,7 +127,7 @@ export const PRODUCTS_DATA: Product[] = [
     "rating": 4.9,
     "reviews_count": 52,
     "is_featured": false,
-    "description": "Estética retro-running Y2K de alto impacto. Malla plateada transpirable, estructura enjaulada futurista y amortiguación Nike Air para máximo confort urbano."
+    "description": "Silueta chunky urbana Nike Skate con estética metálica futurista. Capellada en malla plateada transpirable, estructura de jaula geométrica con logotipo Nike Skate en talón y suela robusta de alta amortiguación."
   },
   {
     "id": 5,
