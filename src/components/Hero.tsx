@@ -114,16 +114,16 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               </div>
             </div>
 
-            {/* Kinetic Shoe Stage with floating effect */}
-            <div className="relative flex-1 flex items-center justify-center py-2 my-2 min-h-[160px] sm:min-h-[190px]">
-              <div className="absolute inset-0 bg-radial from-neutral-400/15 to-transparent blur-xl rounded-full transform scale-90 pointer-events-none"></div>
-              
+            {/* Foto de producto en grande con bordes redondeados que ocupa todo el espacio */}
+            <div
+              className="relative w-full flex-1 my-3 aspect-[4/3] sm:aspect-[16/10] max-h-[380px] rounded-2xl overflow-hidden shadow-sm bg-neutral-100 cursor-pointer group/heroimg"
+              onClick={() => onOpenProductModal(drop.id)}
+            >
               <img
                 src={currentImg}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
-                className="w-auto h-36 sm:h-44 md:h-48 max-h-[210px] object-contain drop-shadow-xl transition-all duration-500 ease-out group-hover:scale-105 group-hover:-rotate-2 cursor-pointer select-none"
-                onClick={() => onOpenProductModal(drop.id)}
+                className="w-full h-full object-cover rounded-2xl transition-transform duration-700 ease-out group-hover/heroimg:scale-105 select-none"
                 decoding="async"
               />
             </div>
