@@ -15,6 +15,11 @@ import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { CookieBanner } from './components/CookieBanner';
 import type { LegalTab } from './components/LegalModal';
 import { loadCachedDriveProducts, mergeCatalogs } from './services/driveSync';
+import {
+  fetchPricesFromGoogleSheet,
+  loadPricesFromCache,
+  applySheetPricesToProducts,
+} from './services/googleSheetsPrices';
 import { initAnalytics, trackPageView } from './services/analytics';
 
 // Code Splitting con React.lazy para vistas y modales secundarios
@@ -34,14 +39,19 @@ const ViewLoadingFallback: React.FC = () => (
 );
 
 export const App: React.FC = () => {
-  // Catalog State (inicializa con base local + caché dinámico de Drive)
+  // Catalog State (inicializa con base local + caché dinámico de Drive + precios en vivo de Google Sheets)
   const [products, setProducts] = useState<Product[]>(() => {
+    let base = PRODUCTS_DATA;
     const cached = loadCachedDriveProducts();
     if (cached.length > 0) {
       const { merged } = mergeCatalogs(PRODUCTS_DATA, cached);
-      return merged;
+      base = merged;
     }
-    return PRODUCTS_DATA;
+    const cachedPrices = loadPricesFromCache();
+    if (cachedPrices.size > 0) {
+      return applySheetPricesToProducts(base, cachedPrices);
+    }
+    return base;
   });
   const [currentView, setCurrentView] = useState<ViewType>('home');
   const [selectedProductId, setSelectedProductId] = useState<number | null>(null);
@@ -81,6 +91,15 @@ export const App: React.FC = () => {
   useEffect(() => {
     saveWishlistToStorage(wishlist);
   }, [wishlist]);
+
+  // Auto-sincronizar precios en vivo desde Google Sheets en segundo plano al cargar
+  useEffect(() => {
+    fetchPricesFromGoogleSheet().then((res) => {
+      if (res.success && res.prices.size > 0) {
+        setProducts((prev) => applySheetPricesToProducts(prev, res.prices));
+      }
+    });
+  }, []);
 
   // Router handler based on URL parameters
   const handleUrlRoute = (pushHistory: boolean = false) => {
@@ -585,6 +604,7 @@ export const App: React.FC = () => {
       <Footer
         onNavigate={navigateTo}
         onOpenLegal={handleOpenLegal}
+        onOpenDriveSync={() => setIsDriveSyncOpen(true)}
       />
 
       {/* Interactive Colombian Compliance & Legal Modal */}
@@ -596,12 +616,13 @@ export const App: React.FC = () => {
         />
       </Suspense>
 
-      {/* Google Drive Catalog Sync Modal */}
+      {/* Google Sheets / Drive Catalog Sync Modal */}
       <Suspense fallback={null}>
         <DriveSyncModal
           isOpen={isDriveSyncOpen}
           onClose={() => setIsDriveSyncOpen(false)}
           productsCount={products.length}
+          products={products}
           onSyncSuccess={(updatedProducts) => {
             setProducts(updatedProducts);
           }}

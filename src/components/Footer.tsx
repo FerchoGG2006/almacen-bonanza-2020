@@ -8,9 +8,10 @@ import type { LegalTab } from './LegalModal';
 interface FooterProps {
   onNavigate: (view: ViewType) => void;
   onOpenLegal?: (tab: LegalTab) => void;
+  onOpenDriveSync?: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenDriveSync }) => {
   const openLegalModal = (tab: LegalTab) => {
     onOpenLegal?.(tab);
   };
@@ -174,7 +175,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal }) => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-6 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-neutral-500 text-[11px]">
           <div>© {new Date().getFullYear()} BONANZA 2020. Todos los derechos reservados.</div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3.5 flex-wrap">
+            {onOpenDriveSync && (
+              <>
+                <button
+                  type="button"
+                  onClick={onOpenDriveSync}
+                  className="hover:text-emerald-400 text-neutral-400 font-semibold transition-colors cursor-pointer flex items-center gap-1.5"
+                  title="Gestionar precios en vivo desde Google Sheets"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                  <span>Precios (Google Sheets)</span>
+                </button>
+                <span>·</span>
+              </>
+            )}
             <button
               type="button"
               onClick={() => openLegalModal('terms')}
