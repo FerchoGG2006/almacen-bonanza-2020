@@ -1,0 +1,147 @@
+/**
+ * =======================================================================
+ * BONANZA 2020 - AUTO-CARGADOR DE PRECIOS E INVENTARIO PARA GOOGLE SHEETS
+ * =======================================================================
+ * Instrucciones:
+ * 1. En tu Google Sheet, ve a: Extensiones -> Apps Script
+ * 2. Borra cualquier código que veas y pega todo este archivo.
+ * 3. Haz clic en "Ejecutar" (Run).
+ * 4. ¡Listo! Tu pestaña LISTA_PRECIOS se llenará con las 65 referencias,
+ *    fotos visibles, precios y formato profesional.
+ */
+
+function cargarCatalogoBonanza() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheetName = "LISTA_PRECIOS";
+  var sheet = ss.getSheetByName(sheetName);
+
+  if (!sheet) {
+    sheet = ss.insertSheet(sheetName);
+  } else {
+    sheet.clear();
+  }
+
+  // Encabezados
+  var headers = [
+    "ID",
+    "FOTO",
+    "REFERENCIA",
+    "MARCA",
+    "CATEGORIA",
+    "GENERO",
+    "PRECIO_VENTA_COP",
+    "PRECIO_OFERTA_COP",
+    "ESTADO"
+  ];
+
+  // Datos de los 65 productos
+  var rows = [
+    [1, '=IMAGE("https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800")', "Nike SB Dunk Low Pro 'White / Black Gum'", "Nike", "Zapatillas", "Hombre", 245000, "", "DISPONIBLE"],
+    [2, '=IMAGE("https://lh3.googleusercontent.com/d/1FNPxysGWORXe5tQgNpWSDb8hifbICziq=w800")', "Nike SB Dunk Low 'Black Pigeon' (Jeff Staple)", "Nike", "Zapatillas", "Hombre", 215000, 185000, "DISPONIBLE"],
+    [3, '=IMAGE("https://lh3.googleusercontent.com/d/15HQ-Zam7ME3yRxPCuyX0CezBv5y6xD3t=w800")', "Air Jordan 4 Retro 'Bred' (Black Cement)", "Nike", "Zapatillas", "Hombre", 220000, "", "DISPONIBLE"],
+    [4, '=IMAGE("https://lh3.googleusercontent.com/d/1e9Hj3IyYT_yQbh_0p592rRqJcS2LzA1r=w800")', "Nike Skate 'Metallic Silver'", "Nike", "Zapatillas", "Hombre", 275000, "", "DISPONIBLE"],
+    [5, '=IMAGE("https://lh3.googleusercontent.com/d/1rF7joY33-3S3Ph0keZjorflgO0ROSMfi=w800")', "Air Jordan 4 Retro 'Military Blue'", "Nike", "Zapatillas", "Hombre", 275000, "", "DISPONIBLE"],
+    [6, '=IMAGE("https://lh3.googleusercontent.com/d/1t-4fqCQFxpQaSOZnhHxbKi8xOgPPNcT-=w800")', "Nike Pegasus Trail 4 'Summit White / Burgundy'", "Nike", "Running", "Hombre", 285000, 255000, "DISPONIBLE"],
+    [7, '=IMAGE("https://lh3.googleusercontent.com/d/1-mIGCKvPpKSiRzGC3iwKMmafHEVOLZxu=w800")', "Adidas Superstar ADV 'Core Black / White Gum'", "Adidas", "Zapatillas", "Hombre", 295000, "", "DISPONIBLE"],
+    [8, '=IMAGE("https://lh3.googleusercontent.com/d/1zmP9WhKHS2ow8o6AF3r0c5FgTg3oKQzd=w800")', "Adidas Swift Run 1.0 'Core Black / Cloud White'", "Adidas", "Zapatillas", "Hombre", 270000, 240000, "DISPONIBLE"],
+    [9, '=IMAGE("https://lh3.googleusercontent.com/d/1tunVfG3heFTkth36KNGqbhYHwtDuci-n=w800")', "Adidas Supernova Rise 'Dreamstrike Core Black'", "Adidas", "Running", "Hombre", 255000, 225000, "DISPONIBLE"],
+    [10, '=IMAGE("https://lh3.googleusercontent.com/d/1ZR_zfAoeKeeBthpldYqLS5ESkK_5k6-W=w800")', "Adidas Terrex Soulstride GORE-TEX 'Black / Solar Red'", "Adidas", "Running", "Hombre", 310000, "", "DISPONIBLE"],
+    [11, '=IMAGE("https://lh3.googleusercontent.com/d/1Hqtd2bFdIDp8xe75XMLNDpHumCxFFNq_=w800")', "Adidas Campus 00s 'Core Black / Cloud White'", "Adidas", "Zapatillas", "Hombre", 245000, "", "DISPONIBLE"],
+    [12, '=IMAGE("https://lh3.googleusercontent.com/d/1FbD3BX3ySZ8QqUvmcygQ32wA9te1XikT=w800")', "Adidas Supermagma Running 'Triple Black'", "Adidas", "Running", "Hombre", 285000, "", "DISPONIBLE"],
+    [13, '=IMAGE("https://lh3.googleusercontent.com/d/1m0P_AhyqN4s1drTfuY0_gz1t5F2mWZtB=w800")', "New Balance 530 'Black / White'", "New Balance", "Zapatillas", "Hombre", 315000, "", "DISPONIBLE"],
+    [14, '=IMAGE("https://lh3.googleusercontent.com/d/1DYHL0oODA7SGYegueaA4n8HKSWuxv1C6=w800")', "New Balance 9060 'Sea Salt / Surf Blue'", "New Balance", "Zapatillas", "Hombre", 305000, 275000, "DISPONIBLE"],
+    [15, '=IMAGE("https://lh3.googleusercontent.com/d/1HDoG5iHKVvD-GTqLqbgip8P1kakc2J56=w800")', "New Balance 9060 'Eclipse Grey / Crimson'", "New Balance", "Zapatillas", "Hombre", 305000, "", "DISPONIBLE"],
+    [16, '=IMAGE("https://lh3.googleusercontent.com/d/1-IdDIyLocBp6Y8jJ4bPUPbCE0qwU23-M=w800")', "New Balance 9060 'Triple Black / Phantom'", "New Balance", "Zapatillas", "Hombre", 305000, "", "DISPONIBLE"],
+    [17, '=IMAGE("https://lh3.googleusercontent.com/d/1gV1xxT50brzjSRP0HscFsqcRqGgAa_e_=w800")', "New Balance 9060 'Sea Salt / Rain Cloud'", "New Balance", "Zapatillas", "Hombre", 240000, "", "DISPONIBLE"],
+    [18, '=IMAGE("https://lh3.googleusercontent.com/d/14YePsBxaGFLtvgKhtTOSHrPZKDcplf8V=w800")', "New Balance 9060 'Castlerock / Shadow Grey'", "New Balance", "Zapatillas", "Hombre", 320000, "", "DISPONIBLE"],
+    [19, '=IMAGE("https://lh3.googleusercontent.com/d/1Ypt3R_zksQpFwDbothWNjNg7QlhN6D70=w800")', "On Cloudtilt 'All White / Ivory'", "On Cloud", "Running", "Hombre", 305000, "", "DISPONIBLE"],
+    [20, '=IMAGE("https://lh3.googleusercontent.com/d/1v8zQQ5GvLCREaEPCtFkGiL4VEagiWCI0=w800")', "On Cloudtilt 'All White / Ivory' (Edición Especial)", "On Cloud", "Running", "Hombre", 305000, "", "DISPONIBLE"],
+    [21, '=IMAGE("https://lh3.googleusercontent.com/d/1St6Jfdds4nX0kLOo71bYW_EdAu4sRKaH=w800")', "On Cloudtilt LOEWE 'Sand / Orange'", "On Cloud", "Running", "Hombre", 275000, "", "DISPONIBLE"],
+    [22, '=IMAGE("https://lh3.googleusercontent.com/d/1DjYBD7fYObnXU1FaW0QhX9b8zof1e2Rk=w800")', "On Cloudsurfer Running 'Grey / Berry Fade'", "On Cloud", "Running", "Hombre", 265000, "", "DISPONIBLE"],
+    [23, '=IMAGE("https://lh3.googleusercontent.com/d/1S9LW2YIL8F1DH-EMhgSdlIIEaYq8dzZZ=w800")', "On Cloudsurfer Running 'All Black / White'", "On Cloud", "Running", "Hombre", 290000, 260000, "DISPONIBLE"],
+    [24, '=IMAGE("https://lh3.googleusercontent.com/d/1KozmmedMYeLBADN7Hg5D_eLoT3q-9LzU=w800")', "Asics GEL-Kayano 14 'Triple Black / Silver'", "Asics", "Running", "Hombre", 300000, 270000, "DISPONIBLE"],
+    [25, '=IMAGE("https://lh3.googleusercontent.com/d/1RabNyAZOGRCeGuuz8Oi6eOJ2FXURjBDr=w800")', "Asics GEL-NYC 'White / Midnight Navy'", "Asics", "Running", "Hombre", 260000, 230000, "DISPONIBLE"],
+    [26, '=IMAGE("https://lh3.googleusercontent.com/d/11zWFNEtsQltnL-VaqYAKsSPSCfZh8Mz9=w800")', "Asics GEL-Kayano 14 'Pure Silver / Dark Green'", "Asics", "Running", "Hombre", 355000, 325000, "DISPONIBLE"],
+    [27, '=IMAGE("https://lh3.googleusercontent.com/d/1Fxs5vSff6QTDn-JvXYrmjIl93pxrmfU9=w800")', "Puma Suede XL 'Black / White'", "Puma", "Zapatillas", "Hombre", 245000, "", "DISPONIBLE"],
+    [28, '=IMAGE("https://lh3.googleusercontent.com/d/1DugVjLqCXaiohsGULM3lLkcmd6-OLcQj=w800")', "Puma Suede Classic 'Black / Shadow Grey'", "Puma", "Zapatillas", "Hombre", 285000, "", "DISPONIBLE"],
+    [29, '=IMAGE("https://lh3.googleusercontent.com/d/1aBGZX_cqAvpuILInHveoFtHt-uEdLlqN=w800")', "Puma Palermo 'Shadow Grey / Black'", "Puma", "Zapatillas", "Hombre", 280000, 250000, "DISPONIBLE"],
+    [30, '=IMAGE("https://lh3.googleusercontent.com/d/1fR9IvUTUyVyvIe9A-Mrncw9Q-RbN48uo=w800")', "Nike Air Max Portal 'Triple Black / White'", "Nike", "Zapatillas", "Mujer", 240000, "", "DISPONIBLE"],
+    [31, '=IMAGE("https://lh3.googleusercontent.com/d/1b-KJG5BLXu_t-ov4Xw31RHUG2Jm-slUL=w800")', "Nike Air Force 1 '07 'Triple Black'", "Nike", "Zapatillas", "Mujer", 225000, 195000, "DISPONIBLE"],
+    [32, '=IMAGE("https://lh3.googleusercontent.com/d/10mV192VWih5bocHCFyL2TIsPkeorrHYv=w800")', "Nike Invincible 3 ZoomX 'Black / Hyper Pink'", "Nike", "Running", "Mujer", 310000, "", "DISPONIBLE"],
+    [33, '=IMAGE("https://lh3.googleusercontent.com/d/1RtXdw8QDzM_nDC1T9615kAaxa_Dr7oP8=w800")', "Nike V2K Run 'Sail / Metallic Silver'", "Nike", "Zapatillas", "Mujer", 290000, "", "DISPONIBLE"],
+    [34, '=IMAGE("https://lh3.googleusercontent.com/d/1uPgvlpqaCgxzbG6BQKEucd7IGlnunqy2=w800")', "Nike Initiate 'White / Lilac Pink'", "Nike", "Running", "Mujer", 290000, 260000, "DISPONIBLE"],
+    [35, '=IMAGE("https://lh3.googleusercontent.com/d/1EHxe4tAbyIK1zrlFBMHTlU4oXcp3ToaZ=w800")', "Nike Air Max Portal 'Black / White Sole'", "Nike", "Zapatillas", "Mujer", 290000, "", "DISPONIBLE"],
+    [36, '=IMAGE("https://lh3.googleusercontent.com/d/1roHFaZwpPyBiej51_FX8znBHWFdhSf-G=w800")', "Adidas Originals Samba OG 'Core Black / White'", "Adidas", "Zapatillas", "Mujer", 235000, 205000, "DISPONIBLE"],
+    [37, '=IMAGE("https://lh3.googleusercontent.com/d/1wLJnVIb7cDzL6t7NFgq5Da-iRm_8Qo8h=w800")', "Adidas Runfalcon 3.0 'Cloud White / Lucid Blue'", "Adidas", "Running", "Mujer", 290000, "", "DISPONIBLE"],
+    [38, '=IMAGE("https://lh3.googleusercontent.com/d/1pdNzblnOSYLos5x6FG41C1_EWhns3Ugm=w800")', "Adidas Originals Samba OG 'Black Textured'", "Adidas", "Zapatillas", "Mujer", 240000, "", "DISPONIBLE"],
+    [39, '=IMAGE("https://lh3.googleusercontent.com/d/1eOqQbrJH4qKEt4pslO1t3zLuuma9ZVIX=w800")', "Adidas Ultraboost Light 'Core Black / White'", "Adidas", "Running", "Mujer", 305000, 275000, "DISPONIBLE"],
+    [40, '=IMAGE("https://lh3.googleusercontent.com/d/1ZbTHWQVNYZX8ar5ADr9n-3mDvP4ahwMr=w800")', "Adidas Handball Spezial 'Metallic Silver / Grey'", "Adidas", "Zapatillas", "Mujer", 220000, 190000, "DISPONIBLE"],
+    [41, '=IMAGE("https://lh3.googleusercontent.com/d/13xYQGae4agk6OHdvbWFX6jZrK2twzeNy=w800")', "Adidas Supernova Solution 'Wonder Beige / Gum'", "Adidas", "Running", "Mujer", 290000, 260000, "DISPONIBLE"],
+    [42, '=IMAGE("https://lh3.googleusercontent.com/d/1IZpovQOSSBRc8E5qjJSqrl5Gr5rEaJOi=w800")', "On Cloudtilt LOEWE 'Sand / White'", "On Cloud", "Running", "Mujer", 315000, "", "DISPONIBLE"],
+    [43, '=IMAGE("https://lh3.googleusercontent.com/d/1ovu20dbeSsHdoMy36SceALpVgLDa0lO5=w800")', "On Cloudtilt Waterproof 'All Black'", "On Cloud", "Running", "Mujer", 330000, "", "DISPONIBLE"],
+    [44, '=IMAGE("https://lh3.googleusercontent.com/d/187N0FP6k13b111bU7RRTcQVfgZ5yXseu=w800")', "On Cloudsurfer Running 'All White / Undyed'", "On Cloud", "Running", "Mujer", 345000, 315000, "DISPONIBLE"],
+    [45, '=IMAGE("https://lh3.googleusercontent.com/d/1JbHD6iIiE4_KE4IYKAgluvR1aekMoUPx=w800")', "On Cloudrunner 2 'White / Rose Pink'", "On Cloud", "Running", "Mujer", 280000, "", "DISPONIBLE"],
+    [46, '=IMAGE("https://lh3.googleusercontent.com/d/1vw6qe58qzsRnkzBEd74iu-NYuwsKtEUY=w800")', "On Cloudsurfer Running 'Grey / Flame Red Fade'", "On Cloud", "Running", "Mujer", 310000, "", "DISPONIBLE"],
+    [47, '=IMAGE("https://lh3.googleusercontent.com/d/197PUOrikqr5JecGG2xkw1iOqXGN2NGER=w800")', "On Cloudmonster 'White / Olive / Green'", "On Cloud", "Running", "Mujer", 345000, "", "DISPONIBLE"],
+    [48, '=IMAGE("https://lh3.googleusercontent.com/d/1bSocB32WaTigetHpiJZ035kVY5G2HnFZ=w800")', "Conjunto Retro Windrunner 2026", "Bonanza Sport", "Conjuntos", "Hombre", 155000, 125000, "DISPONIBLE"],
+    [49, '=IMAGE("https://lh3.googleusercontent.com/d/1SwrD_v_ngcEif77GMxK4ue6rThTsfa1s=w800")', "Conjunto Tech Tracksuit Bonanza 'Obsidian'", "Bonanza Sport", "Conjuntos", "Hombre", 145000, 115000, "DISPONIBLE"],
+    [50, '=IMAGE("https://lh3.googleusercontent.com/d/1Sk1QMLCDUx3jDh7rzcSjo4sdigDjOg7N=w800")', "Conjunto Deportivo Dry-Fit Training Pro", "Bonanza Sport", "Conjuntos", "Hombre", 215000, "", "DISPONIBLE"],
+    [51, '=IMAGE("https://lh3.googleusercontent.com/d/1Z_oaUaktG2S_CSjHFf6REF1sGUIAaxbw=w800")', "Buzo Hoodie Oversize + Jogger Streetwear", "Bonanza Sport", "Conjuntos", "Hombre", 165000, "", "DISPONIBLE"],
+    [52, '=IMAGE("https://lh3.googleusercontent.com/d/1VzRzFIlx82fS4KnBUVYVd-yYf68kD-ZP=w800")', "Conjunto Retro Windrunner 2026 (Colorway #5)", "Bonanza Sport", "Conjuntos", "Hombre", 165000, "", "DISPONIBLE"],
+    [53, '=IMAGE("https://lh3.googleusercontent.com/d/1wTbVeEHx7iem1u-yuQhlol0BF08dzZW7=w800")', "Conjunto Tech Tracksuit Bonanza 'Obsidian' (Colorway #6)", "Bonanza Sport", "Conjuntos", "Hombre", 190000, "", "DISPONIBLE"],
+    [54, '=IMAGE("https://lh3.googleusercontent.com/d/1OaIsa4g89uogfSD7uNGFsQVR0OxZ_QXG=w800")', "Camiseta Graphic Streetwear 1.1 Boxy Fit", "Bonanza Sport", "Camisetas", "Hombre", 95000, "", "DISPONIBLE"],
+    [55, '=IMAGE("https://lh3.googleusercontent.com/d/1kGN9yP-RGcXEhnyUwZ1nHIH9ntYenJch=w800")', "Suéter Cuello Texturizado Premium", "Bonanza Sport", "Camisetas", "Hombre", 70000, "", "DISPONIBLE"],
+    [56, '=IMAGE("https://lh3.googleusercontent.com/d/1U6fm9F7DYaZ6fI_Kpy75feAytc0iYYKB=w800")', "Camiseta Oversize Heavy Cotton 'Bonanza'", "Bonanza Sport", "Camisetas", "Hombre", 70000, 40000, "DISPONIBLE"],
+    [57, '=IMAGE("https://lh3.googleusercontent.com/d/1Cbu-DOrkAO55pYhsZLH35qxS5BPovyvp=w800")', "Suéter Deportivo Microfibra Dry-Fit", "Bonanza Sport", "Camisetas", "Hombre", 95000, "", "DISPONIBLE"],
+    [58, '=IMAGE("https://lh3.googleusercontent.com/d/1KL7OMF4xEJHds2GzhVQZjXM5nvt2lp1t=w800")', "Camiseta Graphic Streetwear 1.1 Boxy Fit (Colorway #5)", "Bonanza Sport", "Camisetas", "Hombre", 70000, "", "DISPONIBLE"],
+    [59, '=IMAGE("https://lh3.googleusercontent.com/d/1AqXORPYO8Dkn117gL-Np78-OgjlAIO_J=w800")', "Suéter Cuello Texturizado Premium (Colorway #6)", "Bonanza Sport", "Camisetas", "Hombre", 95000, 65000, "DISPONIBLE"],
+    [60, '=IMAGE("https://lh3.googleusercontent.com/d/191iQX5jlVq7121dU0Ftq5rQme508jVMZ=w800")', "Camiseta AC Milan Cuarta Equipación Retro", "Fútbol Club", "Camisetas", "Hombre", 70000, "", "DISPONIBLE"],
+    [61, '=IMAGE("https://lh3.googleusercontent.com/d/1Z__ZJ5vSg-9VLZGgSAb3laNdMrs4g8Fn=w800")', "Camiseta Real Madrid Retro 2002/03", "Fútbol Club", "Camisetas", "Hombre", 75000, "", "DISPONIBLE"],
+    [62, '=IMAGE("https://lh3.googleusercontent.com/d/1EF-q0UlCU0YQnEa01vsPn0AVls7A9DY6=w800")', "Camiseta Colombia Selección Especial 100 Años", "Fútbol Club", "Camisetas", "Hombre", 95000, "", "DISPONIBLE"],
+    [63, '=IMAGE("https://lh3.googleusercontent.com/d/17aDzMrCWhKwAXEzwPHYhrTJm6ZNRtAc7=w800")', "Camiseta Inter Miami Edición Fan 'Messi'", "Fútbol Club", "Camisetas", "Hombre", 90000, "", "DISPONIBLE"],
+    [64, '=IMAGE("https://lh3.googleusercontent.com/d/1-VnVmZcVj3s22Vs40K0jJQ5ob6Wmxip-=w800")', "Camiseta AC Milan Cuarta Equipación Retro (Colorway #5)", "Fútbol Club", "Camisetas", "Hombre", 80000, "", "DISPONIBLE"],
+    [65, '=IMAGE("https://lh3.googleusercontent.com/d/1KkoU_GBKoAXTpkTXTKtaUsm0APrrVg_8=w800")', "Camiseta Real Madrid Retro 2002/03 (Colorway #6)", "Fútbol Club", "Camisetas", "Hombre", 95000, "", "DISPONIBLE"]
+  ];
+
+  // Escribir cabecera y datos
+  sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
+  sheet.getRange(2, 1, rows.length, headers.length).setValues(rows);
+
+  // Formato visual profesional
+  var headerRange = sheet.getRange(1, 1, 1, headers.length);
+  headerRange.setBackground("#111111");
+  headerRange.setFontColor("#FFFFFF");
+  headerRange.setFontWeight("bold");
+  headerRange.setFontSize(10);
+  headerRange.setHorizontalAlignment("center");
+
+  // Formato de moneda para columnas de precio (G y H)
+  sheet.getRange(2, 7, rows.length, 2).setNumberFormat("$ #,##0");
+
+  // Alineaciones
+  sheet.getRange(2, 1, rows.length, 1).setHorizontalAlignment("center"); // ID
+  sheet.getRange(2, 2, rows.length, 1).setHorizontalAlignment("center"); // FOTO
+  sheet.getRange(2, 4, rows.length, 3).setHorizontalAlignment("center"); // Marca, Cat, Gen
+  sheet.getRange(2, 9, rows.length, 1).setHorizontalAlignment("center"); // Estado
+
+  // Ajustar anchos de columnas
+  sheet.setColumnWidth(1, 50);  // ID
+  sheet.setColumnWidth(2, 90);  // FOTO
+  sheet.setColumnWidth(3, 300); // REFERENCIA
+  sheet.setColumnWidth(4, 120); // MARCA
+  sheet.setColumnWidth(5, 110); // CATEGORIA
+  sheet.setColumnWidth(6, 90);  // GENERO
+  sheet.setColumnWidth(7, 140); // PRECIO_VENTA_COP
+  sheet.setColumnWidth(8, 140); // PRECIO_OFERTA_COP
+  sheet.setColumnWidth(9, 110); // ESTADO
+
+  // Ajustar altura de filas para ver bien las fotos
+  for (var i = 2; i <= rows.length + 1; i++) {
+    sheet.setRowHeight(i, 65);
+  }
+
+  // Inmovilizar fila 1
+  sheet.setFrozenRows(1);
+
+  SpreadsheetApp.getUi().alert("✅ ¡Catálogo cargado con éxito! Se añadieron " + rows.length + " referencias con fotos y precios.");
+}
