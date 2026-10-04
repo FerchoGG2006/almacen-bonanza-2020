@@ -1,0 +1,17 @@
+{
+  "name": "BONANZA 2020 | Ropa y Calzado Deportivo",
+  "short_name": "Bonanza 2020",
+  "description": "Tienda oficial de calzado y ropa deportiva urbana en Valledupar, Colombia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "/assets/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
