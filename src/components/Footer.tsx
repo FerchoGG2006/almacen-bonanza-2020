@@ -25,7 +25,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
           {/* Col 1: Identity */}
           <div>
             <div className="flex items-center gap-3 mb-3">
-              <img src="assets/logo.png" alt="Logo Bonanza 2020" className="w-10 h-10 rounded-full object-contain" />
+              <img src="/assets/logo.png" alt="Logo Bonanza 2020" className="w-10 h-10 rounded-full object-contain" />
               <div className="font-extrabold tracking-[0.22em] text-base text-white">BONANZA 2020</div>
             </div>
             <p className="text-neutral-400 leading-relaxed text-xs mb-4">

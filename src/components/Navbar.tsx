@@ -253,7 +253,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           className="flex items-center gap-3 group select-none text-left cursor-pointer bg-transparent border-0 p-0"
         >
           <img
-            src="assets/logo.png"
+            src="/assets/logo.png"
             alt="Emblema Bonanza 2020"
             className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-contain shadow-sm group-hover:scale-105 transition-transform duration-300"
           />
@@ -616,7 +616,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Header Mobile Brand */}
           <div className="flex items-center justify-between pb-3 border-b border-neutral-200">
             <div className="flex items-center gap-3">
-              <img src="assets/logo.png" alt="Bonanza 2020" className="w-9 h-9 rounded-full object-contain shadow-sm" />
+              <img src="/assets/logo.png" alt="Bonanza 2020" className="w-9 h-9 rounded-full object-contain shadow-sm" />
               <div className="flex flex-col">
                 <span className="font-extrabold tracking-[0.2em] text-base text-neutral-950">BONANZA</span>
                 <span className="text-[9px] font-bold tracking-[0.3em] text-neutral-500 uppercase">2020</span>

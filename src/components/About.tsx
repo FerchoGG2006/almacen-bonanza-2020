@@ -185,7 +185,7 @@ export const About: React.FC<AboutProps> = ({ onNavigateToTienda, onNavigateHome
 
         <div className="lg:col-span-5 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col items-center justify-center text-center backdrop-blur-xs">
-            <img src="assets/logo.png" alt="Bonanza 2020 Emblema" className="w-28 h-28 object-contain mb-4 drop-shadow-md" />
+            <img src="/assets/logo.png" alt="Bonanza 2020 Emblema" className="w-28 h-28 object-contain mb-4 drop-shadow-md" />
             <span className="font-black text-2xl tracking-[0.25em] text-white">BONANZA</span>
             <span className="text-xs font-bold tracking-[0.4em] text-neutral-400 uppercase">2020</span>
             <span className="mt-3 text-xs text-neutral-400 font-medium">
