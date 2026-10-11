@@ -301,26 +301,26 @@ export const App: React.FC = () => {
 
   // Dynamic SEO Titles & Meta Descriptions + Analytics Tracking
   useEffect(() => {
-    let title = 'BONANZA 2020 | Ropa y Calzado Deportivo Urbano';
+    let title = 'Bonanza 2020 | Ropa y Calzado Deportivo Urbano';
     let desc = 'Tienda oficial de calzado y ropa deportiva urbana en Colombia. Envíos nacionales y pago contra entrega en Valledupar. Calle 16B # 7A-55 Barrio Centro.';
 
     if (currentView === 'tienda') {
-      title = category !== 'all' ? `Línea ${category} | BONANZA 2020` : 'Catálogo Completo de Calzado y Ropa | BONANZA 2020';
+      title = category !== 'all' ? `Línea ${category} | Bonanza 2020` : 'Catálogo Completo de Calzado y Ropa | Bonanza 2020';
       desc = `Explora ${products.length} referencias en stock de calzado y streetwear en Valledupar, Colombia.`;
     } else if (currentView === 'hombres') {
-      title = 'Calzado y Ropa para Hombre | BONANZA 2020';
+      title = 'Calzado y Ropa para Hombre | Bonanza 2020';
       desc = 'Siluetas de calzado y conjuntos deportivos para hombre en Valledupar y despachos a toda Colombia.';
     } else if (currentView === 'mujeres') {
-      title = 'Calzado y Ropa para Mujer | BONANZA 2020';
+      title = 'Calzado y Ropa para Mujer | Bonanza 2020';
       desc = 'Colección urbana y calzado deportivo para mujer en Valledupar y despachos nacionales.';
     } else if (currentView === 'nosotros') {
-      title = 'Sobre Nosotros | BONANZA 2020 Valledupar';
+      title = 'Sobre Nosotros | Bonanza 2020 Valledupar';
       desc = 'Conoce nuestra tienda física en Calle 16B # 7A-55 Barrio Centro, Valledupar. Garantía de talla y compra segura.';
     } else if (currentView === 'producto' && currentProduct) {
-      title = `${currentProduct.name} - ${currentProduct.brand} | BONANZA 2020`;
+      title = `${currentProduct.name} - ${currentProduct.brand} | Bonanza 2020`;
       desc = `${currentProduct.description} Disponible en stock en Bonanza 2020.`;
     } else if (currentView === 'not-found') {
-      title = '404 - Referencia no disponible | BONANZA 2020';
+      title = '404 - Referencia no disponible | Bonanza 2020';
       desc = 'La página o referencia solicitada no está disponible.';
     }
 
