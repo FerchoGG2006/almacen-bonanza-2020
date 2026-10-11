@@ -299,34 +299,62 @@ export const App: React.FC = () => {
   // Current modal product
   const modalProduct = products.find((p) => p.id === modalProductId) || null;
 
-  // Dynamic SEO Titles & Meta Descriptions + Analytics Tracking
+  // Dynamic SEO Titles, Canonical & Meta Descriptions + Analytics Tracking
   useEffect(() => {
     let title = 'Bonanza 2020 | Ropa y Calzado Deportivo Urbano';
     let desc = 'Tienda oficial de calzado y ropa deportiva urbana en Colombia. Envíos nacionales y pago contra entrega en Valledupar. Calle 16B # 7A-55 Barrio Centro.';
+    
+    // Host servido base (cambiar a https://bonanza2020.com al conectar dominio oficial)
+    const siteOrigin = typeof window !== 'undefined' ? window.location.origin : 'https://almacen-bonanza-2020.vercel.app';
+    let path = '/';
 
     if (currentView === 'tienda') {
       title = category !== 'all' ? `Línea ${category} | Bonanza 2020` : 'Catálogo Completo de Calzado y Ropa | Bonanza 2020';
       desc = `Explora ${products.length} referencias en stock de calzado y streetwear en Valledupar, Colombia.`;
+      path = category !== 'all' ? `/?view=tienda&cat=${encodeURIComponent(category)}` : '/?view=tienda';
     } else if (currentView === 'hombres') {
       title = 'Calzado y Ropa para Hombre | Bonanza 2020';
       desc = 'Siluetas de calzado y conjuntos deportivos para hombre en Valledupar y despachos a toda Colombia.';
+      path = '/?view=hombres';
     } else if (currentView === 'mujeres') {
       title = 'Calzado y Ropa para Mujer | Bonanza 2020';
       desc = 'Colección urbana y calzado deportivo para mujer en Valledupar y despachos nacionales.';
+      path = '/?view=mujeres';
     } else if (currentView === 'nosotros') {
       title = 'Sobre Nosotros | Bonanza 2020 Valledupar';
       desc = 'Conoce nuestra tienda física en Calle 16B # 7A-55 Barrio Centro, Valledupar. Garantía de talla y compra segura.';
+      path = '/?view=nosotros';
     } else if (currentView === 'producto' && currentProduct) {
       title = `${currentProduct.name} - ${currentProduct.brand} | Bonanza 2020`;
       desc = `${currentProduct.description} Disponible en stock en Bonanza 2020.`;
+      path = `/?id=${currentProduct.id}`;
     } else if (currentView === 'not-found') {
       title = '404 - Referencia no disponible | Bonanza 2020';
       desc = 'La página o referencia solicitada no está disponible.';
+      path = '/?view=404';
     }
 
     document.title = title;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', desc);
+
+    // Canonical dinámico por página
+    const canonicalUrl = `${siteOrigin}${path}`;
+    let canonicalTag = document.querySelector('link[rel="canonical"]');
+    if (canonicalTag) {
+      canonicalTag.setAttribute('href', canonicalUrl);
+    } else {
+      canonicalTag = document.createElement('link');
+      canonicalTag.setAttribute('rel', 'canonical');
+      canonicalTag.setAttribute('href', canonicalUrl);
+      document.head.appendChild(canonicalTag);
+    }
+
+    // Open Graph URL dinámica
+    const ogUrlMeta = document.querySelector('meta[property="og:url"]');
+    if (ogUrlMeta) {
+      ogUrlMeta.setAttribute('content', canonicalUrl);
+    }
 
     trackPageView(title, window.location.search || '/');
   }, [currentView, currentProduct, category, products.length]);

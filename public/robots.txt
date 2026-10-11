@@ -5,4 +5,6 @@ Disallow: /admin
 Disallow: /private
 
 # Sitemap
-Sitemap: https://bonanza2020.com/sitemap.xml
+# NOTA: Al conectar dominio bonanza2020.com, cambiar a https://bonanza2020.com/sitemap.xml
+Sitemap: https://almacen-bonanza-2020.vercel.app/sitemap.xml
+
