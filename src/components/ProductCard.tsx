@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Product } from '../types/index';
-import { Heart, ShoppingBag, Eye } from 'lucide-react';
+import { Heart, ShoppingBag, Eye, Check } from 'lucide-react';
 import { formatCOP } from '../services/whatsapp';
 
 interface ProductCardProps {
@@ -16,10 +16,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   product,
   isWishlisted,
   onToggleWishlist,
+  onAddToCart,
   onOpenModal,
   onOpenDetail,
 }) => {
   const [imageError, setImageError] = useState(false);
+  const [isJustAdded, setIsJustAdded] = useState(false);
 
   // Siempre se muestra la imagen auténtica de la referencia seleccionada (sin alternar en hover)
   const displayImage = !imageError
@@ -98,12 +100,29 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             </span>
           </div>
 
-          <span
-            className="w-7 h-7 sm:w-8 sm:h-8 shrink-0 rounded-full bg-neutral-100 group-hover:bg-neutral-950 text-neutral-600 group-hover:text-white flex items-center justify-center transition-colors shadow-2xs"
-            title="Ver calzado y tallas"
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              const defaultSize = product.sizes && product.sizes.length > 0 ? product.sizes[0] : '40';
+              onAddToCart(product.id, defaultSize);
+              setIsJustAdded(true);
+              setTimeout(() => setIsJustAdded(false), 1200);
+            }}
+            className={`w-7 h-7 sm:w-8 sm:h-8 shrink-0 rounded-full flex items-center justify-center transition-all cursor-pointer shadow-2xs active:scale-90 ${
+              isJustAdded
+                ? 'bg-emerald-600 text-white scale-110 shadow-sm'
+                : 'bg-neutral-100 hover:bg-neutral-950 text-neutral-700 hover:text-white hover:scale-105'
+            }`}
+            title="Añadir a la bolsa de compras"
+            aria-label={`Añadir ${product.name} a la bolsa`}
           >
-            <ShoppingBag className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
-          </span>
+            {isJustAdded ? (
+              <Check className="w-3.5 h-3.5 text-white" />
+            ) : (
+              <ShoppingBag className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+            )}
+          </button>
         </div>
       </div>
 
