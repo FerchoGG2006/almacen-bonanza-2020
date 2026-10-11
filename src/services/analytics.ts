@@ -10,7 +10,10 @@ declare global {
   }
 }
 
-export const GA_MEASUREMENT_ID = (import.meta as any).env?.VITE_GA_ID || '';
+export const GA_MEASUREMENT_ID =
+  (typeof process !== 'undefined' && process.env ? (process.env.NEXT_PUBLIC_GA_ID as string) : '') ||
+  (typeof import.meta !== 'undefined' && (import.meta as any).env ? ((import.meta as any).env.VITE_GA_ID as string) : '') ||
+  '';
 
 /**
  * Comprueba si el usuario aceptó cookies analíticas

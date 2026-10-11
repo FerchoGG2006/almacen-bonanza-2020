@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { ViewType } from '../types/index';
 import { MapPin, CheckCircle, Scale } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
@@ -55,49 +56,44 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
             </div>
             <ul className="space-y-2 text-neutral-300">
               <li>
-                <button
-                  type="button"
-                  onClick={() => onNavigate('home')}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                <Link
+                  href="/"
+                  className="hover:text-white transition-colors cursor-pointer text-left block"
                 >
                   Inicio
-                </button>
+                </Link>
               </li>
               <li>
-                <button
-                  type="button"
-                  onClick={() => onNavigate('tienda')}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                <Link
+                  href="/tienda"
+                  className="hover:text-white transition-colors cursor-pointer text-left block"
                 >
                   Tienda Online
-                </button>
+                </Link>
               </li>
               <li>
-                <button
-                  type="button"
-                  onClick={() => onNavigate('hombres')}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                <Link
+                  href="/hombres"
+                  className="hover:text-white transition-colors cursor-pointer text-left block"
                 >
                   Ropa & Calzado Hombre
-                </button>
+                </Link>
               </li>
               <li>
-                <button
-                  type="button"
-                  onClick={() => onNavigate('mujeres')}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                <Link
+                  href="/mujeres"
+                  className="hover:text-white transition-colors cursor-pointer text-left block"
                 >
                   Ropa & Calzado Mujer
-                </button>
+                </Link>
               </li>
               <li>
-                <button
-                  type="button"
-                  onClick={() => onNavigate('nosotros')}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                <Link
+                  href="/nosotros"
+                  className="hover:text-white transition-colors cursor-pointer text-left block"
                 >
                   Sobre Nosotros
-                </button>
+                </Link>
               </li>
             </ul>
           </div>

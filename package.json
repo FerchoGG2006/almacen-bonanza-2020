@@ -4,10 +4,10 @@
   "description": "E-commerce web de alto rendimiento para calzado y ropa deportiva - Bonanza 2020",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 8000 --host",
+    "dev": "next dev --port 8000",
     "build:css": "npx -y tailwindcss@3.4.17 -i ./input.css -o ./style.css --minify",
-    "build": "npm run build:css && vite build",
-    "preview": "vite preview",
+    "build": "npm run build:css && next build",
+    "start": "next start --port 8000",
     "sync": "node scripts/sync-drive.mjs",
     "sync:drive": "node scripts/sync-drive.mjs"
   },
@@ -24,10 +24,13 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "7.0.2",
     "vite": "^8.3.0"
   },
   "dependencies": {
+    "@types/node": "^26.6.5",
     "lucide-react": "^1.46.0",
+    "next": "^16.4.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   }

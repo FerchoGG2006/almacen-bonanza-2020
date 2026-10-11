@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Product } from '../types/index';
 import { Heart, ShoppingBag, Eye, Check } from 'lucide-react';
 import { formatCOP } from '../services/whatsapp';
@@ -9,7 +10,7 @@ interface ProductCardProps {
   onToggleWishlist: (id: number) => void;
   onAddToCart: (id: number, size: string | number) => void;
   onOpenModal: (id: number) => void;
-  onOpenDetail: (id: number) => void;
+  onOpenDetail?: (id: number) => void;
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({
@@ -29,8 +30,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     : 'https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800';
 
   return (
-    <div
-      onClick={() => onOpenDetail(product.id)}
+    <Link
+      href={`/producto/${product.id}`}
       className="product-card group relative bg-white rounded-2xl sm:rounded-3xl border border-neutral-200/80 p-2.5 sm:p-3.5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-pointer flex flex-col justify-between select-none"
     >
       {/* Product Image Stage: Imagen limpia con bordes curvos sin marco doble de profundidad */}
@@ -40,6 +41,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <button
           type="button"
           onClick={(e) => {
+            e.preventDefault();
             e.stopPropagation();
             onToggleWishlist(product.id);
           }}
@@ -68,6 +70,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <button
           type="button"
           onClick={(e) => {
+            e.preventDefault();
             e.stopPropagation();
             onOpenModal(product.id);
           }}
@@ -103,6 +106,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           <button
             type="button"
             onClick={(e) => {
+              e.preventDefault();
               e.stopPropagation();
               const defaultSize = product.sizes && product.sizes.length > 0 ? product.sizes[0] : '40';
               onAddToCart(product.id, defaultSize);
@@ -126,6 +130,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </div>
       </div>
 
-    </div>
+    </Link>
   );
 };

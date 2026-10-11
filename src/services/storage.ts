@@ -4,6 +4,7 @@ const CART_KEY = 'bonanza_cart';
 const WISHLIST_KEY = 'bonanza_wishlist';
 
 export function loadCartFromStorage(): CartItem[] {
+  if (typeof window === 'undefined') return [];
   try {
     const raw = localStorage.getItem(CART_KEY);
     if (raw) {
@@ -17,6 +18,7 @@ export function loadCartFromStorage(): CartItem[] {
 }
 
 export function saveCartToStorage(cart: CartItem[]): void {
+  if (typeof window === 'undefined') return;
   try {
     localStorage.setItem(CART_KEY, JSON.stringify(cart));
   } catch (e) {
@@ -25,6 +27,7 @@ export function saveCartToStorage(cart: CartItem[]): void {
 }
 
 export function loadWishlistFromStorage(): number[] {
+  if (typeof window === 'undefined') return [];
   try {
     const raw = localStorage.getItem(WISHLIST_KEY);
     if (raw) {
@@ -38,6 +41,7 @@ export function loadWishlistFromStorage(): number[] {
 }
 
 export function saveWishlistToStorage(wishlist: number[]): void {
+  if (typeof window === 'undefined') return;
   try {
     localStorage.setItem(WISHLIST_KEY, JSON.stringify(wishlist));
   } catch (e) {

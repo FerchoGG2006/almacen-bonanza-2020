@@ -15,7 +15,8 @@ export const STORAGE_KEY_PRICES_LAST_SYNC = 'bonanza_sheet_prices_last_sync';
 
 // ID de la hoja de cálculo de Google por defecto (Resumen Bonanza Compartido)
 export const DEFAULT_SHEET_ID =
-  ((import.meta as any).env?.VITE_SHEETS_PRICE_ID as string) ||
+  (typeof process !== 'undefined' && process.env ? (process.env.NEXT_PUBLIC_SHEETS_PRICE_ID as string) : '') ||
+  (typeof import.meta !== 'undefined' && (import.meta as any).env ? ((import.meta as any).env.VITE_SHEETS_PRICE_ID as string) : '') ||
   '16bNKtZkxBzyUaRHjcVJQGhC8tWsorXTJHzUN648idVk';
 
 export const DEFAULT_SHEET_TAB = 'LISTA_PRECIOS';
@@ -24,6 +25,7 @@ export const DEFAULT_SHEET_TAB = 'LISTA_PRECIOS';
  * Obtiene el ID del Google Sheet configurado
  */
 export function getSheetId(): string {
+  if (typeof window === 'undefined') return DEFAULT_SHEET_ID;
   try {
     return localStorage.getItem(STORAGE_KEY_SHEET_ID) || DEFAULT_SHEET_ID;
   } catch {
