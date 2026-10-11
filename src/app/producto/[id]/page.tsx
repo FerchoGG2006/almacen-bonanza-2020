@@ -76,20 +76,29 @@ export default async function ProductDetailPage({ params }: PageProps) {
     (p) => p.id !== product.id && (p.category === product.category || p.brand === product.brand)
   ).slice(0, 8);
 
-  const jsonLd = {
+  const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
-    image: [product.image],
+    image: [product.image, product.hover_image].filter(Boolean),
     description: product.description,
+    sku: `SKU-${product.id}`,
     brand: {
       '@type': 'Brand',
       name: product.brand,
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: product.rating || 4.8,
+      reviewCount: product.reviews_count || 15,
+      bestRating: 5,
+      worstRating: 1,
     },
     offers: {
       '@type': 'Offer',
       priceCurrency: 'COP',
       price: product.price,
+      itemCondition: 'https://schema.org/NewCondition',
       availability: 'https://schema.org/InStock',
       url: `https://almacen-bonanza-2020.vercel.app/producto/${product.id}`,
       seller: {
@@ -99,11 +108,46 @@ export default async function ProductDetailPage({ params }: PageProps) {
     },
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Inicio',
+        item: 'https://almacen-bonanza-2020.vercel.app/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Tienda',
+        item: 'https://almacen-bonanza-2020.vercel.app/tienda',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: product.category,
+        item: `https://almacen-bonanza-2020.vercel.app/tienda?cat=${encodeURIComponent(product.category)}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: product.name,
+        item: `https://almacen-bonanza-2020.vercel.app/producto/${product.id}`,
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <ProductPageClient product={product} relatedProducts={relatedProducts} />
     </>

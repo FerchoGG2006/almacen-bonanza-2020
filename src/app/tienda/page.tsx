@@ -9,21 +9,69 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://almacen-bonanza-2020.vercel.app/tienda',
   },
+  openGraph: {
+    title: 'Catálogo Completo de Calzado y Ropa Urbana | Bonanza 2020',
+    description:
+      'Explora más de 1.000 referencias en stock de calzado y streetwear en Colombia. Envíos nacionales y pago contra entrega en Valledupar.',
+    url: 'https://almacen-bonanza-2020.vercel.app/tienda',
+    type: 'website',
+    siteName: 'Bonanza 2020',
+    images: [
+      {
+        url: 'https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800',
+        width: 800,
+        height: 800,
+        alt: 'Catálogo Bonanza 2020',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Catálogo Completo de Calzado y Ropa Urbana | Bonanza 2020',
+    description:
+      'Explora más de 1.000 referencias en stock de calzado y streetwear en Colombia.',
+    images: ['https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800'],
+  },
 };
 
 export default function TiendaPage() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Inicio',
+        item: 'https://almacen-bonanza-2020.vercel.app/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Tienda',
+        item: 'https://almacen-bonanza-2020.vercel.app/tienda',
+      },
+    ],
+  };
+
   return (
-    <Suspense
-      fallback={
-        <div className="min-h-[50vh] flex flex-col items-center justify-center p-8">
-          <div className="w-10 h-10 border-2 border-neutral-200 border-t-neutral-900 rounded-full animate-spin"></div>
-          <span className="mt-4 text-xs font-mono uppercase tracking-widest text-neutral-400">
-            Cargando catálogo...
-          </span>
-        </div>
-      }
-    >
-      <CatalogPageClient />
-    </Suspense>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <Suspense
+        fallback={
+          <div className="min-h-[50vh] flex flex-col items-center justify-center p-8">
+            <div className="w-10 h-10 border-2 border-neutral-200 border-t-neutral-900 rounded-full animate-spin"></div>
+            <span className="mt-4 text-xs font-mono uppercase tracking-widest text-neutral-400">
+              Cargando catálogo...
+            </span>
+          </div>
+        }
+      >
+        <CatalogPageClient />
+      </Suspense>
+    </>
   );
 }
