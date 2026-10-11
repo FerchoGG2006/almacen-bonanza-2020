@@ -55,7 +55,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-3 pb-6 sm:pt-4 sm:pb-8 lg:pt-6 lg:pb-8">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-6 pb-6 sm:pt-6 sm:pb-8 lg:pt-8 lg:pb-10">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
         
         {/* Left Column: Typography & Action */}

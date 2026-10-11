@@ -232,9 +232,9 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header ref={navContainerRef} className="sticky top-0 z-50 bg-white border-b border-neutral-200 transition-all">
-      {/* Top Announcement Bar */}
-      <div className="bg-[#111111] text-white text-[9.5px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase py-1.5 px-3 sm:px-4 text-center overflow-hidden select-none">
-        <div className="inline-flex items-center gap-2 sm:gap-4 truncate max-w-full justify-center">
+      {/* Top Announcement Bar - Generous vertical padding and premium breathing room */}
+      <div className="bg-[#111111] text-white text-[10px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase py-2.5 sm:py-2.5 px-4 text-center overflow-hidden select-none border-b border-neutral-900">
+        <div className="inline-flex items-center gap-2.5 sm:gap-4 truncate max-w-full justify-center">
           <span>ENVÍOS A TODA COLOMBIA</span>
           <span className="text-neutral-500">·</span>
           <span className="hidden sm:inline">CONTRA ENTREGA EN VALLEDUPAR</span>
@@ -244,7 +244,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       </div>
 
       {/* Main Navbar Bar */}
-      <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-12 h-16 sm:h-20 flex items-center justify-between gap-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-[72px] sm:h-20 flex items-center justify-between gap-3">
         
         {/* Brand Logo */}
         <button
