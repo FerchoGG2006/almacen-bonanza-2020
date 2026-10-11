@@ -208,6 +208,11 @@ export const Navbar: React.FC<NavbarProps> = ({
   // Multilevel Mobile Drawer State
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSubmenuId, setMobileSubmenuId] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Close mega menu on click outside
   useEffect(() => {
@@ -429,7 +434,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             aria-label="Ver bolsa de compras"
           >
             <ShoppingBag className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
-            {cartCount > 0 && (
+            {mounted && cartCount > 0 && (
               <span
                 key={cartCount}
                 id="cartBadge"

@@ -112,7 +112,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
                   className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-2"
                 >
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                  <span>Garantía de Talla (Ley 1480)</span>
+                  <span>Garantía y Retracto (Art. 47 Ley 1480)</span>
                 </button>
               </li>
               <li>
@@ -142,7 +142,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
                   className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-2"
                 >
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                  <span>Canal PQR & Reclamaciones</span>
+                  <span>Canal PQR & Reclamaciones (SIC)</span>
                 </button>
               </li>
             </ul>

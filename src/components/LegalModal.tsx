@@ -166,36 +166,43 @@ export const LegalModal: React.FC<LegalModalProps> = ({
             </div>
           )}
 
-          {/* TAB 2: CAMBIOS Y GARANTÍAS */}
+          {/* TAB 2: CAMBIOS, GARANTÍAS Y DERECHO DE RETRACTO */}
           {activeTab === 'guarantee' && (
             <div className="space-y-4">
               <div className="p-3.5 rounded-2xl bg-neutral-100 border border-neutral-200/80 flex items-start gap-3">
                 <ShieldCheck className="w-5 h-5 text-neutral-900 shrink-0 mt-0.5" />
                 <p className="text-[11px] text-neutral-700">
-                  En cumplimiento del <strong>Estatuto del Consumidor (Ley 1480 de 2011 de la República de Colombia)</strong>, garantizamos el derecho de retracto y el respaldo de satisfacción en cada una de tus compras.
+                  En cumplimiento del <strong>Estatuto del Consumidor (Ley 1480 de 2011 de la República de Colombia)</strong>, garantizamos el derecho de retracto, la garantía legal de calidad y el respaldo de satisfacción en cada una de tus compras.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">1. Garantía de Talla y Cambios</h4>
-                <p>
-                  Si al recibir el calzado o prenda la horma no se ajusta adecuadamente a tu pie o cuerpo, gestionamos el <strong>cambio inmediato por otra talla</strong> o referencia disponible de igual valor.
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">1. Derecho de Retracto (Artículo 47, Ley 1480 de 2011)</h4>
+                <p className="mb-2">
+                  Para las compras a distancia realizadas a través de nuestra tienda online y canal de WhatsApp, el consumidor tiene la facultad de ejercer el <strong>derecho de retracto</strong> dentro de los <strong>cinco (5) días hábiles</strong> siguientes a la fecha en que recibe el producto.
                 </p>
-              </div>
-
-              <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">2. Condiciones indispensables para el cambio</h4>
                 <ul className="list-disc pl-5 space-y-1 text-neutral-600">
-                  <li>El calzado debe estar <strong>completamente nuevo, limpio y sin pisadas ni marcas de uso</strong> en la suela o plantilla.</li>
-                  <li>Conservar su caja original, etiquetas y envoltorios intactos tal como fue entregado.</li>
-                  <li>Solicitar el cambio dentro de los <strong>5 días hábiles</strong> siguientes a la recepción física del producto.</li>
+                  <li>El producto debe ser devuelto en las mismas condiciones en que fue recibido: completamente nuevo, sin pisadas ni muestras de uso, con sus etiquetas y en su caja o empaque original.</li>
+                  <li>Los costos de transporte y demás que conlleve la devolución del bien serán cubiertos por el consumidor según lo dispuesto en el Art. 47 de la Ley 1480.</li>
+                  <li>La devolución de la suma pagada se efectuará en un plazo máximo de <strong>treinta (30) días calendario</strong> a partir del momento en que se ejerza el retracto y se verifique el estado del bien devuelto.</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">3. ¿Cómo solicitar un cambio?</h4>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">2. Garantía Legal por Defectos de Fabricación</h4>
+                <p className="mb-2">
+                  Todos nuestros productos cuentan con garantía legal por fallas o defectos de manufactura no atribuibles al uso indebido o desgaste natural:
+                </p>
+                <ul className="list-disc pl-5 space-y-1 text-neutral-600">
+                  <li><strong>Calzado deportivo y sneakers:</strong> Garantía legal de <strong>noventa (90) días calendario</strong> contados a partir de la entrega para desperfectos de suela, despegue o costuras.</li>
+                  <li><strong>Prendas de vestir y conjuntos:</strong> Garantía legal de <strong>treinta (30) días calendario</strong> por costuras descosidas o defectos de tejido.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">3. Garantía Amigable de Cambio de Talla</h4>
                 <p>
-                  Escríbenos a nuestro WhatsApp oficial con tu nombre y foto del producto para autorizar el cambio, o acércate personalmente a nuestra tienda física en la <strong>{STORE_ADDRESS}</strong> en Valledupar.
+                  Si la talla que elegiste no se ajusta con total comodidad a tu pie, gestionamos el cambio ágil por otra talla disponible. Solo debes notificarnos dentro de los <strong>cinco (5) días hábiles</strong> posteriores a la entrega con el calzado sin pisadas exteriores.
                 </p>
               </div>
             </div>
@@ -207,28 +214,28 @@ export const LegalModal: React.FC<LegalModalProps> = ({
               <div className="p-3.5 rounded-2xl bg-neutral-100 border border-neutral-200/80 flex items-start gap-3">
                 <Scale className="w-5 h-5 text-neutral-900 shrink-0 mt-0.5" />
                 <p className="text-[11px] text-neutral-700">
-                  Política formulada conforme a la <strong>Ley Estatutaria 1581 de 2012</strong> y el Decreto 1377 de 2013 de Protección de Datos Personales (Habeas Data) en Colombia.
+                  Política formulada conforme a la <strong>Ley Estatutaria 1581 de 2012</strong> y el Decreto Reglamentario 1377 de 2013 de Protección de Datos Personales (Habeas Data) en Colombia.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">1. Finalidad de la Información Recolectada</h4>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">1. Responsable del Tratamiento</h4>
                 <p>
-                  Los datos que suministras en el proceso de compra (nombre completo, número de teléfono WhatsApp y dirección de domicilio) son utilizados <strong>exclusivamente para coordinar la entrega física del pedido</strong>, confirmar disponibilidad de talla y emitir la guía de transporte correspondiente.
+                  El responsable del tratamiento de los datos es el establecimiento <strong>Bonanza 2020</strong>, con sede en {STORE_ADDRESS}, Valledupar, Cesar. Canal de atención oficial de Habeas Data: WhatsApp {STORE_PHONE_DISPLAY}.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">2. Privacidad Absoluta y No Venta de Datos</h4>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">2. Finalidad del Tratamiento</h4>
                 <p>
-                  <strong>Bonanza 2020 no comercializa, no transfiere ni comparte</strong> tus datos con terceros para fines publicitarios externos. No enviamos spam masivo no solicitado.
+                  Los datos suministrados por el comprador (nombre, teléfono celular, ciudad y dirección física) se tratarán con las siguientes finalidades exclusivas: coordinar el despacho, emitir las guías de transporte nacional, gestionar el cobro o validación de pago, y prestar servicio post-venta y garantías.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">3. Derechos del Titular (Habeas Data)</h4>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">3. Derechos del Titular y Plazos de Respuesta</h4>
                 <p>
-                  Como titular de tus datos personales, tienes derecho a conocer, actualizar, rectificar y solicitar la supresión de tu información de nuestros registros en cualquier momento a través de nuestro canal de atención por WhatsApp.
+                  El titular tiene derecho a conocer, actualizar, rectificar y suprimir sus datos personales. Las solicitudes de consulta y reclamos serán resueltas en un término máximo legal de <strong>quince (15) días hábiles</strong> conforme al artículo 15 de la Ley 1581 de 2012.
                 </p>
               </div>
             </div>
@@ -238,9 +245,9 @@ export const LegalModal: React.FC<LegalModalProps> = ({
           {activeTab === 'pqr' && (
             <div className="space-y-4">
               <div>
-                <h4 className="font-bold text-sm text-neutral-950 mb-1">Canales Oficiales de Atención Directa</h4>
+                <h4 className="font-bold text-sm text-neutral-950 mb-1">Trámite de Peticiones, Quejas y Reclamos (PQR)</h4>
                 <p>
-                  Para cualquier consulta, inquietud, felicitación o petición formal (PQR), dispones de canales directos con atención humana real:
+                  Conforme a la normativa colombiana de protección al consumidor, todo cliente tiene derecho a formular Peticiones, Quejas o Reclamos (PQR). Nuestro tiempo máximo legal de respuesta y solución formal es de <strong>quince (15) días hábiles</strong>.
                 </p>
               </div>
 
@@ -248,12 +255,12 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                 <div className="p-3.5 rounded-2xl bg-neutral-50 border border-neutral-200">
                   <div className="flex items-center gap-2 font-bold text-neutral-900 mb-1">
                     <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>Sede Física</span>
+                    <span>Sede Física en Valledupar</span>
                   </div>
                   <p className="text-[11px] text-neutral-600">
                     {STORE_ADDRESS}<br />
                     Valledupar, Cesar, Colombia<br />
-                    Lunes a Sábado: 8:00 AM – 7:00 PM
+                    Lunes a Sábado: 8:30 AM – 7:00 PM
                   </p>
                 </div>
 
@@ -264,19 +271,23 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                   </div>
                   <p className="text-[11px] text-neutral-600">
                     Línea oficial: {STORE_PHONE_DISPLAY}<br />
-                    Respuesta en tiempo real para seguimiento de guías de envío y despachos.
+                    Respuesta en tiempo real y radicación formal de PQRs.
                   </p>
                 </div>
               </div>
 
+              <div className="p-3 bg-neutral-50 rounded-xl border border-neutral-200 text-[11px] text-neutral-500">
+                <span>En caso de inconformidad con la respuesta, el consumidor podrá acudir ante la <strong>Superintendencia de Industria y Comercio (SIC)</strong> en su portal oficial www.sic.gov.co.</span>
+              </div>
+
               <div className="pt-2">
                 <a
-                  href={`https://wa.me/${STORE_PHONE}?text=Hola%20Bonanza%202020,%20tengo%20una%20consulta%20formal%20sobre%20mi%20pedido.`}
+                  href={`https://wa.me/${STORE_PHONE}?text=Hola%20Bonanza%202020,%20deseo%20radicar%20una%20solicitud%20formal%20de%20PQR%20o%20garantía.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-[#111111] hover:bg-neutral-800 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors cursor-pointer text-xs"
                 >
-                  <span>Contactar al Responsable de PQR por WhatsApp</span>
+                  <span>Radicar PQR o Garantía por WhatsApp Oficial</span>
                 </a>
               </div>
             </div>
