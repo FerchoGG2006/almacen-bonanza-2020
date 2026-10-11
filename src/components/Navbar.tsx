@@ -233,8 +233,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header ref={navContainerRef} className="sticky top-0 z-50 bg-white border-b border-neutral-200 transition-all">
       {/* Top Announcement Bar */}
-      <div className="bg-[#111111] text-white text-[10px] sm:text-[11px] font-bold tracking-widest uppercase py-1.5 px-4 text-center overflow-hidden select-none">
-        <div className="inline-flex items-center gap-3 sm:gap-4">
+      <div className="bg-[#111111] text-white text-[9.5px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase py-1.5 px-3 sm:px-4 text-center overflow-hidden select-none">
+        <div className="inline-flex items-center gap-2 sm:gap-4 truncate max-w-full justify-center">
           <span>ENVÍOS A TODA COLOMBIA</span>
           <span className="text-neutral-500">·</span>
           <span className="hidden sm:inline">CONTRA ENTREGA EN VALLEDUPAR</span>
@@ -244,31 +244,31 @@ export const Navbar: React.FC<NavbarProps> = ({
       </div>
 
       {/* Main Navbar Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-18 sm:h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-12 h-16 sm:h-20 flex items-center justify-between gap-2">
         
         {/* Brand Logo */}
         <button
           type="button"
           onClick={() => handleNavClick('home')}
-          className="flex items-center gap-3 group select-none text-left cursor-pointer bg-transparent border-0 p-0"
+          className="flex items-center gap-2 sm:gap-3 group select-none text-left cursor-pointer bg-transparent border-0 p-0 shrink-0"
         >
           <img
             src="/assets/logo.png"
             alt="Emblema Bonanza 2020"
-            className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-contain shadow-sm group-hover:scale-105 transition-transform duration-300"
+            className="w-9 h-9 sm:w-11 sm:h-11 rounded-full object-contain shadow-sm group-hover:scale-105 transition-transform duration-300"
           />
           <div className="flex flex-col">
-            <span className="font-extrabold tracking-[0.22em] text-lg sm:text-xl text-neutral-950 leading-tight">
+            <span className="font-extrabold tracking-[0.16em] sm:tracking-[0.22em] text-base sm:text-xl text-neutral-950 leading-tight">
               BONANZA
             </span>
-            <span className="text-[9px] font-bold tracking-[0.35em] text-neutral-500 uppercase -mt-0.5">
+            <span className="text-[8.5px] sm:text-[9px] font-bold tracking-[0.28em] sm:tracking-[0.35em] text-neutral-500 uppercase -mt-0.5">
               2020
             </span>
           </div>
         </button>
 
-        {/* Primary Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-7 text-sm font-medium">
+        {/* Primary Desktop Navigation Links (Visible on lg: 1024px+ for optimal spacing) */}
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-7 text-sm font-medium">
           <button
             type="button"
             onClick={() => handleNavClick('home')}
@@ -371,23 +371,23 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
         </nav>
 
-        {/* Utility Actions (Right) */}
-        <div className="flex items-center gap-3 sm:gap-5">
+        {/* Utility Actions (Right) - Calibrated touch target & breathable spacing */}
+        <div className="flex items-center gap-1 sm:gap-2 lg:gap-3 shrink-0">
           {/* Wishlist Heart Button */}
           <button
             type="button"
             onClick={onToggleWishlistFilter}
-            className={`relative p-2 rounded-full transition-colors cursor-pointer ${
+            className={`relative w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-colors cursor-pointer ${
               isWishlistActive
                 ? 'bg-rose-50 text-rose-600'
-                : 'text-neutral-700 hover:text-neutral-950 hover:bg-neutral-200/50'
+                : 'text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100'
             }`}
             title="Ver mis favoritos"
             aria-label="Ver mis favoritos"
           >
-            <Heart className={`w-5 h-5 ${isWishlistActive ? 'fill-rose-500' : ''}`} />
+            <Heart className={`w-[18px] h-[18px] sm:w-5 sm:h-5 ${isWishlistActive ? 'fill-rose-500' : ''}`} />
             {wishlistCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-rose-500 text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+              <span className="absolute -top-0.5 -right-0.5 bg-rose-500 text-white text-[9px] sm:text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
                 {wishlistCount}
               </span>
             )}
@@ -397,11 +397,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             type="button"
             onClick={onFocusSearch}
-            className="text-neutral-700 hover:text-neutral-950 p-2 rounded-full hover:bg-neutral-200/50 transition-colors cursor-pointer"
+            className="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100 transition-colors cursor-pointer"
             title="Buscar productos"
             aria-label="Buscar productos"
           >
-            <Search className="w-5 h-5" />
+            <Search className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
           </button>
 
           {/* WhatsApp Direct Help */}
@@ -409,7 +409,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             href={`https://wa.me/${STORE_PHONE}?text=Hola%20Bonanza%202020,%20quisiera%20asesor%C3%ADa.`}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex text-neutral-700 hover:text-neutral-950 p-2 rounded-full hover:bg-neutral-200/50 transition-colors"
+            className="hidden sm:flex w-10 h-10 rounded-full items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100 transition-colors"
             title="Atención directa por WhatsApp"
             aria-label="Atención directa por WhatsApp"
           >
@@ -421,33 +421,33 @@ export const Navbar: React.FC<NavbarProps> = ({
             type="button"
             id="cartBtn"
             onClick={onOpenCart}
-            className="relative text-neutral-700 hover:text-neutral-950 p-2 rounded-full hover:bg-neutral-200/50 transition-colors cursor-pointer"
+            className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100 transition-colors cursor-pointer"
             title="Ver bolsa de compras"
             aria-label="Ver bolsa de compras"
           >
-            <ShoppingBag className="w-5 h-5" />
+            <ShoppingBag className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             {cartCount > 0 && (
               <span
                 id="cartBadge"
-                className="absolute -top-1 -right-1 bg-[#111111] text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center animate-in zoom-in-50 duration-200"
+                className="absolute -top-0.5 -right-0.5 bg-[#111111] text-white text-[9px] sm:text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center animate-in zoom-in-50 duration-200"
               >
                 {cartCount}
               </span>
             )}
           </button>
 
-          {/* Mobile Menu Hamburger */}
+          {/* Mobile/Tablet Menu Hamburger (Visible on screens < lg) */}
           <button
             type="button"
             onClick={() => {
               setMobileMenuOpen(!mobileMenuOpen);
               setMobileSubmenuId(null);
             }}
-            className="md:hidden text-neutral-700 hover:text-neutral-950 p-2 rounded-full hover:bg-neutral-200/50 cursor-pointer"
+            className="lg:hidden w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-neutral-100 cursor-pointer"
             title="Menú"
             aria-label="Abrir menú"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
           </button>
         </div>
 
@@ -467,7 +467,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div
             onMouseLeave={() => setActiveMegaCategory(null)}
-            className="hidden md:block absolute top-full left-0 w-full mega-menu-panel z-50 bg-white"
+            className="hidden lg:block absolute top-full left-0 w-full mega-menu-panel z-50 bg-white"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-8 bg-white">
               <div className="grid grid-cols-12 gap-8 items-start">
@@ -611,7 +611,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       {mobileMenuOpen && (
         <div
           id="mobileMenuDrawer"
-          className="md:hidden border-t border-neutral-200 bg-[#F5F5F5] px-5 py-5 space-y-4 animate-in slide-in-from-top-2 duration-200 max-h-[85vh] overflow-y-auto"
+          className="lg:hidden border-t border-neutral-200 bg-[#F5F5F5] px-4 sm:px-6 py-5 space-y-4 animate-in slide-in-from-top-2 duration-200 max-h-[85vh] overflow-y-auto"
         >
           {/* Header Mobile Brand */}
           <div className="flex items-center justify-between pb-3 border-b border-neutral-200">

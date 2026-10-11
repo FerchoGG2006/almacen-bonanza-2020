@@ -105,20 +105,20 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
 
             {/* Foto de producto ampliada con altura generosa para ver el calzado completo */}
             <div
-              className="relative w-full h-60 sm:h-64 md:h-72 my-2 rounded-2xl overflow-hidden shadow-xs bg-neutral-100 cursor-pointer group/heroimg"
+              className="relative w-full h-56 sm:h-64 md:h-72 my-2 rounded-2xl overflow-hidden shadow-xs bg-white/80 cursor-pointer group/heroimg flex items-center justify-center p-2"
               onClick={() => onOpenProductModal(drop.id)}
             >
               <img
                 src={drop.image}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
+                className="w-full h-full object-contain object-center rounded-2xl transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
                 decoding="async"
               />
             </div>
 
             {/* Bottom Floating Card - Barra compacta y estilizada con menor altura */}
-            <div className="z-10 shrink-0 bg-white/95 backdrop-blur-md rounded-xl px-3.5 py-2 sm:px-4 sm:py-2.5 border border-neutral-200/90 shadow-sm flex items-center justify-between gap-3">
+            <div className="z-10 shrink-0 bg-white/95 backdrop-blur-md rounded-xl px-3 sm:px-4 py-2 sm:py-2.5 border border-neutral-200/90 shadow-sm flex items-center justify-between gap-2.5">
               <div className="min-w-0 flex-1">
                 <div className="flex items-center gap-1.5 mb-0.5">
                   <span className="text-[9px] uppercase tracking-wider text-neutral-400 font-bold truncate">
@@ -138,7 +138,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
                 <button
                   type="button"
                   onClick={handleOrderWhatsApp}
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] sm:text-xs font-bold px-3 py-1.5 rounded-lg flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white text-[10.5px] sm:text-xs font-bold px-2.5 sm:px-3 py-1.5 rounded-lg flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-2xs whitespace-nowrap"
                 >
                   <WhatsAppIcon className="w-3.5 h-3.5 text-white" />
                   <span>Pedir WhatsApp</span>
@@ -149,7 +149,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
           </div>
 
           {/* Drop Selector Dots / Tabs Below Stage */}
-          <div className="flex items-center justify-center gap-2 mt-3 flex-wrap">
+          <div className="flex items-center justify-center gap-1.5 sm:gap-2 mt-3 flex-wrap">
             {HERO_DROPS.map((d, index) => (
               <button
                 key={d.id}
@@ -157,7 +157,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
                 onClick={() => {
                   setCurrentDropIndex(index);
                 }}
-                className={`text-[11px] font-bold py-1 px-3 rounded-full transition-all cursor-pointer ${
+                className={`text-[10px] sm:text-[11px] font-bold py-1 px-2.5 sm:px-3 rounded-full transition-all cursor-pointer whitespace-nowrap ${
                   currentDropIndex === index
                     ? 'bg-neutral-950 text-white shadow-xs'
                     : 'bg-white text-neutral-600 hover:bg-neutral-100 border border-neutral-200'

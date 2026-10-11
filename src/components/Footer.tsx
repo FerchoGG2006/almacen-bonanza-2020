@@ -20,7 +20,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenLegal, onOpenD
   return (
     <>
       <footer className="bg-[#111111] text-neutral-400 border-t border-neutral-800 text-xs py-10 sm:py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           
           {/* Col 1: Identity */}
           <div>

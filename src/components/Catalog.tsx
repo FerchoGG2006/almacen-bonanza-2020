@@ -167,12 +167,14 @@ export const Catalog: React.FC<CatalogProps> = ({
       {/* Catalog Header & Search */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 pb-4 border-b border-neutral-200 gap-4">
         <div>
-          <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-neutral-950 tracking-tight flex items-center gap-3">
-            <span>{catalogTitle}</span>
-            <span className="text-xs font-semibold text-neutral-500 bg-neutral-200/80 px-3 py-1 rounded-full">
-              Mostrando {sortedProducts.length} de {products.length} referencias
+          <div className="flex flex-wrap items-center gap-2.5">
+            <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-neutral-950 tracking-tight">
+              {catalogTitle}
+            </h2>
+            <span className="text-xs font-semibold text-neutral-500 bg-neutral-200/80 px-2.5 py-0.5 rounded-full whitespace-nowrap">
+              {sortedProducts.length} de {products.length} refs
             </span>
-          </h2>
+          </div>
         </div>
 
         {/* Live Search Input */}
@@ -202,8 +204,8 @@ export const Catalog: React.FC<CatalogProps> = ({
       {/* Category Tabs & Filter Selects */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 mb-5">
         
-        {/* Category Tabs */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 max-w-full scrollbar-none">
+        {/* Category Tabs with Edge-to-Edge Touch Scroll on mobile */}
+        <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 max-w-full scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0 w-[calc(100%+2rem)] sm:w-auto">
           {categories.map((c) => {
             const isActive = category.toLowerCase() === c.id.toLowerCase();
             return (
@@ -211,7 +213,7 @@ export const Catalog: React.FC<CatalogProps> = ({
                 key={c.id}
                 type="button"
                 onClick={() => onSetCategory(c.id)}
-                className={`px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                className={`px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
                   isActive
                     ? 'bg-[#111111] text-white shadow-xs'
                     : 'bg-white border border-neutral-200 text-neutral-700 hover:text-neutral-950 hover:bg-neutral-50'
@@ -223,13 +225,13 @@ export const Catalog: React.FC<CatalogProps> = ({
           })}
         </div>
 
-        {/* Dropdowns: Brand, Gender, Size, Sort */}
-        <div className="flex items-center gap-2 flex-wrap">
+        {/* Dropdowns: Brand, Gender, Size, Sort - 2x2 grid on mobile, horizontal on tablet/desktop */}
+        <div className="grid grid-cols-2 sm:flex sm:items-center gap-2 w-full lg:w-auto">
           {/* Gender */}
           <select
             value={gender}
             onChange={(e) => onSetGender(e.target.value)}
-            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
+            className="w-full sm:w-auto text-xs py-2 px-2.5 sm:px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
           >
             <option value="all">Género: Todos</option>
             <option value="Hombre">Hombre</option>
@@ -241,7 +243,7 @@ export const Catalog: React.FC<CatalogProps> = ({
           <select
             value={brand}
             onChange={(e) => onSetBrand(e.target.value)}
-            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
+            className="w-full sm:w-auto text-xs py-2 px-2.5 sm:px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
           >
             <option value="all">Todas las Marcas</option>
             {brands.map((b) => (
@@ -255,7 +257,7 @@ export const Catalog: React.FC<CatalogProps> = ({
           <select
             value={String(size)}
             onChange={(e) => onSetSize(e.target.value)}
-            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
+            className="w-full sm:w-auto text-xs py-2 px-2.5 sm:px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
           >
             <option value="all">Talla: Todas</option>
             <optgroup label="Calzado Dama (36-39)">
@@ -285,13 +287,13 @@ export const Catalog: React.FC<CatalogProps> = ({
           <select
             value={sort}
             onChange={(e) => onSetSort(e.target.value)}
-            className="text-xs py-2 px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
+            className="w-full sm:w-auto text-xs py-2 px-2.5 sm:px-3 bg-white border border-neutral-200 rounded-xl outline-none cursor-pointer focus:border-neutral-950 font-medium"
           >
             <option value="featured">Destacados</option>
-            <option value="price-asc">Precio: Menor a Mayor</option>
-            <option value="price-desc">Precio: Mayor a Menor</option>
-            <option value="rating">Mejor Calificados</option>
-            <option value="name">Alfabético A-Z</option>
+            <option value="price-asc">Precio: Menor</option>
+            <option value="price-desc">Precio: Mayor</option>
+            <option value="rating">Calificados</option>
+            <option value="name">Nombre A-Z</option>
           </select>
 
           {/* Reset button */}
@@ -299,7 +301,7 @@ export const Catalog: React.FC<CatalogProps> = ({
             <button
               type="button"
               onClick={handleFullReset}
-              className="text-xs py-2 px-3 bg-neutral-200 hover:bg-neutral-300 text-neutral-800 rounded-xl font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+              className="col-span-2 sm:col-span-1 text-xs py-2 px-3 bg-neutral-200 hover:bg-neutral-300 text-neutral-800 rounded-xl font-bold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
               title="Restablecer filtros"
             >
               <RotateCcw className="w-3 h-3" />
@@ -310,7 +312,7 @@ export const Catalog: React.FC<CatalogProps> = ({
       </div>
 
       {/* Budget / Price Range Filter Chips */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 mb-6 scrollbar-none">
+      <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-2 mb-6 scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0 w-[calc(100%+2rem)] sm:w-auto">
         <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
           <Tag className="w-3 h-3" />
           <span>Presupuesto:</span>
@@ -437,7 +439,7 @@ export const Catalog: React.FC<CatalogProps> = ({
 
       {/* Products Grid */}
       {sortedProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {sortedProducts.map((product) => (
             <ProductCard
               key={product.id}
