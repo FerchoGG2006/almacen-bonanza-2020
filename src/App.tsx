@@ -3,6 +3,7 @@ import { ViewType, Product, CartItem } from './types/index';
 import { PRODUCTS_DATA } from './data/products';
 import { loadCartFromStorage, saveCartToStorage, loadWishlistFromStorage, saveWishlistToStorage } from './services/storage';
 import { buildCartWhatsAppUrl } from './services/whatsapp';
+import { Check } from 'lucide-react';
 
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -74,6 +75,15 @@ export const App: React.FC = () => {
   const [isLegalOpen, setIsLegalOpen] = useState<boolean>(false);
   const [legalTab, setLegalTab] = useState<LegalTab>('terms');
   const [isDriveSyncOpen, setIsDriveSyncOpen] = useState<boolean>(false);
+
+  // Floating Toast State for non-intrusive add-to-cart confirmation
+  const [toastNotification, setToastNotification] = useState<{
+    name: string;
+    image: string;
+    size: string;
+    totalCount: number;
+  } | null>(null);
+  const toastTimeoutRef = useRef<number | null>(null);
 
   const handleOpenLegal = (tab: LegalTab = 'terms') => {
     setLegalTab(tab);
@@ -372,14 +382,16 @@ export const App: React.FC = () => {
     if (!product) return;
 
     const chosenSize = String(sizeVal);
+    let newTotalCount = 0;
+
     setCart((prev) => {
       const existingIdx = prev.findIndex((item) => item.id === productId && item.size === chosenSize);
+      let nextCart: CartItem[];
       if (existingIdx > -1) {
-        const next = [...prev];
-        next[existingIdx] = { ...next[existingIdx], qty: next[existingIdx].qty + 1 };
-        return next;
+        nextCart = [...prev];
+        nextCart[existingIdx] = { ...nextCart[existingIdx], qty: nextCart[existingIdx].qty + 1 };
       } else {
-        return [
+        nextCart = [
           ...prev,
           {
             id: product.id,
@@ -392,8 +404,23 @@ export const App: React.FC = () => {
           },
         ];
       }
+      newTotalCount = nextCart.reduce((sum, item) => sum + item.qty, 0);
+      return nextCart;
     });
-    setIsCartOpen(true);
+
+    // Notificación informativa no invasiva (no abre el carrito de golpe)
+    if (toastTimeoutRef.current) {
+      window.clearTimeout(toastTimeoutRef.current);
+    }
+    setToastNotification({
+      name: product.name,
+      image: product.image,
+      size: chosenSize,
+      totalCount: newTotalCount || cart.reduce((sum, item) => sum + item.qty, 0) + 1,
+    });
+    toastTimeoutRef.current = window.setTimeout(() => {
+      setToastNotification(null);
+    }, 3200);
   };
 
   // Update cart qty
@@ -596,6 +623,45 @@ export const App: React.FC = () => {
           }}
         />
       </Suspense>
+
+      {/* Non-intrusive Add to Cart Toast Confirmation */}
+      {toastNotification && (
+        <aside
+          role="status"
+          aria-live="polite"
+          className="fixed bottom-20 sm:bottom-8 left-1/2 -translate-x-1/2 z-50 bg-[#111111]/95 backdrop-blur-md text-white px-4 py-3 rounded-2xl shadow-2xl border border-neutral-800 flex items-center gap-3 animate-in fade-in slide-in-from-bottom-4 duration-300 max-w-[92vw] sm:max-w-md select-none"
+        >
+          <div className="w-10 h-10 rounded-xl overflow-hidden bg-neutral-800 shrink-0 border border-neutral-700/60">
+            <img
+              src={toastNotification.image}
+              alt={toastNotification.name}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="min-w-0 flex-1 text-left">
+            <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-400">
+              <Check className="w-3.5 h-3.5 shrink-0" />
+              <span>Añadido a la bolsa</span>
+              <span className="text-white font-mono text-[11px] bg-white/15 px-1.5 py-0.5 rounded-full font-bold">
+                {toastNotification.totalCount}
+              </span>
+            </div>
+            <p className="text-[11px] text-neutral-300 truncate mt-0.5">
+              {toastNotification.name} · Talla {toastNotification.size}
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setIsCartOpen(true);
+              setToastNotification(null);
+            }}
+            className="bg-white hover:bg-neutral-200 text-neutral-950 font-extrabold text-xs px-3.5 py-2 rounded-xl transition-all cursor-pointer shrink-0 shadow-xs"
+          >
+            Ver bolsa
+          </button>
+        </aside>
+      )}
 
       {/* Floating WhatsApp Assistance */}
       <WhatsAppFloat />

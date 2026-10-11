@@ -430,8 +430,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <ShoppingBag className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             {cartCount > 0 && (
               <span
+                key={cartCount}
                 id="cartBadge"
-                className="absolute -top-0.5 -right-0.5 bg-[#111111] text-white text-[9px] sm:text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center animate-in zoom-in-50 duration-200"
+                className="absolute -top-1 -right-1 bg-[#111111] text-white text-[9.5px] font-extrabold min-w-[18px] h-[18px] px-1 rounded-full flex items-center justify-center animate-in zoom-in-75 duration-200 shadow-xs border border-white/40"
               >
                 {cartCount}
               </span>
