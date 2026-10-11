@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Product } from '../types/index';
 import { ProductCard } from './ProductCard';
 import { Search, X, RotateCcw, SlidersHorizontal, Tag } from 'lucide-react';
@@ -145,6 +145,41 @@ export const Catalog: React.FC<CatalogProps> = ({
     setPriceRange('all');
     onResetFilters();
   };
+
+  // Progressive Chunking: renderiza 24 productos al inicio y añade 24 dinámicamente con scroll para máximo rendimiento móvil
+  const [visibleCount, setVisibleCount] = useState<number>(24);
+  const loadMoreTriggerRef = useRef<HTMLDivElement>(null);
+
+  // Reiniciar la cuenta cada vez que cambien los filtros
+  useEffect(() => {
+    setVisibleCount(24);
+  }, [category, gender, brand, size, search, sort, priceRange]);
+
+  // Observer de intersección para scroll infinito suave y progresivo
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => {
+            if (prev < sortedProducts.length) {
+              return Math.min(prev + 24, sortedProducts.length);
+            }
+            return prev;
+          });
+        }
+      },
+      { rootMargin: '350px' }
+    );
+
+    const target = loadMoreTriggerRef.current;
+    if (target) observer.observe(target);
+
+    return () => {
+      if (target) observer.unobserve(target);
+    };
+  }, [sortedProducts.length]);
+
+  const paginatedProducts = sortedProducts.slice(0, visibleCount);
 
   let catalogTitle = "Catálogo Completo";
   if (search === 'FAV_WISHLIST_FILTER') {
@@ -439,19 +474,51 @@ export const Catalog: React.FC<CatalogProps> = ({
 
       {/* Products Grid */}
       {sortedProducts.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
-          {sortedProducts.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              isWishlisted={wishlist.includes(product.id)}
-              onToggleWishlist={onToggleWishlist}
-              onAddToCart={onAddToCart}
-              onOpenModal={onOpenModal}
-              onOpenDetail={onOpenDetail}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+            {paginatedProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                isWishlisted={wishlist.includes(product.id)}
+                onToggleWishlist={onToggleWishlist}
+                onAddToCart={onAddToCart}
+                onOpenModal={onOpenModal}
+                onOpenDetail={onOpenDetail}
+              />
+            ))}
+          </div>
+
+          {/* Progressive Load Trigger & Progress Bar */}
+          {visibleCount < sortedProducts.length && (
+            <div
+              ref={loadMoreTriggerRef}
+              className="py-10 flex flex-col items-center justify-center gap-3 animate-in fade-in duration-300"
+            >
+              <div className="text-xs text-neutral-500 font-medium">
+                Mostrando <span className="font-bold text-neutral-900">{visibleCount}</span> de{' '}
+                <span className="font-bold text-neutral-900">{sortedProducts.length}</span> referencias
+              </div>
+              <div className="w-48 bg-neutral-200 h-1.5 rounded-full overflow-hidden">
+                <div
+                  className="bg-neutral-950 h-full transition-all duration-300"
+                  style={{
+                    width: `${(visibleCount / sortedProducts.length) * 100}%`,
+                  }}
+                />
+              </div>
+              <button
+                type="button"
+                onClick={() =>
+                  setVisibleCount((prev) => Math.min(prev + 36, sortedProducts.length))
+                }
+                className="mt-2 px-6 py-2.5 rounded-full bg-white border border-neutral-300 text-neutral-900 hover:bg-neutral-100 text-xs font-bold transition-all shadow-xs cursor-pointer active:scale-95"
+              >
+                Cargar más referencias (+36)
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="text-center py-20 bg-white rounded-3xl border border-neutral-200 p-8">
           <SlidersHorizontal className="w-12 h-12 text-neutral-300 mx-auto mb-4" />

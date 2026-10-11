@@ -111,8 +111,12 @@ export const Hero: React.FC<HeroProps> = ({ onNavigateToTienda, onOpenProductMod
               <img
                 src={drop.image}
                 alt={`${drop.name} - Calzado urbano en Bonanza 2020`}
+                width={800}
+                height={800}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transition-transform duration-500 ease-out group-hover/heroimg:scale-105 select-none"
+                loading="eager"
+                fetchPriority="high"
                 decoding="async"
               />
             </div>

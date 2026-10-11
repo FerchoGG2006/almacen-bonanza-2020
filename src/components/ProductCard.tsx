@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Product } from '../types/index';
 import { Heart, ShoppingBag, Eye, Check } from 'lucide-react';
 import { formatCOP } from '../services/whatsapp';
+import { getOptimizedImageUrl } from '../services/images';
 
 interface ProductCardProps {
   product: Product;
@@ -24,10 +25,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   const [imageError, setImageError] = useState(false);
   const [isJustAdded, setIsJustAdded] = useState(false);
 
-  // Siempre se muestra la imagen auténtica de la referencia seleccionada (sin alternar en hover)
+  // Siempre se muestra la imagen auténtica de la referencia seleccionada (optimizada a 400px para carga móvil ultrarrápida)
   const displayImage = !imageError
-    ? product.image
-    : 'https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800';
+    ? getOptimizedImageUrl(product.image, 400)
+    : 'https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w400';
 
   return (
     <Link
@@ -59,6 +60,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <img
           src={displayImage}
           alt={`${product.name} - ${product.brand} · Bonanza 2020`}
+          width={400}
+          height={400}
           referrerPolicy="no-referrer"
           onError={() => setImageError(true)}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
