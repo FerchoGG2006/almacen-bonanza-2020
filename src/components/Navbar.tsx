@@ -233,7 +233,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header ref={navContainerRef} className="sticky top-0 z-50 bg-white border-b border-neutral-200 transition-all">
       {/* Top Announcement Bar - Universal Safe Area & Elastic Height */}
-      <div className="bg-[#111111] text-white safe-top border-b border-black/40 select-none">
+      <div className="relative z-30 bg-[#111111] text-white safe-top border-b border-black/40 select-none">
         <div className="max-w-7xl mx-auto px-4 min-h-[38px] sm:min-h-[40px] py-2 flex items-center justify-center text-[10px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase">
           <div className="inline-flex items-center gap-2.5 sm:gap-4 truncate max-w-full justify-center">
             <span>ENVÍOS A TODA COLOMBIA</span>
@@ -246,7 +246,8 @@ export const Navbar: React.FC<NavbarProps> = ({
       </div>
 
       {/* Main Navbar Bar - Elastic Height & Proportional Vertical Breathing Room */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 min-h-[72px] sm:min-h-[80px] py-3.5 sm:py-4 flex items-center justify-between gap-3 sm:gap-4">
+      <div className="relative z-30 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 min-h-[72px] sm:min-h-[80px] py-3.5 sm:py-4 flex items-center justify-between gap-3 sm:gap-4">
         
         {/* Brand Logo */}
         <button
@@ -454,6 +455,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
         </div>
 
+        </div>
       </div>
 
       {/* ========================================================================= */}
@@ -470,7 +472,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div
             onMouseLeave={() => setActiveMegaCategory(null)}
-            className="hidden lg:block absolute top-full left-0 w-full mega-menu-panel z-50 bg-white"
+            className="hidden lg:block absolute top-full left-0 w-full mega-menu-panel z-40 bg-white"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-8 bg-white">
               <div className="grid grid-cols-12 gap-8 items-start">
