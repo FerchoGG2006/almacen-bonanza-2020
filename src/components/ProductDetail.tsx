@@ -4,6 +4,7 @@ import { ShoppingBag, Truck, ShieldCheck, RefreshCw, Heart, Ruler, HelpCircle, S
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { formatCOP, buildQuickWhatsAppUrl, buildCustomSizeWhatsAppUrl } from '../services/whatsapp';
 import { SizeGuideModal } from './SizeGuideModal';
+import { trackWhatsAppConversion } from '../services/analytics';
 
 interface ProductDetailProps {
   product: Product;
@@ -40,11 +41,22 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
   }, [product.id]);
 
   const handleQuickWhatsApp = () => {
+    trackWhatsAppConversion('quick_buy', {
+      product_id: product.id,
+      name: product.name,
+      size: selectedSize,
+      price: product.price,
+    });
     const url = buildQuickWhatsAppUrl(product, selectedSize);
     window.open(url, '_blank');
   };
 
   const handleCustomOrder = () => {
+    trackWhatsAppConversion('custom_order', {
+      product_id: product.id,
+      name: product.name,
+      size: selectedSize,
+    });
     const url = buildCustomSizeWhatsAppUrl(product.name, selectedSize);
     window.open(url, '_blank');
   };

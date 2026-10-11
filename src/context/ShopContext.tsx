@@ -12,7 +12,12 @@ import {
   loadPricesFromCache,
   applySheetPricesToProducts,
 } from '../services/googleSheetsPrices';
-import { initAnalytics } from '../services/analytics';
+import {
+  initAnalytics,
+  trackAddToCart,
+  trackBeginCheckout,
+  trackWhatsAppConversion,
+} from '../services/analytics';
 
 export interface ToastNotificationData {
   name: string;
@@ -181,6 +186,9 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
     toastTimeoutRef.current = window.setTimeout(() => {
       setToastNotification(null);
     }, 3200);
+
+    // Track GA4 Ecommerce add_to_cart
+    trackAddToCart(product, chosenSize, 1);
   };
 
   const handleUpdateCartQty = (index: number, delta: number) => {
@@ -207,6 +215,17 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
     paymentMethod: 'contraentrega' | 'transferencia'
   ) => {
     if (cart.length === 0) return;
+
+    // Track GA4 Ecommerce begin_checkout & WhatsApp Conversion
+    const totalOrder = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+    trackBeginCheckout(cart, totalOrder);
+    trackWhatsAppConversion('checkout', {
+      total: totalOrder,
+      items_count: cart.length,
+      deliveryMethod,
+      paymentMethod,
+    });
+
     const waUrl = buildCartWhatsAppUrl(
       cart,
       clientName || 'Cliente',

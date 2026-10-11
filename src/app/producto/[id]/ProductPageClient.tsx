@@ -1,10 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Product } from '../../../types/index';
 import { useShop } from '../../../context/ShopContext';
 import { ProductDetail } from '../../../components/ProductDetail';
+import { trackViewItem } from '../../../services/analytics';
 
 interface ProductPageClientProps {
   product: Product;
@@ -21,6 +22,10 @@ export const ProductPageClient: React.FC<ProductPageClientProps> = ({
     handleToggleWishlist,
     handleAddToCart,
   } = useShop();
+
+  useEffect(() => {
+    trackViewItem(product);
+  }, [product.id]);
 
   return (
     <ProductDetail

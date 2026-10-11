@@ -4,6 +4,7 @@ import { X, ShoppingBag, ArrowRight, Ruler, HelpCircle } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { formatCOP, buildQuickWhatsAppUrl, buildCustomSizeWhatsAppUrl } from '../services/whatsapp';
 import { SizeGuideModal } from './SizeGuideModal';
+import { trackViewItem, trackWhatsAppConversion } from '../services/analytics';
 
 interface ProductModalProps {
   isOpen: boolean;
@@ -30,7 +31,10 @@ export const ProductModal: React.FC<ProductModalProps> = ({
     }
     setImageError(false);
     setShowSizeGuide(false);
-  }, [product]);
+    if (isOpen && product) {
+      trackViewItem(product);
+    }
+  }, [product, isOpen]);
 
   if (!isOpen || !product) return null;
 
@@ -39,11 +43,22 @@ export const ProductModal: React.FC<ProductModalProps> = ({
     : 'https://lh3.googleusercontent.com/d/14SZHVUlEXOKEcuJKl_cfaz49oPnml_73=w800';
 
   const handleQuickWhatsApp = () => {
+    trackWhatsAppConversion('quick_buy', {
+      product_id: product.id,
+      name: product.name,
+      size: selectedSize,
+      price: product.price,
+    });
     const url = buildQuickWhatsAppUrl(product, selectedSize);
     window.open(url, '_blank');
   };
 
   const handleCustomOrder = () => {
+    trackWhatsAppConversion('custom_order', {
+      product_id: product.id,
+      name: product.name,
+      size: selectedSize,
+    });
     const url = buildCustomSizeWhatsAppUrl(product.name, selectedSize);
     window.open(url, '_blank');
   };

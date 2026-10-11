@@ -3,6 +3,8 @@
  * Respeta el consentimiento de cookies (Habeas Data / Ley 1581 de 2012)
  */
 
+import { Product, CartItem } from '../types/index';
+
 declare global {
   interface Window {
     dataLayer?: any[];
@@ -67,10 +69,81 @@ export function trackPageView(pageTitle: string, pagePath: string): void {
 }
 
 /**
- * Registra evento de conversión (ej. clic a WhatsApp, añadir al carrito)
+ * Registra evento de conversión genérico
  */
 export function trackEvent(eventName: string, params: Record<string, any> = {}): void {
   if (window.gtag && hasAnalyticsConsent() && GA_MEASUREMENT_ID) {
     window.gtag('event', eventName, params);
   }
+}
+
+/**
+ * GA4 Ecommerce: view_item (Ficha de producto)
+ */
+export function trackViewItem(product: Product): void {
+  trackEvent('view_item', {
+    currency: 'COP',
+    value: product.price,
+    items: [
+      {
+        item_id: String(product.id),
+        item_name: product.name,
+        item_brand: product.brand,
+        item_category: product.category,
+        price: product.price,
+      },
+    ],
+  });
+}
+
+/**
+ * GA4 Ecommerce: add_to_cart (Añadir a la bolsa)
+ */
+export function trackAddToCart(product: Product, size: string | number, quantity: number = 1): void {
+  trackEvent('add_to_cart', {
+    currency: 'COP',
+    value: product.price * quantity,
+    items: [
+      {
+        item_id: String(product.id),
+        item_name: product.name,
+        item_brand: product.brand,
+        item_category: product.category,
+        item_variant: String(size),
+        price: product.price,
+        quantity,
+      },
+    ],
+  });
+}
+
+/**
+ * GA4 Ecommerce: begin_checkout (Inicio de pedido / WhatsApp checkout)
+ */
+export function trackBeginCheckout(items: CartItem[], total: number): void {
+  trackEvent('begin_checkout', {
+    currency: 'COP',
+    value: total,
+    items: items.map((i) => ({
+      item_id: String(i.id),
+      item_name: i.name,
+      item_brand: i.brand,
+      item_variant: i.size,
+      price: i.price,
+      quantity: i.qty,
+    })),
+  });
+}
+
+/**
+ * Conversión clave: Clic directo a WhatsApp
+ */
+export function trackWhatsAppConversion(
+  source: 'direct_nav' | 'quick_buy' | 'custom_order' | 'checkout' | 'pqr',
+  details?: Record<string, any>
+): void {
+  trackEvent('contact_whatsapp', {
+    source,
+    ...details,
+  });
 }
