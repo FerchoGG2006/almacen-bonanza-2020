@@ -214,11 +214,11 @@
 .mega-menu-overlay {
   position: fixed;
   inset: 0;
-  top: 104px;
+  top: 0;
   background-color: rgba(10, 10, 10, 0.5);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-  z-index: 45;
+  z-index: 40;
 }
 
 .mega-menu-panel {
@@ -226,5 +226,15 @@
   box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid #E5E5E5;
 }
+
+/* Universal Mobile Safe Area Utilities (iOS Notch, Dynamic Island, Android Pill) */
+.safe-top {
+  padding-top: max(env(safe-area-inset-top, 0px), 0px);
+}
+
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 0px);
+}
+
 
 

@@ -232,19 +232,21 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header ref={navContainerRef} className="sticky top-0 z-50 bg-white border-b border-neutral-200 transition-all">
-      {/* Top Announcement Bar - Generous vertical padding and premium breathing room */}
-      <div className="bg-[#111111] text-white text-[10px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase py-2.5 sm:py-2.5 px-4 text-center overflow-hidden select-none border-b border-neutral-900">
-        <div className="inline-flex items-center gap-2.5 sm:gap-4 truncate max-w-full justify-center">
-          <span>ENVÍOS A TODA COLOMBIA</span>
-          <span className="text-neutral-500">·</span>
-          <span className="hidden sm:inline">CONTRA ENTREGA EN VALLEDUPAR</span>
-          <span className="hidden sm:inline text-neutral-500">·</span>
-          <span>GARANTÍA DE TALLA</span>
+      {/* Top Announcement Bar - Universal Safe Area & Elastic Height */}
+      <div className="bg-[#111111] text-white safe-top border-b border-black/40 select-none">
+        <div className="max-w-7xl mx-auto px-4 min-h-[38px] sm:min-h-[40px] py-2 flex items-center justify-center text-[10px] sm:text-[11px] font-bold tracking-wider sm:tracking-widest uppercase">
+          <div className="inline-flex items-center gap-2.5 sm:gap-4 truncate max-w-full justify-center">
+            <span>ENVÍOS A TODA COLOMBIA</span>
+            <span className="text-neutral-500">·</span>
+            <span className="hidden sm:inline">CONTRA ENTREGA EN VALLEDUPAR</span>
+            <span className="hidden sm:inline text-neutral-500">·</span>
+            <span>GARANTÍA DE TALLA</span>
+          </div>
         </div>
       </div>
 
-      {/* Main Navbar Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-[72px] sm:h-20 flex items-center justify-between gap-3">
+      {/* Main Navbar Bar - Elastic Height & Proportional Vertical Breathing Room */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 min-h-[72px] sm:min-h-[80px] py-3.5 sm:py-4 flex items-center justify-between gap-3 sm:gap-4">
         
         {/* Brand Logo */}
         <button
