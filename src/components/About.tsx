@@ -184,11 +184,11 @@ export const About: React.FC<AboutProps> = ({ onNavigateToTienda, onNavigateHome
         </div>
 
         <div className="lg:col-span-5 flex justify-center">
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col items-center justify-center text-center backdrop-blur-xs">
-            <img src="/assets/logo.png" alt="Bonanza 2020 Emblema" className="w-28 h-28 object-contain mb-4 drop-shadow-md" />
-            <span className="font-black text-2xl tracking-[0.25em] text-white">BONANZA</span>
-            <span className="text-xs font-bold tracking-[0.4em] text-neutral-400 uppercase">2020</span>
-            <span className="mt-3 text-xs text-neutral-400 font-medium">
+          <div className="relative w-full max-w-[260px] sm:max-w-[320px] aspect-square bg-white/5 border border-white/10 rounded-3xl p-5 sm:p-6 flex flex-col items-center justify-center text-center backdrop-blur-xs">
+            <img src="/assets/logo.png" alt="Bonanza 2020 Emblema" className="w-20 h-20 sm:w-28 sm:h-28 object-contain mb-3 sm:mb-4 drop-shadow-md" />
+            <span className="font-black text-xl sm:text-2xl tracking-[0.2em] sm:tracking-[0.25em] text-white">BONANZA</span>
+            <span className="text-[10px] sm:text-xs font-bold tracking-[0.35em] sm:tracking-[0.4em] text-neutral-400 uppercase">2020</span>
+            <span className="mt-2 sm:mt-3 text-[11px] sm:text-xs text-neutral-400 font-medium">
               Sede Principal · Valledupar, Colombia
             </span>
           </div>

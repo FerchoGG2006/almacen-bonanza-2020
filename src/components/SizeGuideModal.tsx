@@ -46,19 +46,19 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
       />
 
       {/* Modal Dialog */}
-      <div className="relative bg-white rounded-3xl max-w-xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-neutral-200 z-10 p-6 sm:p-8 animate-in zoom-in-95 duration-200">
+      <div className="relative bg-white rounded-2xl sm:rounded-3xl max-w-xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-neutral-200 z-10 p-4 sm:p-8 animate-in zoom-in-95 duration-200">
         
         {/* Header */}
-        <div className="flex items-center justify-between pb-4 border-b border-neutral-200 mb-6">
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-neutral-100 flex items-center justify-center">
+        <div className="flex items-center justify-between pb-3.5 sm:pb-4 border-b border-neutral-200 mb-5 sm:mb-6">
+          <div className="flex items-center gap-2 sm:gap-2.5">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-neutral-100 flex items-center justify-center shrink-0">
               <Ruler className="w-4 h-4 text-neutral-900" />
             </div>
             <div>
-              <h3 className="font-display font-extrabold text-lg text-neutral-950">
+              <h3 className="font-display font-extrabold text-base sm:text-lg text-neutral-950 leading-tight">
                 Guia Oficial de Tallas
               </h3>
-              <p className="text-[11px] text-neutral-500 font-medium">
+              <p className="text-[10px] sm:text-[11px] text-neutral-500 font-medium">
                 Equivalencias para calzado y ropa deportiva
               </p>
             </div>
@@ -67,7 +67,7 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
           <button
             type="button"
             onClick={onClose}
-            className="p-2 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-600 transition-colors cursor-pointer"
+            className="p-1.5 sm:p-2 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-600 transition-colors cursor-pointer shrink-0"
             title="Cerrar guia de tallas"
           >
             <X className="w-4 h-4" />
@@ -75,7 +75,7 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
         </div>
 
         {/* Tab Buttons */}
-        <div className="flex items-center gap-2 mb-6 p-1 bg-neutral-100 rounded-xl">
+        <div className="flex items-center gap-1.5 sm:gap-2 mb-5 sm:mb-6 p-1 bg-neutral-100 rounded-xl">
           <button
             type="button"
             onClick={() => setActiveTab('shoes')}
@@ -104,7 +104,7 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
         {activeTab === 'shoes' ? (
           <div className="space-y-4">
             <div className="overflow-x-auto rounded-2xl border border-neutral-200">
-              <table className="w-full text-left text-xs">
+              <table className="w-full min-w-[440px] text-left text-xs">
                 <thead>
                   <tr className="bg-neutral-100 text-neutral-900 font-bold border-b border-neutral-200">
                     <th className="py-2.5 px-3">Talla COL</th>
@@ -151,7 +151,7 @@ export const SizeGuideModal: React.FC<SizeGuideModalProps> = ({
         ) : (
           <div className="space-y-4">
             <div className="overflow-x-auto rounded-2xl border border-neutral-200">
-              <table className="w-full text-left text-xs">
+              <table className="w-full min-w-[340px] text-left text-xs">
                 <thead>
                   <tr className="bg-neutral-100 text-neutral-900 font-bold border-b border-neutral-200">
                     <th className="py-2.5 px-3">Talla</th>

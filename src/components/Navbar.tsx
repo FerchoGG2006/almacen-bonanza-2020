@@ -566,13 +566,13 @@ export const Navbar: React.FC<NavbarProps> = ({
                         onClick={() => handleNavClick('producto', tile.id)}
                         className="group bg-[#FAFAFA] hover:bg-white rounded-2xl p-3.5 border border-neutral-200/80 hover:border-neutral-300 hover:shadow-xl transition-all duration-300 cursor-pointer flex flex-col justify-between"
                       >
-                        {/* Tile Image with hover zoom */}
-                        <div className="relative aspect-square w-full rounded-xl bg-white p-3 mb-2.5 overflow-hidden border border-neutral-200/60 flex items-center justify-center">
+                        {/* Tile Image with rounded corners matching the catalog */}
+                        <div className="relative aspect-square w-full rounded-xl overflow-hidden mb-2.5 bg-neutral-100">
                           <img
                             src={tile.image}
                             alt={tile.name}
                             referrerPolicy="no-referrer"
-                            className="w-full h-full object-contain group-hover:scale-108 transition-transform duration-500"
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                         </div>
 
@@ -737,10 +737,16 @@ export const Navbar: React.FC<NavbarProps> = ({
                         <div
                           key={tile.id}
                           onClick={() => handleNavClick('producto', tile.id)}
-                          className="bg-white rounded-2xl p-2.5 border border-neutral-200 shadow-xs flex flex-col justify-between cursor-pointer"
+                          className="group bg-white rounded-2xl p-2.5 border border-neutral-200 shadow-xs flex flex-col justify-between cursor-pointer transition-all hover:shadow-md select-none"
                         >
-                          <div className="aspect-square bg-neutral-50 rounded-xl p-2 mb-2 flex items-center justify-center">
-                            <img src={tile.image} alt={tile.name} referrerPolicy="no-referrer" className="w-full h-full object-contain" />
+                          <div className="relative aspect-square w-full rounded-xl overflow-hidden mb-2 bg-neutral-100">
+                            <img
+                              src={tile.image}
+                              alt={tile.name}
+                              referrerPolicy="no-referrer"
+                              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                              loading="lazy"
+                            />
                           </div>
                           <div>
                             <span className="text-[9px] uppercase font-bold text-neutral-400 block">{tile.brand}</span>

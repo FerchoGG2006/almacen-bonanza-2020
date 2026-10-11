@@ -46,19 +46,19 @@ export const LegalModal: React.FC<LegalModalProps> = ({
       />
 
       {/* Modal Dialog Card */}
-      <div className="relative w-full max-w-3xl bg-white rounded-3xl shadow-2xl border border-neutral-200 z-10 overflow-hidden flex flex-col max-h-[85vh] animate-in zoom-in-95 fade-in duration-200">
+      <div className="relative w-full max-w-3xl bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-neutral-200 z-10 overflow-hidden flex flex-col max-h-[85vh] animate-in zoom-in-95 fade-in duration-200">
         
         {/* Header */}
-        <div className="px-6 py-5 border-b border-neutral-200 flex items-center justify-between bg-neutral-50/70 shrink-0">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-full bg-neutral-950 text-white flex items-center justify-center">
+        <div className="px-4 sm:px-6 py-4 sm:py-5 border-b border-neutral-200 flex items-center justify-between bg-neutral-50/70 shrink-0">
+          <div className="flex items-center gap-2 sm:gap-2.5">
+            <div className="w-8 h-8 rounded-full bg-neutral-950 text-white flex items-center justify-center shrink-0">
               <Scale className="w-4 h-4" />
             </div>
             <div>
-              <h3 className="font-display font-extrabold text-lg text-neutral-950 leading-tight">
+              <h3 className="font-display font-extrabold text-base sm:text-lg text-neutral-950 leading-tight">
                 Marco Legal y Garantías
               </h3>
-              <p className="text-[11px] text-neutral-500 font-medium">
+              <p className="text-[10px] sm:text-[11px] text-neutral-500 font-medium">
                 Bonanza 2020 · Comercio Electrónico Seguro en Colombia
               </p>
             </div>
@@ -67,7 +67,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
           <button
             type="button"
             onClick={onClose}
-            className="p-2 rounded-full text-neutral-400 hover:text-neutral-950 hover:bg-neutral-200/60 transition-colors cursor-pointer"
+            className="p-1.5 sm:p-2 rounded-full text-neutral-400 hover:text-neutral-950 hover:bg-neutral-200/60 transition-colors cursor-pointer shrink-0"
             aria-label="Cerrar modal legal"
           >
             <X className="w-5 h-5" />
@@ -75,7 +75,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
         </div>
 
         {/* Navigation Tabs */}
-        <div className="flex border-b border-neutral-200 bg-white px-6 gap-2 overflow-x-auto shrink-0 scrollbar-none">
+        <div className="flex border-b border-neutral-200 bg-white px-3 sm:px-6 gap-1 sm:gap-2 overflow-x-auto shrink-0 scrollbar-none">
           <button
             type="button"
             onClick={() => setActiveTab('terms')}
@@ -130,7 +130,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
         </div>
 
         {/* Content Body */}
-        <div className="p-6 sm:p-8 overflow-y-auto text-xs text-neutral-700 leading-relaxed space-y-4">
+        <div className="p-4 sm:p-8 overflow-y-auto text-xs text-neutral-700 leading-relaxed space-y-4">
           
           {/* TAB 1: TÉRMINOS Y CONDICIONES */}
           {activeTab === 'terms' && (

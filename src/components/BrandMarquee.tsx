@@ -36,7 +36,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({ activeBrand, onSelec
           </div>
         )}
 
-        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-4 sm:gap-6">
+        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-2.5 sm:gap-4 lg:gap-6">
           {brands.map((b) => {
             const isActive = activeBrand.toLowerCase() === b.name.toLowerCase();
 
@@ -45,7 +45,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({ activeBrand, onSelec
                 key={b.name}
                 type="button"
                 onClick={() => onSelectBrand(isActive ? 'all' : b.name)}
-                className={`relative px-5 py-2.5 rounded-2xl transition-all duration-200 cursor-pointer flex items-center gap-2 select-none ${
+                className={`relative px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl transition-all duration-200 cursor-pointer flex items-center gap-1.5 sm:gap-2 select-none ${
                   isActive
                     ? 'bg-neutral-950 text-white shadow-lg scale-105 ring-2 ring-neutral-950'
                     : 'bg-white/80 hover:bg-white text-neutral-700 hover:text-neutral-950 border border-neutral-200/80 hover:border-neutral-300 hover:shadow-xs'

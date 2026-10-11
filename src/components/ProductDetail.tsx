@@ -81,26 +81,26 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-5 sm:py-8">
       
       {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-xs text-neutral-400 font-medium mb-4">
+      <nav className="flex items-center gap-1.5 sm:gap-2 text-xs text-neutral-400 font-medium mb-4 overflow-x-auto whitespace-nowrap scrollbar-none pb-1 -mx-4 px-4 sm:mx-0 sm:px-0">
         <button
           type="button"
           onClick={onNavigateHome}
-          className="hover:text-neutral-900 transition-colors cursor-pointer"
+          className="hover:text-neutral-900 transition-colors cursor-pointer shrink-0"
         >
           Inicio
         </button>
-        <span>/</span>
+        <span className="shrink-0">/</span>
         <button
           type="button"
           onClick={onNavigateToTienda}
-          className="hover:text-neutral-900 transition-colors cursor-pointer"
+          className="hover:text-neutral-900 transition-colors cursor-pointer shrink-0"
         >
           Tienda
         </button>
-        <span>/</span>
-        <span className="text-neutral-600">{product.brand}</span>
-        <span>/</span>
-        <span className="text-neutral-950 font-bold truncate max-w-[200px]">{product.name}</span>
+        <span className="shrink-0">/</span>
+        <span className="text-neutral-600 shrink-0">{product.brand}</span>
+        <span className="shrink-0">/</span>
+        <span className="text-neutral-950 font-bold truncate max-w-[160px] sm:max-w-[200px]">{product.name}</span>
       </nav>
 
       {/* Product Grid */}
@@ -108,7 +108,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
         
         {/* Left: Imagen oficial del producto */}
         <div className="lg:col-span-7">
-          <div className="relative aspect-square sm:aspect-[4/3] w-full bg-neutral-100 rounded-3xl border border-neutral-200/80 shadow-xs overflow-hidden group">
+          <div className="relative aspect-square sm:aspect-[4/3] w-full bg-neutral-100 rounded-2xl sm:rounded-3xl border border-neutral-200/80 shadow-xs overflow-hidden group">
             <img
               src={product.image}
               alt={`${product.name} - ${product.brand} - Calzado en Bonanza 2020`}
@@ -283,14 +283,14 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
               <div
                 key={rel.id}
                 onClick={() => onSelectProduct(rel.id)}
-                className="bg-white rounded-2xl p-3.5 border border-neutral-200/80 hover:shadow-md transition-all cursor-pointer group flex flex-col justify-between"
+                className="bg-white rounded-2xl p-3 sm:p-3.5 border border-neutral-200/80 hover:shadow-md transition-all cursor-pointer group flex flex-col justify-between"
               >
-                <div className="aspect-square bg-neutral-50 rounded-xl p-2.5 mb-2.5 flex items-center justify-center overflow-hidden">
+                <div className="relative aspect-square w-full rounded-xl overflow-hidden mb-2.5 bg-neutral-100">
                   <img
                     src={rel.image}
                     alt={rel.name}
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div>

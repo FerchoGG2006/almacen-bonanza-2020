@@ -179,18 +179,18 @@ export const DriveSyncModal: React.FC<DriveSyncModalProps> = ({
       />
 
       {/* Dialog */}
-      <div className="relative w-full max-w-xl bg-white rounded-3xl shadow-2xl border border-neutral-200 z-10 overflow-hidden flex flex-col max-h-[92vh] animate-in zoom-in-95 fade-in duration-200">
+      <div className="relative w-full max-w-xl bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-neutral-200 z-10 overflow-hidden flex flex-col max-h-[92vh] animate-in zoom-in-95 fade-in duration-200">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-neutral-200 flex items-center justify-between bg-neutral-50/70 shrink-0">
-          <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center shadow-xs">
+        <div className="px-4 sm:px-6 py-3.5 sm:py-4 border-b border-neutral-200 flex items-center justify-between bg-neutral-50/70 shrink-0">
+          <div className="flex items-center gap-2 sm:gap-2.5">
+            <div className="w-8 h-8 rounded-full bg-emerald-600 text-white flex items-center justify-center shadow-xs shrink-0">
               <FileSpreadsheet className="w-4 h-4" />
             </div>
             <div>
               <h3 className="font-display font-extrabold text-base sm:text-lg text-neutral-950 leading-tight">
                 Control de Precios e Inventario
               </h3>
-              <p className="text-[11px] text-neutral-500">
+              <p className="text-[10px] sm:text-[11px] text-neutral-500">
                 Sincronización en vivo con Google Sheets y Google Drive
               </p>
             </div>
@@ -199,14 +199,14 @@ export const DriveSyncModal: React.FC<DriveSyncModalProps> = ({
           <button
             type="button"
             onClick={onClose}
-            className="w-8 h-8 rounded-full flex items-center justify-center text-neutral-400 hover:text-neutral-900 hover:bg-neutral-200/60 transition-colors cursor-pointer"
+            className="w-8 h-8 rounded-full flex items-center justify-center text-neutral-400 hover:text-neutral-900 hover:bg-neutral-200/60 transition-colors cursor-pointer shrink-0"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
 
         {/* Tab Switcher */}
-        <div className="px-6 pt-3 pb-1 border-b border-neutral-200 bg-white shrink-0 flex items-center gap-2">
+        <div className="px-4 sm:px-6 pt-3 pb-1 border-b border-neutral-200 bg-white shrink-0 flex items-center gap-2">
           <button
             type="button"
             onClick={() => {
@@ -241,7 +241,7 @@ export const DriveSyncModal: React.FC<DriveSyncModalProps> = ({
         </div>
 
         {/* Content */}
-        <div className="p-6 overflow-y-auto space-y-5 text-xs text-neutral-700 leading-relaxed">
+        <div className="p-4 sm:p-6 overflow-y-auto space-y-4 sm:space-y-5 text-xs text-neutral-700 leading-relaxed">
           {/* Status summary */}
           <div className="grid grid-cols-2 gap-3">
             <div className="p-3 bg-neutral-50 rounded-2xl border border-neutral-200/80">
