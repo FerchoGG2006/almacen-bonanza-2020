@@ -104,10 +104,28 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               </h2>
 
               {/* Price */}
-              <div className="flex items-baseline mb-4">
+              <div className="flex items-baseline gap-2.5 flex-wrap mb-4">
                 <span className="font-black text-2xl text-neutral-950 font-mono">
                   {formatCOP(product.price)}
                 </span>
+                {product.original_price && product.original_price > product.price && (
+                  <span className="text-sm text-neutral-400 line-through font-mono">
+                    {formatCOP(product.original_price)}
+                  </span>
+                )}
+                {product.tag && (
+                  <span
+                    className={`text-[9.5px] font-extrabold uppercase px-2 py-0.5 rounded-full tracking-wider ${
+                      product.tag === 'AGOTADO'
+                        ? 'bg-neutral-900 text-white'
+                        : product.tag.includes('OFERTA') || (product.original_price && product.original_price > product.price)
+                        ? 'bg-rose-600 text-white'
+                        : 'bg-neutral-100 text-neutral-800'
+                    }`}
+                  >
+                    {product.tag}
+                  </span>
+                )}
               </div>
 
               {/* Sizes */}

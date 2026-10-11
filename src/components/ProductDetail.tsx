@@ -152,10 +152,28 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
           </h1>
 
           {/* Price */}
-          <div className="flex items-baseline mb-5 pb-4 border-b border-neutral-200/80 w-full">
+          <div className="flex items-baseline gap-3 flex-wrap mb-5 pb-4 border-b border-neutral-200/80 w-full">
             <span className="font-display font-black text-2xl sm:text-3xl text-neutral-950 font-mono">
               {formatCOP(product.price)}
             </span>
+            {product.original_price && product.original_price > product.price && (
+              <span className="text-base sm:text-lg text-neutral-400 line-through font-mono">
+                {formatCOP(product.original_price)}
+              </span>
+            )}
+            {product.tag && (
+              <span
+                className={`text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full tracking-wider ${
+                  product.tag === 'AGOTADO'
+                    ? 'bg-neutral-900 text-white'
+                    : product.tag.includes('OFERTA') || (product.original_price && product.original_price > product.price)
+                    ? 'bg-rose-600 text-white'
+                    : 'bg-neutral-100 text-neutral-800'
+                }`}
+              >
+                {product.tag}
+              </span>
+            )}
           </div>
 
           {/* Size Selector (Light, compact pills) */}

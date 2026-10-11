@@ -38,6 +38,21 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       {/* Product Image Stage: Imagen limpia con bordes curvos sin marco doble de profundidad */}
       <div className="relative aspect-square w-full rounded-xl sm:rounded-2xl overflow-hidden mb-2 sm:mb-3 bg-neutral-100 group/img">
         
+        {/* Top Tag Badge */}
+        {product.tag && (
+          <span
+            className={`absolute top-2 left-2 sm:top-2.5 sm:left-2.5 z-10 text-[9px] sm:text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full tracking-wider shadow-xs ${
+              product.tag === 'AGOTADO'
+                ? 'bg-neutral-900/90 text-white'
+                : product.tag.includes('OFERTA') || (product.original_price && product.original_price > product.price)
+                ? 'bg-rose-600 text-white'
+                : 'bg-white/95 text-neutral-900 border border-neutral-200/80'
+            }`}
+          >
+            {product.tag}
+          </span>
+        )}
+
         {/* Top Floating Wishlist Button */}
         <button
           type="button"
@@ -100,31 +115,42 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
         {/* Price & Clean Bag Indicator */}
         <div className="flex items-center justify-between pt-1.5 sm:pt-2 border-t border-neutral-100 gap-1">
-          <div className="flex items-baseline min-w-0">
+          <div className="flex items-baseline gap-1.5 min-w-0">
             <span className="font-extrabold text-xs sm:text-base text-neutral-950 font-mono truncate">
               {formatCOP(product.price)}
             </span>
+            {product.original_price && product.original_price > product.price && (
+              <span className="text-[10px] sm:text-xs text-neutral-400 line-through font-mono truncate">
+                {formatCOP(product.original_price)}
+              </span>
+            )}
           </div>
 
           <button
             type="button"
+            disabled={product.tag === 'AGOTADO'}
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
+              if (product.tag === 'AGOTADO') return;
               const defaultSize = product.sizes && product.sizes.length > 0 ? product.sizes[0] : '40';
               onAddToCart(product.id, defaultSize);
               setIsJustAdded(true);
               setTimeout(() => setIsJustAdded(false), 1200);
             }}
             className={`w-7 h-7 sm:w-8 sm:h-8 shrink-0 rounded-full flex items-center justify-center transition-all cursor-pointer shadow-2xs active:scale-90 ${
-              isJustAdded
+              product.tag === 'AGOTADO'
+                ? 'bg-neutral-100 text-neutral-400 cursor-not-allowed opacity-50'
+                : isJustAdded
                 ? 'bg-emerald-600 text-white scale-110 shadow-sm'
                 : 'bg-neutral-100 hover:bg-neutral-950 text-neutral-700 hover:text-white hover:scale-105'
             }`}
-            title="Añadir a la bolsa de compras"
-            aria-label={`Añadir ${product.name} a la bolsa`}
+            title={product.tag === 'AGOTADO' ? 'Producto agotado' : 'Añadir a la bolsa de compras'}
+            aria-label={product.tag === 'AGOTADO' ? `${product.name} agotado` : `Añadir ${product.name} a la bolsa`}
           >
-            {isJustAdded ? (
+            {product.tag === 'AGOTADO' ? (
+              <span className="text-[9px] font-bold">✕</span>
+            ) : isJustAdded ? (
               <Check className="w-3.5 h-3.5 text-white" />
             ) : (
               <ShoppingBag className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
