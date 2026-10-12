@@ -6,7 +6,7 @@ import { PRODUCTS_DATA } from '../data/products';
 import { loadCartFromStorage, saveCartToStorage, loadWishlistFromStorage, saveWishlistToStorage } from '../services/storage';
 import { buildCartWhatsAppUrl } from '../services/whatsapp';
 import type { LegalTab } from '../components/LegalModal';
-import { loadCachedDriveProducts, mergeCatalogs } from '../services/driveSync';
+import { loadCachedDriveProducts, saveCachedDriveProducts, mergeCatalogs } from '../services/driveSync';
 import {
   fetchPricesFromGoogleSheet,
   loadPricesFromCache,
@@ -101,11 +101,25 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    fetchPricesFromGoogleSheet().then((res) => {
-      if (res.success && res.prices.size > 0) {
-        setProducts((prev) => applySheetPricesToProducts(prev, res.prices));
-      }
-    });
+
+    // Sincronización 100% automática e invisible de Drive y Sheets para todos los usuarios
+    fetch('/api/catalog')
+      .then((res) => res.json())
+      .then((data) => {
+        if (data && data.success && Array.isArray(data.products) && data.products.length > 0) {
+          setProducts(data.products);
+          saveCachedDriveProducts(data.products);
+        }
+      })
+      .catch((err) => {
+        console.warn('Auto sync catalog fallback:', err);
+        // Fallback en cliente si la API no estuviese disponible
+        fetchPricesFromGoogleSheet().then((res) => {
+          if (res.success && res.prices.size > 0) {
+            setProducts((prev) => applySheetPricesToProducts(prev, res.prices));
+          }
+        });
+      });
   }, []);
 
   useEffect(() => {

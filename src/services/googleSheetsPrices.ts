@@ -218,6 +218,7 @@ export async function fetchPricesFromGoogleSheet(
  * Guarda los precios descargados en localStorage para persistencia y carga offline instantánea
  */
 export function savePricesToCache(pricesMap: Map<number, SheetPriceEntry>): void {
+  if (typeof window === 'undefined') return;
   try {
     const list = Array.from(pricesMap.values());
     localStorage.setItem(STORAGE_KEY_PRICES_CACHE, JSON.stringify(list));
@@ -231,6 +232,7 @@ export function savePricesToCache(pricesMap: Map<number, SheetPriceEntry>): void
  * Carga los precios guardados en caché local
  */
 export function loadPricesFromCache(): Map<number, SheetPriceEntry> {
+  if (typeof window === 'undefined') return new Map();
   try {
     const raw = localStorage.getItem(STORAGE_KEY_PRICES_CACHE);
     if (!raw) return new Map();

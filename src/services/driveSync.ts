@@ -169,6 +169,7 @@ export function sanitizeProduct(p: Product, index: number = 0): Product {
  * Obtiene la URL activa del Google Apps Script
  */
 export function getDriveApiUrl(): string {
+  if (typeof window === 'undefined') return DEFAULT_DRIVE_API_URL;
   try {
     const customUrl = localStorage.getItem(STORAGE_KEY_DRIVE_URL);
     if (customUrl && customUrl.trim().length > 0) {
@@ -184,6 +185,7 @@ export function getDriveApiUrl(): string {
  * Guarda una nueva URL de Google Apps Script en el almacenamiento local
  */
 export function setDriveApiUrl(url: string): void {
+  if (typeof window === 'undefined') return;
   try {
     if (url.trim().length > 0) {
       localStorage.setItem(STORAGE_KEY_DRIVE_URL, url.trim());
@@ -211,6 +213,7 @@ export function generateNumericId(str: string): number {
  * Carga productos sincronizados guardados previamente en caché local
  */
 export function loadCachedDriveProducts(): Product[] {
+  if (typeof window === 'undefined') return [];
   try {
     // Purgar caché antiguo v1 con nombres UUID
     localStorage.removeItem('bonanza_synced_products_v1');
@@ -232,6 +235,7 @@ export function loadCachedDriveProducts(): Product[] {
  * Guarda los productos sincronizados en caché local
  */
 export function saveCachedDriveProducts(products: Product[]): void {
+  if (typeof window === 'undefined') return;
   try {
     const sanitized = products.map((p, idx) => sanitizeProduct(p, idx));
     localStorage.setItem(STORAGE_KEY_SYNCED_PRODUCTS, JSON.stringify(sanitized));
